@@ -44,6 +44,8 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+
+
 <div class="header">
     <nav class="navbar navbar-default" role="navigation">
 
@@ -56,8 +58,9 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
     </nav>
-    <div class="header-bar" data-paxy-class="fixed,126,100000">
-        <div class="text-right action-bar">
+    <nav class="scrolltopmenu">
+    <div class="header-bar" >
+        <nav class="text-right action-bar">
             <div class="mega-container">
 
                 <a class="notification-language-switcher" href="#">
@@ -80,9 +83,10 @@ $url_path = str_replace('\\', '/', $url_path);
 
             </div>
 
-        </div>
+        </nav>
 
     </div>
+    
     <div class="ATD_menu">
         <nav class="navbar navbar-default">
             <div class="mega-container text-center">
@@ -300,6 +304,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </nav>
 
     </div>
+    </nav>>
     <div class="tabs_menu">
         <nav class="navbar navbar-default">
             <div class="navbar-header clearfix">

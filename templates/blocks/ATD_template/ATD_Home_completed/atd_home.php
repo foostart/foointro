@@ -29,7 +29,7 @@
         <script src="js/slideshow.js" type="text/javascript"></script>
         <script src="js/slideshow2.js" type="text/javascript"></script>
         <script src="js/slideshow3.js" type="text/javascript"></script>
-        
+        <script src="js/scrolltotopmenu.js" type="text/javascript"></script>
         <script src="js/scrolltotop.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
          <script src="js/atd_1.js" type="text/javascript"></script>
