@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
+<div class="module_menu">
 <div class="tab_mobile">
     <div class="row">
         <div class="styletabs">
@@ -607,7 +607,7 @@ $url_path = str_replace('\\', '/', $url_path);
 </div>
 
 
-
+</div>
 <div class="clearfix"></div>
 
 
