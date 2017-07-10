@@ -24,6 +24,6 @@
     </head> 
 
     <body> 
-        <?php include '../ATD_module_3-4/atd_module3-4-content.php'; ?>
+        <?php include '../3-4/atd_module3-4-content.php'; ?>
     </body>
 </html>
