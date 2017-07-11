@@ -1,4 +1,6 @@
 
+
+
 @media screen and (min-width: 768px) {
     .tab_mobile {
         display: none;
@@ -26,7 +28,12 @@
         margin-right: 15px;
     }
 }
+
 .header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    left: 0;
     .ATD_menu {
         .navbar-default {
             background: transparent;
@@ -244,7 +251,7 @@
         /*---------------H�nh-------------------------*/
         .navbar-brand {
             height: auto;
-            opacity: 0;
+            opacity: 1;
             padding: 1.2rem;
         }
         .navbar-brand .img-responsive {
@@ -504,8 +511,24 @@
             }
         }
     }
-    
-    
+    .hiding-header {
+        height: 200px;
+        background: #262626;
+        box-sizing: border-box;
+        left: 0;
+        padding-top: 1.6rem;
+        right: 0;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .navbar-brand-full {
+        top: -12px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        display: inline-block;
+        margin-top: 4.7rem
+    }
     .text-right {
         text-align: right;
     }
@@ -615,7 +638,9 @@
         float: none!important;
         display: inline-block;
     }
-    
+    .text-center {
+        text-align: center;
+    }
     .navbar-toggle:hover {
         background-color: #4d4d4d;
     }
@@ -693,20 +718,8 @@
         border-color: #4d4d4d;
     }
     /*---------------Hình-------------------------*/
-    .navbar-brand {
-        height: auto;
-        opacity: 0;
-        padding: 1.2rem;
-    }
-    .navbar-brand .img-responsive {
-        width: 15.5rem;
-        height: auto;
-    }
-    .navbar-brand img {
-        display: block;
-        float: left;
-        width: 100%;
-    }
+   
+    
     /*----------di dong-------------*/
     .dropdown-action {
         float: right;
@@ -967,7 +980,17 @@
             font-size: 18px;
         }
     }
-    
+    .navbar-default {
+        background: transparent;
+        border: none;
+        min-height: 116px;
+        ;
+    }
+    .navbar {
+        border-radius: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+    }
     .text-center {
         text-align: center;
     }
