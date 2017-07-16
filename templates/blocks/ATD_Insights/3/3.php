@@ -22,6 +22,5 @@ and open the template in the editor.
     </head>
     <body>
         <?php include '../3/3_content.php'; ?>
-    </div>
 </body>
 </html>
