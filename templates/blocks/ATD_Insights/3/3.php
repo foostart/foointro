@@ -15,13 +15,13 @@ and open the template in the editor.
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/2.less', 'css/2.css');
+        $less->compileFile('less/3.less', 'css/3.css');
         ?>
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <link href="css/2.css" rel="stylesheet" type="text/css"/>
+        <link href="css/3.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include '../2/2_content.php'; ?>
+        <?php include '../3/3_content.php'; ?>
     </div>
 </body>
 </html>
