@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="frame-repon">
     <div class="row">
         
-        <img class="img-responsive"src="image/about1.jpg" alt="" style="max-height: 40rem;width: 100%" >
+        
         
         <div class="slide-content">
         <span class="subject" style="color: #FFFFFF !important;">
@@ -27,8 +27,9 @@ $url_path = str_replace('\\', '/', $url_path);
         <a href="#"class="button primary" >
             Apply Now
         </a>
+		
 </div>
-        
+      <img class="img-responsive"src="image/about1.jpg" alt="" style="max-height: 40rem;width: 100%" >  
     </div>
         
     </div>
