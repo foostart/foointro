@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
           
              
                 <div class="sld-hover">
-                    <div class="container">
+                 
                     <div class="row">
                         <div id="owl-demo">
 
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    </div>
+                  
                 </div>
               
          
@@ -67,10 +67,6 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
   
 
-
-            
-                  
-   
 
                     </div>
                                     
