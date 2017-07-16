@@ -1,0 +1,41 @@
+.type-2 {
+  margin: 110px 0;
+}
+.type-2 img {
+  width: 100%;
+}
+.type-2 .introduce {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.type-2 .introduce h3 {
+  font-weight: 600;
+}
+.type-2 .introduce p {
+  color: #666;
+  font-size: 13px;
+}
+@media (max-width: 1199px) {
+  .type-2 .introduce h3 {
+    font-size: 18px;
+  }
+  .type-2 .introduce p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 991px) {
+  .type-2 .introduce h3 {
+    font-size: 16px;
+  }
+  .type-2 .introduce p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 767px) {
+  .type-2 .introduce h3 {
+    font-size: 14px;
+  }
+  .type-2 .introduce p {
+    font-size: 11px;
+  }
+}
