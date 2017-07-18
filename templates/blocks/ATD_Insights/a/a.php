@@ -25,6 +25,7 @@ and open the template in the editor.
         <script src="js/slideshowDS.js" type="text/javascript"></script>
         <script src="js/atd_1.js" type="text/javascript"></script>
         <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
+        <script src="js/scrolltotop.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include '../a/menu_content.php'; ?>
@@ -34,5 +35,6 @@ and open the template in the editor.
         <?php include '../a/4_content.php'; ?>
         <?php include '../a/5_content.php'; ?>
         <?php include '../a/footer_content.php'; ?>
+        <?php include '../a/phutro_content.php'; ?>
     </body>
 </html>
