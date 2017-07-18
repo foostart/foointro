@@ -18,7 +18,7 @@
         
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        
+     
         <link href="css/owl.theme.css" rel="stylesheet" type="text/css"/>
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
         
@@ -34,7 +34,7 @@
         <script src="js/module_menu.js" type="text/javascript"></script>
         <script src="js/slideshowDS.js" type="text/javascript"></script>
         <script src="js/click.js" type="text/javascript"></script>
-        
+        <script src="js/script.js" type="text/javascript"></script>
         
     </head> 
 
