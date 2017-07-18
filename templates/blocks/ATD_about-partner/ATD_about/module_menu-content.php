@@ -17,7 +17,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-    
+
 <div class="module-menu">
         
             <div class="tab_mobile">
@@ -91,7 +91,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products</a>
                                     <div class="dropdown-menu" role="menu">
-                                        <div class="container">
+                                       
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">CRITICAL POWER</a></li>
                                             <li><a href="#">Uninterruptible Power Supplies (UPS)</a></li>
@@ -134,13 +134,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li><a href="#">NetSure</a></li>
                                             <li><a href="#">Trellis</a></li>
                                         </ul>
-                                    </div>
+                                   
                                     </div>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services</a>
                                     <div class="dropdown-menu" role="menu">
-                                        <div class="container">
+                                      
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">PROJECT SEVICES</a></li>
                                             <li><a href="#">Project Mannagement</a></li>
@@ -171,7 +171,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li><a href="#">Product Maintenance</a></li>
                                             <li><a href="#">Product Service</a></li>
                                         </ul>
-                                    </div>
+                                 
                                     </div>
                                 </li>
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>

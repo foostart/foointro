@@ -27,7 +27,7 @@
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
        
-       
+        <script src="js/script.js" type="text/javascript"></script>
         <script src="js/scrolltotop.js" type="text/javascript"></script>
         <script src="js/module_menu.js" type="text/javascript"></script>
         <script src="js/slideshowAbout.js" type="text/javascript"></script>
