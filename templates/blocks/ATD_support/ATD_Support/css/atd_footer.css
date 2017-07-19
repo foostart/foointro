@@ -1,3 +1,23 @@
+.atd_footer .submit {
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+.atd_footer .submit a {
+  text-transform: uppercase;
+  text-decoration: initial;
+  color: #fff;
+}
+.atd_footer .submit .primary {
+  background: #ff8c00;
+  padding: 17px 41px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.atd_footer .submit a:hover {
+  background: #fa0;
+}
 .atd_footer .footer-component {
   background: #4d4d4d;
   box-sizing: border-box;
@@ -5,7 +25,7 @@
   font-size: 1.4rem;
   letter-spacing: .05rem;
   padding-bottom: 1rem;
-  padding-top: 9.5rem;
+  padding-top: 15.5rem;
   position: relative;
   z-index: 100;
 }

@@ -1,136 +1,155 @@
 .atd_footer {
-     
-     .footer-component {
+    .submit{
+        text-align: center;
+        position: relative;
+        bottom: 75px;
+        a{
+            text-transform: uppercase;
+            text-decoration: initial;
+            color: #fff;
+        }
+        .primary{
+            background: #ff8c00;
+            padding: 17px 41px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+        a:hover{
+            background: #fa0;
+        }
+    }
+    .footer-component {
         background: #4d4d4d;
         box-sizing: border-box;
         color: #999;
         font-size: 1.4rem;
         letter-spacing: .05rem;
         padding-bottom: 1rem;
-        padding-top: 9.5rem;
+        padding-top: 15.5rem;
         position: relative;
         z-index: 100;
     }
-        .footer-component .mega-container {
-            padding: 0 4rem;
+    .footer-component .mega-container {
+        padding: 0 4rem;
+    }
+    .mega-container {
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-width: 160rem;
+        padding: 0 1rem;
+    }
+    .footer-component ul {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    .list-inline {
+        padding-left: 0;
+        list-style: none;
+        margin-left: -5px;
+    }
+    .text-right {
+        text-align: right;
+    }
+    .list-inline>li {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer-component .social li a {
+        display: block;
+        color: #999;
+    }
+    li.block.socialbuttonblock>a {
+        font-size: 31px;
+    }
+    .footer-component .social .fa {
+        font-size: 2.6rem;
+    }
+    .footer-component p {
+        font-size: 1.4rem;
+        margin: 0;
+        color: #999;
+    }
+    .footer-component ul {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+    .list-inline {
+        padding-left: 0;
+        list-style: none;
+        margin-left: -5px;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .footer-component a {
+        color: #ccc;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    ul a {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+    }
+    .footer-component .dot {
+        color: #ff9600;
+        font-size: 1.4rem;
+    }
+    @media (min-width: 768px) {
+        .col-sm-pull-3 {
+            right: 25%;
         }
-        .mega-container {
-            box-sizing: border-box;
-            margin: 0 auto;
-            max-width: 160rem;
-            padding: 0 1rem;
+        .col-sm-push-9 {
+            left: 75%;
         }
-        .footer-component ul {
-            font-size: 1.4rem;
-            padding: 0;
+        .col-sm-6 {
+            width: 50%;
+            float: left;
         }
-        .list-inline {
-            padding-left: 0;
-            list-style: none;
-            margin-left: -5px;
-        }
-        .text-right {
-            text-align: right;
-        }
-        .list-inline>li {
-            display: inline-block;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        .footer-component .social li a {
-            display: block;
-            color: #999;
-        }
-        li.block.socialbuttonblock>a {
-            font-size: 31px;
-        }
-        .footer-component .social .fa {
-            font-size: 2.6rem;
-        }
-        .footer-component p {
-            font-size: 1.4rem;
-            margin: 0;
-            color: #999;
-        }
-        .footer-component ul {
-            font-size: 1.4rem;
-            padding: 0;
-        }
-        .list-inline {
-            padding-left: 0;
-            list-style: none;
-            margin-left: -5px;
-        }
-        .text-center {
-            text-align: center;
-        }
-        .footer-component a {
-            color: #ccc;
-        }
-        a:hover {
-            text-decoration: none;
-        }
-        ul a {
-            font-size: 1.4rem;
-            line-height: 2.1rem;
-        }
-        .footer-component .dot {
-            color: #ff9600;
-            font-size: 1.4rem;
-        }
-        @media (min-width: 768px) {
-            .col-sm-pull-3 {
-                right: 25%;
-            }
-            .col-sm-push-9 {
-                left: 75%;
-            }
-            .col-sm-6 {
-                width: 50%;
-                float: left;
-            }
-            .col-sm-3 {
-                width: 25%;
-                float: left;
-            }
-        }
-        @media (max-width: 767px) {
-            .footer-component p {
-                font-size: .7rem;
-                margin-bottom: .6rem;
-            }
-            .footer-component a {
-                font-size: .7rem;
-            }
-            p {
-                line-height: 1;
-            }
-            .footer-component .list-inline>li {
-                padding-left: .4rem;
-                padding-right: .4rem;
-            }
-            .footer-component .dot {
-                font-size: .8rem;
-            }
-            .footer-component .social li:first-child {
-                margin-left: 0;
-            }
-            .footer-component .social .fa {
-                font-size: 1.8rem;
-                padding-left: 5px
-            }
-            .footer-component .social {
-                text-align: center!important;
-            }
-        }
-        @media (max-width: 991px) {
-            .footer-component {
-                text-align: center;
-            }
-        }
-        @media (max-width: 1500px) {
-            .footer-component .social li {
-                margin-left: .1rem;
-            }
+        .col-sm-3 {
+            width: 25%;
+            float: left;
         }
     }
+    @media (max-width: 767px) {
+        .footer-component p {
+            font-size: .7rem;
+            margin-bottom: .6rem;
+        }
+        .footer-component a {
+            font-size: .7rem;
+        }
+        p {
+            line-height: 1;
+        }
+        .footer-component .list-inline>li {
+            padding-left: .4rem;
+            padding-right: .4rem;
+        }
+        .footer-component .dot {
+            font-size: .8rem;
+        }
+        .footer-component .social li:first-child {
+            margin-left: 0;
+        }
+        .footer-component .social .fa {
+            font-size: 1.8rem;
+            padding-left: 5px
+        }
+        .footer-component .social {
+            text-align: center!important;
+        }
+    }
+    @media (max-width: 991px) {
+        .footer-component {
+            text-align: center;
+        }
+    }
+    @media (max-width: 1500px) {
+        .footer-component .social li {
+            margin-left: .1rem;
+        }
+    }
+}

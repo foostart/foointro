@@ -14,6 +14,9 @@ $url_path = str_replace('\\', '/', $url_path);
 
        <div class="atd_footer">
             <footer class="footer-component">
+                <div class="submit">
+                            <a href="#" class="primary">see all insights</a>
+                        </div>
                 <div class="row mega-container">
                     <div class="col-xs-12 col-sm-3 col-sm-push-9">
                         <ul class="text-right list-inline social">

@@ -13,7 +13,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/module-menu.less', 'css/module-menu.css');
+        $less->compileFile('less/module_menu.less', 'css/module_menu.css');
         $less->compileFile('less/1.less', 'css/1.css');
         $less->compileFile('less/2.less', 'css/2.css');
         $less->compileFile('less/3.less', 'css/3.css');
@@ -22,7 +22,8 @@
         $less->compileFile('less/atd_phutro.less', 'css/atd_phutro.css');
         ?>
         
-        <link href="css/module-menu.css" rel="stylesheet" type="text/css"/>
+         <!-----------------------------CSS----------------------------->
+        <link href="css/module_menu.css" rel="stylesheet" type="text/css"/>
         <link href="css/1.css" rel="stylesheet" type="text/css"/>
         <link href="css/2.css" rel="stylesheet" type="text/css"/>
         <link href="css/3.css" rel="stylesheet" type="text/css"/>
@@ -30,14 +31,17 @@
         <link href="css/atd_footer.css" rel="stylesheet" type="text/css"/>
         <link href="css/atd_phutro.css" rel="stylesheet" type="text/css"/>
         
+        <!-----------------------------JQUERY----------------------------->
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/click.js" type="text/javascript"></script>
         <script src="js/module_menu.js" type="text/javascript"></script>
+        <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
         <script src="js/scrolltotop.js" type="text/javascript"></script>
 
     </head>
     <body>
+        <!-----------------------------MODULE----------------------------->
         <?php include '../ATD_Support/module_menu-content.php'; ?>
         <?php include '../ATD_Support/1-content.php'; ?>
         <?php include '../ATD_Support/2-content.php'; ?>
