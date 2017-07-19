@@ -33,7 +33,7 @@
         <script src="js/module_menu.js" type="text/javascript"></script>
         <script src="js/slideshowservices.js" type="text/javascript"></script>
         <script src="js/scrolltotopconten2.js" type="text/javascript"></script>
-        
+        <script src="js/script.js" type="text/javascript"></script>
     </head> 
 
     <body > 

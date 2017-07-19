@@ -53,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="header">
-                <div class="header-bar" data-paxy-class="fixed,126,100000">
+                <div class="header-bar" >
                     <div class="text-right action-bar">
                         <div class="mega-container">
 
@@ -89,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <ul class="nav navbar-nav navbar-center">
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products</a>
+                                    <a href="#" class="dropdown-toggle" >Products</a>
                                     <div class="dropdown-menu" role="menu">
                                        
                                         <ul class="same-height-target col-sm-3">
@@ -138,7 +138,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services</a>
+                                    <a href="#" class="dropdown-toggle" >Services</a>
                                     <div class="dropdown-menu" role="menu">
                                       
                                         <ul class="same-height-target col-sm-3">
@@ -174,7 +174,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                  
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" >Support</a>
                                     <div class="dropdown-menu mot" role="menu">
                                         
                                         <ul class="same-height-target col-sm-12">
@@ -191,7 +191,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Insights</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" >Insights</a>
                                     <div class="dropdown-menu" role="menu">
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">RESOURCES</a></li>
@@ -229,7 +229,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" >About</a>
                                     <div class="dropdown-menu" role="menu">
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">OVERVIEW</a></li>
