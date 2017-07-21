@@ -1,0 +1,98 @@
+.critical-1 {
+  background: #000;
+}
+.critical-1 .home {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.critical-1 .home .ome {
+  color: #666;
+  cursor: pointer;
+}
+.critical-1 .home .ome:hover {
+  color: #333;
+}
+.critical-1 .home .big {
+  color: #ff7600;
+  margin: 0 5px;
+}
+.critical-1 .home .sup {
+  color: #333;
+}
+.critical-1 .icon-click .x,
+.critical-1 .icon-click .fa-share-square-o {
+  display: none;
+}
+.critical-1 .icon-click .item {
+  text-align: right;
+  font-size: 20px;
+  margin: 10px 10px 0px 0px;
+  right: 0;
+  position: absolute;
+}
+.critical-1 .icon-click .item .fa {
+  color: #b6b7b7;
+}
+.critical-1 .icon-click .in {
+  width: 0;
+}
+@media (min-width: 768px) {
+  .critical-1 .x,
+  .critical-1 .fa-share-square-o {
+    display: none !important;
+  }
+  .critical-1 .in {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .critical-1 .icon-click .x {
+    color: #ff8c00;
+    display: block;
+    height: 25px;
+    width: 36px;
+    font-size: 18px;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    border: none;
+  }
+  .critical-1 .icon-click .fa-share-square-o {
+    display: block;
+    height: 25px;
+    background: #edeeef;
+    font-size: 25px;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    border: none;
+  }
+  .critical-1 .icon-click .item {
+    font-size: 20px;
+    height: 25px;
+    background: #fff;
+    margin: 10px 45px 0px 0px;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    width: 205px;
+    position: fixed;
+    overflow: hidden;
+    transition: width .7s;
+  }
+  .critical-1 .icon-click .item .fa {
+    color: #b6b7b7;
+    margin: 0px 8px;
+  }
+  .critical-1 .icon-click .in {
+    width: 0;
+  }
+  .critical-1 .home {
+    display: none;
+  }
+}
