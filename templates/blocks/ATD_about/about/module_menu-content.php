@@ -1,4 +1,9 @@
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <?php
 $url_host = $_SERVER['HTTP_HOST'];
 
@@ -13,10 +18,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-
-        <div class="menu">
+<div class="module-menu">
+        
             <div class="tab_mobile">
-                <div class="row">
+                <div class="row" style="padding-bottom: 4.2rem;">
                     <div class="styletabs">
                         <div class="search-field-mask">
                             <div class="search-tablet-trigger">
@@ -48,13 +53,13 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="header">
-                <div class="header-bar" data-paxy-class="fixed,126,100000">
+                <div class="header-bar" >
                     <div class="text-right action-bar">
                         <div class="mega-container">
 
                             <a class="notification-language-switcher" href="#">
-                                <img src="image/flag-USA.png" alt=""/>
-                                <span>USA, English (United States)</span>
+                                <img src="image/flag-USA.png" alt="" />
+                                <span>Vietnam, English (ASIA)</span>
                             </a>
 
                             <a href="#" class="contact">
@@ -84,8 +89,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <ul class="nav navbar-nav navbar-center">
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products</a>
+                                    <a href="#" class="dropdown-toggle" >Products</a>
                                     <div class="dropdown-menu" role="menu">
+                                       
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">CRITICAL POWER</a></li>
                                             <li><a href="#">Uninterruptible Power Supplies (UPS)</a></li>
@@ -128,11 +134,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li><a href="#">NetSure</a></li>
                                             <li><a href="#">Trellis</a></li>
                                         </ul>
+                                   
                                     </div>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services</a>
+                                    <a href="#" class="dropdown-toggle" >Services</a>
                                     <div class="dropdown-menu" role="menu">
+                                      
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">PROJECT SEVICES</a></li>
                                             <li><a href="#">Project Mannagement</a></li>
@@ -163,10 +171,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li><a href="#">Product Maintenance</a></li>
                                             <li><a href="#">Product Service</a></li>
                                         </ul>
+                                 
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle">Support</a>
                                     <div class="dropdown-menu mot" role="menu">
+                                        
                                         <ul class="same-height-target col-sm-12">
                                             <li class="menu-header"><a href="#">FIND SUPPORT</a></li>
                                             <li><a href="#">Search for Support Information</a></li>
@@ -181,7 +191,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Insights</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle">Insights</a>
                                     <div class="dropdown-menu" role="menu">
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">RESOURCES</a></li>
@@ -219,7 +229,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About</a>
+                                <li class="dropdown"><a href="#" class="dropdown-toggle">About</a>
                                     <div class="dropdown-menu" role="menu">
                                         <ul class="same-height-target col-sm-3">
                                             <li class="menu-header"><a href="#">OVERVIEW</a></li>
@@ -593,10 +603,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
 
+</div>
+
+           
 
 
-            <div class="clearfix"></div>
-        </div>
-
-
+   
 

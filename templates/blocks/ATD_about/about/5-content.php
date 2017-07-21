@@ -11,13 +11,12 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="module5">
     <div class="wrapper-left">
         <div class="container ">
-            <h3 class="text-center xx-thick related-title">GET TO KNOW US BETTER</h3>
+            <h3 class="text-center xx-thick related-title">INDUSTRIES WE SERVICE</h3>
             <div class="component">
-                <p >Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
+               <p>Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
             </div>
             <div class="sld-hover">
                 <div class="row">
@@ -53,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
-                                <div class="col-xs-6 col-sm-4 reponmobile">
+                                <div class="col-xs-6 col-sm-4">
                                     <div class="imagesd">
                                         <a href="#">
                                             <img src="image/h3ds.jpg" alt="" />
@@ -98,7 +97,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
-                                <div class="col-xs-6 col-sm-4 reponmobile">
+                                <div class="col-xs-6 col-sm-4 ">
                                     <div class="imagesd">
                                         <a href="#">
                                             <img src="image/h3ds.jpg" alt="" />

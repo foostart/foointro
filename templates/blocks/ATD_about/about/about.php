@@ -24,10 +24,12 @@ and open the template in the editor.
         <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
         <script src="js/slideshowDS.js" type="text/javascript"></script>
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <script src="js/scrolltotopconten2.js" type="text/javascript"></script> 
     </head>
     <body>
         <?php
-        include '../about/1-content.php';
+        include '../about/module_menu-content.php';
         include '../about/2-content.php';
         include '../about/3-content.php';
         include '../about/4-content.php';
