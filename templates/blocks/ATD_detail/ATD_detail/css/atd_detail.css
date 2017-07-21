@@ -1230,6 +1230,7 @@
   background-color: #eff0f1;
 }
 .ATD_content_1 .mega-container {
+  overflow: hidden;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 160rem;
