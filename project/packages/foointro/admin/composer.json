@@ -1,0 +1,14 @@
+{
+    "name": "atd/admin",
+    "description": "This package build for admin panel",
+    "authors": [
+        {
+            "name": "atd",
+            "email": "nguyenanhhoanld@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    	"jacopo/laravel-authentication-acl": "1.4.*"
+    }
+}

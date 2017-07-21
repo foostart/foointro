@@ -9,7 +9,8 @@
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
-        "jacopo/laravel-authentication-acl": "1.4.*"
+        "jacopo/laravel-authentication-acl": "1.4.*",
+        "cviebrock/eloquent-sluggable": "^4.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -22,7 +23,9 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Foointro\\Front\\": "packages/foointro/front/src/"
+            "Foointro\\Front\\": "packages/foointro/front/src/",
+            "Foointro\\Admin\\": "packages/foointro/admin/src/",
+            "Foostart\\Mail\\": "packages/foostart/mail/src/"
         }
     },
     "autoload-dev": {

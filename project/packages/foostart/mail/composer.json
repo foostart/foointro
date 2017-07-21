@@ -1,0 +1,13 @@
+{
+    "name": "source/mail",
+    "description": "Help admin panel can send email with google mail",
+    "authors": [
+        {
+            "name": "source",
+            "email": "nguyenanhhoanld@gmail.com"
+        }
+    ],
+    "require": {
+        "jacopo/laravel-authentication-acl": "1.3.*"
+    }
+}

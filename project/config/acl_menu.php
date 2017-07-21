@@ -63,6 +63,33 @@ return [
             ],
             [
                 /*
+                 * Route to show list of menu
+                 */
+                "name"        => "Menu",
+                "route"       => "admin_menu",
+                "link"        => '/admin/menu',
+                "permissions" => ["_superadmin", "_permission-editor"]
+            ],
+            [
+                /*
+                 * Route to show list of product
+                 */
+                "name"        => "Product",
+                "route"       => "admin_product",
+                "link"        => '/admin/product',
+                "permissions" => ["_superadmin", "_permission-editor"]
+            ],
+            [
+                /*
+                 * Route to edit the current user profile
+                 */
+                "name"        => "Mail",
+                "route"       => "admin_mail",
+                "link"        => '/admin/mail',
+                "permissions" => ["_superadmin", "_group-editor"]
+            ],
+            [
+                /*
                  * Route to edit the current user profile
                  */
                 "name"        => "",

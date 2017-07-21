@@ -12,10 +12,10 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
     );
 
@@ -86,7 +86,9 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         ),
         'F' => 
         array (
+            'Foostart\\Mail\\' => 14,
             'Foointro\\Front\\' => 15,
+            'Foointro\\Admin\\' => 15,
             'Faker\\' => 6,
         ),
         'D' => 
@@ -97,8 +99,10 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         ),
         'C' => 
         array (
+            'Cviebrock\\EloquentSluggable\\' => 28,
             'Cron\\' => 5,
             'Collective\\Html\\' => 16,
+            'Cocur\\Slugify\\' => 14,
             'Carbon\\' => 7,
         ),
         'A' => 
@@ -234,9 +238,17 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         array (
             0 => __DIR__ . '/..' . '/gregwar/captcha',
         ),
+        'Foostart\\Mail\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/foostart/mail/src',
+        ),
         'Foointro\\Front\\' => 
         array (
             0 => __DIR__ . '/../..' . '/packages/foointro/front/src',
+        ),
+        'Foointro\\Admin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/foointro/admin/src',
         ),
         'Faker\\' => 
         array (
@@ -254,6 +266,10 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Cviebrock\\EloquentSluggable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src',
+        ),
         'Cron\\' => 
         array (
             0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron',
@@ -261,6 +277,10 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'Collective\\Html\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravelcollective/html/src',
+        ),
+        'Cocur\\Slugify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cocur/slugify/src',
         ),
         'Carbon\\' => 
         array (
@@ -397,6 +417,27 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'Cartalyst\\Sentry\\Users\\UserNotActivatedException' => __DIR__ . '/..' . '/jacopo/authentication-sentry/src/Cartalyst/Sentry/Users/Exceptions.php',
         'Cartalyst\\Sentry\\Users\\UserNotFoundException' => __DIR__ . '/..' . '/jacopo/authentication-sentry/src/Cartalyst/Sentry/Users/Exceptions.php',
         'Cartalyst\\Sentry\\Users\\WrongPasswordException' => __DIR__ . '/..' . '/jacopo/authentication-sentry/src/Cartalyst/Sentry/Users/Exceptions.php',
+        'Cocur\\Slugify\\Bridge\\Laravel\\SlugifyFacade' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Laravel/SlugifyFacade.php',
+        'Cocur\\Slugify\\Bridge\\Laravel\\SlugifyServiceProvider' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Laravel/SlugifyServiceProvider.php',
+        'Cocur\\Slugify\\Bridge\\Latte\\SlugifyHelper' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Latte/SlugifyHelper.php',
+        'Cocur\\Slugify\\Bridge\\League\\SlugifyServiceProvider' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/League/SlugifyServiceProvider.php',
+        'Cocur\\Slugify\\Bridge\\Nette\\SlugifyExtension' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Nette/SlugifyExtension.php',
+        'Cocur\\Slugify\\Bridge\\Plum\\SlugifyConverter' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Plum/SlugifyConverter.php',
+        'Cocur\\Slugify\\Bridge\\Silex2\\SlugifyServiceProvider' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Silex2/SlugifyServiceProvider.php',
+        'Cocur\\Slugify\\Bridge\\Silex\\SlugifyServiceProvider' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Silex/SlugifyServiceProvider.php',
+        'Cocur\\Slugify\\Bridge\\Symfony\\CocurSlugifyBundle' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Symfony/CocurSlugifyBundle.php',
+        'Cocur\\Slugify\\Bridge\\Symfony\\CocurSlugifyExtension' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Symfony/CocurSlugifyExtension.php',
+        'Cocur\\Slugify\\Bridge\\Symfony\\Configuration' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Symfony/Configuration.php',
+        'Cocur\\Slugify\\Bridge\\Twig\\SlugifyExtension' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/Twig/SlugifyExtension.php',
+        'Cocur\\Slugify\\Bridge\\ZF2\\Module' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/ZF2/Module.php',
+        'Cocur\\Slugify\\Bridge\\ZF2\\SlugifyService' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/ZF2/SlugifyService.php',
+        'Cocur\\Slugify\\Bridge\\ZF2\\SlugifyViewHelper' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/ZF2/SlugifyViewHelper.php',
+        'Cocur\\Slugify\\Bridge\\ZF2\\SlugifyViewHelperFactory' => __DIR__ . '/..' . '/cocur/slugify/src/Bridge/ZF2/SlugifyViewHelperFactory.php',
+        'Cocur\\Slugify\\RuleProvider\\DefaultRuleProvider' => __DIR__ . '/..' . '/cocur/slugify/src/RuleProvider/DefaultRuleProvider.php',
+        'Cocur\\Slugify\\RuleProvider\\FileRuleProvider' => __DIR__ . '/..' . '/cocur/slugify/src/RuleProvider/FileRuleProvider.php',
+        'Cocur\\Slugify\\RuleProvider\\RuleProviderInterface' => __DIR__ . '/..' . '/cocur/slugify/src/RuleProvider/RuleProviderInterface.php',
+        'Cocur\\Slugify\\Slugify' => __DIR__ . '/..' . '/cocur/slugify/src/Slugify.php',
+        'Cocur\\Slugify\\SlugifyInterface' => __DIR__ . '/..' . '/cocur/slugify/src/SlugifyInterface.php',
         'Collective\\Html\\Componentable' => __DIR__ . '/..' . '/laravelcollective/html/src/Componentable.php',
         'Collective\\Html\\Eloquent\\FormAccessible' => __DIR__ . '/..' . '/laravelcollective/html/src/Eloquent/FormAccessible.php',
         'Collective\\Html\\FormBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/FormBuilder.php',
@@ -404,14 +445,14 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
         'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
-        'CreateGroupsTable' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_02_19_095637_create_groups_table.php',
+        'CreateGroupsTable' => __DIR__ . '/../..' . '/database/migrations/2014_02_19_095637_create_groups_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-        'CreatePermissionTable' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_02_19_160516_create_permission_table.php',
-        'CreateProfileField' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_05_06_122155_create_profile_field.php',
-        'CreateProfileFieldTypes' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_05_06_122145_create_profile_field_types.php',
-        'CreateUserGroupsTable' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_02_19_095623_create_user_groups_table.php',
-        'CreateUserProfileTable' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2014_02_26_165011_create_user_profile_table.php',
-        'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
+        'CreatePermissionTable' => __DIR__ . '/../..' . '/database/migrations/2014_02_19_160516_create_permission_table.php',
+        'CreateProfileField' => __DIR__ . '/../..' . '/database/migrations/2014_05_06_122155_create_profile_field.php',
+        'CreateProfileFieldTypes' => __DIR__ . '/../..' . '/database/migrations/2014_05_06_122145_create_profile_field_types.php',
+        'CreateUserGroupsTable' => __DIR__ . '/../..' . '/database/migrations/2014_02_19_095623_create_user_groups_table.php',
+        'CreateUserProfileTable' => __DIR__ . '/../..' . '/database/migrations/2014_02_26_165011_create_user_profile_table.php',
+        'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_02_19_095545_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
@@ -422,6 +463,11 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'Cron\\MinutesField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/MonthField.php',
         'Cron\\YearField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/YearField.php',
+        'Cviebrock\\EloquentSluggable\\ServiceProvider' => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src/ServiceProvider.php',
+        'Cviebrock\\EloquentSluggable\\Services\\SlugService' => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src/Services/SlugService.php',
+        'Cviebrock\\EloquentSluggable\\Sluggable' => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src/Sluggable.php',
+        'Cviebrock\\EloquentSluggable\\SluggableObserver' => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src/SluggableObserver.php',
+        'Cviebrock\\EloquentSluggable\\SluggableScopeHelpers' => __DIR__ . '/..' . '/cviebrock/eloquent-sluggable/src/SluggableScopeHelpers.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
@@ -860,8 +906,32 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
+        'Foointro\\Admin\\AdminServiceProvider' => __DIR__ . '/../..' . '/packages/foointro/admin/src/AdminServiceProvider.php',
+        'Foointro\\Admin\\Controllers\\AdminController' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Controllers/AdminController.php',
+        'Foointro\\Admin\\Controllers\\MenuController' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Controllers/MenuController.php',
+        'Foointro\\Admin\\Controllers\\ProductAttributeController' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Controllers/ProductAttributeController.php',
+        'Foointro\\Admin\\Controllers\\ProductController' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Controllers/ProductController.php',
+        'Foointro\\Admin\\Controllers\\ProductPriceController' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Controllers/ProductPriceController.php',
+        'Foointro\\Admin\\Models\\Menus' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Models/Menus.php',
+        'Foointro\\Admin\\Models\\ProductAttributes' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Models/ProductAttributes.php',
+        'Foointro\\Admin\\Models\\Products' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Models/ProductPrices.php',
+        'Foointro\\Admin\\Validators\\AdminValidator' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Validators/AdminValidator.php',
+        'Foointro\\Admin\\Validators\\ProductAttributeValidator' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Validators/ProductAttributeValidator.php',
+        'Foointro\\Admin\\Validators\\ProductValidator' => __DIR__ . '/../..' . '/packages/foointro/admin/src/Validators/ProductValidator.php',
         'Foointro\\Front\\Controllers\\FrontController' => __DIR__ . '/../..' . '/packages/foointro/front/src/Controllers/FrontController.php',
         'Foointro\\Front\\FrontServiceProvider' => __DIR__ . '/../..' . '/packages/foointro/front/src/FrontServiceProvider.php',
+        'Foostart\\Mail\\Controllers\\Admin\\GoogleDriveController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Admin/GoogleDriveController.php',
+        'Foostart\\Mail\\Controllers\\Admin\\MailAdminController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Admin/MailAdminController.php',
+        'Foostart\\Mail\\Controllers\\Admin\\MailContactAdminController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Admin/MailContactAdminController.php',
+        'Foostart\\Mail\\Controllers\\Admin\\MailHistoryAdminController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Admin/MailHistoryAdminController.php',
+        'Foostart\\Mail\\Controllers\\Admin\\MailSendController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Admin/MailSendController.php',
+        'Foostart\\Mail\\Controllers\\Front\\MailFrontController' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Controllers/Front/MailFrontController.php',
+        'Foostart\\Mail\\MailServiceProvider' => __DIR__ . '/../..' . '/packages/foostart/mail/src/MailServiceProvider.php',
+        'Foostart\\Mail\\Models\\Contacts' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Models/Contacts.php',
+        'Foostart\\Mail\\Models\\Mails' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Models/Mails.php',
+        'Foostart\\Mail\\Models\\MailsContacts' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Models/MailsContacts.php',
+        'Foostart\\Mail\\Models\\MailsHistories' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Models/MailsHistories.php',
+        'Foostart\\Mail\\Validators\\MailAdminValidator' => __DIR__ . '/../..' . '/packages/foostart/mail/src/Validators/MailAdminValidator.php',
         'Gregwar\\Captcha\\CaptchaBuilder' => __DIR__ . '/..' . '/gregwar/captcha/CaptchaBuilder.php',
         'Gregwar\\Captcha\\CaptchaBuilderInterface' => __DIR__ . '/..' . '/gregwar/captcha/CaptchaBuilderInterface.php',
         'Gregwar\\Captcha\\ImageFileHandler' => __DIR__ . '/..' . '/gregwar/captcha/ImageFileHandler.php',
@@ -1903,6 +1973,7 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'LaravelAcl\\Providers\\EventServiceProvider' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/app/Providers/EventServiceProvider.php',
         'LaravelAcl\\Providers\\RouteServiceProvider' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/app/Providers/RouteServiceProvider.php',
         'LaravelAcl\\User' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/app/User.php',
+        'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
@@ -1952,7 +2023,7 @@ class ComposerStaticInit1a4e6e799db8f41009dd0d315bd84ee9
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
-        'MigrationCartalystSentryInstallThrottle' => __DIR__ . '/..' . '/jacopo/laravel-authentication-acl/database/migrations/2012_12_06_225988_migration_cartalyst_sentry_install_throttle.php',
+        'MigrationCartalystSentryInstallThrottle' => __DIR__ . '/../..' . '/database/migrations/2012_12_06_225988_migration_cartalyst_sentry_install_throttle.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',

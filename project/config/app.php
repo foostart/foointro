@@ -180,8 +180,13 @@ return [
          * My Extension...
          */
         Foointro\Front\FrontServiceProvider::class,
+        Foointro\Admin\AdminServiceProvider::class,
+        Foostart\Mail\MailServiceProvider::class,
+
         Collective\Html\HtmlServiceProvider::class,
         LaravelAcl\Authentication\AuthenticationServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
 
     ],
 
