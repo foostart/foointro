@@ -1,7 +1,7 @@
-.type-2 {
+.type-3 {
   padding: 9rem 0;
 }
-.type-2 .most {
+.type-3 .most {
   margin-top: 0;
   padding-bottom: 2.2rem;
   margin-bottom: 0;
@@ -12,7 +12,7 @@
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-.type-2 .panel {
+.type-3 .panel {
   height: 525.75px;
   margin-bottom: 2.2rem;
   margin-top: 2.2rem;
@@ -22,14 +22,14 @@
   border: 0;
   border-radius: 0;
 }
-.type-2 .panel img {
+.type-3 .panel img {
   width: 100%;
 }
-.type-2 .panel .panel-body {
+.type-3 .panel .panel-body {
   padding-top: 2.4rem;
   padding: 1.6rem 0 0;
 }
-.type-2 .panel .panel-body .topic-name {
+.type-3 .panel .panel-body .topic-name {
   margin-bottom: .4rem;
   font-size: 1.2rem;
   line-height: normal;
@@ -40,36 +40,36 @@
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-.type-2 .panel .panel-body h4 {
+.type-3 .panel .panel-body h4 {
   margin-bottom: .6rem;
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2.2rem;
 }
-.type-2 .panel .panel-body h4 a {
+.type-3 .panel .panel-body h4 a {
   color: inherit;
 }
-.type-2 .panel .panel-body h4 a:hover {
+.type-3 .panel .panel-body h4 a:hover {
   color: #333;
   text-decoration: none;
 }
-.type-2 .panel .panel-body p {
+.type-3 .panel .panel-body p {
   margin-bottom: 0;
 }
-.type-2 .panel .panel-body .date {
+.type-3 .panel .panel-body .date {
   display: block;
   margin-top: 1.6rem;
   font-size: 1.4rem;
   line-height: normal;
   color: #666;
 }
-.type-2 .more {
+.type-3 .more {
   text-align: center;
 }
-.type-2 .more #show8More {
+.type-3 .more #show8More {
   margin-top: 2.2rem;
 }
-.type-2 .more .button {
+.type-3 .more .button {
   display: block;
   text-align: center;
   width: 100%;
@@ -84,45 +84,45 @@
   padding: 1.6rem 3.2rem;
   text-transform: uppercase;
 }
-.type-2 .more .button:hover {
+.type-3 .more .button:hover {
   background: #ccc;
   color: #333;
 }
 @media (max-width: 767px) {
-  .type-2 {
+  .type-3 {
     padding: 3.4rem 0;
   }
-  .type-2 .container {
+  .type-3 .container {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .type-2 .most {
+  .type-3 .most {
     padding-bottom: 1.7rem;
     font-size: 1.6rem;
   }
-  .type-2 .panel {
+  .type-3 .panel {
     height: auto !important;
     margin-bottom: 1.7rem;
     margin-top: 1.7rem;
   }
-  .type-2 .panel .panel-body {
+  .type-3 .panel .panel-body {
     padding-top: 0;
   }
-  .type-2 .panel .panel-body .topic-name {
+  .type-3 .panel .panel-body .topic-name {
     font-size: 1.1rem;
     line-height: 1.1rem;
   }
-  .type-2 .panel .panel-body h4 {
+  .type-3 .panel .panel-body h4 {
     font-size: 1.8rem;
     line-height: 1.8rem;
     margin-bottom: 0;
   }
-  .type-2 .panel .panel-body p {
+  .type-3 .panel .panel-body p {
     color: #666;
     font-size: 1.3rem;
     line-height: 1.5rem;
   }
-  .type-2 .panel .panel-body .date {
+  .type-3 .panel .panel-body .date {
     color: #999;
     font-size: 1.2rem;
     line-height: 1.2rem;

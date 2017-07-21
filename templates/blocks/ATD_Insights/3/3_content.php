@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-2">
+<div class="type-3">
             <div class="container">
                 <h3 class="most">Most Recent</h3>
                 <div class="row">

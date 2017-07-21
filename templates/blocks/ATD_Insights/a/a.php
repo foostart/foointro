@@ -23,6 +23,7 @@ and open the template in the editor.
         <script src="js/script.js" type="text/javascript"></script>
         <script src="js/scrolltotopconten2.js" type="text/javascript"></script>
         <script src="js/slideshowDS.js" type="text/javascript"></script>
+        <script src="js/atd_1.js" type="text/javascript"></script>
         <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
         <script src="js/scrolltotop.js" type="text/javascript"></script>
         <script src="js/module_menu.js" type="text/javascript"></script>
