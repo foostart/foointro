@@ -1286,6 +1286,64 @@
 //end css menu  
 
 .ATD_content_1{
+    @media screen and (min-width: 767px){
+    .test{
+        display: none;
+    }
+}
+
+.test{
+     position: absolute;
+     right:0;
+    .fa-share-square-o{
+        font-size: 2.5rem;
+       cursor: pointer;
+    right: 0px;
+    position: absolute;
+    top: 1.3px;
+    z-index: 10;
+    border: none;
+    }
+    .item{
+     
+            position: absolute;
+    right: 30px;
+        margin-right: 20px;
+        top: 4px;
+    }
+
+
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              right:0;
+              transition:left .4s;
+          }
+      
+          .side-collapse {
+                 height: 2.7rem;
+            background: #fff;
+                
+             margin: 0.5rem 0.5rem;
+              top:-4px;
+              bottom:0;
+              right:0;
+              width:250px;
+              position:absolute;
+              overflow:hidden;
+              transition:width .5s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+          
+          a{
+              margin: 5px;
+              font-size: 1.8rem;
+              color: #ccc;
+          }
+          
+}
     background-color: #eff0f1;
     .mega-container{
         overflow: hidden;
