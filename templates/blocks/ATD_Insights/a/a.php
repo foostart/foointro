@@ -27,10 +27,11 @@ and open the template in the editor.
         <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
         <script src="js/scrolltotop.js" type="text/javascript"></script>
         <script src="js/module_menu.js" type="text/javascript"></script>
-        <script src="js/selectMenu.js" type="text/javascript"></script>
+       
+        <script src="js/script_1.js" type="text/javascript"></script>
     </head>
     <body>
-        <?php include '../a/menu_content.php'; ?>
+        <?php include '../a/module_menu-content.php'; ?>
         <?php include '../a/1_content.php'; ?>
         <?php include '../a/2_content.php'; ?>
         <?php include '../a/3_content.php'; ?>
