@@ -1,0 +1,12 @@
+{
+    "name": "foointro/front",
+    "description": "This package build for front",
+    "authors": [
+        {
+            "name": "atd",
+            "email": "foointro@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {}
+}
