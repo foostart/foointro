@@ -1,0 +1,540 @@
+.type-2 .contrast-background {
+  background-color: #eff0f1;
+}
+.type-2 .contrast-background .mega-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 160rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+.type-2 .contrast-background .mega-container .button.light {
+  background: #999;
+  color: #fff;
+}
+.type-2 .contrast-background .mega-container .button.primary {
+  display: block;
+  text-align: center;
+}
+.type-2 .contrast-background .mega-container .button.fluid {
+  width: 100%;
+  background: #ff8c00;
+  color: #fff;
+}
+.type-2 .contrast-background .mega-container h1 {
+  margin: 0;
+  padding: 1.2rem 0;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 6rem;
+}
+.type-2 .contrast-background .mega-container .h8 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+.type-2 .contrast-background .mega-container .button {
+  padding: 1.5rem 2.4rem 2.1rem 2.4rem;
+  font-size: 1.6rem;
+  margin-left: 4.6rem;
+  border: 0;
+  display: inline-block;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  background: #fff;
+  color: #4d4d4d;
+  margin-bottom: .6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.type-2 .contrast-background .mega-container .button .arrow-dropdown {
+  padding-left: 1.4rem;
+}
+.type-2 .contrast-background .mega-container .button i {
+  font-size: 2.4rem;
+}
+.type-2 .contrast-background .mega-container .form-inline {
+  margin: 0 4.6rem .6rem 0;
+  float: right !important;
+}
+.type-2 .contrast-background .mega-container .form-inline label {
+  margin-right: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: normal;
+  color: #333;
+}
+.type-2 .contrast-background .mega-container .form-inline .form-control {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-left: .8rem;
+  padding: .6rem 3.5rem .6rem 1.2rem;
+  background-color: #fff;
+  border-radius: 0;
+  border-color: #fff;
+  box-shadow: none;
+  height: 4.8rem;
+}
+.type-2 .contrast-background .mega-container .form-inline:after {
+  display: none;
+}
+.type-2 .contrast-background .mega-container .form-inline .form-control:focus {
+  border-color: #0092bd;
+  box-shadow: none;
+}
+.type-2 .subtitle.smaller {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.type-2 .x-light {
+  color: #ccc;
+}
+.type-2 .thick {
+  font-weight: 500;
+}
+.type-2 .xx-light {
+  color: #fff;
+}
+.type-2 .smaller {
+  font-size: 1.2rem;
+  line-height: normal;
+}
+.type-2 .subtitle {
+  margin-bottom: 1.8rem;
+  display: block;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.type-2 .cong,
+.type-2 .tru,
+.type-2 .cong2,
+.type-2 .tru2,
+.type-2 .cong3,
+.type-2 .tru3 {
+  float: right;
+  margin-top: -15px;
+  color: #ff8c00;
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 0;
+  cursor: pointer;
+}
+.type-2 .subtitle.x-smaller {
+  font-size: 1.2rem;
+  line-height: normal;
+}
+.type-2 .mosaic-component {
+  padding: 0;
+}
+.type-2 .mosaic-component .wrapper {
+  background: #4d4d4d;
+}
+.type-2 .mosaic-component .mega-container {
+  margin-bottom: 0;
+}
+.type-2 .mosaic-component .p-a-0 {
+  padding: 0 !important;
+}
+.type-2 .mosaic-component .mosaic-large {
+  background-color: #fff;
+  margin: 0;
+  position: relative;
+}
+.type-2 .mosaic-component .mosaic-large .text-overlay-xs {
+  background: #000;
+}
+.type-2 .mosaic-component .mosaic-large .text-overlay-xs img {
+  opacity: .8 !important;
+}
+.type-2 .mosaic-component .mosaic-large .bottom-left-aligned {
+  bottom: 4.8rem;
+  left: 4rem;
+  position: absolute;
+}
+.type-2 .mosaic-component .mosaic-large .bottom-left-aligned span {
+  margin-bottom: .4rem;
+}
+.type-2 .mosaic-component .mosaic-large .bottom-left-aligned span .date {
+  margin-bottom: 0;
+}
+.type-2 .mosaic-component .mosaic-large .bottom-left-aligned h2 {
+  margin-bottom: 6.4rem;
+  margin-top: 0;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.type-2 .mosaic-component .mosaic-large .bottom-left-aligned h2 a:hover {
+  color: #fff;
+}
+.type-2 .mosaic-component span {
+  display: block;
+  margin-bottom: .9rem;
+}
+.type-2 a:hover {
+  color: #82be20;
+  text-decoration: none;
+}
+.type-2 .filter-container {
+  display: none;
+  padding-bottom: 3.2rem;
+}
+.type-2 .filter-container .mega-container {
+  padding: 0 5.6rem;
+  position: relative;
+}
+.type-2 .filter-container .mega-container .dark {
+  color: #666;
+}
+.type-2 .filter-container .mega-container .pull-right {
+  float: right !important;
+}
+.type-2 .filter-container .mega-container button {
+  border: 0;
+}
+.type-2 .filter-container .mega-container .close-button-holder {
+  padding: 2.6rem 0;
+}
+.type-2 .filter-container .mega-container .close-button-holder button {
+  background: none;
+  padding: 0 1rem;
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+}
+.type-2 .filter-container .mega-container .close-button-holder .close-btn {
+  font-size: 2rem;
+}
+.type-2 .filter-container .mega-container .button-holder {
+  text-align: center;
+}
+.type-2 .filter-container .mega-container .button-holder .button.primary {
+  background: #ff8c00;
+  color: #fff;
+}
+.type-2 .filter-container .mega-container .button-holder .button.primary:hover {
+  background: #fa0;
+  color: #fff;
+}
+.type-2 .filter-container .mega-container .button-holder .button.accent {
+  background: #dde0e1;
+  color: #0092bd;
+}
+.type-2 .filter-container .mega-container .button-holder .button.accent:hover {
+  background: #ccc;
+  color: #333;
+}
+.type-2 .filter-container .mega-container .button-holder .button {
+  border: 0;
+  display: inline-block;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+.type-2 .filter-container .collapse {
+  display: block;
+}
+.type-2 .filter-container ul {
+  margin-bottom: 0;
+}
+.type-2 .filter-container ul li {
+  margin-bottom: .8rem;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+.type-2 .filter-container ul li .checkbox-custom-label {
+  margin: 0;
+  padding-left: 1.7rem;
+  position: relative;
+}
+.type-2 .filter-container ul li .checkbox-custom-label .checkbox-custom {
+  background: #ccc;
+  width: .9rem;
+  height: .9rem;
+  position: absolute;
+  margin-left: -1.7rem;
+  margin-top: .4rem;
+  text-align: center;
+}
+.type-2 .filter-container ul li .checkbox-custom-label .checkbox-hidden {
+  opacity: 0;
+  position: absolute;
+}
+.type-2 .filter-container ul li .topic {
+  font-weight: 500;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+.type-2 .filter-container ul .checkbox-hidden:checked+.checkbox-custom {
+  background: #ff8c00;
+}
+.type-2 .sort-container {
+  display: none;
+  padding-bottom: 3.2rem;
+}
+.type-2 .sort-container .dark {
+  color: #666;
+}
+.type-2 .sort-container .pull-right {
+  float: right !important;
+}
+.type-2 .sort-container button {
+  border: 0;
+}
+.type-2 .sort-container .close-button-holder {
+  padding: 2.6rem 0;
+}
+.type-2 .sort-container .close-button-holder button {
+  background: none;
+  padding: 0 1rem;
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+}
+.type-2 .sort-container .close-button-holder .close-btn {
+  font-size: 2rem;
+}
+.type-2 .sort-container ul {
+  margin-bottom: 0;
+}
+.type-2 .sort-container ul li {
+  margin-bottom: .8rem;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+.type-2 .sort-container ul li .checkbox-custom-label {
+  margin: 0;
+  padding-left: 1.7rem;
+  position: relative;
+}
+.type-2 .sort-container ul li .checkbox-custom-label .checkbox-custom {
+  background: #ccc;
+  width: .9rem;
+  height: .9rem;
+  position: absolute;
+  margin-left: -1.7rem;
+  margin-top: .4rem;
+  text-align: center;
+}
+.type-2 .sort-container ul li .checkbox-custom-label .checkbox-hidden {
+  opacity: 0;
+  position: absolute;
+}
+.type-2 .sort-container ul li .topic {
+  font-weight: 500;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+.type-2 .sort-container ul .checkbox-hidden:checked+.checkbox-custom {
+  background: #ff8c00;
+}
+@media (max-width: 767px) {
+  .type-2 .contrast-background .mega-container {
+    padding: 0 2rem;
+  }
+  .type-2 .contrast-background .mega-container h1 {
+    line-height: normal;
+    margin: 0 0 1.2rem 0;
+    padding: 0;
+    font-size: 2.8rem;
+  }
+  .type-2 .contrast-background .mega-container .h8 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .type-2 .contrast-background .mega-container .filter-sort-btn-holder {
+    padding-bottom: 2.2rem;
+    padding-top: 3.8rem;
+  }
+  .type-2 .contrast-background .mega-container .filter-sort-btn-holder .filter-button {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 1.4rem 1.5rem;
+    width: 100%;
+  }
+  .type-2 .contrast-background .mega-container .filter-sort-btn-holder .sort-button {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 1.4rem 1.5rem;
+    width: 100%;
+  }
+  .type-2 .contrast-background .mega-container span {
+    line-height: 1.3rem;
+    margin-bottom: .2rem;
+    margin-top: -0.3rem;
+  }
+  .type-2 .filter-container {
+    padding-top: 4.2rem;
+    background: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 19;
+  }
+  .type-2 .filter-container .mega-container {
+    background: #fff;
+    padding: 0 2rem;
+  }
+  .type-2 .filter-container .mega-container .close-button-holder {
+    background: #333;
+    margin: 0 -2rem;
+    padding: 1.2rem 0;
+    position: relative;
+    text-align: center;
+  }
+  .type-2 .filter-container .mega-container .close-button-holder .subtitle {
+    display: inline-block !important;
+    margin: 0;
+  }
+  .type-2 .filter-container .mega-container .close-button-holder .close-btn {
+    color: #ccc;
+    font-size: 1.8rem;
+    padding: 0 1.4rem;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+  }
+  .type-2 .filter-container .filter-category-holder {
+    border-bottom: .2rem solid #ccc;
+    margin: 0 -2rem;
+    padding: 2rem 3rem;
+  }
+  .type-2 .filter-container .filter-category-holder .filter-category {
+    background: none;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+  .type-2 .filter-container .filter-category-holder .filter-elements {
+    padding: 2.8rem 0 0 4rem;
+  }
+  .type-2 .filter-container .filter-category-holder ul li {
+    font-size: 1.4rem;
+  }
+  .type-2 .filter-container .filter-category-holder ul li .checkbox-custom-label {
+    padding-left: 2rem;
+  }
+  .type-2 .filter-container .filter-category-holder ul li .checkbox-custom-label .checkbox-custom {
+    margin-left: -2rem;
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .type-2 .filter-container .filter-category-holder ul li .checkbox-custom-label .checkbox-label-txt {
+    font-size: 1.4rem;
+  }
+  .type-2 .filter-container .button-holder {
+    margin-top: 3rem;
+  }
+  .type-2 .filter-container .button-holder button {
+    margin-top: 1.4rem;
+  }
+  .type-2 .sort-container {
+    padding-top: 4.2rem;
+    background: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 19;
+  }
+  .type-2 .sort-container .close-button-holder {
+    background: #333;
+    margin: 0 -2rem;
+    padding: 1.2rem 0;
+    position: relative;
+    text-align: center;
+  }
+  .type-2 .sort-container .close-button-holder .subtitle {
+    display: inline-block !important;
+    margin: 0;
+  }
+  .type-2 .sort-container .close-button-holder .close-btn {
+    color: #ccc;
+    font-size: 1.8rem;
+    padding: 0 1.4rem;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+  }
+  .type-2 .sort-container .sort-category-holder {
+    border-bottom: .2rem solid #ccc;
+    margin: 0 -2rem;
+    padding: 2rem 3rem;
+  }
+  .type-2 .sort-container .sort-category-holder .checkbox-custom-label {
+    padding-right: 2rem;
+    padding-left: 0;
+    width: 100%;
+  }
+  .type-2 .sort-container .sort-category-holder .checkbox-custom-label .checkbox-custom {
+    height: 1.3rem;
+    margin-left: 0;
+    margin-right: -2rem;
+    right: 2rem;
+    width: 1.3rem;
+  }
+  .type-2 .mosaic-component {
+    padding-bottom: 6rem;
+  }
+  .type-2 .mosaic-component .mega-container {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .type-2 .mosaic-component .mega-container .mosaic-large {
+    border-bottom: 1px solid #454545;
+  }
+  .type-2 .mosaic-component .mega-container .mosaic-large .bottom-left-aligned {
+    bottom: 1.6rem;
+    left: 1rem;
+    position: absolute;
+  }
+  .type-2 .mosaic-component .mega-container .mosaic-large .bottom-left-aligned span {
+    color: #fff !important;
+    font-size: 1.2rem;
+  }
+  .type-2 .mosaic-component .mega-container .mosaic-large .bottom-left-aligned h2 {
+    margin-bottom: .6rem;
+  }
+  .type-2 .mosaic-component .mega-container .mosaic-large .bottom-left-aligned h2 a {
+    color: #fff !important;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+  }
+  .type-2 .cong,
+  .type-2 .cong2,
+  .type-2 .cong3 {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .type-2 .filter-container {
+    display: none;
+  }
+  .type-2 .cong,
+  .type-2 .tru,
+  .type-2 .cong2,
+  .type-2 .tru2,
+  .type-2 .cong3,
+  .type-2 .tru3 {
+    display: none !important;
+  }
+}
