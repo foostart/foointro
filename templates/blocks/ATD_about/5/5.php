@@ -20,6 +20,7 @@
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         <script src="js/slideshowDS.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/scrolltotopconten2.js" type="text/javascript"></script>
     </head> 
 
     <body> 
