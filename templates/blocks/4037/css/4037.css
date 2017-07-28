@@ -1,0 +1,33 @@
+.module-4037 .section-wrapper-component {
+  padding: 6.6rem 0 9.2rem;
+}
+.module-4037 .presentation-component {
+  margin-top: 10rem;
+}
+.module-4037 .presentation-component h4.h9 {
+  margin-bottom: 5.8rem;
+}
+.module-4037 h4 {
+  font-weight: 600;
+  color: #333;
+  font-size: 2.8rem;
+  line-height: 3rem;
+  margin: 2.5rem 0;
+}
+.module-4037 p {
+  color: #666;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+@media (max-width: 767px) {
+  .module-4037 .presentation-component h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  .module-4037 p {
+    color: #333;
+    font-size: 1.5rem;
+  }
+}

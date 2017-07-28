@@ -1,0 +1,223 @@
+.module-4009{
+
+.module3 {
+    .mod_custom_3 {
+        padding-bottom: 20px;
+        //SlieShow and button Sideshow
+        #owl-demo .item img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .owl-theme .owl-controls {
+            margin-top: -30px;
+            text-align: center;
+        }
+        /* Styling Next and Prev buttons */
+        .owl-carousel:hover .owl-prev {
+            opacity: 1;
+            display: block;
+        }
+        .owl-theme .owl-controls .owl-buttons div {
+            color: #FFF;
+            zoom: 1;
+            margin: 0 -8rem;
+            padding: 3px 10px;
+            font-size: 12px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 11.5rem;
+            height: 11.5rem;
+            width: 11.5rem;
+            background: rgba(255, 255, 255, .1);
+            z-index: 10;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+        .owl-prev:before {
+            content: "\f104";
+            margin-left: .3rem;
+        }
+        .owl-next:before {
+            content: "\f105";
+            margin-left: .3rem;
+        }
+        .owl-prev:before,
+        .owl-next:before {
+            color: #fff;
+            font-family: 'FontAwesome';
+            font-size: 7rem;
+            font-weight: normal;
+            height: 3.3rem;
+            opacity: 1;
+            text-align: center;
+            width: 3.3rem;
+        }
+        .owl-next {
+            right: 2.4rem;
+        }
+        .owl-prev {
+            left: 2.4rem;
+        }
+        .owl-prev,
+        .owl-next {
+            position: absolute;
+            display: block;
+            height: 20px;
+            width: 20px;
+            font-size: 0;
+            cursor: pointer;
+            background: transparent;
+            color: transparent;
+            top: 50%;
+            margin-top: -10px\9;
+            -webkit-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            padding: 0;
+            border: none;
+            outline: none;
+        }
+        /* Clickable class fix problem with hover on touch devices */
+        /* Use it for non-touch hover action */
+        /* Styling Pagination*/
+        .owl-theme .owl-controls .owl-page {
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+            /*IE7 life-saver */
+        }
+        .owl-theme .owl-controls .owl-page span {
+            display: block;
+            width: 12px;
+            height: 12px;
+            margin: 5px 7px;
+            filter: Alpha(Opacity=50);
+            /*IE7 fix*/
+            opacity: 0.5;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            background: red;
+        }
+        .owl-theme .owl-controls .owl-page.active span,
+        .owl-theme .owl-controls.clickable .owl-page:hover span {
+            filter: Alpha(Opacity=100);
+            /*IE7 fix*/
+            background: black;
+        }
+        /* If PaginationNumbers is true */
+        .owl-theme .owl-controls .owl-page span.owl-numbers {
+            height: auto;
+            width: auto;
+            color: #FFF;
+            padding: 2px 10px;
+            font-size: 12px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+        }
+        /* preloading images */
+        .owl-item.loading {
+            min-height: 389px;
+        }
+        .owl-carousel .owl-wrapper:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        /* display none until init */
+        .owl-carousel {
+            display: none;
+            position: relative;
+            width: 100%;
+            -ms-touch-action: pan-y;
+        }
+        .owl-carousel .owl-wrapper {
+            display: none;
+            position: relative;
+            -webkit-transform: translate3d(0px, 0px, 0px);
+        }
+        .owl-carousel .owl-wrapper-outer {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+        .owl-carousel .owl-wrapper-outer.autoHeight {
+            -webkit-transition: height 500ms ease-in-out;
+            -moz-transition: height 500ms ease-in-out;
+            -ms-transition: height 500ms ease-in-out;
+            -o-transition: height 500ms ease-in-out;
+            transition: height 500ms ease-in-out;
+        }
+        .owl-carousel .owl-item {
+            float: left;
+        }
+        .owl-controls .owl-page,
+        .owl-controls .owl-buttons div {
+            cursor: pointer;
+        }
+        .owl-controls {
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        /* mouse grab icon */
+        .grabbing {}
+        /* fix */
+        .owl-carousel .owl-wrapper,
+        .owl-carousel .owl-item {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+        }
+        .sld-hover {
+            .owl-theme .owl-controls {
+                margin-top: 30px;
+                text-align: center;
+            }
+        }
+        .sld-hover:hover .owl-theme .owl-controls .owl-buttons div {
+            opacity: 1;
+            display: block;
+            background: rgba(49, 49, 70, 0.41);
+        }
+        // end
+        // CSS  content
+        .related-title {
+            margin-top: 8.4rem;
+            margin-bottom: 7.2rem;
+            font-weight: 700!important;
+        }
+        .panel-body {
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: 1rem;
+        }
+        h4 {
+            color: #333;
+            font-size: 2.8rem;
+            line-height: 3rem;
+            margin: 0;
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+        .larger {
+            padding-top: 1rem;
+            font-size: 1.3rem;
+            line-height: 1.4rem;
+        }
+    }
+}
+}

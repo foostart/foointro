@@ -1,0 +1,41 @@
+.module-4023 {
+  margin: 110px 0;
+}
+.module-4023 img {
+  width: 100%;
+}
+.module-4023 .introduce {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.module-4023 .introduce h3 {
+  font-weight: 600;
+}
+.module-4023 .introduce p {
+  color: #666;
+  font-size: 13px;
+}
+@media (max-width: 1199px) {
+  .module-4023 .introduce h3 {
+    font-size: 18px;
+  }
+  .module-4023 .introduce p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 991px) {
+  .module-4023 .introduce h3 {
+    font-size: 16px;
+  }
+  .module-4023 .introduce p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 767px) {
+  .module-4023 .introduce h3 {
+    font-size: 14px;
+  }
+  .module-4023 .introduce p {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,70 @@
+.module-4034 {
+  overflow: hidden;
+  margin-bottom: 6rem;
+}
+.module-4034 .frame-repon {
+  background: #000;
+}
+.module-4034 .frame-repon img {
+  opacity: 0.8;
+  min-height: 40rem;
+  min-width: 40rem;
+  object-fit: cover;
+  object-position: 60% 40%;
+}
+.module-4034 .slide-content {
+  margin: 14rem;
+  position: absolute;
+  text-align: center;
+  z-index: 110;
+}
+.module-4034 .slide-content .subject {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 3rem;
+}
+.module-4034 .button.primary,
+.module-4034 a.button.primary {
+  background: #ff8c00;
+  color: #fff;
+}
+.module-4034 .button,
+.module-4034 a.button {
+  border: 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.5rem;
+  padding: 1.3rem 2.9rem;
+  text-transform: uppercase;
+}
+.module-4034 .button.primary:hover,
+.module-4034 a.button.primary:hover {
+  background: #fa0;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .module-4034 .frame-repon img {
+    opacity: 0.8;
+    min-height: 26rem;
+    min-width: 26rem;
+  }
+  .module-4034 .slide-content {
+    left: 0;
+    margin: 4rem;
+    right: 0;
+    max-height: 26.2rem;
+  }
+  .module-4034 .slide-content .subject {
+    font-size: 1.2rem;
+    line-height: initial;
+  }
+  .module-4034 .slide-content .button {
+    font-size: 1.2rem;
+    padding: .8rem 1.6rem;
+    text-decoration: none;
+  }
+}

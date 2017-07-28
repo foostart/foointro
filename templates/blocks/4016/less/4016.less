@@ -1,0 +1,107 @@
+.module-4016{
+.type-7{
+    @size1: 15px;
+    .features{
+        text-align: center;
+        h2{
+            font-weight: 700;
+        }
+    }
+    .new{
+        h4{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+        .text
+        {
+            margin: @size1 0px;
+            .box{
+                color: #00b5ef;
+                width: 10px;
+                height: 10px;
+                text-decoration: inherit;
+                font-size: 20px;
+                margin-right: @size1;
+
+                border-radius: 50%;
+            }
+            span.etl{
+                color:#0092bd;
+                cursor: pointer;
+            }
+            span.etl:hover{
+                color: #000;
+            }
+        }
+    }
+    .image-top{
+        display: none;
+    }
+    .image-bot{
+        margin: 20% 0;
+    }
+    img{
+        width: 100%;
+    }
+    @media (min-width: 1200px){
+
+        .container {
+            width: 1220px;
+        }
+    }
+    @media (max-width:1199px){
+        .new{
+            h4{
+                font-size: 14px;
+            }
+            .text
+            {
+                font-size: 12px;
+                .box{
+
+                    font-size: 14px;
+                }
+            }
+        }
+        .features {
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    @media(max-width:991px) and (min-width: 768px){
+        .image-top {
+            display: none;
+        }
+        .image-bot{
+            display: block;
+            margin: 40% 0;
+
+            position: absolute;
+        }
+        .col-md-5,.col-md-7{
+            width: 50%;
+        }
+        .col-md-5{
+            float: right;
+        }
+    }
+    @media(max-width:767px){
+        .image-top {
+            display: block;
+            margin: 0 @size1; 
+        }
+        .image-bot{
+            display: none;
+        }
+        .features {
+            text-align: left;
+            margin-left: @size1;
+        }
+        .news{
+            background-image:none;
+        }
+    }
+}
+}

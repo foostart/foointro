@@ -1,0 +1,105 @@
+.module-4015{
+.type-6{
+    @size1: 15px;
+    @size2: 50%;
+    .news{
+        background-image: linear-gradient(45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,.5) 59%,rgba(255,255,255,.5) 100%);
+        background-color: #eff0f1;
+    }
+    .features{
+        text-align: center;
+        h2{
+            font-weight: 700;
+        }
+    }
+    .new{
+        h4{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+        .text
+        {
+            margin: @size1 0px;
+            .box{
+                color: #00b5ef;
+                width: 10px;
+                height: 10px;
+                text-decoration: inherit;
+                font-size: 20px;
+                margin-right: @size1;
+
+                border-radius: @size2;
+            }
+        }
+    }
+    .image-top{
+        display: none;
+    }
+    .image-bot{
+        margin: @size2 0;
+    }
+    img{
+        width: 100%;
+    }
+    @media (min-width: 1200px){
+
+        .container {
+            width: 1220px;
+        }
+    }
+    @media (max-width:1199px){
+        .new{
+            h4{
+                font-size: 14px;
+            }
+            .text
+            {
+                font-size: 12px;
+                .box{
+
+                    font-size: 14px;
+                }
+            }
+        }
+        .features {
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    @media(max-width:991px) and (min-width: 768px){
+        .image-top {
+            display: block;
+            img{
+                width: 350px;
+                position: absolute;
+                left: @size2;
+            }
+        }
+        .image-bot{
+            display: none;
+        }
+        .col-md-5,.col-md-7{
+            width: @size2;
+        }
+    }
+    @media(max-width:767px){
+        .image-top {
+            display: block;
+            margin: 0 @size1; 
+        }
+        .image-bot{
+            display: none;
+        }
+        .features {
+            text-align: left;
+            margin-left: @size1;
+        }
+        .news{
+            background-image:none;
+            background-color: #eff0f2;
+        }
+    }
+}
+}
