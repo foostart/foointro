@@ -1,0 +1,71 @@
+.module-4005 {
+  padding: 60px 0px 20px 0px;
+  background: #4d4d4d;
+}
+.module-4005 .icon {
+  color: #999;
+  font-size: 25px;
+  float: right;
+}
+.module-4005 .icon .fa {
+  margin-left: 10px;
+}
+.module-4005 .icon .fa:hover {
+  opacity: 0.8;
+}
+.module-4005 p {
+  color: #999;
+  font-size: 12px;
+}
+.module-4005 .text {
+  text-align: center;
+}
+.module-4005 .text a {
+  color: #ccc;
+  text-decoration: inherit;
+  font-size: 12px;
+}
+.module-4005 .text a:hover {
+  opacity: 0.8;
+}
+.module-4005 .text span {
+  color: #ff9600;
+  padding: 0px 10px;
+}
+@media (max-width: 1200px) {
+  .module-4005 .container {
+    max-width: 95%;
+  }
+  .module-4005 .icon {
+    font-size: 20px;
+  }
+  .module-4005 .icon .fa {
+    margin-left: 5px;
+  }
+  .module-4005 p {
+    font-size: 10px;
+  }
+  .module-4005 .text a {
+    font-size: 10px;
+  }
+  .module-4005 .text span {
+    padding: 0px 5px;
+  }
+}
+@media (max-width: 767px) {
+  .module-4005 .icon {
+    float: inherit;
+    text-align: center;
+  }
+  .module-4005 .icon .fa {
+    margin-left: 10px;
+  }
+  .module-4005 p {
+    text-align: center;
+    font-size: 7px;
+    margin: 5px 0;
+  }
+  .module-4005 .text a {
+    font-size: 7px;
+  }
+}
