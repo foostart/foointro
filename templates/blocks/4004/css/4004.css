@@ -1,0 +1,206 @@
+.module-4004 .type-5 .content {
+  background-color: #4d4d4d;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 53px 0;
+}
+.module-4004 .type-5 .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.module-4004 .type-5 .col-md-6,
+.module-4004 .type-5 .col-sm-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.module-4004 .type-5 img {
+  width: 100%;
+}
+.module-4004 .type-5 .text1 {
+  padding: 10px 20px;
+}
+.module-4004 .type-5 .text1 h4,
+.module-4004 .type-5 .text4 h4 {
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.module-4004 .type-5 .text1 p {
+  margin-bottom: 90px;
+  line-height: normal;
+  color: #666;
+  font-size: 13px;
+}
+.module-4004 .type-5 .text1 h6,
+.module-4004 .type-5 .text4 h6 {
+  color: #999;
+}
+.module-4004 .type-5 .text4 {
+  padding: 10px 20px;
+}
+.module-4004 .type-5 .text4 p {
+  margin-bottom: 62px;
+  line-height: normal;
+  color: #666;
+  font-size: 13px;
+}
+.module-4004 .type-5 .text2 {
+  margin-left: 50px;
+  width: 80%;
+  color: #fff;
+  position: absolute;
+  bottom: 35px;
+}
+.module-4004 .type-5 .text3 {
+  margin-left: 50px;
+  width: 80%;
+  color: #fff;
+  position: absolute;
+  bottom: 310px;
+}
+.module-4004 .type-5 .text2 p,
+.module-4004 .type-5 .text3 p {
+  font-size: 11px;
+  font-weight: 600;
+}
+.module-4004 .type-5 .text2 h1,
+.module-4004 .type-5 .text3 h1 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.module-4004 .type-5 span {
+  margin-bottom: .4rem;
+  font-size: 11px;
+  color: #999;
+  font-weight: 600;
+}
+@media (max-width: 1365px) and (min-width: 1200px) {
+  .module-4004 .type-5 .text1 p {
+    margin-bottom: 55px;
+    line-height: normal;
+    color: #666;
+    font-size: 13px;
+  }
+  .module-4004 .type-5 .text4 p {
+    margin-bottom: 16px;
+    line-height: normal;
+    color: #666;
+    font-size: 13px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .module-4004 .type-5 .text1 p {
+    margin-bottom: 37px;
+    font-size: 11px;
+  }
+  .module-4004 .type-5 .text4 p {
+    margin-bottom: 13px;
+    font-size: 11px;
+  }
+  .module-4004 .type-5 .text1 h6,
+  .module-4004 .type-5 .text4 h6 {
+    font-size: 9px;
+  }
+  .module-4004 .type-5 .text1 h4,
+  .module-4004 .type-5 .text4 h4 {
+    font-size: 15px;
+  }
+  .module-4004 .type-5 span {
+    font-size: 9px;
+  }
+  .module-4004 .type-5 .text2 p,
+  .module-4004 .type-5 .text3 p {
+    font-size: 10px;
+  }
+  .module-4004 .type-5 .text2 h1,
+  .module-4004 .type-5 .text3 h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .module-4004 .type-5 .text4 p {
+    margin-bottom: 17px;
+    font-size: 20px;
+  }
+  .module-4004 .type-5 .text1 h6,
+  .module-4004 .type-5 .text4 h6 {
+    font-size: 15px;
+  }
+  .module-4004 .type-5 span {
+    font-size: 9px;
+  }
+  .module-4004 .type-5 .text2 p,
+  .module-4004 .type-5 .text3 p {
+    font-size: 10px;
+  }
+  .module-4004 .type-5 .text2 h1,
+  .module-4004 .type-5 .text3 h1 {
+    font-size: 25px;
+  }
+  .module-4004 .type-5 .text1,
+  .module-4004 .type-5 .text4 {
+    padding: 9px 10px 10px 9px;
+  }
+  .module-4004 .type-5 .text1 p {
+    margin-bottom: 80px;
+    font-size: 17px;
+  }
+  .module-4004 .type-5 .text1 h4,
+  .module-4004 .type-5 .text4 h4 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .module-4004 .type-5 .top {
+    flex-direction: inherit;
+    display: flex;
+    padding: 25px 10px 25px 10px;
+  }
+  .module-4004 .type-5 .bot {
+    padding: 25px 10px 25px 10px;
+    flex-direction: inherit;
+    display: flex;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+  }
+  .module-4004 .type-5 .bot img {
+    width: 36%;
+    height: 25%;
+  }
+  .module-4004 .type-5 .text2,
+  .module-4004 .type-5 .text3 {
+    padding: 10px 20px;
+    margin-left: 0;
+    width: 100%;
+    color: #000;
+    position: inherit;
+    bottom: 0px;
+    border-bottom: 1px s;
+  }
+  .module-4004 .type-5 .text1 p {
+    margin-bottom: 20px;
+  }
+  .module-4004 .type-5 .text1 p,
+  .module-4004 .type-5 .text4 p {
+    margin-bottom: 10px;
+  }
+  .module-4004 .type-5 .text2 h1,
+  .module-4004 .type-5 .text3 h1 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .module-4004 .type-5 .text2 h6,
+  .module-4004 .type-5 .text3 h6,
+  .module-4004 .type-5 .text1 h6,
+  .module-4004 .type-5 .text4 h6 {
+    color: #999;
+    font-size: 10px;
+  }
+  .module-4004 .type-5 .text2 p,
+  .module-4004 .type-5 .text3 p {
+    font-size: 10px;
+    color: #999;
+  }
+}
