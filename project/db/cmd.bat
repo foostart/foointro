@@ -1,1 +1,0 @@
-mysqldump -u root atdc > atdc.sql
