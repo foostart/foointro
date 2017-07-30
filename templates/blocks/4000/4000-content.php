@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <?php
 $url_host = $_SERVER['HTTP_HOST'];
 
@@ -22,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <nav class="navbar navbar-default">
         <div class="hiding-header">
             <div class="text-center">
-                <a href="#"class="navbar-brand-full">
+                <a href="#" class="navbar-brand-full">
                     <img src="image/logo_full.png" alt=""/>
                 </a>
             </div>
@@ -34,8 +29,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="text-right action-bar">
                 <div class="mega-container">
 
-                    <a >
-                        <img src="image/flag-VNM.png">
+                    <a href="#">
+                        <img src="image/flag-VNM.png" alt="">
                         <span>USA, English (United States)</span>
                     </a>
 
@@ -64,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="page-location-notice">
                                 <button type="button" class="icon icon-x close" ></button>
 
-                                <h4 class="xx-smaller" id="notificationTitle"></h4>
+                                <h4  id="notificationTitle" class="xx-smaller" ></h4>
                                 <p class="smaller" id="notificationMessage"></p>
                                 <button type="button" class="button primary" >Stay on this page</button>
                                 <button type="button" class="button empty primary"></button>
@@ -77,13 +72,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         <span class="fa fa-user"></span>
                         <span>Contacts</span>
                     </a>
-                    <a href="#"class="contact-button">
+                    <a href="#" class="contact-button">
                         <span class="fa fa-briefcase"></span>
                         <span>Careers</span>
                     </a>
 
 
-                    <a href="#"class="button x-dark tight ">
+                    <a href="#" class="button x-dark tight ">
                         Login
                     </a>
                 </div>
@@ -95,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="navbar-header">
                         <span >
                             <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" data-target-3=".header-bar" data-target-4=".dimmer" data-target-5="body" type="button" class="navbar-toggle collapsed pull-left" >
-                                <a href="#"></a>
+                               
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -124,7 +119,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="input-group add-on">
 
                                     <div class="group-selector ng-hide" >
-                                        <div uib-dropdown="" class="input-group-btn dropdown" >
+                                        <div class="input-group-btn dropdown" >
                                             <button   type="button" class="ng-binding dropdown-toggle" >
                                                 All
                                                 <span class="caret"></span>
@@ -139,7 +134,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <input type="text" id="searchInput"  class="form-control search-input ng-pristine ng-untouched ng-valid ng-empty">
 
                                     <ul class="menudownn search-input-dropdown " >
-                                        <ul uib-dropdown-menu="" class="">
+                                      
                                             <li  class="ng-scope active">
                                                 <a  class="ng-binding">All</a>
                                             </li>
@@ -156,12 +151,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <a >Support</a>
                                             </li>
                                             <li  class="ng-scope">
-                                            <aclass="ng-binding">Software &amp; Firmware</a>
+                                         
                                                 </li>
                                                 <li  class="ng-scope">
                                                     <a class="ng-binding">Insights</a>
                                                 </li>
-                                        </ul>
+                                       
                                     </ul>
 
 
@@ -178,13 +173,14 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                 </div>
                             </form>
-                        </search-field></div>
+                        </search-field>
+                    </div>
 
                     <ul class="nav navbar-nav navbar-center" >
 
 
                         <li class="dropdown" >
-                            <a href="#"class="dropdown-toggle " >
+                            <a href="#" class="dropdown-toggle " >
                                 Products
                             </a>
 
@@ -381,7 +377,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 
                         <li class="dropdown" >
-                            <a href="#"class="dropdown-toggle " >
+                            <a href="#" class="dropdown-toggle " >
                                 Services
                             </a>
 
@@ -518,7 +514,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         </li>
                         <li class="dropdown" >
-                            <a href="#"class="dropdown-toggle">
+                            <a href="#" class="dropdown-toggle">
                                 Support
                             </a>
 
@@ -529,7 +525,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <ul class="same-height-target col-sm-12" >
 
                                                 <li class="menu-header">
-                                                    <a href="#" target="_parent" class="cursor-default">
+                                                    <a href="#"  class="cursor-default">
                                                         FIND SUPPORT
                                                     </a>
                                                 </li>
@@ -543,7 +539,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     <a href="#">Contact Technical Support</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" ">Ask the Community Forum</a>
+                                                    <a href="#" >Ask the Community Forum</a>
                                                 </li>
                                                 <li>
                                                     <a href="#">Get Equipment Training</a>
@@ -981,17 +977,17 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <select class="form-control" name="mobileLanguages"><option value="en">English (United States)</option></select>
                                 </div>
                             </div>
-                            <button type="button" class="button primary block text-center change-language-button" onclick="changeMobileLanguage()">Change</button>
+                            <button type="button" class="button primary block text-center change-language-button" >Change</button>
 
-                            <a href="/en-us/about/contacts/" type="button" class="button light block text-center ">
+                            <a href="#"  class="button light block text-center ">
                                 Contacts
                             </a>
 
-                            <a href="/en-us/about/careers/" type="button" class="button light block text-center">
+                            <a href="#"  class="button light block text-center">
                                 Careers
                             </a>
 
-                            <a id="loginLinkHeader" href="#" data-url="/en-us/login/" type="button" class="button primary block text-center login-btn">Login</a>
+                            <a id="loginLinkHeader" href="#" class="button primary block text-center login-btn">Login</a>
 
 
 

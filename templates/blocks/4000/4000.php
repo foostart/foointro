@@ -6,9 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
-        <title></title>
+        
+      
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php

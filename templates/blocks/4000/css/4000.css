@@ -262,6 +262,7 @@
 }
 .module-4000 .navbar-nav >li .menu-header a {
   color: #ff8c00;
+  text-decoration: none;
   font-weight: 700;
 }
 .module-4000 .navbar-nav >li .menu-header a:hover {
@@ -350,7 +351,7 @@
   width: 88%;
   position: fixed;
   overflow: hidden;
-  transition: width .5s;
+  transition: width .3s;
 }
 .module-4000 .side-collapse.in {
   width: 0;
@@ -453,7 +454,7 @@
     left: 0;
     z-index: 999;
     width: 100%;
-    transition: left .5s;
+    transition: left .3s;
   }
   .module-4000 .hiding-header,
   .module-4000 .header-component,
