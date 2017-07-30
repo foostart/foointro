@@ -28,7 +28,9 @@ and open the template in the editor.
     <body>
 
 
-            <?php include '../4000/4000-content.php'; ?>
-            <?php include '../4000/about-4-content.php';?>
+            <?php 
+            include '../4000/4000-content.php'
+            ; ?>
+           
     </body>
 </html>
