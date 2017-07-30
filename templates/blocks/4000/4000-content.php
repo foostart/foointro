@@ -18,6 +18,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4000">
+    
   <nav class="navbar navbar-default">
         <div class="hiding-header">
             <div class="text-center">
