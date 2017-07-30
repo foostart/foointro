@@ -14,8 +14,8 @@
         $less->compileFile('less/4001.less', 'css/4001.css');
         ?> 
         <link href="css/4001.css" rel="stylesheet" type="text/css"/>
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
-        <link href="css/owl.theme.css" rel="stylesheet" type="text/css"/>
+      
+      
         
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>

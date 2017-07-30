@@ -71,6 +71,151 @@
         background: @background-button-hover;
         color: @textcolor-button;
     }
+    
+  //  css owl-carousel
+  .owl-carousel{
+      position: relative;
+        width: 100%;
+      .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+      }
+    .owl-wrapper {
+    display: none;
+    position: relative;
+    }
+    .owl-item {
+    float: left;
+}
+.owl-controls {
+    margin-top: -30px;
+    text-align: center;
+    .owl-page {
+    display: inline-block;
+    zoom: 1;
+    
+    cursor: pointer;
+    span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: red;
+}
+
+owl-prev, .owl-next {
+    position: absolute;
+    display: block;
+ 
+    top: 50%;
+    margin-top: -10px\9;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+   
+    border: none;
+    outline: none;
+}
+
+.owl-prev:before, .owl-next:before {
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 7rem;
+    font-weight: normal;
+    height: 3.3rem;
+    opacity: 1;
+    text-align: center;
+    width: 3.3rem;
+}
+
+}
+.owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    
+    background: black;
+}
+
+}
+
+
+
+}
+/* Styling Next and Prev buttons */
+.owl-carousel:hover .owl-prev{
+        opacity: 1;
+    display: block;
+}
+.owl-theme .owl-controls .owl-buttons div{
+   
+	color: #FFF;
+	
+	zoom: 1;
+	
+	margin: -21px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 11.5rem;
+        height: 11.5rem;
+    width: 11.5rem;
+	background: rgba(255,255,255,.1);
+	z-index: 10;
+            transition: opacity .2s ease-in-out;
+	opacity: 0;
+}
+
+.owl-prev:before {
+    content: "\f104";
+    margin-left: .3rem;
+}
+.owl-next:before {
+    content: "\f105";
+    margin-left: .3rem;
+}
+.owl-prev:before, .owl-next:before {
+    color: #fff;
+     font-family: 'FontAwesome';
+    font-size: 7rem;
+    font-weight: normal;
+    height: 3.3rem;
+    opacity: 1;
+    text-align: center;
+    width: 3.3rem;
+}
+.owl-next{
+    right: 2.4rem;
+}
+.owl-prev{
+    left: 2.4rem;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    margin-top: -10px\9;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    padding: 0;
+    border: none;
+    outline: none;
+   
+}
+  // end css .owl-carousel
     @media (max-width: 767px) {
         .slide-content .hero-title {
             font-size: 1.5rem;
