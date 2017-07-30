@@ -252,7 +252,7 @@
   margin: 0 2rem;
 }
 .module-4000 .navbar-nav >li >a {
-  color: #fff;
+  color: #ff8c00;
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: .1em;
@@ -267,7 +267,7 @@
 }
 .module-4000 .navbar-nav >li .menu-header a:hover {
   text-decoration: none;
-  opacity: 0.6;
+  background: #fa0;
 }
 .module-4000 .navbar-nav .dropdown-menu {
   z-index: 1000;

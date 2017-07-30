@@ -1,5 +1,6 @@
+@import"../../values/less/var.less";
 .module-4001{
-.mod_custom_7 {
+
     margin-top: -20px;
     padding-bottom: 20px;
     #owl-demo .item img {
@@ -17,7 +18,7 @@
         transform: translate(-50%, -50%);
         z-index: 110;
         .subject {
-            font-family: 'Calibre', Arial, Sans-Serif;
+           color: @textcolor-content-img;
             font-size: 2rem;
             font-weight: 600;
             letter-spacing: .1em;
@@ -27,18 +28,18 @@
             cursor: default;
         }
         .hero-title {
-            font-family: 'Calibre', Arial, Sans-Serif;
+         
             font-weight: 600;
             font-size: 4rem;
             line-height: 4.8rem;
             letter-spacing: .1em;
-            color: #fff;
+            color: @textcolor-content-img;
         }
     }
     .button.primary,
     a.button.primary {
-        background: #ff8c00;
-        color: #fff;
+        background: @background-button;
+        color: @textcolor-button;
     }
     .sld-hover:hover .owl-theme .owl-controls .owl-buttons div {
         opacity: 1;
@@ -49,7 +50,7 @@
     a.button {
         border: 0;
         display: inline-block;
-        font-family: 'Calibre', Arial, Sans-Serif;
+       
         font-size: 1.4rem;
         font-weight: 600;
         letter-spacing: .1em;
@@ -67,8 +68,8 @@
     }
     .button.primary:hover,
     a.button.primary:hover {
-        background: #fa0;
-        color: #fff;
+        background: @background-button-hover;
+        color: @textcolor-button;
     }
     @media (max-width: 767px) {
         .slide-content .hero-title {
@@ -106,13 +107,16 @@
         .owl-prev:hover {
             display: none!important;
         }
-    }
-    @media (max-width: 767px) {
-        .item img {
+         .item img {
             min-height: 30rem;
             max-height: 26rem;
         }
     }
+    
+    @media (min-width: 1200px){
+        .container{
+            width: 100%;
+        }
+    }
 }
 
-}
