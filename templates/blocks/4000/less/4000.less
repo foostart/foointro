@@ -1,23 +1,21 @@
-@background-menu:#262626;
-@background-menumobile:#f4f4f5;
-@background-content:#4d4d4d;
-@color-menu:#434343;
-@font-size-content:1.4rem;
-@font-size-dropmenu:1.2rem;
-@font-size-menumobile:1.3rem;
+@import'../../values/less/var.less';
+
+
+
 
 .body-mobile{
     overflow: hidden;
     left: 88%;
     transition: left .5s;
 }
+
 .module-4000{
     .navbar{
         border: none;
         margin-bottom: 0;
     }
  .hiding-header {
-    background: @background-menu;
+    background:@background-header;
     box-sizing: border-box;
     height: 20rem;
     left: 0;
@@ -51,9 +49,9 @@
     padding-top: 2rem;
     height: 100%;
     padding-bottom: 2rem;
-      background: @background-menu;
+      background: @background-header;
     a {
-    color: #999;
+  color :  @textcolor-content-small-span;
   
     font-size: @font-size-dropmenu;
    
@@ -61,7 +59,7 @@
 }
 a:hover{
     text-decoration: none;
-     color: #434343;
+     color: @textcolor-content-dropmenu-a;
 }
  a.button {
     margin-top: 1.5rem;
@@ -80,7 +78,7 @@ a:hover{
     padding: .4rem .8rem;
 }
 .tight:hover {
-    background: #434343;
+    background: @textcolor-content-dropmenu-a;
     color: #fff;
 }
 }
@@ -145,7 +143,7 @@ a:hover{
         }
         .group-selector button {
             background-color: #101010;
-            color: #999;
+            color: @textcolor-content-small-span;
             font-size: 1.4rem;
         }
         .caret {
@@ -219,7 +217,7 @@ a:hover{
        
         padding: .5rem 0;
         a{
-                color: @color-menu;
+                color: @textcolor-content-dropmenu-a;
         }
         a:hover{
             text-decoration: none;
@@ -257,7 +255,7 @@ input {
     background-color: #212226;
     border: none;
     border-radius: 0;
-    font-family: 'Calibre',Arial,Sans-Serif;
+
     font-weight: 400;
 }
 }
@@ -299,7 +297,7 @@ input {
     color: #fff;
   
     
-    font-size: @font-size-content;
+    font-size: @font-size-content-menu;
     font-weight: 700;
     letter-spacing: .1em;
     padding: 2.7rem 0 2.3rem 0;
@@ -308,7 +306,7 @@ input {
 }
 
 .menu-header a {
-    color: #ff8c00;
+    color: @textcolor-content-header-a;
  
     font-weight: 700;
 }
@@ -363,7 +361,7 @@ input {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
       a {
-    color: @color-menu;
+    color: @textcolor-content-dropmenu-a;
     
     font-size:@font-size-dropmenu;
     font-weight: 600;
@@ -438,7 +436,7 @@ a:hover{
 }
  .search-field .group-selector .dropdown-toggle {
     background: #ccc;
-    color: #333;
+    color: @textcolor-content-h1-h4;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
 }
@@ -463,7 +461,7 @@ a:hover{
  #searchInput {
     width: 79%;
     font-size: 1.8rem;
-    color: #666;
+    color: @textcolor-content-p;
     background: #fff;
 } 
 .form-control {
@@ -690,23 +688,21 @@ li a {
 */
 }
 // end 
-}
+
 @media screen and (min-width: 950px) and (max-width: 1187px){
-   .module-4000   .navbar-brand{
+    .navbar-brand{
   
   margin-right: 0;
    
 }
-    html{
-        font-size: 8px;
-    }
+   
     .img-responsive{
         max-width: 70%;
       
     }
 }
 @media screen and (min-width: 768px) and (max-width: 950px){
-   .module-4000  .navbar-brand{
+     .navbar-brand{
   
   margin-right: 0;
    
@@ -715,7 +711,6 @@ li a {
         max-width: 60%;
        
     }
-    html{
-        font-size: 7px;
-    }
+   
+}
 }

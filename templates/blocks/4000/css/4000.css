@@ -222,7 +222,6 @@
   background-color: #212226;
   border: none;
   border-radius: 0;
-  font-family: 'Calibre', Arial, Sans-Serif;
   font-weight: 400;
 }
 .module-4000 .clear-search-field {
@@ -562,24 +561,18 @@
   }
 }
 @media screen and (min-width: 950px) and (max-width: 1187px) {
-  .module-4000   .navbar-brand {
+  .module-4000 .navbar-brand {
     margin-right: 0;
   }
-  html {
-    font-size: 8px;
-  }
-  .img-responsive {
+  .module-4000 .img-responsive {
     max-width: 70%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 950px) {
-  .module-4000  .navbar-brand {
+  .module-4000 .navbar-brand {
     margin-right: 0;
   }
-  .img-responsive {
+  .module-4000 .img-responsive {
     max-width: 60%;
-  }
-  html {
-    font-size: 7px;
   }
 }
