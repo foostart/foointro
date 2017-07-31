@@ -153,9 +153,11 @@
 }
 .module-4001 .owl-prev:before {
   content: "\f104";
+  margin-right: 0.5rem;
 }
 .module-4001 .owl-next:before {
   content: "\f105";
+  margin-left: 0.5rem;
 }
 .module-4001 .owl-prev:before,
 .module-4001 .owl-next:before {

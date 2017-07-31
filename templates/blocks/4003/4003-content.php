@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
             FEATURED PRODUCTS
         </h3>
             <div class="sld-hover">
-                <div id="owl-demo2">
+                <div id="owl-demo3">
 
                     <div class="item">
                         <div class="container">
