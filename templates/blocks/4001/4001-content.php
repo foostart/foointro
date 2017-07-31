@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p class="hero-title" >
                         Evaluating the impact of disruption
                     </p>
-                    <a href="#" class="button">
+                    <a href="#" class="button  primary">
                         Read the report
                     </a>
                 </div>

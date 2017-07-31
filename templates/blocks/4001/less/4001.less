@@ -172,11 +172,11 @@ owl-prev, .owl-next {
 
 .owl-prev:before {
     content: "\f104";
-    margin-left: .3rem;
+   
 }
 .owl-next:before {
     content: "\f105";
-    margin-left: .3rem;
+  
 }
 .owl-prev:before, .owl-next:before {
     color: #fff;
@@ -214,6 +214,14 @@ owl-prev, .owl-next {
     border: none;
     outline: none;
    
+}
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
 }
   // end css .owl-carousel
     @media (max-width: 767px) {
