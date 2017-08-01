@@ -1,19 +1,9 @@
 .module-4022{
-.type-1{
-    background-image: linear-gradient(-135deg,rgba(0,0,0,.06) 0%,
-        rgba(0,0,0,.06) 38%,rgba(255,255,255,0) 38%,
-        rgba(255,255,255,0) 100%),
-        linear-gradient(-45deg,rgba(255,255,255,0) 0%,
-        rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 35%,
-        rgba(255,255,255,.5) 100%);
-    background-color: #eff0f1;
     text-align: center;
-    padding: 30px 0 80px 0;
     .home{
-        position: relative;
+        position: absolute;
         margin-left: 15px;
-        bottom: 25px;
-        text-align: left;
+        text-align: center;
         .ome{
             color: #666;
             cursor: pointer;
@@ -30,23 +20,26 @@
             color: #333;
         }
     }
-    .content{
-        img{
-            width: 83px;
-            height: 83px;
-        }
-        .col-sm-6{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-        h1{
-            font-size: 45px;
-            font-weight: 600;
-            margin: 20px 0 30px 0;
-        }
+    img{
+        width: 83px;
+        height: 83px;
+    }
+    h1{
+        font-size: 45px;
+        font-weight: 600;
+        margin: 80px 0 30px 0;
+    }
+    .mega-container{
+        background-image: linear-gradient(-135deg,rgba(0,0,0,.06) 0%,rgba(0,0,0,.06) 38%,rgba(255,255,255,0) 38%,rgba(255,255,255,0) 100%),linear-gradient(-45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 35%,rgba(255,255,255,.5) 100%);
+        background-color: #eff0f1;
+        padding: 0 2rem;
+
+
         .support{
             padding: 65px 0 75px 0;
             background-color: #e1e1e1;
+            position: relative;
+            margin: 0 -1.6rem 8rem -1.6rem;
             h3{
                 font-weight: 600;
                 margin: 20px 0 20px 0;
@@ -58,10 +51,11 @@
                 font-size: 17px;
             }
             select{ 
-                    border: #fff;
+                border: #fff;
                 margin: 10px 0 100px 0;
                 color: #666;
-                width: 390px;
+                width: 68%;
+
                 height: 50px;
                 padding: 0px 10px 0 10px;
             }
@@ -84,6 +78,8 @@
             }
         }
         .locate{
+            position: relative;
+            margin: 0 -1.6rem 8rem -1.6rem;
             padding: 65px 0 75px 0;
             background-color: #d7d7d7;
             h3{
@@ -99,7 +95,8 @@
             input{
                 border: #fff;
                 color: #666;
-                width: 390px;
+                width: 68%;
+
                 height: 50px;
                 padding: 0px 10px 0 10px;
             }
@@ -109,8 +106,9 @@
                 font-weight: 600;
                 background: #fff;
                 color: #666;
-                margin: 15px 97px 45px 97px;
-                width: 390px;
+                margin: 15px 97px 45px 16%;
+                width: 68%;
+
                 height: 50px;
                 padding: 15px 10px 0px 10px;
                 .fa{
@@ -139,295 +137,196 @@
             }
         }
     }
-    .filter-text{
-        display: none;
+    .mega-2-container{
+        background-color: #fff;
         position: absolute;
-        padding: 15px 0 60px 0;
-        background: #fff;
-        text-align: center;
         width: 100%;
-        top: 535px;
-        .container{
-            padding: 0 15rem;
-            position: relative;
-        }
-        div.col-xs-12.col-sm-4{
-            margin-bottom: 50px;
-        }
-        .x{
-            color: #666;
-            font-size: 20px;
+        top: 54rem;
+        height: 35rem;
+        padding: 3rem 25rem;
+        z-index: 1;
+        display: none;
+        .out{
+            font-weight: bold;
+            font-size: 2rem;
             text-align: right;
             position: relative;
-            left: 14%;
-            top: 10px;
+            left: 15rem;
             cursor: pointer;
         }
-        .list{
-            margin: 5px 0;
-            .checkbox-text{
-                font-weight: 500;
-            }
-            .checkbox-hidden{
+        .out:hover{
+            opacity: 0.8;
+
+        }
+
+        .check{
+            display: flex;
+            margin-bottom: 1rem;
+            .checkbox-hidden {
                 opacity: 0;
-                position: absolute
+                position: absolute;
             }
-            .checkbox-custom{
-                cursor: pointer;
+            .checkbox-custom {
                 background: #ccc;
+                cursor: pointer;
                 width: .9rem;
                 height: .9rem;
                 position: absolute;
                 margin-left: -1.7rem;
                 margin-top: .4rem;
-                text-align: center
+                text-align: center;
+            }
+            .checkbox-text{
+                font-weight: 500;
             }
             .checkbox-hidden:checked+.checkbox-custom {
-                background: #ff8c00
+                background: #ff8c00;
             }
-
         }
-        .done{
+        .submit-3{
             a{
                 text-transform: uppercase;
                 text-decoration: initial;
                 color: #fff;
             }
             .primary{
+                position: relative;
                 background: #ff8c00;
                 padding: 17px 41px;
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-size: 12px;
+                top: 30px;
             }
             a:hover{
                 background: #fa0;
             }
         }
     }
-    @media (max-width: 1199px)and (min-width: 992px){
-        .home{
-            font-size: 11px;
-        }
-        .content{
+    @media(max-width:1199px){
+
+    }
+    @media(max-width:991px) and (min-width: 768px){
+        .mega-container{
+            h1{
+                font-size: 3.5rem;
+            }
             img{
-                width: 70px;
-                height: 70px;
+                width: 65px;
+                height: 65px;
             }
             .support,.locate{
                 h3{
-                    font-size: 21px;
+                    font-weight: 800;
+                    font-size: 18px;
+                    padding: 0px 60px;
                 }
                 p{
-                    font-size: 12px;
+                    font-size: 11px;
+                }
+                select,input,.filter{
+                    font-size: 11px;
+                    height: 35px !important;
                 }
                 .submit{
                     .primary{
-                        padding: 15px 25px;
+                        padding: 15px 20px;
                         font-size: 11px;
                     }
                 }
             }
-            .support{
-                select{
-                    font-size: 12px;
-                    width: 290px;
-                    height: 40px;
-                }
-            }
-            .locate{
-                input{
-                    font-size: 12px;
-                    width: 290px;
-                    height: 40px;
-                }
-                .filter{
 
-                    margin: 15px 97px 55px 97px;
+        }
+        .mega-2-container{
+            padding: 1rem 16rem;
+            top: 49rem;
+            .out{
+                left: 8rem;
+            }
+            .check{
+                .checkbox-text{
                     font-size: 12px;
-                    width: 290px;
-                    height: 40px;
-                    .fa{
-                        bottom: 5px;
-                    }
                 }
             }
-        }
-        .filter-text{
-            top: 480px;
-            .col-xs-12 .col-sm-4{
-                margin-bottom: 40px;
-            }
-            .x{
-                left: 18%;
-            }
-            .list{
-                .text{
-                    font-size: 13px;
-                }
-            }
-            .done{
+            .submit-3{
                 .primary{
-                    padding: 15px 25px;
+                    padding: 15px 20px;
                     font-size: 11px;
                 }
             }
         }
     }
-    @media (max-width: 991px) and (min-width: 768px){
-        .home{
-            font-size: 11px;
-        }
-        .content{
-            .col-xs-12 .col-sm-4{
-                margin-bottom: 30px;
-            }
-            h1{
-                font-size: 35px;
-            }
-            img{
-                width: 60px;
-                height: 60px;
-            }
-            .support,.locate{
-                h3{
-                    font-size: 20px;
-                    padding: 0 30px 0 30px;
-                }
-                p{
-                    font-size: 11px;
-                }
-                .submit{
-                    .primary{
-                        padding: 12px 20px;
-                        font-size: 10px;
-                    }
-                }
-            }
-            .support{
-                select{
-                    font-size: 10px;
-                    width: 220px;
-                    height: 35px;
-                }
-            }
-            .locate{
-                input{
-                    font-size: 10px;
-                    width: 220px;
-                    height: 35px;
-                }
-                .filter{
-                    margin: 15px 78px 60px 78px;
-                    font-size: 10px;
-                    width: 220px;
-                    height: 35px;
-                    h{
-                        position: relative;
-                        bottom: 4px;
-                    }
-                    .fa{
-                        bottom: 10px;
-                    }
-                }
-            }
-        }
-        .filter-text{
-            top: 465px;
-            div.col-xs-12.col-sm-4{
-                margin-bottom: 40px;
-            }
-            .x{
-                left: 25%;
-            }
-            .list{
-                .text{
-                    font-size: 11px;
-                }
-            }
-            .done{
-                .primary{
-                    padding: 12px 20px;
-                    font-size: 10px;
-                }
-            }
-        }
-    }
-    @media (max-width: 767px){
+    @media(max-width:767px){
         .home{
             display: none;
         }
-        .content{
+        .mega-container{
+            background-color: #c6c9ca;
+            background-image: none;
             h1{
-                font-size: 24px;
+                font-size: 25px;
             }
-            .support{
-                select{
-                    width: 100%;
-                    margin: 10px 0 40px 0;
-                }
-            }
-            .locate{
-                input{
-                    width: 100%;
-                }
+            .support,.locate{
+                margin: 0 -1.6rem 0rem -1.6rem;
                 .filter{
-                    width: 100%;
-                    margin: 15px 0px 45px 0px;
+                    margin: 15px 97px 45px 1.5%;
                 }
             }
+            select,input,.filter{
+                width: 97% !important;
+            }
         }
-        .filter-text{
-            top: 890px;
-            text-align: left;
-
-            .container{
-                padding: 0 4rem;
-            }
-            div.col-xs-12.col-sm-4{
-                margin-bottom: 0px;
-            }
-            .x{
-                left: 2%;
-            }
-            .list{
-                margin: 10px 0;
-                .text{
-
-                    font-size: 12px;
-                }
-            }
-            .done{
-                text-align: center;
-                margin-top: 30px;
+        .mega-2-container{
+            padding: 3rem 3rem;
+            top: 103rem;
+            .out{
+                left: 0;
             }
         }
     }
-    @media (max-width: 709px){
-        .filter-text{
-            top: 935px;
-
+    @media(max-width:748px){
+        .mega-2-container{
+            top: 105rem;
         }
     }
-    @media (max-width: 491px){
-        .filter-text{
-            top: 960px;
-
+    @media(max-width:636px){
+        .mega-2-container{
+            top: 107rem;
         }
     }
-    @media (max-width: 431px){
-        .filter-text{
-            top: 1065px;
-
-
+    @media(max-width:551px){
+        .mega-2-container{
+            top: 110rem;
         }
     }
-}
-@media (max-width: 767px){
-    .type-1{
-        padding: 2rem 0px 3rem;
-        background-color: #c6c9ca;
-        background-image: none;
+    @media(max-width:470px){
+        .mega-2-container{
+            top: 116rem;
+        }
     }
-}
+    @media(max-width:469px){
+        .mega-2-container{
+            top: 118rem;
+        }
+    }
+    @media(max-width:465px){
+        .mega-2-container{
+            top: 121rem;
+        }
+    }
+    @media(max-width:393px){
+        .mega-2-container{
+            top: 123rem;
+        }
+    }
+    @media(max-width:379px){
+        .mega-2-container{
+            top: 125rem;
+        }
+    }
+    @media(max-width:359px){
+        .mega-2-container{
+            top: 128rem;
+        }
+    }
 }
