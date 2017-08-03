@@ -1,5 +1,51 @@
 .type-4010 {
   background-color: #eff0f1;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 160rem;
+  padding: 0 1rem;
+}
+.type-4010 .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: 1.6rem 0 0 1.2rem;
+}
+.type-4010 .breadcrumb li {
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+}
+.type-4010 .breadcrumb li a {
+  font-size: 1.5rem;
+}
+.type-4010 .breadcrumb li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+.type-4010 .breadcrumb li li+li::before {
+  color: #ff7600;
+  content: "> ";
+  font-weight: 500;
+}
+.type-4010 .breadcrumb li .dark {
+  color: #666;
+}
+.type-4010 .breadcrumb li .active {
+  color: #333;
+  font-weight: 500;
+}
+.type-4010 .breadcrumb .x-smaller {
+  font-size: 1.3rem;
+  line-height: normal;
+}
+.type-4010 .icon-bar {
+  text-align: right;
+  padding: 1.6rem 0 0 1.2rem;
+  font-size: 2.4rem;
+}
+.type-4010 .icon-bar .fa {
+  padding-right: 2px;
+  color: #b6b7b7;
 }
 .type-4010 .test {
   position: absolute;
@@ -46,67 +92,19 @@
   font-size: 1.8rem;
   color: #ccc;
 }
-.type-4010 .mega-container {
-  overflow: hidden;
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 160rem;
-  padding: 0 1rem;
-}
-.type-4010 .mega-container .breadcrumb {
-  background-color: transparent;
-  margin-bottom: 0;
-  padding: 1.6rem 0 0 1.2rem;
-}
-.type-4010 .mega-container .breadcrumb li {
-  line-height: 1.8rem;
-  font-size: 1.5rem;
-}
-.type-4010 .mega-container .breadcrumb li a {
-  font-size: 1.5rem;
-}
-.type-4010 .mega-container .breadcrumb li a:hover {
-  text-decoration: none;
-  color: #333;
-}
-.type-4010 .mega-container .breadcrumb li+li::before {
-  color: #ff7600;
-  content: "> ";
-  font-weight: 500;
-}
-.type-4010 .mega-container .breadcrumb .dark {
-  color: #666;
-}
-.type-4010 .mega-container .breadcrumb .active {
-  color: #333;
-  font-weight: 500;
-}
-.type-4010 .mega-container .x-smaller {
-  font-size: 1.3rem;
-  line-height: normal;
-}
-.type-4010 .mega-container .icon-bar {
-  text-align: right;
-  padding: 1.6rem 0 0 1.2rem;
-  font-size: 2.4rem;
-}
-.type-4010 .mega-container .icon-bar .fa {
-  padding-right: 2px;
-  color: #b6b7b7;
-}
 @media (max-width: 1051px) {
-  .type-4010 .mega-container .breadcrumb li a {
+  .type-4010 .breadcrumb li a {
     font-size: 1.2rem;
   }
-  .type-4010 .mega-container .breadcrumb .active {
+  .type-4010 .breadcrumb .active {
     font-size: 1.2rem;
   }
-  .type-4010 .mega-container .icon-bar {
+  .type-4010 .icon-bar {
     font-size: 2rem;
   }
 }
 @media (max-width: 898px) {
-  .type-4010 r .breadcrumb li a {
+  .type-4010 .breadcrumb li a {
     font-size: 1rem;
   }
   .type-4010 .breadcrumb .active {

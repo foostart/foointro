@@ -1,6 +1,55 @@
 @import "../../values/less/var.less";
 .type-4010{
-   
+background-color: #eff0f1;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-width: 160rem;
+        padding: 0 1rem;
+        .breadcrumb{
+            background-color: transparent;
+            margin-bottom: 0;
+            padding: 1.6rem 0 0 1.2rem;
+            li{
+                line-height: 1.8rem;
+                font-size: 1.5rem;
+                a{
+                    font-size: 1.5rem;
+                    &:hover {
+                        text-decoration: none;
+                        color: #333;
+                    }
+                }
+            
+            li+li::before{
+                color: #ff7600;
+                content: "> ";
+                font-weight: 500;
+            }
+            .dark {
+                color: #666;
+            }
+            .active{
+                color: #333;
+                font-weight: 500;
+            }
+        }
+        .x-smaller {
+            font-size: 1.3rem;
+            line-height: normal;
+        }
+        
+    }
+	.icon-bar{
+            text-align: right;
+            padding: 1.6rem 0 0 1.2rem;
+            font-size: 2.4rem;
+            .fa{
+                padding-right: 2px;
+                color: #b6b7b7;
+
+            }
+        }
     .test{
         position: absolute;
         right:0;
@@ -20,8 +69,6 @@
             margin-right: 20px;
             top: 4px;
         }
-
-
         .side-collapse-container{
             width:100%;
             position:relative;
@@ -53,69 +100,21 @@
         }
 
     }
-    background-color: #eff0f1;
-    .mega-container{
-        overflow: hidden;
-        box-sizing: border-box;
-        margin: 0 auto;
-        max-width: 160rem;
-        padding: 0 1rem;
-        .breadcrumb{
-            background-color: transparent;
-            margin-bottom: 0;
-            padding: 1.6rem 0 0 1.2rem;
-            li{
-                line-height: 1.8rem;
-                font-size: 1.5rem;
-                a{
-                    font-size: 1.5rem;
-                    &:hover {
-                        text-decoration: none;
-                        color: #333;
-                    }
-                }
-            }
-            li+li::before{
-                color: #ff7600;
-                content: "> ";
-                font-weight: 500;
-            }
-            .dark {
-                color: #666;
-            }
-            .active{
-                color: #333;
-                font-weight: 500;
-            }
-        }
-        .x-smaller {
-            font-size: 1.3rem;
-            line-height: normal;
-        }
-        .icon-bar{
-            text-align: right;
-            padding: 1.6rem 0 0 1.2rem;
-            font-size: 2.4rem;
-            .fa{
-                padding-right: 2px;
-                color: #b6b7b7;
-
-            }
-        }
-    }
+    
+    
     @media (max-width: 1051px){
-        .mega-container .breadcrumb li a{
+         .breadcrumb li a{
             font-size: 1.2rem;
         }
-        .mega-container .breadcrumb .active{
+         .breadcrumb .active{
             font-size: 1.2rem;
         }
-        .mega-container .icon-bar{
+         .icon-bar{
             font-size: 2rem;
         }
     }
     @media (max-width: 898px){
-        r .breadcrumb li a{
+         .breadcrumb li a{
             font-size: 1rem;
         }
         .breadcrumb .active{
