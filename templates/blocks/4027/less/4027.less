@@ -1,5 +1,5 @@
-.module-4027{
-.type-3{
+@import "../../values/less/var.less";
+.type-4027{
     padding: 9rem 0;
     .most{
         margin-top: 0;
@@ -29,7 +29,7 @@
             padding: 1.6rem 0 0;
             .topic-name {
                 margin-bottom: .4rem;
-                font-size: 1.2rem;
+                font-size: @font-size-dropmenu;
                 line-height: normal;
                 display: block;
                 font-family: 'Calibre',Arial,Sans-Serif;
@@ -43,7 +43,6 @@
                 font-size: 1.8rem;
                 font-weight: 500;
                 line-height: 2.2rem;
-
                 a{
                     color: inherit;
                     &:hover{
@@ -58,12 +57,11 @@
             .date {
                 display: block;
                 margin-top: 1.6rem;
-                font-size: 1.4rem;
+                font-size: @font-size-content-menu;
                 line-height: normal;
                 color: #666;
             }
         }
-
     }
     .more{
         text-align: center;
@@ -71,7 +69,6 @@
             margin-top: 2.2rem;
         }
         .button{
-
             display: block;
             text-align: center;
             width: 100%;
@@ -89,6 +86,9 @@
                 background: #ccc;
                 color: #333;}
         }
+    }
+    .show-more{
+        display: none;
     }
     @media (max-width: 767px){
         padding: 3.4rem 0;
@@ -122,7 +122,7 @@
                 }
                 .date {
                     color: #999;
-                    font-size: 1.2rem;
+                    font-size: @font-size-dropmenu;
                     line-height: 1.2rem;
                     margin-top: 1rem;
                 }
@@ -131,4 +131,3 @@
     }
 }
 
-}

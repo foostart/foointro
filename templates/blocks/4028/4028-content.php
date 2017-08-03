@@ -11,8 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module-4028">
-<div class="type-4">
+<div class="type-4028">
     <div class="wrapper-left">
         <div class="container">
             <h3 class="related-title">Featured</h3>
@@ -23,11 +22,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="item">
                                 <div class="row">
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/800x600-90311979-iot-resources_129945_0.jpg" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/800x600-90311979-iot-resources_129945_0.jpg" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Leveraging The Internet of Things in the Data Center and Edge</a>
@@ -36,11 +33,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/cp-ups-800x600-49976-keys-to-powering-todays-critical-network-edge-infographic_114001_0.png" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/cp-ups-800x600-49976-keys-to-powering-todays-critical-network-edge-infographic_114001_0.png" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Keys to Powering Today's Critical Network Edge</a>
@@ -49,11 +44,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/800x600-103317_129061_0.jpg" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/800x600-103317_129061_0.jpg" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Data Center 2025</a>
@@ -62,11 +55,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/get-off-your-soapbox--the-marketing-trends-that-challenge-it.gif" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/get-off-your-soapbox--the-marketing-trends-that-challenge-it.gif" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Tech In Marketing - A Dream for the CMO but a Nightmare for the CIO and IT?</a>
@@ -77,17 +68,12 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                 </div>
                             </div>
-
-
                             <div class="item">
                                 <div class="row">
-
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/app-first--simplicity-for-customers-complexity-for-it-test.gif" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/app-first--simplicity-for-customers-complexity-for-it-test.gif" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >App-first: Simplicity for Customers, Complexity for IT</a>
@@ -96,11 +82,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/vr.jpg" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/vr.jpg" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Virtual Reality Needs Real Infrastructure.Are IT Professionals Prepared?</a>
@@ -109,11 +93,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/800x600autonomous_vehicles.jpg" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/800x600autonomous_vehicles.jpg" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >Autonomous Cars: The Unfolding Impact for IT Professionals</a>
@@ -122,11 +104,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
-                                        <div class="imagesd">
-                                            <a href="#">
-                                                <img src="image/vertivmonthlycontent_criticalinfrastructurev2.gif" alt="" />
-                                            </a>
-                                        </div>
+                                        <a href="#">
+                                            <img src="image/vertivmonthlycontent_criticalinfrastructurev2.gif" alt="" />
+                                        </a>
                                         <div class="panel-body">
                                             <h4>
                                                 <a href="#" >How Does "Mission-Critical" Translate In the Digital Economy?</a>
@@ -134,18 +114,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <p class="larger">I vaguely remember when I first came across the concept of the data center. In fact, it was the discovery of a seemingly obscure and futuristic sounding thing called a ‘mainframe’.</p>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
-    </div>

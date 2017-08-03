@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4025</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <?php
         if (!class_exists('lessc')) {
-            include ('libs/lessc.inc.php');
+            include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
         $less->compileFile('less/4025.less', 'css/4025.css');
         ?>
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <link href="css/4025.css" rel="stylesheet" type="text/css"/>
-        <script src="js/js-4025.js" type="text/javascript"></script>
+        <script src="js/4025.js" type="text/javascript"></script>
     </head>
     <body>
-       <?php include '../4025/4025-content.php'; ?>
+       <?php include '../4025/4025-content.php';?>
     </body>
 </html>

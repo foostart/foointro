@@ -1,16 +1,11 @@
-.module-4010 .ATD_content_1 {
+.type-4010 {
   background-color: #eff0f1;
 }
-@media screen and (min-width: 767px) {
-  .module-4010 .ATD_content_1 .test {
-    display: none;
-  }
-}
-.module-4010 .ATD_content_1 .test {
+.type-4010 .test {
   position: absolute;
   right: 0;
 }
-.module-4010 .ATD_content_1 .test .fa-share-square-o {
+.type-4010 .test .fa-share-square-o {
   font-size: 2.5rem;
   cursor: pointer;
   right: 0px;
@@ -19,19 +14,19 @@
   z-index: 10;
   border: none;
 }
-.module-4010 .ATD_content_1 .test .item {
+.type-4010 .test .item {
   position: absolute;
   right: 30px;
   margin-right: 20px;
   top: 4px;
 }
-.module-4010 .ATD_content_1 .test .side-collapse-container {
+.type-4010 .test .side-collapse-container {
   width: 100%;
   position: relative;
   right: 0;
   transition: left .4s;
 }
-.module-4010 .ATD_content_1 .test .side-collapse {
+.type-4010 .test .side-collapse {
   height: 2.7rem;
   background: #fff;
   margin: 0.5rem 0.5rem;
@@ -43,94 +38,99 @@
   overflow: hidden;
   transition: width .5s;
 }
-.module-4010 .ATD_content_1 .test .side-collapse.in {
+.type-4010 .test .side-collapse.in {
   width: 0;
 }
-.module-4010 .ATD_content_1 .test a {
+.type-4010 .test a {
   margin: 5px;
   font-size: 1.8rem;
   color: #ccc;
 }
-.module-4010 .ATD_content_1 .mega-container {
+.type-4010 .mega-container {
   overflow: hidden;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 160rem;
   padding: 0 1rem;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb {
+.type-4010 .mega-container .breadcrumb {
   background-color: transparent;
   margin-bottom: 0;
   padding: 1.6rem 0 0 1.2rem;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb li {
+.type-4010 .mega-container .breadcrumb li {
   line-height: 1.8rem;
   font-size: 1.5rem;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb li a {
+.type-4010 .mega-container .breadcrumb li a {
   font-size: 1.5rem;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb li a:hover {
+.type-4010 .mega-container .breadcrumb li a:hover {
   text-decoration: none;
   color: #333;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb li+li::before {
+.type-4010 .mega-container .breadcrumb li+li::before {
   color: #ff7600;
   content: "> ";
   font-weight: 500;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb .dark {
+.type-4010 .mega-container .breadcrumb .dark {
   color: #666;
 }
-.module-4010 .ATD_content_1 .mega-container .breadcrumb .active {
+.type-4010 .mega-container .breadcrumb .active {
   color: #333;
   font-weight: 500;
 }
-.module-4010 .ATD_content_1 .mega-container .x-smaller {
+.type-4010 .mega-container .x-smaller {
   font-size: 1.3rem;
   line-height: normal;
 }
-.module-4010 .ATD_content_1 .mega-container .icon-bar {
+.type-4010 .mega-container .icon-bar {
   text-align: right;
   padding: 1.6rem 0 0 1.2rem;
   font-size: 2.4rem;
 }
-.module-4010 .ATD_content_1 .mega-container .icon-bar .fa {
+.type-4010 .mega-container .icon-bar .fa {
   padding-right: 2px;
   color: #b6b7b7;
 }
 @media (max-width: 1051px) {
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb li a {
+  .type-4010 .mega-container .breadcrumb li a {
     font-size: 1.2rem;
   }
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb .active {
+  .type-4010 .mega-container .breadcrumb .active {
     font-size: 1.2rem;
   }
-  .module-4010 .ATD_content_1 .mega-container .icon-bar {
+  .type-4010 .mega-container .icon-bar {
     font-size: 2rem;
   }
 }
 @media (max-width: 898px) {
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb li a {
+  .type-4010 .mega-container .breadcrumb li a {
     font-size: 1rem;
   }
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb .active {
+  .type-4010 .mega-container .breadcrumb .active {
     font-size: 1rem;
   }
 }
 @media (max-width: 787px) {
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb li a {
+  .type-4010 .mega-container .breadcrumb li a {
     font-size: 0.9rem;
   }
-  .module-4010 .ATD_content_1 .mega-container .breadcrumb .active {
+  .type-4010 .mega-container .breadcrumb .active {
     font-size: 0.9rem;
   }
-  .module-4010 .ATD_content_1 .mega-container .icon-bar {
+  .type-4010 .mega-container .icon-bar {
     font-size: 1.8rem;
   }
 }
 @media (max-width: 767px) {
-  .module-4010 .ATD_content_1 .mega-container {
+  .type-4010 .mega-container {
+    display: none;
+  }
+}
+@media (min-width: 767px) {
+  .type-4010 .test {
     display: none;
   }
 }
