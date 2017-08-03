@@ -1,13 +1,20 @@
 .mega-container {
   background: #f5f5f6;
 }
+.mega-container .module-4008 .text {
+  margin: 5rem 0 10rem 0;
+}
+.mega-container .module-4008 .text p {
+  font-size: 1.4rem;
+  color: #666;
+}
 .mega-container .module-4008 .product-sort-by {
   display: none;
 }
 .mega-container .module-4008 .product-sort-by .product-sort-by-1 {
   text-align: center;
   background-color: #333;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -18,7 +25,7 @@
   font-size: 2.2rem;
   float: right;
   font-weight: 500;
-  margin: -5px 10px 0px 0px;
+  margin: -0.5rem 1rem 0 0;
 }
 .mega-container .module-4008 .product-sort-by .product-sort-by-2,
 .mega-container .module-4008 .product-sort-by .product-sort-by-3 {
@@ -40,9 +47,9 @@
   margin: 0 1rem;
   cursor: pointer;
   line-height: normal;
-  width: 12px;
+  width: 1.2rem;
   background: #ccc;
-  height: 12px;
+  height: 1.2rem;
   float: right;
 }
 .mega-container .module-4008 span {
@@ -51,7 +58,7 @@
 .mega-container .module-4008 h3 {
   font-size: 1.4rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 .mega-container .module-4008 .media-767 {
   display: none;
@@ -59,7 +66,7 @@
 .mega-container .module-4008 .media-767 .media-filter {
   text-align: center;
   background-color: #ff8c00;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-top: 3rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -73,7 +80,7 @@
 .mega-container .module-4008 .media-767 .media-sort-by {
   text-align: center;
   background-color: #666;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-top: 3rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -91,19 +98,19 @@
   border: #fff;
   margin: 0.5rem 1.5rem 1rem 0;
   color: #666;
-  height: 50px;
-  padding: 0px 10px 0 10px;
+  height: 5rem;
+  padding: 0 1rem 0 1rem;
 }
 .mega-container .module-4008 .sort .results p {
   margin: 0.5rem 1.5rem 0 0 !important;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   float: right;
 }
 .mega-container .module-4008 .product .clear {
   color: #0092bd;
   text-decoration: inherit;
   float: right;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
   width: 100%;
   text-align: right;
   cursor: pointer;
@@ -113,7 +120,7 @@
   display: none;
   text-align: center;
   background-color: #333;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -124,21 +131,21 @@
   font-size: 2.2rem;
   float: right;
   font-weight: 500;
-  margin: -5px 10px 0px 0px;
+  margin: -0.5rem 1rem 0 0;
 }
 .mega-container .module-4008 .product .product-1 {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
 }
 .mega-container .module-4008 .product .product-1 select {
   border: #fff;
-  margin: 5px 0 20px 0;
+  margin: 0.5rem 0 2rem 0;
   color: #666;
   width: 100%;
-  height: 50px;
-  padding: 0px 10px 0 10px;
+  height: 5rem;
+  padding: 0 1rem 0 1rem;
 }
 .mega-container .module-4008 .product .product-2 {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.1rem solid #ccc;
 }
 .mega-container .module-4008 .product .product-2 h3 .minus {
   display: none;
@@ -200,7 +207,7 @@
 .mega-container .module-4008 .product .product-4 .product-apply {
   text-align: center;
   background-color: #ff8c00;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-top: 3rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -300,7 +307,7 @@
 .mega-container .module-4008 .type .show-more {
   text-align: center;
   background-color: #e4e4e4;
-  padding: 0.2rem 0 0.8rem 0px;
+  padding: 0.2rem 0 0.8rem 0;
   margin-top: 3rem;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -333,6 +340,9 @@
   }
 }
 @media (max-width: 767px) {
+  .mega-container .module-4008 .text {
+    margin: 5rem 1rem 10rem 1rem;
+  }
   .mega-container .module-4008 .sort {
     float: none;
   }

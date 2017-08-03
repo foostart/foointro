@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $(".filter").click(function () {
-        $(".mega-2-container").slideToggle();
+        $(".mega-container-2").slideToggle();
     });
     $(".out").click(function () {
-        $(".mega-2-container").css('display','none');
+        $(".mega-container-2").css('display','none');
     });
 });
