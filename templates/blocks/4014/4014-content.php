@@ -12,7 +12,6 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4014">
-<div id="downloads" class="ATD_content_5">
             <div class="container">
                 <h1>Download</h1>
                 <div class="list-tile-component">
@@ -56,7 +55,4 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 </div>
             </div>
-
-        </div>
-
 </div>

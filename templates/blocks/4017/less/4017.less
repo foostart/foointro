@@ -1,17 +1,16 @@
+@import "../../values/less/var.less";
 .module-4017{
-.ATD_content_8{
     .contacts{
         text-align: center;
         margin-bottom: 60px;
         h3{
             font-weight: 600;
         }
-
     }
     .tren{
         .content{
             margin-bottom: 25px;
-            background: #4d4d4d;
+            background: @background-content;
             p{
                 padding: 10px 0px 10px 20px;
                 color: #fff;
@@ -46,7 +45,6 @@
             }
             h4{
                 font-weight: 600;
-
                 margin: 30px 0 30px 0;
             }
             select{
@@ -66,14 +64,14 @@
                 margin-top: 30px;
                 width: 125px;
                 height: 50px;
-                h{
+                h1{
                     position: relative;
                     top: 30%;
                     font-weight: 600;
                     color: #fff;
                 }
                 &:hover{
-                    background: #fa0;
+                    background: @background-button-hover;
                 }
             }
 
@@ -99,15 +97,18 @@
             .item:hover{
                 color: #000;
             }
-            h{
-                color: #666;
+            h1{
+                color: @textcolor-content-p;
+                font-size: 1.8rem;
+                margin-top: 1px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
             }
             a{
                 text-decoration: none;
                 color: #000;
             }
             .unin{
-                color: #666;
+                color: @textcolor-content-p;
             }
         }
         .hang2{
@@ -124,14 +125,14 @@
                 color: #fff;
             }
             .primary{
-                background: #ff8c00;
+                background: @background-button;
                 padding: 17px 41px;
                 font-weight: 600;
                 letter-spacing: 1px;
                 font-size: 12px;
             }
             a:hover{
-                background: #fa0;
+                background: @background-button-hover;
             }
         }
         @media (max-width: 767px){
@@ -157,7 +158,6 @@
                     right: -13px;
                 }
             }
-
             .contact-list .col-sm-2 .item.item{
                 margin-bottom: 4px;
             }
@@ -171,7 +171,6 @@
         .submit .primary{
             padding: 14px 14px;
         }
-
     }
     @media (max-width: 767px){
         .contacts{
@@ -185,4 +184,3 @@
     }
 }
 
-}

@@ -332,7 +332,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-12 p-a-0">
                         <a href="#">
                             <div class="text-overlay-xs">
-                                <img src="image/healthcareconnect-800x600_165341_0.jpg" class="img-responsive">
+                                <img class="img-responsive" src="image/healthcareconnect-800x600_165341_0.jpg" alt=""/>
                             </div>
                         </a>
                     </div>
@@ -351,7 +351,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-12 p-a-0">
                         <a href="#">
                             <div class="text-overlay-xs">
-                                <img src="image/techtalk-800x600_165347_0.jpg" class="img-responsive">
+                                <img class="img-responsive" src="image/techtalk-800x600_165347_0.jpg" alt=""/>
                             </div>
                         </a>
                     </div>

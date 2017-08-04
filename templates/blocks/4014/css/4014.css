@@ -1,20 +1,20 @@
-.module-4014 .ATD_content_5 {
+.module-4014 {
   padding: 8.6rem 0 9.2rem;
 }
-.module-4014 .ATD_content_5 .dd {
+.module-4014 .dd {
   display: none;
 }
-.module-4014 .ATD_content_5 h1 {
+.module-4014 h1 {
   text-align: center;
   padding-bottom: 5.6rem;
 }
-.module-4014 .ATD_content_5 .list-tile-component {
+.module-4014 .list-tile-component {
   min-height: 16rem;
 }
-.module-4014 .ATD_content_5 .list-tile-component list-tile {
+.module-4014 .list-tile-component list-tile {
   margin-bottom: 3.6rem;
 }
-.module-4014 .ATD_content_5 .list-tile-component list-tile span {
+.module-4014 .list-tile-component list-tile span {
   display: block;
   margin-bottom: .6rem;
   font-family: 'Calibre', Arial, Sans-Serif;
@@ -25,47 +25,47 @@
   text-transform: uppercase;
   font-weight: 700;
 }
-.module-4014 .ATD_content_5 .list-tile-component list-tile .list-unstyled {
+.module-4014 .list-tile-component list-tile .list-unstyled {
   padding-left: 0;
   list-style: none;
   font-weight: 500;
 }
-.module-4014 .ATD_content_5 .list-tile-component ul a {
+.module-4014 .list-tile-component ul a {
   font-size: 1.2rem;
   color: #0092bd;
   line-height: 2rem;
 }
-.module-4014 .ATD_content_5 .list-tile-component ul a:hover {
+.module-4014 .list-tile-component ul a:hover {
   text-decoration: none;
   color: #333;
 }
 @media (max-width: 767px) {
-  .module-4014 .ATD_content_5 {
+  .module-4014 {
     padding: 2.8rem 0 3.6rem;
   }
-  .module-4014 .ATD_content_5 .dd {
+  .module-4014 .dd {
     display: block;
   }
-  .module-4014 .ATD_content_5 h1 {
+  .module-4014 h1 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     padding: 0;
     text-align: left;
     padding-bottom: 2px;
   }
-  .module-4014 .ATD_content_5 .list-tile-component .list-tile {
+  .module-4014 .list-tile-component .list-tile {
     margin-bottom: 0;
   }
-  .module-4014 .ATD_content_5 .list-tile-component .list-tile span {
+  .module-4014 .list-tile-component .list-tile span {
     font-size: 1.3rem;
     line-height: 1.5rem;
     margin-top: 2rem;
     margin-bottom: .2rem;
   }
-  .module-4014 .ATD_content_5 .list-tile-component ul {
+  .module-4014 .list-tile-component ul {
     margin-bottom: .4rem;
   }
-  .module-4014 .ATD_content_5 .list-tile-component ul a {
+  .module-4014 .list-tile-component ul a {
     font-size: 1.2rem;
     line-height: 2.5rem;
   }

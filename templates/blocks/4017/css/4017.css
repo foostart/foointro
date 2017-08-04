@@ -1,30 +1,30 @@
-.module-4017 .ATD_content_8 .contacts {
+.module-4017 .contacts {
   text-align: center;
   margin-bottom: 60px;
 }
-.module-4017 .ATD_content_8 .contacts h3 {
+.module-4017 .contacts h3 {
   font-weight: 600;
 }
-.module-4017 .ATD_content_8 .tren .content {
+.module-4017 .tren .content {
   margin-bottom: 25px;
   background: #4d4d4d;
 }
-.module-4017 .ATD_content_8 .tren .content p {
+.module-4017 .tren .content p {
   padding: 10px 0px 10px 20px;
   color: #fff;
   font-weight: 600;
   font-size: 15px;
 }
-.module-4017 .ATD_content_8 .tren .content p span {
+.module-4017 .tren .content p span {
   font-size: 12px;
   margin-left: 30px;
   color: #00b5ef;
   cursor: pointer;
 }
-.module-4017 .ATD_content_8 .tren .content p span:hover {
+.module-4017 .tren .content p span:hover {
   color: #0092bd;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification {
+.module-4017 .tren .contacts-notification {
   display: none;
   left: 30%;
   position: absolute;
@@ -35,27 +35,27 @@
   width: 450px;
   height: 250px;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification .x {
+.module-4017 .tren .contacts-notification .x {
   cursor: pointer;
   text-align: right;
   font-size: 20px;
   margin: 0px 5px 0px 0px;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification h4 {
+.module-4017 .tren .contacts-notification h4 {
   font-weight: 600;
   margin: 30px 0 30px 0;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification select {
+.module-4017 .tren .contacts-notification select {
   border-color: #fff;
   padding: 0 10px;
   background: #eff0f1;
   width: 345px;
   height: 45px;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification select option {
+.module-4017 .tren .contacts-notification select option {
   color: #666;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification .change {
+.module-4017 .tren .contacts-notification .change {
   background: #ff8c00;
   position: relative;
   left: 35%;
@@ -63,73 +63,76 @@
   width: 125px;
   height: 50px;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification .change h {
+.module-4017 .tren .contacts-notification .change h1 {
   position: relative;
   top: 30%;
   font-weight: 600;
   color: #fff;
 }
-.module-4017 .ATD_content_8 .tren .contacts-notification .change:hover {
+.module-4017 .tren .contacts-notification .change:hover {
   background: #fa0;
 }
-.module-4017 .ATD_content_8 .tren .contact-list {
+.module-4017 .tren .contact-list {
   padding-left: 27px;
   margin-bottom: 30px;
 }
-.module-4017 .ATD_content_8 .tren .contact-list h4 {
+.module-4017 .tren .contact-list h4 {
   font-size: 14px;
   font-weight: 600;
 }
-.module-4017 .ATD_content_8 .tren .contact-list .item {
+.module-4017 .tren .contact-list .item {
   margin-bottom: 10px;
   color: #0092bd;
   font-size: 15px;
 }
-.module-4017 .ATD_content_8 .tren .contact-list .item .fa-phone {
+.module-4017 .tren .contact-list .item .fa-phone {
   color: #000;
 }
-.module-4017 .ATD_content_8 .tren .contact-list .item .fa {
+.module-4017 .tren .contact-list .item .fa {
   margin-right: 10px;
 }
-.module-4017 .ATD_content_8 .tren .contact-list .item:hover {
+.module-4017 .tren .contact-list .item:hover {
   color: #000;
 }
-.module-4017 .ATD_content_8 .tren .contact-list h {
+.module-4017 .tren .contact-list h1 {
   color: #666;
+  font-size: 1.8rem;
+  margin-top: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.module-4017 .ATD_content_8 .tren .contact-list a {
+.module-4017 .tren .contact-list a {
   text-decoration: none;
   color: #000;
 }
-.module-4017 .ATD_content_8 .tren .contact-list .unin {
+.module-4017 .tren .contact-list .unin {
   color: #666;
 }
-.module-4017 .ATD_content_8 .tren .hang2 {
+.module-4017 .tren .hang2 {
   background-color: #f0f3f3;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.module-4017 .ATD_content_8 .tren .submit {
+.module-4017 .tren .submit {
   margin-bottom: 60px;
   text-align: center;
 }
-.module-4017 .ATD_content_8 .tren .submit a {
+.module-4017 .tren .submit a {
   text-transform: uppercase;
   text-decoration: initial;
   color: #fff;
 }
-.module-4017 .ATD_content_8 .tren .submit .primary {
+.module-4017 .tren .submit .primary {
   background: #ff8c00;
   padding: 17px 41px;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 12px;
 }
-.module-4017 .ATD_content_8 .tren .submit a:hover {
+.module-4017 .tren .submit a:hover {
   background: #fa0;
 }
 @media (max-width: 767px) {
-  .module-4017 .ATD_content_8 .tren .contacts-notification {
+  .module-4017 .tren .contacts-notification {
     left: 50% !important;
     width: auto;
     position: fixed;
@@ -141,36 +144,36 @@
     min-width: 320px;
     margin: 0;
   }
-  .module-4017 .ATD_content_8 .tren .content p {
+  .module-4017 .tren .content p {
     font-size: 12px;
   }
-  .module-4017 .ATD_content_8 .tren .content p span {
+  .module-4017 .tren .content p span {
     color: #0092bd;
     font-size: 12px;
     margin: 30px;
     position: absolute;
     right: -13px;
   }
-  .module-4017 .ATD_content_8 .tren .contact-list .col-sm-2 .item.item {
+  .module-4017 .tren .contact-list .col-sm-2 .item.item {
     margin-bottom: 4px;
   }
-  .module-4017 .ATD_content_8 .tren .contact-list .col-sm-3 {
+  .module-4017 .tren .contact-list .col-sm-3 {
     padding-top: 15px;
   }
-  .module-4017 .ATD_content_8 .tren .contact-list .col-sm-5 {
+  .module-4017 .tren .contact-list .col-sm-5 {
     padding-top: 15px;
   }
 }
-.module-4017 .ATD_content_8 .tren .submit .primary {
+.module-4017 .tren .submit .primary {
   padding: 14px 14px;
 }
 @media (max-width: 767px) {
-  .module-4017 .ATD_content_8 .contacts {
+  .module-4017 .contacts {
     margin-bottom: 1rem;
     padding: 0;
     text-align: left;
   }
-  .module-4017 .ATD_content_8 .contacts h3 {
+  .module-4017 .contacts h3 {
     font-size: 15px;
   }
 }

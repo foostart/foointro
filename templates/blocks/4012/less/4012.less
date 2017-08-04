@@ -1,6 +1,5 @@
+@import "../../values/less/var.less";
 .module-4012{
-
-.ATD_content_3{
     .lon{
         .product-hero-component{
             background-image:url(../image/cp-ups-gl-1600x636_mg_3933__1__-_copy-use-detailbkgd_75127_0.jpg);
@@ -30,7 +29,6 @@
                 text-transform: uppercase;
                 font-size: 1.4rem;
                 line-height: 1.8rem;
-
             }
             .x-light{
                 color: #ccc;
@@ -68,7 +66,6 @@
                     font-size: 1.2rem;
                     line-height: 1.8rem;
                     font-weight: 700;
-
                 }
                 .dark{
                     color: #666;
@@ -82,7 +79,7 @@
                         color: #333;
                         a {
                             line-height: 2rem;
-                            color: #0092bd;
+                            color: @textcolor-content-a;
                             &:hover{
                                 text-decoration: none;
                                 color: #333;
@@ -93,8 +90,6 @@
                 ul.tt2{
                     margin-bottom: 0;
                 }
-
-
             }
             .button {
                 text-align: center;
@@ -111,15 +106,15 @@
                 margin-bottom: 2rem;
             }
             .button.primary:hover{
-                background: #fa0;
-                color: #fff;
+                background: @background-button-hover;
+                color: @textcolor-button;
             }
 
             .button.light{
                 background: #999;
                 &:hover{
                     background: #666;
-                    color: #fff;
+                    color: @textcolor-button;
                 }
             }
         }
@@ -142,7 +137,6 @@
                 img{
                     width: 200px;
                     left: 0px;
-
                 }
             }
         }
@@ -227,8 +221,6 @@
 
             }
         }
-
-
     }
     .nho{
         display: none!important;
@@ -261,7 +253,6 @@
                 line-height: normal;
 
             }
-
             .x-light{
                 color: #ccc;
             }
@@ -299,7 +290,6 @@
                 font-size: 1.2rem;
                 line-height: 1.8rem;
                 font-weight: 700;
-
             }
             .list-tile {
                 margin-bottom: 0;
@@ -432,8 +422,8 @@
                         position: static;
                     }
                 }
-            }
-        }
+            }          
+        }      
     }
     @media (max-width: 767px){
         .lon{
@@ -443,6 +433,4 @@
             display: block!important;
         }
     }
-}
-
 }

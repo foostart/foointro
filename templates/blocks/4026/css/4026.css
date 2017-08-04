@@ -2,7 +2,6 @@
   background-color: #eff0f1;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 1rem;
   text-align: center;
 }
 .type-4026 h1 {
@@ -119,7 +118,7 @@
   line-height: normal;
 }
 .type-4026 .mosaic-component {
-  padding: 0;
+  padding: 0 1.5rem;
 }
 .type-4026 .mosaic-component .wrapper {
   background: #4d4d4d;
@@ -172,9 +171,10 @@
 }
 .type-4026 .filter-container {
   display: none;
-  padding-bottom: 3.2rem;
 }
 .type-4026 .filter-container .mega-container {
+  text-align: initial;
+  background-color: #fff;
   padding: 0 5.6rem;
   position: relative;
 }

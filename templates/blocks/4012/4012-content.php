@@ -13,7 +13,6 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <div class="module-4012">
-  <div id="Overview"class="ATD_content_3">
             <div class="lon">
                 <div class="product-hero-component">
                     <div class="container">
@@ -143,8 +142,4 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-        </div>
-
-
- 
 </div>
