@@ -22,18 +22,18 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-sm-4">
                 <div class="icon">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    <i class="fa fa-google-plus" aria-hidden="true"></i>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" ></i>
+                    <i class="fa fa-twitter" ></i>
+                    <i class="fa fa-linkedin-square" ></i>
+                    <i class="fa fa-google-plus" ></i>
+                    <i class="fa fa-envelope" ></i>
                 </div>
                 <button class="fa fa-share-square-o"></button>
             </div>
         </div>
     </div>
     <div class="content">   
-        <img src="image/12.jpg" alt=""/>
+        <img src="image/12.jpg" alt="">
         <div class="container">
             <div class="row">
                 <div class="product">

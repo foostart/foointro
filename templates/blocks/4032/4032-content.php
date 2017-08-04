@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 " >
                         <div class="image">
-                            <img class="img-responsive" src="image/11.jpg" alt=""/>
+                            <img class="img-responsive" src="image/11.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 " >

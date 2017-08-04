@@ -21,12 +21,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <p class="hero-title" style="color: #FFFFFF !important;">
 
                 </p>
-                <a href="#"class="button primary" >
+                <a href="#" class="button primary" >
                     Apply Now
                 </a>
 
             </div>
-            <img class="img-responsive"src="image/about1.jpg" alt="" style="max-height: 40rem;width: 100%" >  
+            <img class="img-responsive" src="image/about1.jpg" alt="" style="max-height: 40rem;width: 100%" >  
         </div>
     </div>
 </div>

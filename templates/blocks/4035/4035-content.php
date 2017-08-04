@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="col-md-12">
                                         <div class="imagesd">
                                             <a href="#">
-                                                <img class="img-responsive"src="image/about3.jpg" alt="" />
+                                                <img class="img-responsive" src="image/about3.jpg" alt="" />
                                             </a>
                                         </div>
                                     </div>

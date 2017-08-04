@@ -96,6 +96,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <td class="thick  ">  / 675 mm</td>
                                             <td class="thick  "> / 910 mm</td>
                                             <td class="thick  ">  / 610 kg</td>
+                                            <td class="thick  "> / 465 kg</td>
                                         </tr>
                                     </tbody>
                                 </table>
