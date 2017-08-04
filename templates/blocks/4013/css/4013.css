@@ -1,163 +1,46 @@
-@media (max-width: 991px) and (min-width: 768px) {
-  .module-4013 .module-4 .dark {
-    font-size: 10px;
-  }
-  .module-4013 .module-4 .subtitle.smaller {
-    font-size: 10px !important;
-  }
-  .module-4013 .module-4 .editor-content-component p {
-    font-size: 12px !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content td {
-    padding-top: 0rem !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content td {
-    padding-left: 0rem;
-  }
-  .module-4013 .module-4 .scrollable-table-component th {
-    width: 21rem !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component .inner {
-    padding-bottom: 10px !important;
-    margin-left: 19rem !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content th a {
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.title td {
-    font-size: 10px;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content td {
-    font-size: 9px;
-    font-weight: 600;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content th a {
-    font-size: 10px !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component th {
-    width: 17rem !important;
-  }
-}
-@media (max-width: 1199px) and (min-width: 992px) {
-  .module-4013 .module-4 .dark {
-    font-size: 10px;
-  }
-  .module-4013 .module-4 .subtitle.smaller {
-    font-size: 10px !important;
-  }
-  .module-4013 .module-4 .editor-content-component p {
-    font-size: 12px !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component th {
-    width: 21rem !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component .inner {
-    padding-bottom: 10px !important;
-    margin-left: 19rem !important;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content th a {
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.title td {
-    font-size: 10px;
-  }
-  .module-4013 .module-4 .scrollable-table-component tr.content td {
-    font-size: 12px;
-  }
-}
-.module-4013 .module-4 .wrapper-inverted-background {
+.module-4013 {
   background-image: linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 67.25%,rgba(0,0,0,0.06) 67.25%,rgba(0,0,0,0.06) 100%), linear-gradient(-135deg,rgba(0,0,0,0.02) 26%,rgba(0,0,0,0.03) 36%,rgba(255,255,255,0) 36%,rgba(255,255,255,0) 100%);
   background-color: #e5e6e7;
-}
-.module-4013 .module-4 .section-wrapper-component {
   padding: 8.6rem 0 9.2rem;
-}
-.module-4013 .module-4 .section-wrapper-component .specifications {
   padding-bottom: 6.4rem;
 }
-.module-4013 .module-4 .section-wrapper-component .specifications .editor-content-component {
+.module-4013 .editor {
   margin-top: .4rem;
 }
-.module-4013 .module-4 .section-wrapper-component .specifications .scrollable-table-component {
+.module-4013 .table {
   margin: 1.2rem 0 4rem;
 }
-.module-4013 .module-4 .section-wrapper-component .specifications .scrollable-table-component tbody {
-  width: 100%;
-}
-.module-4013 .module-4 .section-wrapper-component .specifications .scrollable-table-component .same-height-table-title-component {
-  width: 100%;
-}
-.module-4013 .module-4 .section-wrapper-component .specifications .scrollable-table-component .text-right {
-  text-align: right;
-}
-.module-4013 .module-4 .section-wrapper-component h3 {
-  margin-bottom: 0;
-  padding-bottom: 6.8rem;
-}
-.module-4013 .module-4 .xx-thick {
-  font-weight: 700 !important;
-}
-.module-4013 .module-4 .text-center {
-  text-align: center;
-}
-.module-4013 .module-4 .editor-content-component {
-  padding-bottom: 1.6rem;
-}
-.module-4013 .module-4 .editor-content-component p {
-  margin-bottom: 2.4rem;
-  color: #666;
-  font-family: 'Calibre', Arial, Sans-Serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 2.3rem;
-  margin: 0 0 10px;
-}
-.module-4013 .module-4 .subtitle.smaller {
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-  padding-bottom: 10px;
-  font-weight: 600 !important;
-}
-.module-4013 .module-4 .subtitle {
-  display: block;
-  font-family: 'Calibre', Arial, Sans-Serif;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-}
-.module-4013 .module-4 .dark {
-  color: #666;
-}
-.module-4013 .module-4 table {
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.module-4013 .module-4 th {
-  color: #333;
-  font-family: 'Calibre', Arial, Sans-Serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.4rem;
-}
-.module-4013 .module-4 .scrollable-table-component tr.title td {
+.module-4013 .table tr.title td {
   background-color: #82be52;
   color: #fff;
   line-height: 1.6rem;
   padding-top: .4rem;
 }
-.module-4013 .module-4 .scrollable-table-component td:first-of-type {
+.module-4013 .table tbody {
+  width: 100%;
+}
+.module-4013 .table .title {
+  width: 100%;
+}
+.module-4013 .table .text-right {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.module-4013 .table td:first-of-type {
   padding-left: 3.2rem;
 }
-.module-4013 .module-4 .scrollable-table-component td {
+.module-4013 .table tr.title th span {
+  bottom: .8rem;
+  position: absolute;
+  right: 2.2rem;
+}
+.module-4013 .table td {
   padding: .2rem 0 .8rem 2rem;
   vertical-align: middle;
 }
-.module-4013 .module-4 .thick {
-  font-weight: 500;
-}
-.module-4013 .module-4 .scrollable-table-component th {
+.module-4013 .table th {
   background-color: #f3f4f5;
   left: 0;
   padding: 0 2.2rem 0 0;
@@ -165,8 +48,13 @@
   width: 27rem;
   height: 52px;
   vertical-align: middle;
+  color: #333;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4rem;
 }
-.module-4013 .module-4 .scrollable-table-component tr.content th a {
+.module-4013 .table tr.content th a {
   bottom: auto;
   position: absolute;
   right: 2.2rem;
@@ -176,11 +64,7 @@
   margin-left: 2rem;
   text-decoration: none;
 }
-.module-4013 .module-4 .larger {
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-}
-.module-4013 .module-4 .scrollable-table-component .inner {
+.module-4013 .table .inner {
   background-color: #fff;
   margin-left: 27rem;
   overflow-x: auto;
@@ -188,14 +72,55 @@
   padding-bottom: 4.6rem;
   width: auto;
 }
-.module-4013 .module-4 .scrollable-table-component .outer {
+.module-4013 .table .outer {
   background-color: #f3f4f5;
   position: relative;
 }
-.module-4013 .module-4 .scrollable-table-component tr.content td {
+.module-4013 .table tr.content td {
   padding-top: .8rem;
 }
-.module-4013 .module-4 .fa {
+.module-4013 h3 {
+  margin-bottom: 0;
+  padding-bottom: 6.8rem;
+  text-align: center;
+}
+.module-4013 .xx-thick {
+  font-weight: 700 !important;
+}
+.module-4013 .editor {
+  padding-bottom: 1.6rem;
+}
+.module-4013 .editor p {
+  margin-bottom: 2.4rem;
+  color: #666;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2.3rem;
+  margin: 0 0 10px;
+}
+.module-4013 .dark {
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  padding-bottom: 10px;
+  font-weight: 600 !important;
+  display: block;
+  font-family: 'Calibre', Arial, Sans-Serif;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.module-4013 table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.module-4013 .thick {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.module-4013 .fa {
   bottom: 0;
   position: absolute;
   right: 0.8rem;
@@ -204,15 +129,10 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.module-4013 .module-4 .scrollable-table-component tr.title th span {
-  bottom: .8rem;
-  position: absolute;
-  right: 2.2rem;
-}
-.module-4013 .module-4 .dropdown {
+.module-4013 .dropdown {
   position: relative;
 }
-.module-4013 .module-4 .dropdown.secondary button {
+.module-4013 .dropdown .secondary button {
   background-color: #fff;
   color: #666;
   font-size: 1.6rem;
@@ -221,22 +141,27 @@
   text-align: left;
   width: 100%;
 }
-.module-4013 .module-4 button {
+.module-4013 button {
   border: 0;
 }
-.module-4013 .module-4 .dropdown.secondary button .fa {
+.module-4013 .dropdown.secondary button .fa {
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0s .9rem .4rem 0 0;
   transform: rotate(90deg);
 }
-.module-4013 .module-4 .pull-right {
+.module-4013 .pull-right {
   float: right !important;
 }
-.module-4013 .module-4 .specifications .dropdown.secondary .dropdown-menu {
+.module-4013 .pull-left {
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.module-4013 .dropdown.secondary .dropdown-menu {
   z-index: 1000;
 }
-.module-4013 .module-4 .dropdown.secondary .dropdown-menu {
+.module-4013 .dropdown.secondary .dropdown-menu {
   width: 100%;
   border-radius: 0;
   box-shadow: none;
@@ -244,7 +169,7 @@
   max-height: 34rem;
   overflow-y: scroll;
 }
-.module-4013 .module-4 .dropdown-menu {
+.module-4013 .dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -259,31 +184,31 @@
   background-color: #fff;
   background-clip: padding-box;
 }
-.module-4013 .module-4 ul {
+.module-4013 ul {
   color: #666;
   font-family: 'Calibre', Arial, Sans-Serif;
   font-weight: 400;
   line-height: 2.3rem;
 }
-.module-4013 .module-4 .dropdown.secondary .dropdown-menu a {
+.module-4013 .dropdown.secondary .dropdown-menu a {
   color: #666;
   font-weight: 500;
   line-height: 2rem;
   padding: 0 2.6rem .3rem;
   white-space: normal;
 }
-.module-4013 .module-4 .dropdown-menu>li>a {
+.module-4013 .dropdown-menu>li>a {
   display: block;
   clear: both;
 }
-.module-4013 .module-4 select {
+.module-4013 select {
   height: 50px;
   width: 100%;
 }
-.module-4013 .module-4 select.form-control {
+.module-4013 select .form-control {
   padding: .6rem 3.5rem .6rem 1.2rem;
 }
-.module-4013 .module-4 .form-control {
+.module-4013 .form-control {
   font-size: 1.4rem;
   height: 4.4rem;
   padding: .6rem 1.2rem;
@@ -295,17 +220,84 @@
   font-weight: 400;
 }
 @media (max-width: 991x) {
-  .module-4013 .module-4 .section-wrapper-component h3 {
+  .module-4013 h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 0;
     text-align: left;
   }
-  .module-4013 .module-4 .section-wrapper-component.specifications .editor-content-component p {
+  .module-4013 .editor p {
     font-size: 1.5rem;
   }
-  .module-4013 .module-4 p {
+  .module-4013 p {
     color: #333;
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .module-4013 .dark {
+    font-size: 10px !important;
+  }
+  .module-4013 .content p {
+    font-size: 12px !important;
+  }
+  .module-4013 .table tr.content td {
+    padding-left: 0rem;
+    padding-top: 0rem !important;
+  }
+  .module-4013 .table th {
+    width: 21rem !important;
+  }
+  .module-4013 .table .inner {
+    padding-bottom: 10px !important;
+    margin-left: 19rem !important;
+  }
+  .module-4013 .table tr.content th a {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .module-4013 .table tr.title td {
+    font-size: 10px;
+  }
+  .module-4013 .table tr.content td {
+    font-size: 9px;
+    font-weight: 600;
+  }
+  .module-4013 .table th {
+    width: 17rem !important;
+  }
+  .module-4013 .table tr.content th a {
+    font-size: 10px !important;
+  }
+  .module-4013 .editor p {
+    font-size: 12px !important;
+  }
+  .module-4013 .pull-left {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .module-4013 .dark {
+    font-size: 10px !important;
+  }
+  .module-4013 .editor p {
+    font-size: 12px !important;
+  }
+  .module-4013 .table th {
+    width: 21rem !important;
+  }
+  .module-4013 .table .inner {
+    padding-bottom: 10px !important;
+    margin-left: 19rem !important;
+  }
+  .module-4013 .table tr.content th a {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .module-4013 .table tr.title td {
+    font-size: 10px;
+  }
+  .module-4013 .table tr.content td {
+    font-size: 12px;
   }
 }

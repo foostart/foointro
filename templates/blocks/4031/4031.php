@@ -7,9 +7,10 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <title>4031</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <?php
         if (!class_exists('lessc')) {
             include ('libs/lessc.inc.php');
@@ -17,9 +18,9 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('less/4031.less', 'css/4031.css');
         ?> 
-        <link href="css/4031.css" rel="stylesheet" type="text/css"/>
+        <link href="css/4031.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-         <?php include '../4031/4031-content.php'; ?>
+       <?php include '../4031/4031-content.php'; ?>
     </body>
 </html>

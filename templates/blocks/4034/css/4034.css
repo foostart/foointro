@@ -2,35 +2,34 @@
   overflow: hidden;
   margin-bottom: 6rem;
 }
-.module-4034 .frame-repon {
-  background: #000;
-}
-.module-4034 .frame-repon img {
-  opacity: 0.8;
+.module-4034 .frame img {
+  opacity: 0.8 !important;
   min-height: 40rem;
   min-width: 40rem;
   object-fit: cover;
-  object-position: 60% 40%;
+  object-position: 50% 50%;
 }
-.module-4034 .slide-content {
-  margin: 14rem;
+.module-4034 .frame .slide-content {
+  left: 50%;
   position: absolute;
   text-align: center;
+  top: 26%;
+  transform: translate(-50%,-50%);
   z-index: 110;
 }
-.module-4034 .slide-content .subject {
+.module-4034 .frame .slide-content .subject {
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: .1em;
   line-height: 3rem;
 }
-.module-4034 .button.primary,
-.module-4034 a.button.primary {
+.module-4034 .frame .button.primary,
+.module-4034 .frame a.button.primary {
   background: #ff8c00;
   color: #fff;
 }
-.module-4034 .button,
-.module-4034 a.button {
+.module-4034 .frame .button,
+.module-4034 .frame a.button {
   border: 0;
   display: inline-block;
   font-size: 1.2rem;
@@ -40,31 +39,31 @@
   padding: 1.3rem 2.9rem;
   text-transform: uppercase;
 }
-.module-4034 .button.primary:hover,
-.module-4034 a.button.primary:hover {
+.module-4034 .frame .button.primary:hover,
+.module-4034 .frame a.button.primary:hover {
   background: #fa0;
   color: #fff;
   text-decoration: none;
 }
 @media (max-width: 767px) {
-  .module-4034 .frame-repon img {
-    opacity: 0.8;
-    min-height: 26rem;
-    min-width: 26rem;
-  }
-  .module-4034 .slide-content {
+  .module-4034 .frame .slide-content {
     left: 0;
-    margin: 4rem;
+    padding: 0 2rem;
     right: 0;
+    transform: translate(0,-50%);
     max-height: 26.2rem;
   }
-  .module-4034 .slide-content .subject {
-    font-size: 1.2rem;
-    line-height: initial;
+  .module-4034 .frame img {
+    min-height: 26rem;
+    max-height: 26rem;
   }
-  .module-4034 .slide-content .button {
-    font-size: 1.2rem;
-    padding: .8rem 1.6rem;
-    text-decoration: none;
+  .module-4034 .frame .slide-content .subject {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .module-4034 .frame .button,
+  .module-4034 .module-4034 .frame a.button {
+    font-size: 1.1rem !important;
+    padding: 1.1rem 1.6rem !important;
   }
 }

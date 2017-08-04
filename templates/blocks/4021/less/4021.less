@@ -1,12 +1,12 @@
+@import"../../values/less/var.less";
 .module-4021 {
     .wrapper-left{
-      background-color: #eff0f1;
+        background-color: @background-insights;
     }
     .owl-pagination{
         padding-bottom: 30px;
     }
     padding-bottom: 20px;
-    //SlieShow and button Sideshow
     #owl-demo .item img {
         display: block;
         width: 100%;
@@ -16,7 +16,6 @@
         margin-top: -30px;
         text-align: center;
     }
-    /* Styling Next and Prev buttons */
     .owl-carousel:hover .owl-prev {
         opacity: 1;
         display: block;
@@ -81,14 +80,10 @@
         border: none;
         outline: none;
     }
-    /* Clickable class fix problem with hover on touch devices */
-    /* Use it for non-touch hover action */
-    /* Styling Pagination*/
     .owl-theme .owl-controls .owl-page {
         display: inline-block;
         zoom: 1;
         *display: inline;
-        /*IE7 life-saver */
     }
     .owl-theme .owl-controls .owl-page span {
         display: block;
@@ -96,7 +91,6 @@
         height: 12px;
         margin: 5px 7px;
         filter: Alpha(Opacity=50);
-        /*IE7 fix*/
         opacity: 0.5;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
@@ -106,10 +100,8 @@
     .owl-theme .owl-controls .owl-page.active span,
     .owl-theme .owl-controls.clickable .owl-page:hover span {
         filter: Alpha(Opacity=100);
-        /*IE7 fix*/
         background: black;
     }
-    /* If PaginationNumbers is true */
     .owl-theme .owl-controls .owl-page span.owl-numbers {
         height: auto;
         width: auto;
@@ -120,7 +112,6 @@
         -moz-border-radius: 30px;
         border-radius: 30px;
     }
-    /* preloading images */
     .owl-item.loading {
         min-height: 389px;
     }
@@ -132,7 +123,6 @@
         line-height: 0;
         height: 0;
     }
-    /* display none until init */
     .owl-carousel {
         display: none;
         position: relative;
@@ -171,9 +161,7 @@
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-    /* mouse grab icon */
     .grabbing {}
-    /* fix */
     .owl-carousel .owl-wrapper,
     .owl-carousel .owl-item {
         -webkit-backface-visibility: hidden;
@@ -194,8 +182,6 @@
         display: block;
         background: rgba(49, 49, 70, 0.41);
     }
-    // end
-    // CSS  content
     .related-title {
         margin-top: 8.4rem;
         margin-bottom: 7.2rem;
@@ -207,8 +193,8 @@
         margin-top: 1rem;
     }
     h4 {
-        color: #333;
-        font-size: 2.8rem;
+        color: @textcolor-content-h1-h4;
+        font-size: @fontsize-content-h1-h4;
         line-height: 3rem;
         font-weight: 600;
         margin: 0;
@@ -227,39 +213,38 @@
         padding-bottom: 50px;
     }
     p{
-        color: #666;
+        color: @textcolor-content-p;
         font-family: 'Calibre',Arial,Sans-Serif;
-        font-size: 1.8rem;
+        font-size: @fontsize-content-p;
         font-weight: 400;
         line-height: 2.3rem;
     }
     @media screen and (max-width: 767px){
         h4 {
-  
-    font-size: 1.6rem;
-    line-height: 2rem;
-   
-}
-          .related-title {
-              margin-top: 4.4rem;
-              font-size: 2.3rem;
-              margin-bottom: 1rem;
+
+            font-size: 1.6rem;
+            line-height: 2rem;
+
         }
-    .reponmobile{
-        display: none;
-    }
-    .margin-tow{
-        padding:0 20px;
-    }
-    .owl-buttons{
-        display: none;
-    }
-    .component{
-        p{
-            font-size: 1.3rem;
-            margin-top: 0;
+        .related-title {
+            margin-top: 4.4rem;
+            font-size: 2.3rem;
+            margin-bottom: 1rem;
         }
-      
-    }
+        .reponmobile{
+            display: none;
+        }
+        .margin-tow{
+            padding:0 20px;
+        }
+        .owl-buttons{
+            display: none;
+        }
+        .component{
+            p{
+                font-size: 1.3rem;
+                margin-top: 0;
+            }
+        }
     }
 }

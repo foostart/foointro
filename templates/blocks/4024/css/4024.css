@@ -1,11 +1,12 @@
 .module-4024 {
-  padding: 40px 0 100px 0;
+  padding: 4rem 0 10rem 0;
   text-align: center;
   background: #eff0f1;
 }
 .module-4024 h3 {
+  font-size: 2, 8rem;
   font-weight: 600;
-  margin: 30px 0 50px 0;
+  margin: 3rem 0 5rem 0;
 }
 .module-4024 .ask a {
   text-transform: uppercase;
@@ -14,48 +15,48 @@
 }
 .module-4024 .ask .primary {
   background: #ff8c00;
-  padding: 17px 41px;
+  padding: 1.7rem 4.1rem;
   font-weight: 600;
-  letter-spacing: 1px;
-  font-size: 12px;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
 }
 .module-4024 .ask a:hover {
   background: #fa0;
 }
 @media (max-width: 1199px) {
   .module-4024 img {
-    width: 90px;
-    height: 80px;
+    width: 9rem;
+    height: 8rem;
   }
   .module-4024 h3 {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
   .module-4024 .ask .primary {
-    font-size: 10px;
-    padding: 15px 30px;
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
   }
 }
 @media (max-width: 991px) {
   .module-4024 img {
-    width: 80px;
-    height: 70px;
+    width: 8rem;
+    height: 7rem;
   }
   .module-4024 h3 {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .module-4024 .ask .primary {
-    padding: 15px 25px;
+    padding: 1.5rem 2.5rem;
   }
 }
 @media (max-width: 767px) {
   .module-4024 img {
-    width: 60px;
-    height: 50px;
+    width: 6rem;
+    height: 5rem;
   }
   .module-4024 h3 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .module-4024 .ask .primary {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }

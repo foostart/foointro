@@ -1,8 +1,9 @@
+@import"../../values/less/var.less";
 .module-4022{
     text-align: center;
     .home{
         position: absolute;
-        margin-left: 15px;
+        margin-left: 1.5rem;
         text-align: center;
         .ome{
             color: #666;
@@ -10,54 +11,53 @@
         }
         .ome:hover{
             color: #333;
-
         }
         .big{
             color: #ff7600;
-            margin: 0 5px;
+            margin: 0 0.5rem;
         }
         .sup{
             color: #333;
         }
     }
     img{
-        width: 83px;
-        height: 83px;
+        width: 8.3rem;
+        height: 8.3rem;
     }
     h1{
-        font-size: 45px;
+        font-size: @fontsize-content-h1-h4;
         font-weight: 600;
-        margin: 80px 0 30px 0;
+        margin: 8rem 0 3rem 0;
     }
-    .mega-container{
+    .mega-container-1{
         background-image: linear-gradient(-135deg,rgba(0,0,0,.06) 0%,rgba(0,0,0,.06) 38%,rgba(255,255,255,0) 38%,rgba(255,255,255,0) 100%),linear-gradient(-45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 35%,rgba(255,255,255,.5) 100%);
         background-color: #eff0f1;
         padding: 0 2rem;
-
-
-        .support{
-            padding: 65px 0 75px 0;
+        .content-1{
+            padding: 6.5rem 0 7.5rem 0;
             background-color: #e1e1e1;
             position: relative;
-            margin: 0 -1.6rem 8rem -1.6rem;
+            margin: 0 -1.6rem 8rem 0rem;
             h3{
                 font-weight: 600;
-                margin: 20px 0 20px 0;
-                font-size: 26px;
+                margin: 2rem 0 2rem 0;
+                font-size: @fontsize-content-h1-h4;
             }
             p{
-                padding: 0px 50px 0px 50px;
-                color: #666;
-                font-size: 17px;
+                padding: 0 5rem 0 5rem;
+                color: @textcolor-content-p;
+                font-size: @fontsize-content-p;
             }
-            select{ 
-                border: #fff;
-                margin: 10px 0 100px 0;
-                color: #666;
-                width: 68%;
-
-                height: 50px;
-                padding: 0px 10px 0 10px;
+            .contact{
+                height: 16rem;
+                select{ 
+                    border: #fff;
+                    margin: 1rem 0 10rem 0;
+                    color: #666;
+                    width: 68%;
+                    height: 5rem;
+                    padding: 0 1rem 0 1rem;
+                }
             }
             .submit{
                 a{
@@ -67,55 +67,56 @@
                 }
                 .primary{
                     background: #ff8c00;
-                    padding: 17px 41px;
+                    padding: 1.7rem 4.1rem;
                     font-weight: 600;
-                    letter-spacing: 1px;
-                    font-size: 12px;
+                    letter-spacing: 0.1rem;
+                    font-size: 1.2rem;
                 }
                 a:hover{
                     background: #fa0;
                 }
             }
         }
-        .locate{
+        .content-2{
             position: relative;
-            margin: 0 -1.6rem 8rem -1.6rem;
-            padding: 65px 0 75px 0;
+            margin: 0 0rem 8rem -1.6rem;
+            padding: 6.5rem 0 7.5rem 0;
             background-color: #d7d7d7;
             h3{
                 font-weight: 600;
-                margin: 20px 0 20px 0;
-                font-size: 26px;
+                margin: 2rem 0 2rem 0;
+                font-size: @fontsize-content-h1-h4;
             }
             p{
-                padding: 0px 50px 0px 50px;
-                color: #666;
-                font-size: 17px;
+                padding: 0 5rem 0 5rem;
+                color: @textcolor-content-p;
+                font-size: @fontsize-content-p;
             }
-            input{
-                border: #fff;
-                color: #666;
-                width: 68%;
-
-                height: 50px;
-                padding: 0px 10px 0 10px;
-            }
-            .filter{
-                cursor: pointer;
-                text-align: left;
-                font-weight: 600;
-                background: #fff;
-                color: #666;
-                margin: 15px 97px 45px 16%;
-                width: 68%;
-
-                height: 50px;
-                padding: 15px 10px 0px 10px;
-                .fa{
-                    float: right;
-                    font-size: 25px;
-                    position: relative;
-                    bottom: 2px;
+            .contact{
+                height: 16rem;
+                input{
+                    border: #fff;
+                    color: #666;
+                    width: 68%;
+                    height: 5rem;
+                    padding: 0 1rem 0 1rem;
+                }
+                .filter{
+                    cursor: pointer;
+                    text-align: left;
+                    font-weight: 600;
+                    background: #fff;
+                    color: #666;
+                    margin: 1.5rem 9.7rem 4.5rem 16%;
+                    width: 68%;
+                    height: 5rem;
+                    padding: 1.5rem 1rem 0 1rem;
+                    .fa{
+                        float: right;
+                        font-size: 2.5rem;
+                        position: relative;
+                        bottom: 0.2rem;
+                    }
                 }
             }
             .submit{
@@ -126,10 +127,10 @@
                 }
                 .primary{
                     background: #ff8c00;
-                    padding: 17px 41px;
+                    padding: 1.7rem 4.1rem;
                     font-weight: 600;
-                    letter-spacing: 1px;
-                    font-size: 12px;
+                    letter-spacing: 0.1rem;
+                    font-size: 1.2rem;
                 }
                 a:hover{
                     background: #fa0;
@@ -137,11 +138,11 @@
             }
         }
     }
-    .mega-2-container{
+    .mega-container-2{
         background-color: #fff;
         position: absolute;
         width: 100%;
-        top: 54rem;
+        top: 52rem;
         height: 35rem;
         padding: 3rem 25rem;
         z-index: 1;
@@ -158,29 +159,30 @@
             opacity: 0.8;
 
         }
-
-        .check{
-            display: flex;
-            margin-bottom: 1rem;
-            .checkbox-hidden {
-                opacity: 0;
-                position: absolute;
-            }
-            .checkbox-custom {
-                background: #ccc;
-                cursor: pointer;
-                width: .9rem;
-                height: .9rem;
-                position: absolute;
-                margin-left: -1.7rem;
-                margin-top: .4rem;
-                text-align: center;
-            }
-            .checkbox-text{
-                font-weight: 500;
-            }
-            .checkbox-hidden:checked+.checkbox-custom {
-                background: #ff8c00;
+        .contact{
+            .check{
+                display: flex;
+                margin-bottom: 1rem;
+                .checkbox-hidden {
+                    opacity: 0;
+                    position: absolute;
+                }
+                .checkbox-custom {
+                    background: #ccc;
+                    cursor: pointer;
+                    width: .9rem;
+                    height: .9rem;
+                    position: absolute;
+                    margin-left: -1.7rem;
+                    margin-top: .4rem;
+                    text-align: center;
+                }
+                .checkbox-text{
+                    font-weight: 500;
+                }
+                .checkbox-hidden:checked+.checkbox-custom {
+                    background: #ff8c00;
+                }
             }
         }
         .submit-3{
@@ -197,6 +199,7 @@
                 letter-spacing: 1px;
                 font-size: 12px;
                 top: 30px;
+                cursor: pointer;
             }
             a:hover{
                 background: #fa0;
@@ -204,40 +207,65 @@
         }
     }
     @media(max-width:1199px){
-
+        .mega-container-1{
+            .content-1{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+            .content-2{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
     }
     @media(max-width:991px) and (min-width: 768px){
-        .mega-container{
+        .mega-container-1{
             h1{
                 font-size: 3.5rem;
             }
             img{
-                width: 65px;
-                height: 65px;
+                width: 6.5rem;
+                height: 6.5rem;
             }
-            .support,.locate{
+            .content-1,.content-2{
                 h3{
                     font-weight: 800;
-                    font-size: 18px;
-                    padding: 0px 60px;
+                    font-size: 1.8rem;
+                    padding: 0 6rem;
                 }
                 p{
-                    font-size: 11px;
+                    font-size: 1.1rem;
                 }
                 select,input,.filter{
-                    font-size: 11px;
-                    height: 35px !important;
+                    font-size: 1.1rem;
+                    height: 3.5rem !important;
                 }
                 .submit{
                     .primary{
-                        padding: 15px 20px;
-                        font-size: 11px;
+                        padding: 1.5rem 2rem;
+                        font-size: 1.1rem;
+                    }
+                }   
+            }
+            .content-1{
+                .contact{
+                    margin-bottom: 1.5rem; 
+                }
+            }
+            .content-2{
+                .contact{
+                    .filter{
+                        padding: 1rem 1rem 0 1rem;
+                        .fa{
+                            bottom: 0.5rem;
+                        }
                     }
                 }
             }
-
         }
-        .mega-2-container{
+        .mega-container-2{
             padding: 1rem 16rem;
             top: 49rem;
             .out{
@@ -245,13 +273,13 @@
             }
             .check{
                 .checkbox-text{
-                    font-size: 12px;
+                    font-size: 1.2rem;
                 }
             }
             .submit-3{
                 .primary{
-                    padding: 15px 20px;
-                    font-size: 11px;
+                    padding: 1.5rem 2rem;
+                    font-size: 1.1rem;
                 }
             }
         }
@@ -260,73 +288,46 @@
         .home{
             display: none;
         }
-        .mega-container{
+        .mega-container-1{
             background-color: #c6c9ca;
             background-image: none;
             h1{
-                font-size: 25px;
+                font-size: 2.5rem;
             }
-            .support,.locate{
+            .content-1,.content-2{
                 margin: 0 -1.6rem 0rem -1.6rem;
-                .filter{
-                    margin: 15px 97px 45px 1.5%;
+                .contact{
+                    .filter{
+                        margin: 1.5rem 9.7rem 4.5rem 1.5%;
+                    }
                 }
             }
             select,input,.filter{
                 width: 97% !important;
             }
         }
-        .mega-2-container{
+        .mega-container-2{
             padding: 3rem 3rem;
-            top: 103rem;
+            top: 100rem;
+                height: 70rem;
             .out{
                 left: 0;
             }
         }
     }
-    @media(max-width:748px){
-        .mega-2-container{
+    @media(max-width:551px){
+        .mega-container-2{
             top: 105rem;
         }
     }
-    @media(max-width:636px){
-        .mega-2-container{
-            top: 107rem;
+    @media(max-width:438px){
+        .mega-container-2{
+            top: 111rem;
         }
     }
-    @media(max-width:551px){
-        .mega-2-container{
-            top: 110rem;
-        }
-    }
-    @media(max-width:470px){
-        .mega-2-container{
-            top: 116rem;
-        }
-    }
-    @media(max-width:469px){
-        .mega-2-container{
-            top: 118rem;
-        }
-    }
-    @media(max-width:465px){
-        .mega-2-container{
-            top: 121rem;
-        }
-    }
-    @media(max-width:393px){
-        .mega-2-container{
-            top: 123rem;
-        }
-    }
-    @media(max-width:379px){
-        .mega-2-container{
-            top: 125rem;
-        }
-    }
-    @media(max-width:359px){
-        .mega-2-container{
-            top: 128rem;
+     @media(max-width:377px){
+        .mega-container-2{
+            top: 113rem;
         }
     }
 }

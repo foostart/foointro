@@ -1,53 +1,49 @@
-.module-4033 .editor-content-component {
+.module-4033 .media {
+  padding: 8.6rem 0 9.2rem;
   padding-bottom: 1.6rem;
 }
-.module-4033 .editor-content-component p {
+.module-4033 .media p {
   margin-bottom: 2.2;
   margin: 0 0 10px;
   color: #666;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.2rem;
 }
-.module-4033 .section-wrapper-component {
-  padding: 8.6rem 0 9.2rem;
-}
-.module-4033 .button.primary:hover,
-.module-4033 a.button.primary:hover {
+.module-4033 .media .button.primary:hover,
+.module-4033 .media a.button.primary:hover {
   background: #fa0;
   color: #fff;
   text-decoration: none;
 }
-.module-4033 .button.primary,
-.module-4033 a.button.primary {
+.module-4033 .media .button.primary,
+.module-4033 .media a.button.primary {
   background: #ff8c00;
   color: #fff;
 }
-.module-4033 .button {
+.module-4033 .media .button {
   margin: 0 .3rem;
 }
-.module-4033 .button,
-.module-4033 a.button {
+.module-4033 .media .button,
+.module-4033 .media a.button {
   border: 0;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: .1em;
   line-height: 1.5rem;
   padding: 1.3rem 3rem;
   text-transform: uppercase;
 }
-.module-4033 .embed-responsive {
+.module-4033 .media .embed {
   padding-bottom: 56.25% !important;
-}
-.module-4033 .embed-responsive {
   position: relative;
   display: block;
   height: 0;
   padding: 0;
   overflow: hidden;
 }
-.module-4033 .embed-responsive iframe {
+.module-4033 .media .embed iframe {
   position: absolute;
   top: 0;
   left: 0;

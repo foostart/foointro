@@ -11,8 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module-4029">
-<div class="type-5">
+<div class="type-4029">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 list">
@@ -95,7 +94,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="icon-left">
                                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 <a class="a2" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -117,7 +115,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <p class="test">
                                 Read why the telecom industry ranks third among the world's <span>#MostCritical </span>industries:  <span>vrtvco.com/bQwCc</span>
                             </p>
-                            <img class="lon" src="image/DEfwlsFXYAAKVSU.jpg"" alt=""/>
+                            <img class="lon" src="image/DEfwlsFXYAAKVSU.jpg" alt=""/>
                             <div class="icon-left">
                                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 <a class="a2" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -134,4 +132,3 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
-    </div>

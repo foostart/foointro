@@ -1,85 +1,136 @@
-.mega-container {
+.module-4007 .mega-container {
   background-color: rgba(0,0,0,0.6);
-  padding: 10px 25px;
+  padding: 1rem 2.5rem;
   position: absolute;
   width: 100%;
 }
-.mega-container .module-4007 .links a {
+.module-4007 .mega-container .links a {
   text-decoration: inherit;
   color: #ccc;
   cursor: pointer;
+  font-size: 1.6rem;
 }
-.mega-container .module-4007 .links a:hover {
+.module-4007 .mega-container .links a:hover {
   opacity: 0.8;
 }
-.mega-container .module-4007 .links span {
+.module-4007 .mega-container .links span {
   color: #ff7600;
   font-weight: 500;
-  margin: 0 10px;
+  margin: 0 1rem;
+  font-size: 1.2rem;
 }
-.mega-container .module-4007 .links .power {
+.module-4007 .mega-container .links .power {
   color: #fff;
 }
-.mega-container .module-4007 .icon {
+.module-4007 .mega-container .icon {
   float: right;
 }
-.mega-container .module-4007 .icon .fa {
+.module-4007 .mega-container .icon .fa {
   color: #b6b7b7;
   font-size: 1.9rem;
   margin: 0.2rem;
 }
-.mega-container .module-4007 button {
+.module-4007 .mega-container button {
   display: none;
 }
-@media (max-width: 767px) {
-  .mega-container .module-4007 .icon {
-    font-size: 20px;
-    height: 25px;
-    background: #fff;
-    margin: 6px 27px 0px 0px;
-    top: 0;
-    right: 0;
-    width: 222px;
-    position: fixed;
-    overflow: hidden;
-    transition: width .7s;
-  }
-  .mega-container .module-4007 .icon .fa {
-    margin: 0 0.7rem;
-  }
-  .mega-container .module-4007 button {
-    display: block;
-    height: 25px;
-    width: 36px;
-    font-size: 18px;
-    cursor: pointer;
-    right: 17px;
-    position: absolute;
-    border: none;
-    bottom: 0;
-  }
-  .mega-container .module-4007 .in {
-    width: 0;
-  }
-}
-.module-4007 img {
+.module-4007 .content img {
   width: 100% !important;
 }
-.module-4007 .product {
+.module-4007 .content .product {
   padding: 0 22rem;
   transform: translate(0,-50%);
   position: absolute;
-  top: 20%;
+  top: 12rem;
   text-align: center;
 }
-.module-4007 .product h2 {
+.module-4007 .content .product h2 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.4rem;
   color: #ccc;
 }
-.module-4007 .product h1 {
+.module-4007 .content .product h1 {
   font-weight: 600;
   font-size: 4rem;
   color: #fff;
+}
+@media (max-width: 1199px) {
+  .module-4007 .mega-container .links a,
+  .module-4007 .mega-container .links span {
+    font-size: 1.1rem;
+  }
+  .module-4007 .content .product {
+    top: 10rem;
+  }
+  .module-4007 .content .product h2 {
+    font-size: 1rem;
+  }
+  .module-4007 .content .product h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 991px) {
+  .module-4007 .mega-container .links a,
+  .module-4007 .mega-container .links span {
+    font-size: 1rem;
+  }
+  .module-4007 .content .product {
+    top: 8rem;
+  }
+  .module-4007 .content .product h2 {
+    font-size: 1rem;
+  }
+  .module-4007 .content .product h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .module-4007 .mega-container {
+    padding: 2rem 2.5rem;
+  }
+  .module-4007 .mega-container .links {
+    display: none;
+  }
+  .module-4007 .mega-container .icon {
+    display: none;
+    font-size: 2rem;
+    height: 2.5rem;
+    background: #fff;
+    margin: 0.6rem 2.7rem 0 0;
+    top: 0;
+    right: 0;
+    width: 22.2rem;
+    position: fixed;
+    overflow: hidden;
+    transition: width .7s;
+  }
+  .module-4007 .mega-container .icon .fa {
+    margin: 0 0.7rem;
+  }
+  .module-4007 .mega-container button {
+    display: block;
+    height: 2.5rem;
+    width: 3.6rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    right: 1.7rem;
+    position: absolute;
+    border: none;
+    bottom: -0.9rem;
+  }
+  .module-4007 .mega-container .in {
+    width: 0;
+  }
+  .module-4007 .content img {
+    height: 15rem;
+  }
+  .module-4007 .content .product {
+    padding: 0 25%;
+  }
+  .module-4007 .content .product h2 {
+    margin-bottom: 0;
+  }
+  .module-4007 .content .product h1 {
+    margin-top: 0;
+  }
 }

@@ -1,94 +1,80 @@
-.type-2{
-    .contrast-background{
-        background-color: #eff0f1;
+.type-4026{
+    background-color: #eff0f1;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+    h1{
+        margin: 0;
+        padding: 1.2rem 0;
+        font-size: 6rem;
+        font-weight: 600;
+        line-height: 6rem;
+    }
+    p{
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.2rem;
+    }
+    button{
+        padding: 1.5rem 2.4rem 2.1rem 2.4rem;
+        font-size: 1.6rem;
+        border: 0;
+        display: inline-block;
+        font-family: 'Calibre',Arial,Sans-Serif;
+        font-weight: 600;
+        letter-spacing: .1em;
+        line-height: 1.8rem;
+        text-transform: uppercase;
+        background: #fff;
+        color: #4d4d4d;
+        margin-bottom: .6rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
-        .mega-container{
-            box-sizing: border-box;
-            margin: 0 auto;
-            max-width: 160rem;
-            padding: 0 1rem;
-            text-align: center;
-            .button.light{
-                background: #999;
-                color: #fff;
-            }
-            .button.primary{
-                display: block;
-                text-align: center;
+        .arrow-dropdown {
+            padding-left: 1.4rem;
+        }
+        i{
+            font-size: 2.4rem;
+        }
+    }
+    .light{
+        background: #999;
+        color: #fff;
+    }
+    .button.fluid{
+        width: 100%;  
+        background: #ff8c00;
+        color: #fff;
+    }
+    .form-inline {
+        label {
+            margin-right: 1.8rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1.4rem;
+            line-height: normal;
+            color: #333;
+        }
+        .form-control {
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding-left: .8rem;
+            padding: .6rem 3.5rem .6rem 1.2rem;
+            background-color: #fff;
+            border-radius: 0;
+            border-color: #fff;
+            box-shadow: none;
+            height: 4.8rem;
+        }
+        &:after{
+            display: none;
+        }
+        .form-control:focus{
+            border-color: #0092bd;
+            box-shadow: none;
 
-
-            }
-            .button.fluid{
-                width: 100%;  
-                background: #ff8c00;
-                color: #fff;
-            }
-            h1{
-                margin: 0;
-                padding: 1.2rem 0;
-                font-size: 6rem;
-                font-weight: 600;
-                line-height: 6rem;
-            }
-            .h8{
-                font-size: 2rem;
-                font-weight: 500;
-                line-height: 2.2rem;
-            }
-            .button{
-                padding: 1.5rem 2.4rem 2.1rem 2.4rem;
-                font-size: 1.6rem;
-                margin-left: 4.6rem;
-                border: 0;
-                display: inline-block;
-                font-family: 'Calibre',Arial,Sans-Serif;
-                font-weight: 600;
-                letter-spacing: .1em;
-                line-height: 1.8rem;
-                text-transform: uppercase;
-                background: #fff;
-                color: #4d4d4d;
-                margin-bottom: .6rem;
-                padding-top: 1.5rem;
-                padding-bottom: 1.5rem;
-                .arrow-dropdown {
-                    padding-left: 1.4rem;
-                }
-                i{
-                    font-size: 2.4rem;
-                }
-            }
-            .form-inline {
-                margin: 0 4.6rem .6rem 0;
-                float: right!important;
-                label {
-                    margin-right: 1.8rem;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    font-size: 1.4rem;
-                    line-height: normal;
-                    color: #333;
-                }
-                .form-control {
-                    font-size: 1.6rem;
-                    font-weight: 500;
-                    padding-left: .8rem;
-                    padding: .6rem 3.5rem .6rem 1.2rem;
-                    background-color: #fff;
-                    border-radius: 0;
-                    border-color: #fff;
-                    box-shadow: none;
-                    height: 4.8rem;
-                }
-                &:after{
-                    display: none;
-                }
-                .form-control:focus{
-                    border-color: #0092bd;
-                    box-shadow: none;
-
-                }
-            }
         }
     }
     .subtitle.smaller {
@@ -344,40 +330,34 @@
     }
     @media (max-width: 767px){
         .contrast-background {
-            .mega-container{
-                padding: 0 2rem;
-                h1 {
-                    line-height: normal;
-                    margin: 0 0 1.2rem 0;
-                    padding: 0;
-                    font-size: 2.8rem;
-                }
-                .h8 {
+
+            padding: 0 2rem;
+            h1 {
+                line-height: normal;
+                margin: 0 0 1.2rem 0;
+                padding: 0;
+                font-size: 2.8rem;
+            }
+            p {
+                font-size: 1.4rem;
+                font-weight: 600;
+            }
+            .row {
+                padding-bottom: 2.2rem;
+                padding-top: 3.8rem;
+                button{
                     font-size: 1.4rem;
-                    font-weight: 600;
-                }
-                .filter-sort-btn-holder {
-                    padding-bottom: 2.2rem;
-                    padding-top: 3.8rem;
-                    .filter-button{
-                        font-size: 1.4rem;
-                        margin: 0;
-                        padding: 1.4rem 1.5rem;
-                        width: 100%;
-                    }
-                    .sort-button{
-                        font-size: 1.4rem;
-                        margin: 0;
-                        padding: 1.4rem 1.5rem;
-                        width: 100%;
-                    }
-                }
-                span {
-                    line-height: 1.3rem;
-                    margin-bottom: .2rem;
-                    margin-top: -.3rem;
+                    margin: 0;
+                    padding: 1.4rem 1.5rem;
+                    width: 100%;
                 }
             }
+            span {
+                line-height: 1.3rem;
+                margin-bottom: .2rem;
+                margin-top: -.3rem;
+            }
+
         }
         .filter-container{
             background: #fff;

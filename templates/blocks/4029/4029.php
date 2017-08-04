@@ -7,7 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4029</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -17,10 +18,9 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('less/4029.less', 'css/4029.css');
         ?>
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <link href="css/4029.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include '../4029/4029-content.php'; ?>
+         <?php include '../../blocks/4029/4029-content.php';?>
     </body>
 </html>

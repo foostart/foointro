@@ -1,36 +1,66 @@
+@import"../../values/less/var.less";
 .module-4023{
-    margin-top: 3rem;
-    h3{
-        font-size: 2.5rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin-bottom: 5rem;
-        text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    .list{
+        margin-top: 3rem;
+        h3{
+            font-size: @fontsize-content-h1-h4;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 5rem;
+            text-align: center;
+        }
+        img{
+            cursor: pointer;
+            width: 100%;
+        }
+        h4{
+            font-weight: 600;
+            font-size: @fontsize-content-h1-h4;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+        h4:hover{
+            opacity: @textcolor-content-h4-hover;
+        }
+        p{
+            color: @textcolor-content-p;
+            font-size: @fontsize-content-p;
+        }
     }
-    img{
-        width: 100%;
-    }
-    h4{
-        font-weight: 600;
-        font-size: 2.2rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        cursor: pointer;
-    }
-    h4:hover{
-        opacity: 0.8;
-    }
-    p{
-        color: #666;
-        font-size: 1.3rem;
-    }
-    @media(max-width:1199px){
-
+     @media(max-width:1199px){
+        .list{
+            h4{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
     }
     @media(max-width:991px){
-
+        .list{
+            h4{
+                font-size: 1.6rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
     }
     @media(max-width:767px){
-
+        .list{
+            h4{
+                font-size: 1.3rem;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
     }
+
 }

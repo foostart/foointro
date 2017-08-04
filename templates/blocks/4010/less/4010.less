@@ -1,65 +1,6 @@
-.module-4010{
-.ATD_content_1{
-    @media screen and (min-width: 767px){
-    .test{
-        display: none;
-    }
-}
-
-.test{
-     position: absolute;
-     right:0;
-    .fa-share-square-o{
-        font-size: 2.5rem;
-       cursor: pointer;
-    right: 0px;
-    position: absolute;
-    top: 1.3px;
-    z-index: 10;
-    border: none;
-    }
-    .item{
-     
-            position: absolute;
-    right: 30px;
-        margin-right: 20px;
-        top: 4px;
-    }
-
-
-          .side-collapse-container{
-              width:100%;
-              position:relative;
-              right:0;
-              transition:left .4s;
-          }
-      
-          .side-collapse {
-                 height: 2.7rem;
-            background: #fff;
-                
-             margin: 0.5rem 0.5rem;
-              top:-4px;
-              bottom:0;
-              right:0;
-              width:250px;
-              position:absolute;
-              overflow:hidden;
-              transition:width .5s;
-          }
-          .side-collapse.in {
-              width:0;
-          }
-          
-          a{
-              margin: 5px;
-              font-size: 1.8rem;
-              color: #ccc;
-          }
-          
-}
-    background-color: #eff0f1;
-    .mega-container{
+@import "../../values/less/var.less";
+.type-4010{
+background-color: #eff0f1;
         overflow: hidden;
         box-sizing: border-box;
         margin: 0 auto;
@@ -79,7 +20,7 @@
                         color: #333;
                     }
                 }
-            }
+            
             li+li::before{
                 color: #ff7600;
                 content: "> ";
@@ -97,7 +38,9 @@
             font-size: 1.3rem;
             line-height: normal;
         }
-        .icon-bar{
+        
+    }
+	.icon-bar{
             text-align: right;
             padding: 1.6rem 0 0 1.2rem;
             font-size: 2.4rem;
@@ -107,43 +50,96 @@
 
             }
         }
+    .test{
+        position: absolute;
+        right:0;
+        .fa-share-square-o{
+            font-size: 2.5rem;
+            cursor: pointer;
+            right: 0px;
+            position: absolute;
+            top: 1.3px;
+            z-index: 10;
+            border: none;
+        }
+        .item{
+
+            position: absolute;
+            right: 30px;
+            margin-right: 20px;
+            top: 4px;
+        }
+        .side-collapse-container{
+            width:100%;
+            position:relative;
+            right:0;
+            transition:left .4s;
+        }
+
+        .side-collapse {
+            height: 2.7rem;
+            background: #fff;
+
+            margin: 0.5rem 0.5rem;
+            top:-4px;
+            bottom:0;
+            right:0;
+            width:250px;
+            position:absolute;
+            overflow:hidden;
+            transition:width .5s;
+        }
+        .side-collapse.in {
+            width:0;
+        }
+
+        a{
+            margin: 5px;
+            font-size: 1.8rem;
+            color: #ccc;
+        }
+
     }
+    
+    
     @media (max-width: 1051px){
-        .mega-container .breadcrumb li a{
+         .breadcrumb li a{
             font-size: 1.2rem;
         }
-        .mega-container .breadcrumb .active{
+         .breadcrumb .active{
             font-size: 1.2rem;
         }
-        .mega-container .icon-bar{
+         .icon-bar{
             font-size: 2rem;
         }
     }
     @media (max-width: 898px){
-        .mega-container .breadcrumb li a{
+         .breadcrumb li a{
             font-size: 1rem;
         }
-        .mega-container .breadcrumb .active{
+        .breadcrumb .active{
             font-size: 1rem;
         }
     }
     @media (max-width: 787px){
-        .mega-container .breadcrumb li a{
+         .breadcrumb li a{
             font-size: 0.9rem;
         }
-        .mega-container .breadcrumb .active{
+         .breadcrumb .active{
             font-size: 0.9rem;
         }
-        .mega-container .icon-bar{
+         .icon-bar{
             font-size: 1.8rem;
         }
     }
     @media (max-width: 767px){
-        .mega-container{
+        .breadcrumb{
             display: none;
         }
     }
-}
-
-
+     @media (min-width: 767px){
+        .test{
+            display: none;
+        }
+    }
 }
