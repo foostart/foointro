@@ -23,10 +23,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="margin-tow">
                     <div id="owl-demo">
-
                         <div class="item">
                             <div class="row">
-
                                 <div class="col-xs-6 col-sm-4">
                                     <div class="imagesd">
                                         <a href="#">
@@ -66,7 +64,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                          <div class="item">
@@ -111,17 +108,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
-
                             </div>
-                        </div>
-                      
-
+                        </div>                      
                     </div>
                 </div>
                 </div>
-            </div>
-            
+            </div>          
         </div>
     </div>
-
 </div>
