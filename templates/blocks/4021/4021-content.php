@@ -13,7 +13,6 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <div class="module-4021">
-    <div class="wrapper-left">
         <div class="container ">
             <h3 class="text-center xx-thick related-title">INDUSTRIES WE SERVICE</h3>
             <div class="component">
@@ -64,6 +63,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                          <div class="item">
@@ -108,12 +108,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <p class="larger">Allow efficient distribution of your telecom and data center power utilizing these reliable, scalable and flexible DC power products.</p>
                                     </div>
                                 </div>
+
                             </div>
-                        </div>                      
+                        </div>                   
                     </div>
                 </div>
                 </div>
-            </div>          
+            </div>           
         </div>
-    </div>
 </div>

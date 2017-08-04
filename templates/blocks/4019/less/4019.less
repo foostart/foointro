@@ -1,42 +1,39 @@
+@import "../../values/less/var.less";
 .module-4019{
- .editor-content-component {
-    padding-bottom: 1.6rem;
-    h1 {
-    margin-bottom: 2.2rem;
-    margin-top: 0;
-     font-size: 6rem;
-    font-weight: 600;
-    line-height: 6rem;
-
-}
-p {
-    margin-bottom: 2.4rem;
-        color: #666;
-    
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.3rem;
-}
-}
-
-@media (max-width: 767px){
     .editor-content-component {
-    padding-bottom: .2rem;
-    h1 {
-    margin-bottom: 2rem;
-    margin-top: 3.2rem;
-    font-size: 2.8rem;
-    line-height: normal;
-}
-    p {
-        color: #333;
-    font-size: 1.4rem;
+        padding-bottom: 1.6rem;
+        h1 {
+            margin-bottom: 2.2rem;
+            margin-top: 0;
+            font-size: 6rem;
+            font-weight: 600;
+            line-height: 6rem;
+        }
+        p {
+            margin-bottom: 2.4rem;
+            color: @textcolor-content-p;
+            font-size: @fontsize-content-p;
+            font-weight: 400;
+            line-height: 2.3rem;
+        }
+    }
 
-    line-height: 1.8rem;
-    margin-bottom: 2rem;
-}
+    @media (max-width: 767px){
+        .editor-content-component {
+            padding-bottom: .2rem;
+            h1 {
+                margin-bottom: 2rem;
+                margin-top: 3.2rem;
+                font-size: 2.8rem;
+                line-height: normal;
+            }
+            p {
+                color: #333;
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+                margin-bottom: 2rem;
+            }
+        }
 
-}
-
-}
+    }
 }
