@@ -14,7 +14,8 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="module-4004">
   
-  <div class="type-5">
+
+   
     <div class="row">
         <div class="content">LATEST INDUSTRY TRENDS, TECHNOLOGIES AND SOLUTIONS</div>
         <div class="col-md-6">
@@ -66,6 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-</div>
+
+    
 
 </div>

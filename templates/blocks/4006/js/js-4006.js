@@ -1,28 +1,4 @@
 
-$(document).ready(function (){
-                
-    $(window).bind('scroll',function (){
-       
-                var navHeight = $(window).height()-500;
-           
-			 if ($(window).scrollTop() >= 200){
-                
-                              $('div.hiding-header').addClass("hiddenn");
-                              $('div.header-bar').addClass("fixed");
-                               $(' .navbar-brand').addClass('img-scrool');
-                             
-                    }
-                    else
-                        {
-                             $('div.hiding-header').removeClass("hidden");
-                              $('div.header-bar').removeClass("fixed");
-                            $(' .navbar-brand').removeClass('img-scrool');
-                        }
-       
-           
-                 });
-            });
-            
             
   
 $(document).ready(function() {   
