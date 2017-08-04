@@ -15,7 +15,7 @@
         ?> 
         <link href="css/4030.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/js-4030.js" type="text/javascript"></script>
+        <script src="js/4030-script.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include '../4030/4030-content.php';?>
