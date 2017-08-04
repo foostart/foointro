@@ -12,31 +12,24 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4036">
-    <div class="contrast-background">
-    <div class="tile-list-component">
+    <div class="contrast">
         <div class="container">
             <h3 class="text-center">Already a Partner?</h3>
             <div class="row" >
-                    
-            
-                    <div class="col-xs-4  frame-repons" >
-<div class="panel panel-default">
-    <a href="#" >
-        <img class="img-responsive" src="image/about4.jpg" alt=""/>
-    </a>
-    <div class="panel-body">
-        <h4>
-                <a href="#" >Partner Portal</a>
-        </h4>
-        <p class="larger">Stay up-to-date on the latest news and gain access to sales tools and other partner-related information to help you qualify and drive business.</p>
-    </div>
-</div>
-
-                   
+                <div class="col-xs-4 " >
+                    <div class="panel" style="width: 405px;">
+                        <a href="#" >
+                            <img class="img-responsive" src="image/800x600-101443_101453_0.jpg" alt=""/>
+                        </a>
+                        <div class="panel-body">
+                            <h4>
+                                <a href="#" >Partner Portal</a>
+                            </h4>
+                            <p class="larger">Stay up-to-date on the latest news and gain access to sales tools and other partner-related information to help you qualify and drive business.</p>
+                        </div>
+                    </div>
+                </div>             
             </div>
-            </div>
-            
         </div>
     </div>
-</div>
 </div>

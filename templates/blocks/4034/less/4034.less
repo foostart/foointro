@@ -1,82 +1,68 @@
+@import"../../values/less/var.less";
 .module-4034{
-     overflow: hidden;
-     margin-bottom: 6rem;
-    .frame-repon{
-        background:#000;
-    img{
-            opacity: 0.8;
-        min-height: 40rem;
-        min-width: 40rem;
-    object-fit: cover;
-    object-position: 60% 40%;
-    
-       
-    }
-    }
-    .slide-content {
-    margin: 14rem;
-    position: absolute;
-    text-align: center;
-       z-index: 110;
-    
-    .subject {
-   
-    font-size: 1.7rem;
-    font-weight: 600;
-    letter-spacing: .1em;
-    line-height: 3rem;
-}
-    }
-    .button.primary, a.button.primary {
-    background: #ff8c00;
-    color: #fff;
-    
-}
-.button, a.button {
-    border: 0;
-    display: inline-block;
-    
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: .1em;
-    line-height: 1.5rem;
-    padding: 1.3rem 2.9rem;
-    text-transform: uppercase;
-}
-.button.primary:hover, a.button.primary:hover {
-    background: #fa0;
-    color: #fff;
-    text-decoration: none;
-}
-
-@media (max-width: 767px){
-        .frame-repon{
-    img{
-            opacity: 0.8;
-        min-height: 26rem;
-        min-width: 26rem;
-   
-    
-       
-    }
+    overflow: hidden;
+    margin-bottom: 6rem;
+    .frame{
+        img{
+            opacity: 0.8 !important;
+            min-height: 40rem;
+            min-width: 40rem;
+            object-fit: cover;
+            object-position: 50% 50%;
         }
-.slide-content {
-  
-    left: 0;
-    margin: 4rem;
-    right: 0;
-   
-    max-height: 26.2rem;
-
-    .subject {
-    font-size: 1.2rem;
-    line-height: initial;
-}
-.button {
-    font-size: 1.2rem;
-    padding: .8rem 1.6rem;
-    text-decoration: none;
-}
-}
-}
+        .slide-content {
+            left: 50%;
+            position: absolute;
+            text-align: center;
+            top: 26%;
+            transform: translate(-50%,-50%);
+            z-index: 110;
+            .subject {
+                font-size: 1.7rem;
+                font-weight: 600;
+                letter-spacing: .1em;
+                line-height: 3rem;
+            }
+        }
+        .button.primary, a.button.primary {
+            background: @background-button;
+            color: @textcolor-button;
+        }
+        .button, a.button {
+            border: 0;
+            display: inline-block;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: .1em;
+            line-height: 1.5rem;
+            padding: 1.3rem 2.9rem;
+            text-transform: uppercase;
+        }
+        .button.primary:hover, a.button.primary:hover {
+            background: @background-button-hover;
+            color: @textcolor-button;
+            text-decoration: none;
+        }
+    }
+    @media (max-width: 767px){
+        .frame .slide-content {
+            left: 0;
+            padding: 0 2rem;
+            right: 0;
+            transform: translate(0,-50%);
+            max-height: 26.2rem;
+        }
+        .frame img{
+            min-height: 26rem;
+            max-height: 26rem;
+        }
+        .frame .slide-content .subject{
+            font-size: 1.3rem;
+            line-height: 2rem;
+        }
+        .frame .button, .module-4034 .frame a.button{
+            font-size: 1.1rem !important;
+            padding: 1.1rem 1.6rem !important;
+        }
+    }
 }

@@ -1,158 +1,138 @@
+@import"../../values/less/var.less";
 .module-4032{
-.module_4{
-    .page{
-        background: #fff;
+    .featured{
+        background: @background;
         position: relative;
         overflow: hidden;
-    }
-    .featured{
-        padding: 8.6rem 0 9.2rem;
+        padding: 8.6rem 0 6.1rem;
         h3{
             padding-bottom: 3rem;
             margin-bottom: 0;
         }
         .component{
             padding-bottom: 1.8rem;
+            p{
+                margin-bottom: 2.4rem;
+                color: @textcolor-content-p;
+                font-family: 'Calibre',Arial,Sans-Serif;
+                font-size: @fontsize-content-p;
+                font-weight: 400;
+                line-height: 2.3rem;
+            }
+        }
+        .text{
+            text-align: center;
+            font-weight: 700!important;
         }
         .featured-tile{
             padding: 0;
+            h4{
+                color: @textcolor-content-h1-h4;
+                font-size: @fontsize-content-h1-h4;
+                line-height: 3rem;
+                margin: 0;
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+            .larger{
+                font-size: @fontsize-content-p;
+                line-height: 2.3rem;
+            }
         }
-    }
-    .text{
-        text-align: center;
-        font-weight: 700!important;
-    }
-    .component p{
-        margin-bottom: 2.4rem;
-        color: #666;
-        font-family: 'Calibre',Arial,Sans-Serif;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 2.3rem;
-    }
-    .row {
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-    .featured .taget .image{
-        display: table-cell;
-        vertical-align: middle;
-    }
-    .img-responsive{
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-    .featured .taget{
-        height: 439px;
-        display: table;
-        table-layout: fixed;
-        .content{
-            padding-left: 6rem;
+        .taget .image{
             display: table-cell;
             vertical-align: middle;
         }
-    }
-    .component .featured .featured-tile h4{
-        margin-bottom: 1.4rem;
-        color: #333;
-        font-size: 2.8rem;
-        line-height: 3rem;
-        margin: 0;
-    }
-    h4 a {
-        color: inherit;
-        text-decoration: none;
-    }
-    h4 {
-        color: #333;
-        font-size: 2.8rem;
-        line-height: 3rem;
-        margin: 0;
-        margin-bottom: 18px;
-
-    }
-    .larger{
-        font-size: 15px;
-        line-height: 2.3rem;
-    }
-    p{
-        color: #666;
-        font-family: 'Calibre',Arial,Sans-Serif;
-        font-weight: 400;
-    }
-    .text-left{
-        text-align: left;
-
-    }
-    .button , a.button{
-        background: #ff8c00;
-        color: #fff;
-        border: 0;
-        display: inline-block;
-        font-family: 'Calibre',Arial,Sans-Serif;
-        font-size: 1.4rem;
-        font-weight: 600;
-        letter-spacing: .1em;
-        line-height: 1.8rem;
-        padding: 1.6rem 3.2rem;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-    .button:hover ,a.button:hover{
-        background: #fa0;
-        color: #fff;
+        .img-responsive{
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .content{
+            padding-top: 8rem;
+            padding-left: 6rem;
+            display: table-cell;
+            vertical-align: middle;
+            h4{
+                margin-bottom: 2.5rem;
+            }
+        }
+        .button , a.button{
+            background: @background-button;
+            color: @textcolor-button;
+            border: 0;
+            display: inline-block;
+            font-family: 'Calibre',Arial,Sans-Serif;
+            font-size: @fontsize-button;
+            font-weight: 600;
+            letter-spacing: .1em;
+            line-height: 1.8rem;
+            padding: 1.6rem 3.2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .button:hover ,a.button:hover{
+            background: #fa0;
+            color:@textcolor-button;
+        }
     }
     @media (max-width: 991px) and (min-width: 768px){
+        .featured .content{
+            padding-top: 7rem;
+            padding-left: 3rem;
+        }
         .component p{
-            font-size: 12px;
+            font-size: 12px!important;
             margin-bottom: -50px;
         }
         .featured h3{
-            font-size: 20px;
+            font-size: 19px;
         }
         h4 {
-            font-size: 20px;
+            font-size: 2rem !important;
+            line-height: 1rem !important;
         }
         .larger{
             font-size: 11px !important;
         }
         .button, a.button{
-            font-size: 9px;
-            padding: 9px 15px;
+            font-size: 9px !important;
+            padding: 9px 22px !important;
         }
     }
     @media (max-width: 767px){
-        .featured .container .content .text-left{
-            text-align: center;
-        }
-        .featured .container .content{
-            padding: .6rem 0 190px;
+        .featured  .content{
+            display: initial  ;
         }
         .component .featured-tile h3{
-
             text-align: center;
         }
         .featured h3{
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            padding: 0;
-        }
-        .featured .featured-tile  h4{
-            font-size: 2.1rem;
-            margin: .8rem 0 .6rem;
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
         }
         .featured .featured-tile p{
-            font-size: 1.3rem;
+            font-size: 1.3rem !important;
             line-height: 1.6rem;
         }
-        .button, a.button{
-            font-size: 9px;
-            padding: 9px 15px;
+        .component p{
+            color: #000 !important;
+            font-size: 1.3rem !important;
+            line-height: 1.8rem !important;
+            margin-bottom: 1rem !important;
         }
-        .featured .component p{
-            margin-bottom: .2rem;
+        .featured-tile  h4{
+            font-size: 1.8rem !important;
+            line-height: 1rem !important;
+        }
+        .button, a.button{
+            font-size: 1.2rem !important;
+            padding: 1.5rem 3.3rem !important;
+        }
+        .text-left{
+            text-align: center;
         }
     }
-}
 }

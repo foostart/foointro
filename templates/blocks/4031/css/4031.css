@@ -1,113 +1,96 @@
-.module-4031 .module_3 .page {
-  background: #fff;
+.module-4031 .about {
   position: relative;
   overflow: hidden;
-}
-.module-4031 .module_3 .inverted {
+  padding: 8.6rem 0 9.2rem;
   background-image: linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 67.25%,rgba(0,0,0,0.06) 67.25%,rgba(0,0,0,0.06) 100%), linear-gradient(-135deg,rgba(0,0,0,0.02) 26%,rgba(0,0,0,0.03) 36%,rgba(255,255,255,0) 36%,rgba(255,255,255,0) 100%);
   background-color: #e5e6e7;
 }
-.module-4031 .module_3 .about {
-  padding: 8.6rem 0 9.2rem;
-}
-.module-4031 .module_3 .about h3 {
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  font-size: 3rem;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-}
-.module-4031 .module_3 .text {
+.module-4031 .about .text {
   text-align: center;
   font-weight: 700 !important;
+  margin-bottom: 3rem;
 }
-.module-4031 .module_3 .editor {
+.module-4031 .about .editor {
   padding-bottom: 1.6rem;
 }
-.module-4031 .module_3 .editor p {
+.module-4031 .about .editor p {
   margin-bottom: 2.4rem;
   color: #666;
   font-family: 'Calibre', Arial, Sans-Serif;
-  font-size: 15px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.5;
 }
-.module-4031 .module_3 .list {
+.module-4031 .about .list {
   height: 181px;
 }
-.module-4031 .module_3 .about .list h2 {
-  margin: 1.6rem 0 0.6rem;
-  font-size: 14px;
+.module-4031 .about .list h2 {
+  margin: 1.9rem 0 0.1rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 3;
   font-family: 'Calibre', Arial, Sans-Serif;
 }
-.module-4031 .module_3 .about .list h2 a {
+.module-4031 .about .list h2 a {
   text-decoration: none;
   color: #666;
 }
-.module-4031 .module_3 .about .list h2 a:hover {
+.module-4031 .about .list h2 a:hover {
   color: #333;
   text-decoration: none;
 }
-.module-4031 .module_3 .list-unstyled {
+.module-4031 .about .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-.module-4031 .module_3 .about .list ul li {
+.module-4031 .about .list ul li {
   margin-bottom: -3px;
   line-height: 1;
 }
-.module-4031 .module_3 ul a {
-  font-size: 13px;
-  line-height: 2.1rem;
+.module-4031 .about ul a {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
 }
-.module-4031 .module_3 .about .list ul a:hover {
+.module-4031 .about .list ul a:hover {
   color: #333;
   text-decoration: none;
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .module-4031 .module_3 .about h3 {
+  .module-4031 .about h3 {
     font-size: 17px;
   }
-  .module-4031 .module_3 .editor p {
+  .module-4031 .editor p {
     font-size: 11px;
   }
-  .module-4031 .module_3 .about .list h2 {
+  .module-4031 .about .list h2 {
     font-size: 9px;
   }
-  .module-4031 .module_3 ul a {
-    font-size: 10px;
+  .module-4031 ul a {
+    font-size: 9px !important;
+    line-height: 1.8rem !important;
   }
 }
 @media (max-width: 767px) {
-  .module-4031 .module_3 .about h3 {
+  .module-4031 .about .list h2 {
+    margin: 0.2rem 0 -1rem;
+  }
+  .module-4031 .about ul a {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .module-4031 .about h3 {
     padding-bottom: 0;
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     padding: 0;
   }
-  .module-4031 .module_3 .editor p {
-    color: #333;
-    font-size: 13px;
-    line-height: 1.5;
+  .module-4031 .editor p {
+    color: #333 !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
   }
-  .module-4031 .module_3 .about .same .col-sm-2:nth-last-child(-n+2) .list {
+  .module-4031 .about .same .col-sm-2:nth-last-child(-n+2) .list {
     height: auto !important;
-  }
-}
-@media (max-width: 1068px) and (min-width: 992px) {
-  .module-4031 .module_3 .about h3 {
-    font-size: 19px;
-  }
-  .module-4031 .module_3 .editor p {
-    font-size: 13x !important;
-  }
-  .module-4031 .module_3 .about .list h2 {
-    font-size: 11px;
-  }
-  .module-4031 .module_3 ul a {
-    font-size: 10px;
   }
 }
