@@ -6,8 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <title></title>
+        
+      
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -15,19 +21,22 @@ and open the template in the editor.
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/4006.less','css/4006.css');
+        $less->compileFile('less/4006.less', 'css/4006.css');
         ?> 
+        <link href="css/jquery-mobile-mega-menu-min.css" rel="stylesheet" type="text/css"/>
         <link href="css/4006.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery-mobile-mega-menu-min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/module_menu.js" type="text/javascript"></script>
-        <script src="js/bootstrap-offcanvas-navigation.js" type="text/javascript"></script>
-
+    
+        <script src="js/jquery-mobile-mega-menu.js" type="text/javascript"></script>
+        <script src="js/js-4006.js" type="text/javascript"></script>
     </head>
     <body>
 
 
-            <?php include '../4006/4006-content.php'; ?>
-
-
+            <?php 
+            include '../4006/4006-content.php'
+            ; ?>
+           
     </body>
 </html>
