@@ -192,6 +192,7 @@
   letter-spacing: 1px;
   font-size: 12px;
   top: 30px;
+  cursor: pointer;
 }
 .module-4022 .mega-container-2 .submit-3 a:hover {
   background: #fa0;
@@ -301,5 +302,10 @@
 @media (max-width: 438px) {
   .module-4022 .mega-container-2 {
     top: 111rem;
+  }
+}
+@media (max-width: 377px) {
+  .module-4022 .mega-container-2 {
+    top: 113rem;
   }
 }

@@ -15,7 +15,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="home">
         <span class="ome">Home</span><span class="big">></span><span class="sup">Support</span>
     </div>
-    
     <div class="mega-container-1">
         <div class="container">
             <div class="row">
@@ -44,7 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </select>
                         </div>
                         <div class="submit">
-                            <a href="#" class="primary">submit</a>
+                            <a class="primary">submit</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                         <div class="submit">
-                            <a href="#" class="primary">submit</a>
+                            <a class="primary">submit</a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +173,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="submit-3">
-                    <a href="#" class="primary">submit</a>
+                    <a class="primary">DONE</a>
                 </div>
             </div>
         </div>
