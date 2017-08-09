@@ -13,55 +13,48 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4008">
     <div class="container">
-        <div class="row">
-            <div class="text">
-                <p>You’re in the business of handling unexpected challenges. And so are our power transfer switches. Engineered and tested in concert with the equipment they support, our power transfer switches deliver ultra-fast and reliable switching between redundant UPS units and between the UPS system and backup power source.</p>
-            </div>
+        <div class="text">
+            <p>You’re in the business of handling unexpected challenges. And so are our power transfer switches. Engineered and tested in concert with the equipment they support, our power transfer switches deliver ultra-fast and reliable switching between redundant UPS units and between the UPS system and backup power source.</p>
         </div>
-        <div class="row">
-            <div class="media-767">
-                <div class="col-xs-6">
-                    <div class="media-filter">
-                        <h3>FILTER</h3>
-                    </div>
+        <div class="row media-767">
+            <div class="col-xs-6">
+                <div class="media-filter">
+                    <h3>FILTER</h3>
                 </div>
-                <div class="col-xs-6">
-                    <div class="media-sort-by">
-                        <h3>SORT BY</h3>
-                    </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="media-sort-by">
+                    <h3>SORT BY</h3>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="product-sort-by">
-                <div class="product-sort-by-1">
-                    <h3>SORT BY<span class="end-sort-by">X</span></h3>
-                </div>
-                <div class="product-sort-by-2">
-                    <a> FEATURED<span class="check-1"></span></a>
-                </div>
-                <div class="product-sort-by-3">
-                    <a> MOST RECENT<span class="check-2"></span></a>
-                </div>
+        <div class="row product-sort-by">
+            <div class="product-sort-by-1">
+                <h3>SORT BY<span class="end-sort-by">X</span></h3>
+            </div>
+            <div class="product-sort-by-2">
+                <a> FEATURED<span class="check-1"></span></a>
+            </div>
+            <div class="product-sort-by-3">
+                <a> MOST RECENT<span class="check-2"></span></a>
             </div>
         </div>
-        <div class="row">
-            <div class="sort">
-                <span>SORT BY</span>
-                <select>
-                    <option>Featured</option>
-                    <option>Most Recent</option>
-                </select>
-                <div class="results">
-                    <p>10 of 20 Results</p>
-                </div>
+        <div class="sort">
+            <span>SORT BY</span>
+            <select>
+                <option>Featured</option>
+                <option>Most Recent</option>
+            </select>
+            <div class="results">
+                <p>10 of 20 Results</p>
             </div>
         </div>
+        <div class="clearfix"></div>
         <div class="row">
             <div class="col-sm-3">
                 <div class="product">
                     <a class="clear">Clear All Filters</a>
-                    <div class="product-filter">
+                    <div class="row product-filter">
                         <h3>FILTER<span class="end-filter">X</span></h3>
                     </div>
                     <div class="product-1">
@@ -387,5 +380,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-    <div class="clearfix"></div>
 </div>

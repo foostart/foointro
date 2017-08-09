@@ -96,13 +96,13 @@
 }
 .module-4008 .sort select {
   border: #fff;
-  margin: 0.5rem 1.5rem 1rem 0;
+  margin: 0.5rem 0rem 1rem 0;
   color: #666;
   height: 5rem;
   padding: 0 1rem 0 1rem;
 }
 .module-4008 .sort .results p {
-  margin: 0.5rem 1.5rem 0 0 !important;
+  margin: 0.5rem 0rem 0 0 !important;
   font-size: 1.4rem;
   float: right;
 }

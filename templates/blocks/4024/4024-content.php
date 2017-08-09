@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4024">
     <div class="container">
-        <div class="row">
+        <div class="content">
             <img src="image/4024-1.png" alt=""/>
             <h3>Need product support information or details?</h3>
             <div class="ask">
