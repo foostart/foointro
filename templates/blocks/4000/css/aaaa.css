@@ -1,143 +1,22 @@
-@background-menu:#262626;
-@background-menumobile:#f4f4f5;
-@background-content:#4d4d4d;
-@color-menu:#434343;
-@font-size-content:1.4rem;
-@font-size-dropmenu:1.2rem;
-@font-size-menumobile:1.3rem;
+/*
+ * Plugin: Web Slide Navigation System
+ * Demo Link: http://webslidemenu.uxwing.com/
+ * Author: UXWing
+ * License: http://codecanyon.net/licenses/standard
+*/
 
+/*--------------------------------------------------------------------------
+[Table of contents]
 
-.module-4000{
-    .header-bar {
-        background: @background-menu;
-    }
-    .navbar{
-        border: none;
-        margin-bottom: 0;
-    }
- .hiding-header {
-    background: @background-menu;
-    box-sizing: border-box;
-    height: 20rem;
-    left: 0;
-    padding-top: 1.6rem;
-    
-    right: 0;
-    top: -14.9rem;
-    z-index: 0;
-    overflow: hidden;
-    .navbar-brand-full {
-    position: fixed;
-    left: 50%;
-    -webkit-transform: translate(-50%,0);
-    -ms-transform: translate(-50%,0);
-    transform: translate(-50%,0);
-    display: inline-block;
-    margin-top: 4.7rem;
-    img {
-    width: 14.6rem;
-    height: auto;
-}
-}
-}
-
-.mega-container {
-       margin: 0 auto;
-    max-width: 160rem;
-    padding: 0 2rem;
-}
-.action-bar{
-    padding-top: 2rem;
-    height: 100%;
-    padding-bottom: 2rem;
-      background: @background-menu;
-    a {
-    color: #999;
-  
-    font-size: @font-size-dropmenu;
-   
-    margin-left: 2.4rem;
-}
-a:hover{
-    text-decoration: none;
-     color: #434343;
-}
- a.button {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
- 
-}
-.x-dark {
-    background: #4d4d4d;
-    color: #fff;
-    font-weight: 600;
-  
-}
-.tight {
-    font-size: 1.2rem;
-    line-height: normal;
-    padding: .4rem .8rem;
-}
-.tight:hover {
-    background: #434343;
-    color: #fff;
-}
-}
-
-.fixed{
-    position: fixed;
-    width: 100%;
-    top:0;
-    z-index: 999;
-}
-
-.content-one{
-    .wsmain {
-    width: 100%;
-  
-    padding: 0px 0px;
-    position: relative;
-  
-   
-}
-.wsmenu {
-    font-family: Helvetica, sans-serif;
-    color: #fff;
-  
-    padding: 0px 0px 0px 0px;
-    margin: 0px auto;
-    width: 100%;
-    float: left;
-    border-left: none;
-}
-.wsmenu-list {
-    text-align: right;
-    margin: 0 auto 0 auto;
-    width: 100%;
-    display: block;
-    padding: 0px;
-    > li {
-    text-align: right;
-    display: block;
-    float: right;
-    margin: 0px;
-    padding: 0px;
-}
-}
-
-
-
-
-
-}
-@media only screen and (max-width: 767px){
-    .content-one{
-        display: none;
-    }
-}
-        
-
-.content-two{
+01 Base CSS
+02 Desktop CSS
+03 Tab CSS
+04 Mobile CSS
+05 Additional Themes (Optionnal)
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------
+|  01  Base CSS
+--------------------------------------------------------------------------*/
 
 .wsmain html, .wsmain body, .wsmain iframe, .wsmain h1, .wsmain h2, .wsmain h3, .wsmain h4, .wsmain h5, .wsmain h6 {
 	margin: 0px;
@@ -177,6 +56,11 @@ a:hover{
 }
 
 
+/*--------------------------------------------------------------------------
+|  02 Desktop CSS
+--------------------------------------------------------------------------*/
+
+
 .wsmobileheader {
 	display: none;
 }
@@ -200,13 +84,14 @@ a:hover{
 	height: 47px;
 	position: relative;
 	margin: 0px 0px 0px 0px;
-        .searchicon {
+}
+.topmenusearch .searchicon {
 	-webkit-transition: all 0.7s ease 0s;
 	-moz-transition: all 0.7s ease 0s;
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-input {
+.topmenusearch input {
 	width: 100%;
 	position: relative;
 	float: right;
@@ -228,30 +113,35 @@ input {
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-input:hover {
+.topmenusearch input:focus {
 	color: #fff;
 	width: 250px;
 	background-color: #181818;
 }
- input:focus ~ .btnstyle {
+.topmenusearch input:hover {
+	color: #fff;
+	width: 250px;
+	background-color: #181818;
+}
+.topmenusearch input:focus ~ .btnstyle {
 	background-color: #3a4a51 !important;
 	color: #fff;
 	opacity: 0.9;
 }
-input:hover ~ .btnstyle {
+.topmenusearch input:hover ~ .btnstyle {
 	background-color: #3a4a51 !important;
 	color: #fff;
-	opacity: 0.9
+	opacity: 0.9;
 }
-input:focus ~ .btnstyle .fa {
+.topmenusearch input:focus ~ .btnstyle .fa {
 	color: #fff;
 }
-input:focus ~ .searchicon {
+.topmenusearch input:focus ~ .searchicon {
 	opacity: 1;
 	z-index: 3;
 	color: #FFFFFF;
 }
-.btnstyle {
+.topmenusearch .btnstyle {
 	top: 0px;
 	position: absolute;
 	right: 0;
@@ -270,23 +160,16 @@ input:focus ~ .searchicon {
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-.btnstyle .fa {
+.topmenusearch .btnstyle .fa {
 	line-height: 38px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
-.btnstyle:hover {
+.topmenusearch .btnstyle:hover {
 	background-color: #282C37;
 	opacity: 0.9;
 }
-
-}
-
-
-
-
-
 .wsmain {
 	width: 100%;
 	
@@ -314,35 +197,29 @@ input:focus ~ .searchicon {
 	width: 100%;
 	display: block;
 	padding: 0px;
-        > li {
+}
+.wsmenu-list > li {
 	text-align: center;
 	display: block;
 	float: left;
 	    margin-bottom: -6px;
 	padding: 0px;
-         > a {
-	display: block;
-	color: #f5f5f5;
-	padding: 0px 30px 0px 18px;
-	line-height: 47px;
-	border-right: 1px solid rgba(0,0,0,0.10);
-	text-decoration: none;
-	position: relative;
 }
-         > a .fa {
+.wsmenu-list > li > a .fa {
 	display: inline-block;
 	font-size: 13px;
 	line-height: inherit;
 	margin-right: 8px;
 	color: #898d91;
 }
-
-}
- li ul li a .fa.fa-angle-double-right {
+.wsmenu-list li ul li a .fa.fa-angle-double-right {
 	font-size: 12px;
 	margin: 0 3px 0 -4px;
 }
-li a .arrow:after {
+.mobiletext {
+	display: none;
+}
+.wsmenu-list li a .arrow:after {
 	border-left: 4px solid rgba(0, 0, 0, 0);
 	border-right: 4px solid rgba(0, 0, 0, 0);
 	border-top: 4px solid #898d91;
@@ -355,61 +232,80 @@ li a .arrow:after {
 	top: 22px;
 	width: 0;
 }
- li a:hover .arrow:after {
+.wsmenu-list > li > a {
+	display: block;
+	color: #f5f5f5;
+	padding: 0px 30px 0px 18px;
+	line-height: 47px;
+	border-right: 1px solid rgba(0,0,0,0.10);
+	text-decoration: none;
+	position: relative;
+}
+.wsmenu-list li a:hover .arrow:after {
 	border-top-color: #b3b3b3
 }
-li a.active .arrow:after {
+.wsmenu-list li a.active .arrow:after {
 	border-top-color: #b3b3b3
 }
-li:hover>a .arrow:after {
+.wsmenu-list li:hover>a .arrow:after {
 	border-top-color: #b3b3b3
 }
-> li a.menuhomeicon {
+.megamenu iframe {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 200px;
+}
+.megamenu video {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 200px;
+}
+.wsmenu-list > li a.menuhomeicon {
 	padding: 0px 20px;
 }
- > li.socialicon {
+.wsmenu-list > li.socialicon {
 	float: left;
 }
- > li.socialicon a {
+.wsmenu-list > li.socialicon a {
 	width: 38px;
 	padding: 0px 10px
 }
- > li.socialicon a .fa {
+.wsmenu-list > li.socialicon a .fa {
 	font-size: 15px;
 	color: #898d91;
 	text-align: center;
 }
-> li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	float: right;
 }
- > li.rightmenu a {
+.wsmenu-list > li.rightmenu a {
 	padding: 0px 30px 0px 20px;
 	border-right: none;
 }
- > li.rightmenu a .fa {
+.wsmenu-list > li.rightmenu a .fa {
 	font-size: 15px;
 }
-> li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	float: right;
 }
-> li.rightmenu:before, .wsmenu-list > li.rightmenu:after {
+.wsmenu-list > li.rightmenu:before, .wsmenu-list > li.rightmenu:after {
 	content: "";
 	display: table;
 }
- > li.rightmenu:after {
+.wsmenu-list > li.rightmenu:after {
 	clear: both;
 }
- > li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	zoom: 1;
 }
- > li.carticon a {
+.wsmenu-list > li.carticon a {
 	padding: 0px 27px 0px 15px;
 	text-align: center;
 }
- > li.carticon a .fa {
+.wsmenu-list > li.carticon a .fa {
 	font-size: 15px;
 }
- > li.carticon em.roundpoint {
+.wsmenu-list > li.carticon em.roundpoint {
 	position: absolute;
 	top: 8px;
 	width: 15px;
@@ -425,53 +321,10 @@ li:hover>a .arrow:after {
 	color: #fff;
 	right: 20px;
 }
- li:hover .megamenu {
+
+.wsmenu-list li:hover .megamenu {
 	opacity: 1;
 }
-.megamenu li:hover>a {
-	background: transparent !important;
-}
- .megamenu li a:hover {
-	background: transparent !important;
-	text-decoration: underline;
-}
-.megamenu li .fa {
-	margin-right: 5px;
-	text-align: center;
-	width: 18px;
-}
-.ad-style {
-	width: 28%;
-	float: right;
-        a {
-	border: none !important;
-	padding: 0px !important;
-	margin: 0px !important;
-	line-height: normal !important;
-	background-image: none !important;
-}
-}
-}
-
-
-.mobiletext {
-	display: none;
-}
-
-
-
-.megamenu iframe {
-	width: 100%;
-	margin-top: 10px;
-	min-height: 200px;
-}
-.megamenu video {
-	width: 100%;
-	margin-top: 10px;
-	min-height: 200px;
-}
-
-
 .megamenu {
 	width: 100%;
 	left: 0px;
@@ -494,8 +347,8 @@ li:hover>a .arrow:after {
 	-ms-transition: -ms-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-        
-        .title {
+}
+.megamenu .title {
 	border-bottom: 1px solid #CCC;
 	font-size: 14px;
 	padding: 9px 5px 9px 0px;
@@ -506,14 +359,13 @@ li:hover>a .arrow:after {
 	height: 39px;
 	margin:0px 0px 10px 0px;
 }
-}
-
 .link-list li {
 	display: block;
 	text-align: center;
 	white-space: nowrap;
 	text-align: left;
-         a {
+}
+.link-list li a {
 	line-height: 18px;
 	border-right: none;
 	text-align: left;
@@ -527,23 +379,22 @@ li:hover>a .arrow:after {
 	background-color: #fff;
 	color: #424242;
 }
-.fa {
+.link-list .fa {
 	font-size: 11px;
 }
-}
-
- 
 .megacollink {
 	width: 23%;
 	float: left;
 	margin: 0% 1%;
 	padding: 0px;
-        li {
+}
+.megacollink li {
 	display: block;
 	text-align: center;
 	white-space: nowrap;
 	text-align: left;
-        a {
+}
+.megacollink li a {
 	line-height: 18px;
 	border-right: none;
 	text-align: left;
@@ -557,14 +408,9 @@ li:hover>a .arrow:after {
 	background-color: #fff;
 	color: #424242;
 }
-}
-.fa {
+.megacollink .fa {
 	font-size: 11px;
 }
-}
-
-
-
 .megacolimage {
 	width: 31.33%;
 	float: left;
@@ -578,26 +424,41 @@ li:hover>a .arrow:after {
 	width: 25%;
 	float: left;
 	margin: 0% 0%;
-        ul {
+}
+.typographylinks ul {
 	padding: 0px;
 }
-}
-
 .mainmapdiv {
 	width: 100%;
 	display: block;
 	margin: 0% 0%;
 }
-
-
-
-
+.wsmenu-list .ad-style {
+	width: 28%;
+	float: right;
+}
+.wsmenu-list .ad-style a {
+	border: none !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	line-height: normal !important;
+	background-image: none !important;
+}
 .mobile-sub .megamenu .ad-style a:hover {
 	background-color: transparent !important;
 }
-
- 
-
+.wsmenu-list .megamenu li:hover>a {
+	background: transparent !important;
+}
+.wsmenu-list .megamenu li a:hover {
+	background: transparent !important;
+	text-decoration: underline;
+}
+.wsmenu-list .megamenu li .fa {
+	margin-right: 5px;
+	text-align: center;
+	width: 18px;
+}
 .mrgtop {
 	margin-top: 15px;
 }
@@ -2485,42 +2346,4 @@ li:hover>a .arrow:after {
     margin-bottom: 0;
    
 }
-}   
-}
-  
-
-
-
-
-
-
-// di dộng menu
-
-@media screen and (max-width: 767px){
-
-
-
-.hiding-header,.header-component, .action-bar {
-    display: none;
-}
-
-    .mega-nav {
-    border: none;
-    padding: 0;
-}
-.mega-container {
-    padding: 0;
-}
-
-
-}
-
-
-
-
-//menu di dong tabs
-
-
-
-// end 
 }
