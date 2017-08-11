@@ -23,13 +23,12 @@ and open the template in the editor.
         $less = new lessc;
         $less->compileFile('less/4006.less', 'css/4006.css');
         ?> 
-        <link href="css/jquery-mobile-mega-menu-min.css" rel="stylesheet" type="text/css"/>
+       
         <link href="css/4006.css" rel="stylesheet" type="text/css"/>
-        <link href="css/jquery-mobile-mega-menu-min.css" rel="stylesheet" type="text/css"/>
+      
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    
-        <script src="js/jquery-mobile-mega-menu.js" type="text/javascript"></script>
         <script src="js/js-4006.js" type="text/javascript"></script>
+      
     </head>
     <body>
 

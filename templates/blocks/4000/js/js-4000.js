@@ -3,20 +3,21 @@ $(document).ready(function (){
                 
     $(window).bind('scroll',function (){
        
-                var navHeight = $(window).height()-500;
+                var navHeight = $(window).height()-200;
            
-			 if ($(window).scrollTop() >= 200){
+			 if ($(window).scrollTop() >= 159){
                 
-                              $('div.hiding-header').addClass("hiddenn");
+                              $('.navbar-brand-full').addClass("hidden");
                               $('div.header-bar').addClass("fixed");
                                $(' .navbar-brand').addClass('img-scrool');
-                             
+                           $('.smllogo').css('opacity','1');
                     }
                     else
                         {
-                             $('div.hiding-header').removeClass("hidden");
+                             $('.navbar-brand-full').removeClass("hidden");
                               $('div.header-bar').removeClass("fixed");
                             $(' .navbar-brand').removeClass('img-scrool');
+                          $('.smllogo').css('opacity','0');
                         }
        
            

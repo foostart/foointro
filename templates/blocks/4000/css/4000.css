@@ -1,5 +1,7 @@
 .module-4000 .header-bar {
   background: #4d4d4d;
+  position: inherit;
+  z-index: 9999;
 }
 .module-4000 .navbar {
   border: none;
@@ -15,6 +17,9 @@
   top: -14.9rem;
   z-index: 0;
   overflow: hidden;
+}
+.module-4000 .hiding-header .hidden {
+  opacity: 0;
 }
 .module-4000 .hiding-header .navbar-brand-full {
   position: fixed;
@@ -130,7 +135,7 @@
 .module-4000 .smllogo {
   opacity: 0;
   padding: 0px 0px;
-  margin: 0;
+  margin-top: .3rem;
   float: left;
 }
 .module-4000 .smllogo a {
@@ -900,7 +905,7 @@
     width: 200px;
   }
 }
-@media only screen and (min-width: 780px) and (max-width: 1023px) {
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
   .module-4000 .wsmenu-list li a .arrow:after {
     display: none;
   }
@@ -968,7 +973,7 @@
     margin-right: 0px !important;
   }
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 767px) {
   .module-4000 .wsmain {
     margin: 0px;
     background-color: transparent;

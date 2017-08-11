@@ -1,8 +1,11 @@
 @import"../../values/less/var.less";
 
 .module-4000{
+    
     .header-bar {
         background: @background-content;
+            position: inherit;
+    z-index: 9999;
     }
     .navbar{
         border: none;
@@ -19,6 +22,11 @@
     top: -14.9rem;
     z-index: 0;
     overflow: hidden;
+    .hidden{
+    opacity: 0; 
+        
+    
+}
     .navbar-brand-full {
     position: fixed;
     left: 50%;
@@ -39,7 +47,6 @@
     max-width: 160rem;
     padding: 0 2rem;
 }
-
 
 .fixed{
     position: fixed;
@@ -119,6 +126,7 @@
 	clear: both;
 }
 .wsmain img, object, embed, video {
+      
 	border: 0 none;
 	max-width: 100%;
 }
@@ -148,7 +156,7 @@
 .smllogo {
     opacity: 0;
 	padding: 0px 0px;
-	margin: 0;
+	  margin-top: .3rem;    
 	float: left;
 }
 .smllogo a {
@@ -940,7 +948,7 @@
 	width: 200px;
 }
 }
- @media only screen and (min-width:780px) and (max-width:1023px) {
+ @media only screen and (min-width:767px) and (max-width:1023px) {
 .wsmenu-list li a .arrow:after {
 	display: none;
 }
@@ -1016,7 +1024,7 @@
 |  04 Mobile CSS
 --------------------------------------------------------------------------*/ 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 767px) {
 .wsmain {
 	margin: 0px;
 	background-color: transparent;

@@ -18,9 +18,12 @@
         <link href="../4004/css/4004.css" rel="stylesheet" type="text/css"/>
         <link href="../4005/css/4005.css" rel="stylesheet" type="text/css"/>
         
-    
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
        
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+         <script src="../4002/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="../4002/js/js-4002.js" type="text/javascript"></script>
+        <script src="../4003/js/js-4003.js" type="text/javascript"></script>
+
         <script src="../4000/js/js-4000.js" type="text/javascript"></script>
         <script src="js/js-4000-2.js" type="text/javascript"></script>
         <script src="js/4001-1.js" type="text/javascript"></script>

@@ -30,8 +30,7 @@ and open the template in the editor.
 
 
             <?php
-            include '../4000/4000-content.php'
-            ; ?>
+            include '../4000/4000-content.php'; ?>
            
     </body>
 </html>
