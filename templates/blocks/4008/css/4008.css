@@ -326,6 +326,43 @@
   font-size: 1.2rem;
   float: right;
 }
+@media (max-width: 1199px) and (min-width: 768px) {
+  .module-4008 .text p {
+    font-size: 1.2rem;
+  }
+  .module-4008 h3,
+  .module-4008 select,
+  .module-4008 span {
+    font-size: 1.1rem;
+  }
+  .module-4008 .product .clear {
+    font-size: 1.1rem;
+  }
+  .module-4008 .product .product-3 h2 {
+    font-size: 1.4rem;
+  }
+  .module-4008 .type .type-1 .featured-2 h2,
+  .module-4008 .type .type-2 .featured-2 h2,
+  .module-4008 .type .type-3 .featured-2 h2 {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .module-4008 .type .type-1 .featured-2 p,
+  .module-4008 .type .type-2 .featured-2 p,
+  .module-4008 .type .type-3 .featured-2 p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  .module-4008 .type .type-1 .featured-3 a,
+  .module-4008 .type .type-2 .featured-3 a,
+  .module-4008 .type .type-3 .featured-3 a {
+    font-size: 1.1rem;
+  }
+  .module-4008 .sort .results p {
+    font-size: 1.1rem;
+  }
+}
 @media (min-width: 768px) {
   .module-4008 .product-filter,
   .module-4008 .product-4,
