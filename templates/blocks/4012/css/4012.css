@@ -27,8 +27,6 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   line-height: 1.8rem;
-}
-.module-4012 .lon .product-hero-component .x-light {
   color: #ccc;
 }
 .module-4012 .lon .product-hero-component .productnamedata {
@@ -65,8 +63,6 @@
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 700;
-}
-.module-4012 .lon .list-tile-component .list-tile .dark {
   color: #666;
 }
 .module-4012 .lon .list-tile-component .list-tile ul {
@@ -272,14 +268,12 @@
   padding-top: 0;
   padding: 3.2rem 0 0;
 }
-.module-4012 .nho .list-tile-component .dark {
-  color: #666;
-}
 .module-4012 .nho .list-tile-component .subtitle {
   margin-bottom: .4rem;
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 700;
+  color: #666;
 }
 .module-4012 .nho .list-tile-component .list-tile {
   margin-bottom: 0;
