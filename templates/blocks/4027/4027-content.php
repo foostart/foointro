@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-4027">
+<div class="module-4027">
     <div class="container">
         <h3 class="most">Most Recent</h3>
         <div class="row">

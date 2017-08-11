@@ -23,6 +23,6 @@ and open the template in the editor.
         <script src="js/4027.js" type="text/javascript"></script>
     </head>
     <body>
-        <?php include '../../blocks/4027/4027-content.php';?>
+        <?php include '../4027/4027-content.php';?>
     </body>
 </html>

@@ -42,27 +42,6 @@
 .module-4025 button {
   display: none;
 }
-.module-4025 .content img {
-  width: 100% !important;
-}
-.module-4025 .content .product {
-  padding: 0 22rem;
-  transform: translate(0,-50%);
-  position: absolute;
-  top: 12rem;
-  text-align: center;
-}
-.module-4025 .content .product h2 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.4rem;
-  color: #ccc;
-}
-.module-4025 .content .product h1 {
-  font-weight: 600;
-  font-size: 4rem;
-  color: #fff;
-}
 @media (max-width: 1199px) {
   .module-4025 .links a,
   .module-4025 .links span {

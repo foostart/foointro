@@ -1,5 +1,6 @@
-.type-4026{
-    background-color: #eff0f1;
+@import"../../values/less/var.less";
+.module-4026{
+    background-color: @background-insights;
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
@@ -25,8 +26,8 @@
         letter-spacing: .1em;
         line-height: 1.8rem;
         text-transform: uppercase;
-        background: #fff;
-        color: #4d4d4d;
+        background: @background-color;
+        color: @background-content;
         margin-bottom: .6rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -38,30 +39,33 @@
             font-size: 2.4rem;
         }
     }
+    .bottom-left-aligned{
+        text-align: left;
+    }
     .light{
-        background: #999;
-        color: #fff;
+        background: @textcolor-content-small-span;
+        color: @textcolor-button;
     }
     .button.fluid{
         width: 100%;  
         background: #ff8c00;
-        color: #fff;
+        color: @textcolor-button;
     }
     .form-inline {
         label {
             margin-right: 1.8rem;
             text-transform: uppercase;
             font-weight: 600;
-            font-size: 1.4rem;
+            font-size: @fontsize-content-p;
             line-height: normal;
-            color: #333;
+            color: @textcolor-content-h1-h4;
         }
         .form-control {
             font-size: 1.6rem;
             font-weight: 500;
             padding-left: .8rem;
             padding: .6rem 3.5rem .6rem 1.2rem;
-            background-color: #fff;
+            background-color: @background-color;
             border-radius: 0;
             border-color: #fff;
             box-shadow: none;
@@ -77,7 +81,7 @@
         }
     }
     .subtitle.smaller {
-        font-size: 1.2rem;
+        font-size: @fontsize-content-small-span;
         line-height: 1.8rem;
     }
     .x-light {
@@ -87,10 +91,10 @@
         font-weight: 500;
     }
     .xx-light {
-        color: #fff;
+        color: @textcolor-button;
     }
     .smaller {
-        font-size: 1.2rem;
+        font-size: @fontsize-content-small-span;
         line-height: normal;
     }
     .subtitle {
@@ -98,7 +102,7 @@
         display: block;
         font-family: 'Calibre',Arial,Sans-Serif;
         font-weight: 600;
-        font-size: 1.6rem;
+        font-size: @fontsize-content-a;
         letter-spacing: .05em;
         text-transform: uppercase;
     }
@@ -112,11 +116,11 @@
         cursor: pointer;
     }
     .subtitle.x-smaller {
-        font-size: 1.2rem;
+        font-size: @fontsize-content-small-span;
         line-height: normal;
     }
     .mosaic-component {
-           padding: 0 1.5rem;
+        padding: 0 1.5rem;
         .wrapper {
             background: #4d4d4d;
         }
@@ -127,7 +131,7 @@
             padding: 0!important;
         }
         .mosaic-large {
-            background-color: #fff;
+            background-color: @background-color;
             margin: 0;
             position: relative;
             .text-overlay-xs {
@@ -153,7 +157,7 @@
                     font-weight: 600;
                     line-height: 4rem;
                     a:hover{
-                        color: #fff;
+                        color: @textcolor-button;
                     }
                 }
             }
@@ -170,12 +174,12 @@
     .filter-container{
         display: none;
         .mega-container{
-    text-align: initial;
-                background-color: #fff;
+            text-align: initial;
+            background-color: @background-color;
             padding: 0 5.6rem;
             position: relative;
             .dark {
-                color: #666;
+                color: @textcolor-content-p;
             }
             .pull-right {
                 float: right!important;
@@ -200,15 +204,15 @@
                 text-align: center;
                 .button.primary{
                     background: #ff8c00;
-                    color: #fff;
+                    color: @textcolor-button;
                     &:hover{
                         background: #fa0;
-                        color: #fff;
+                        color: @textcolor-button;
                     }
                 }
                 .button.accent{
                     background: #dde0e1;
-                    color: #0092bd;
+                    color: @textcolor-content-a;
                     &:hover{
                         background: #ccc;
                         color: #333;
@@ -262,7 +266,7 @@
                 }
             }
             .checkbox-hidden:checked+.checkbox-custom{
-                background: #ff8c00;
+                background: @background-button;
             }
         }
     }
@@ -270,7 +274,7 @@
         display: none;
         padding-bottom: 3.2rem;
         .dark {
-            color: #666;
+            color: @textcolor-content-p;
         }
         .pull-right {
             float: right!important;
@@ -318,17 +322,16 @@
                 .topic {
                     font-weight: 500;
                     line-height: 1.4rem;
-                    font-size: 1.2rem;
+                    font-size: @fontsize-content-small-span;
                 }
             }
             .checkbox-hidden:checked+.checkbox-custom{
-                background: #ff8c00;
+                background: @background-button;
             }
         }
     }
     @media (max-width: 767px){
         .contrast-background {
-
             padding: 0 2rem;
             h1 {
                 line-height: normal;
@@ -337,7 +340,7 @@
                 font-size: 2.8rem;
             }
             p {
-                font-size: 1.4rem;
+                font-size: @fontsize-content-p;
                 font-weight: 600;
             }
             .row {
@@ -357,7 +360,7 @@
             }
         }
         .filter-container{
-            background: #fff;
+            background: @background-color;
             height: 100%;
             left: 0;
             position: absolute;
@@ -365,7 +368,7 @@
             top: 0;
             z-index: 19;
             .mega-container{
-                background: #fff;
+                background: @background-color;
                 padding: 0 2rem;
                 .close-button-holder{
                     background: #333;

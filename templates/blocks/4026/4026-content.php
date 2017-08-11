@@ -12,27 +12,27 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-2">
+<div class="module-4026">
     <div class="contrast-background">
-        <div class="mega-container">
+        <div class="container">
             <h1>Insights</h1>
-            <span class="h8">Keeping you informed on the latest trends, technologies and solutions.</span>
-            <div class="row filter-sort-btn-holder">
+            <span>Keeping you informed on the latest trends, technologies and solutions.</span>
+            <div class="row">
                 <div class="col-xs-6">
-                    <button class="button primary pull-left filter-button collapsed" data-toggle="collapse" data-target="#topics" aria-expanded="false">
+                    <button class="button primary pull-left">
                         Topics &amp; Filters
                         <span class="arrow-dropdown hidden-xs"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
                     </button>
                 </div>
                 <div class="col-xs-6 visible-xs">
-                    <button class="button light pull-right sort-button" data-toggle="collapse" data-target=".sort">
+                    <button class="button light pull-right">
                         Sort By
                     </button>
                 </div>
                 <div class="col-xs-6 hidden-xs">
-                    <form class="form-inline pull-right sort-select ng-pristine ng-valid">
-                        <div class="form-group select-wrapper">
-                            <label class="control-label smaller xx-dark x-thick">
+                    <form class="form-inline pull-right">
+                        <div class="form-group">
+                            <label class="control-label smaller">
                                 Sort By
                             </label>
                             <select class="form-control" id="sortorder" name="SortOrder"><option selected="selected" value="MostRecent">Most Recent</option>
@@ -46,11 +46,11 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-    <div class="filter-container topics collapse in" id="topics" aria-expanded="true">
+    <div class="filter-container collapse in" id="topics">
         <div class="mega-container">
             <div class="close-button-holder">
                 <span class="subtitle thick xx-light visible-xs">Topics &amp; Filters</span>
-                <button class="close-btn pull-right dark" data-toggle="collapse" data-target=".topics">
+                <button class="close-btn pull-right dark">
                     <span class="icon icon-x">X</span>
                 </button>
                 <div class="clearfix"></div>
@@ -65,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="cong">+</span>
                         </div>
                         <div id="filter-area" class="collapse in filter-elements">
-                            <ul class="list-unstyled filters col-sm-9 col-md-8">
+                            <ul class="list-unstyled col-sm-9 col-md-8">
                                 <li>
                                     <label class="checkbox-custom-label smaller thick" for="BlogPost">
                                         <input class="checkbox-hidden" id="BlogPost" name="pagetype" type="checkbox" value="BlogPost">
@@ -143,12 +143,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-sm-5 filter-category-holder">
                     <div class="row">
                         <div class="col-sm-12">
-                            <span class="subtitle smaller xx-thick dark hidden-xs">INDUSTRY</span>
+                            <span class="subtitle smaller dark hidden-xs">INDUSTRY</span>
                             <button data-target="#topic-1" class="filter-category visible-xs subtitle dark" data-toggle="collapse">INDUSTRY</button>
                             <span class="tru2">-</span>
                             <span class="cong2">+</span>
                         </div>
-                        <div id="topic-1" class="collapse in filter-elements">
+                        <div class="collapse in filter-elements">
                             <ul class="list-unstyled col-sm-4 col-lg-3 ">
                                 <li>
                                     <a href="#" data-topic="2674" class="topic ">Banking Financial and Insurance</a>
@@ -226,12 +226,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-sm-5 filter-category-holder">
                     <div class="row">
                         <div class="col-sm-12">
-                            <span class="subtitle smaller xx-thick dark hidden-xs">TOPICS</span>
+                            <span class="subtitle smaller dark hidden-xs">TOPICS</span>
                             <button data-target="#topic-2" class="filter-category visible-xs subtitle dark" data-toggle="collapse">TOPICS</button>
                             <span class="tru3">-</span>
                             <span class="cong3">+</span>
                         </div>
-                        <div id="topic-2" class="collapse in filter-elements">
+                        <div class="collapse in filter-elements">
                             <ul class="list-unstyled col-sm-4 col-lg-3 ">
                                 <li>
                                     <a href="#" data-topic="2682" class="topic ">Availability &amp; Uptime</a>
@@ -279,12 +279,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="button-holder visible-xs">
-                <button id="apply-filters" class="button primary fluid">Apply</button>
-                <button id="clear-filters" class="button accent fluid clear">Clear All</button>
+                <button class="button primary fluid">Apply</button>
+                <button class="button fluid clear">Clear All</button>
             </div>
         </div>
     </div>
-    <div class="sort-container sort hidden-sm collapse in" id="sort" aria-expanded="true">
+    <div class="sort-container sort hidden-sm collapse in" id="sort">
         <div class="container">
             <div class="close-button-holder">
                 <span class="subtitle thick xx-light visible-xs">Sort By</span>
@@ -293,7 +293,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </button>
                 <div class="clearfix"></div>
             </div>
-            <ul class="list-unstyled filters">
+            <ul class="list-unstyled">
                 <li class="sort-category-holder">
                     <label class="checkbox-custom-label smaller thick">
                         <input class="checkbox-hidden" name="sortorder" type="radio" value="MostRecent" checked="">

@@ -19,9 +19,9 @@ and open the template in the editor.
         ?>
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
         <link href="css/4026.css" rel="stylesheet" type="text/css"/>
-        <script src="js/js-4026.js" type="text/javascript"></script>
+        <script src="js/4026.js" type="text/javascript"></script>
     </head>
     <body>
-        <?php include '../4026/4026-content.php';?>
+       <?php include '../4026/4026-content.php';?>
     </body>
 </html>
