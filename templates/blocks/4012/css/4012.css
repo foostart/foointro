@@ -22,10 +22,9 @@
   display: block;
   font-family: 'Calibre', Arial, Sans-Serif;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   letter-spacing: .05em;
   text-transform: uppercase;
-  font-size: 1.4rem;
   line-height: 1.8rem;
   color: #ccc;
 }
@@ -238,8 +237,6 @@
   letter-spacing: .05em;
   text-transform: uppercase;
   line-height: normal;
-}
-.module-4012 .nho .product-hero-component .x-light {
   color: #ccc;
 }
 .module-4012 .nho .product-hero-component .productnamedata {

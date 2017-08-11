@@ -24,24 +24,23 @@
                 display: block;
                 font-family: 'Calibre',Arial,Sans-Serif;
                 font-weight: 600;
-                font-size: 1.6rem;
+                font-size: @fontsize-content-p;
                 letter-spacing: .05em;
                 text-transform: uppercase;
-                font-size: 1.4rem;
                 line-height: 1.8rem;
                 color: #ccc;
             }
             .productnamedata{
                 margin-top: .2rem;
                 margin-bottom: 1.6rem;
-                color: #fff;
+                color: @textcolor-button;
                 font-size: 3.2rem;
                 font-weight: 600;
                 line-height: 4rem;
             }
             .xx-light{
                 font-weight: 500;
-                color: #fff;
+                color: @textcolor-button;
                 font-size: 1.5rem;
                 font-family: 'Calibre',Arial,Sans-Serif;
                 line-height: 2.3rem;
@@ -61,10 +60,10 @@
                 margin-bottom: 0;
                 .subtitle {
                     margin-bottom: .4rem;
-                    font-size: 1.2rem;
+                    font-size: @fontsize-content-small-span;
                     line-height: 1.8rem;
                     font-weight: 700;
-                    color: #666;
+                    color: @textcolor-content-p;
                 }
                 ul{
                     padding-left: 0;
@@ -72,13 +71,13 @@
                     li {
                         line-height: 2.4rem;
                         font-size: 1.2rem;
-                        color: #333;
+                        color: @textcolor-content-h1-h4;
                         a {
                             line-height: 2rem;
                             color: @textcolor-content-a;
                             &:hover{
                                 text-decoration: none;
-                                color: #333;
+                                color: @textcolor-content-h1-h4;
                             }
                         }
                     }
@@ -91,10 +90,10 @@
                 text-align: center;
                 width: 100%;
                 background: #ff8c00;
-                color: #fff;
+                color: @textcolor-button;
                 border: 0;
                 font-family: 'Calibre',Arial,Sans-Serif;
-                font-size: 1.2rem;
+                font-size: @fontsize-content-small-span;
                 font-weight: 600;
                 line-height: 1.8rem;
                 padding: 1.6rem 3.2rem;
@@ -107,9 +106,9 @@
             }
 
             .button.light{
-                background: #999;
+                background: @textcolor-content-small-span;
                 &:hover{
-                    background: #666;
+                    background: @textcolor-content-p;
                     color: @textcolor-button;
                 }
             }
@@ -118,8 +117,8 @@
             padding-bottom: 6.4rem;
             position: relative;
             span{
-                color: #666;
-                font-size: 1.2rem;
+                color: @textcolor-content-p;
+                font-size: @fontsize-content-small-span;
                 line-height: 1.8rem; 
                 font-weight: 700;
                 font-family: 'Calibre',Arial,Sans-Serif;
@@ -151,7 +150,7 @@
                         line-height: 3.4rem;
                     }
                     p {
-                        font-size: 1.4rem;
+                        font-size: @fontsize-content-p;
                         line-height: 2.3rem;
                     }
                 }
@@ -194,7 +193,7 @@
                 .list-tile .subtitle {
                     margin-top: 1.4rem;
                     text-transform: none;
-                    font-size: 1.6rem;
+                    font-size: @fontsize-content-a;
                 }
                 .note {
                     margin: 1rem 0 0;
@@ -247,21 +246,19 @@
                 letter-spacing: .05em;
                 text-transform: uppercase;
                 line-height: normal;
-
-            }
-            .x-light{
                 color: #ccc;
+
             }
             .productnamedata{
                 margin-top: 4rem;
-                color: #333;
+                color: @textcolor-content-h1-h4;
                 font-size: 3.2rem;
                 font-weight: 600;
                 line-height: 4rem;
             }
             .xx-light{
                 font-weight: 400;
-                color: #333;
+                color: @textcolor-content-h1-h4;
                 font-size: 1.5rem;
                 font-family: 'Calibre',Arial,Sans-Serif;
                 line-height: 2.3rem;
@@ -280,29 +277,29 @@
             padding: 3.2rem 0 0;
             .subtitle {
                 margin-bottom: .4rem;
-                font-size: 1.2rem;
+                font-size: @fontsize-content-small-span;
                 line-height: 1.8rem;
                 font-weight: 700;
-                 color: #666;
+                 color: @textcolor-content-p;
             }
             .list-tile {
                 margin-bottom: 0;
                 .nho2{
-                    color: #333;
+                    color: @textcolor-content-h1-h4;
                 }
                 ul{
                     padding-left: 0;
                     list-style: none;
                     li {
                         line-height: 2.4rem;
-                        font-size: 1.2rem;
-                        color: #333;
+                        font-size: @fontsize-content-small-span;
+                        color: @textcolor-content-h1-h4;
                         a {
                             line-height: 2rem;
-                            color: #0092bd;
+                            color: @textcolor-content-a;
                             &:hover{
                                 text-decoration: none;
-                                color: #333;
+                                color: @textcolor-content-h1-h4;
                             }
                         }
                     }
@@ -315,10 +312,10 @@
                 text-align: center;
                 width: 100%;
                 background: #ff8c00;
-                color: #fff;
+                color: @textcolor-button;
                 border: 0;
                 font-family: 'Calibre',Arial,Sans-Serif;
-                font-size: 1.2rem;
+                font-size: @fontsize-content-small-span;
                 font-weight: 600;
                 line-height: 1.8rem;
                 padding: 1.6rem 3.2rem;
@@ -326,14 +323,14 @@
                 margin-bottom: 2rem;
             }
             .button.primary:hover{
-                background: #fa0;
-                color: #fff;
+                background: @background-button-hover;
+                color: @textcolor-button;
             }
             .button.light{
-                background: #999;
+                background: @textcolor-content-small-span;
                 &:hover{
-                    background: #666;
-                    color: #fff;
+                    background: @textcolor-content-p;
+                    color: @textcolor-button;
                 }
             }
         }
@@ -391,10 +388,10 @@
                 .list-tile .subtitle {
                     margin-top: 1.4rem;
                     text-transform: none;
-                    font-size: 1.4rem;
+                    font-size: @fontsize-content-p;
                 }
                 .list-tile ul a {
-                    font-size: 1.4rem;
+                    font-size: @fontsize-content-p;
                     line-height: 2.5rem;
                 }
                 .note {
