@@ -17,7 +17,7 @@
         <link href="../4003/css/4003.css" rel="stylesheet" type="text/css"/>
         <link href="../4004/css/4004.css" rel="stylesheet" type="text/css"/>
         <link href="../4005/css/4005.css" rel="stylesheet" type="text/css"/>
-        
+        <link href="../4040/css/4040.css" rel="stylesheet" type="text/css"/>
        
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
          <script src="../4002/js/owl.carousel.min.js" type="text/javascript"></script>
@@ -28,6 +28,7 @@
         <script src="js/js-4000-2.js" type="text/javascript"></script>
         <script src="js/4001-1.js" type="text/javascript"></script>
         <script src="js/4001-2.js" type="text/javascript"></script>
+        <script src="../4040/js/js-4040.js" type="text/javascript"></script>
     </head>
     
 
@@ -39,6 +40,8 @@
         include '../4003/4003-content.php';
         include '../4004/4004-content.php';
         include '../4005/4005-content.php';
+        include '../4040/4040-content.php';
+
          ?>
     </body>
 </html>
