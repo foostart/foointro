@@ -1,36 +1,35 @@
 @import "../../values/less/var.less";
-.type-4010{
-background-color: #eff0f1;
-        overflow: hidden;
-        box-sizing: border-box;
-        margin: 0 auto;
-        max-width: 160rem;
-        padding: 0 1rem;
-        .breadcrumb{
-            background-color: transparent;
-            margin-bottom: 0;
-            padding: 1.6rem 0 0 1.2rem;
-            li{
-                line-height: 1.8rem;
+.module-4010{
+    background-color: @background-insights;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 160rem;
+    padding: 0 1rem;
+    .breadcrumb{
+        background-color: transparent;
+        margin-bottom: 0;
+        padding: 1.6rem 0 0 1.2rem;
+        li{
+            line-height: 1.8rem;
+            font-size: 1.5rem;
+            a{
                 font-size: 1.5rem;
-                a{
-                    font-size: 1.5rem;
-                    &:hover {
-                        text-decoration: none;
-                        color: #333;
-                    }
+                &:hover {
+                    text-decoration: none;
+                    color: @textcolor-content-h1-h4;
                 }
-            
+            }
             li+li::before{
                 color: #ff7600;
                 content: "> ";
                 font-weight: 500;
             }
             .dark {
-                color: #666;
+                color: @textcolor-content-p;
             }
             .active{
-                color: #333;
+                color: @textcolor-content-h1-h4;
                 font-weight: 500;
             }
         }
@@ -38,18 +37,21 @@ background-color: #eff0f1;
             font-size: 1.3rem;
             line-height: normal;
         }
-        
-    }
-	.icon-bar{
-            text-align: right;
-            padding: 1.6rem 0 0 1.2rem;
-            font-size: 2.4rem;
-            .fa{
-                padding-right: 2px;
-                color: #b6b7b7;
 
+    }
+    .icon-bar{
+        text-align: right;
+        padding: 1.6rem 0 0 1.2rem;
+        font-size: 2.4rem;
+        .fa{
+            padding-right: 2px;
+            color: @background-icon;
+            &:hover{
+                color: #888888;
             }
+
         }
+    }
     .test{
         position: absolute;
         right:0;
@@ -63,7 +65,6 @@ background-color: #eff0f1;
             border: none;
         }
         .item{
-
             position: absolute;
             right: 30px;
             margin-right: 20px;
@@ -78,8 +79,7 @@ background-color: #eff0f1;
 
         .side-collapse {
             height: 2.7rem;
-            background: #fff;
-
+            background: @textcolor-button;
             margin: 0.5rem 0.5rem;
             top:-4px;
             bottom:0;
@@ -92,52 +92,55 @@ background-color: #eff0f1;
         .side-collapse.in {
             width:0;
         }
-
         a{
             margin: 5px;
             font-size: 1.8rem;
             color: #ccc;
         }
-
     }
-    
-    
     @media (max-width: 1051px){
-         .breadcrumb li a{
-            font-size: 1.2rem;
+        .breadcrumb{
+            li a{
+                font-size: 1.2rem;
+            }
+            .active{
+                font-size: 1.2rem;
+            }
         }
-         .breadcrumb .active{
-            font-size: 1.2rem;
-        }
-         .icon-bar{
+        .icon-bar{
             font-size: 2rem;
         }
     }
     @media (max-width: 898px){
-         .breadcrumb li a{
-            font-size: 1rem;
+        .breadcrumb{
+            li a{
+                font-size: 1rem;
+            } 
+            .active{
+                font-size: 1rem;
+            }
         }
-        .breadcrumb .active{
-            font-size: 1rem;
-        }
+
     }
     @media (max-width: 787px){
-         .breadcrumb li a{
-            font-size: 0.9rem;
+        .breadcrumb {
+            li a{
+                font-size: 0.9rem;
+            }
+            .active{
+                font-size: 0.9rem;
+            }
         }
-         .breadcrumb .active{
-            font-size: 0.9rem;
-        }
-         .icon-bar{
+        .icon-bar{
             font-size: 1.8rem;
         }
     }
     @media (max-width: 767px){
-        .breadcrumb{
+        .breadcrumb, .icon-bar{
             display: none;
         }
     }
-     @media (min-width: 767px){
+    @media (min-width: 767px){
         .test{
             display: none;
         }

@@ -1,4 +1,4 @@
-.type-4010 {
+.module-4010 {
   background-color: #eff0f1;
   overflow: hidden;
   box-sizing: border-box;
@@ -6,52 +6,55 @@
   max-width: 160rem;
   padding: 0 1rem;
 }
-.type-4010 .breadcrumb {
+.module-4010 .breadcrumb {
   background-color: transparent;
   margin-bottom: 0;
   padding: 1.6rem 0 0 1.2rem;
 }
-.type-4010 .breadcrumb li {
+.module-4010 .breadcrumb li {
   line-height: 1.8rem;
   font-size: 1.5rem;
 }
-.type-4010 .breadcrumb li a {
+.module-4010 .breadcrumb li a {
   font-size: 1.5rem;
 }
-.type-4010 .breadcrumb li a:hover {
+.module-4010 .breadcrumb li a:hover {
   text-decoration: none;
   color: #333;
 }
-.type-4010 .breadcrumb li li+li::before {
+.module-4010 .breadcrumb li li+li::before {
   color: #ff7600;
   content: "> ";
   font-weight: 500;
 }
-.type-4010 .breadcrumb li .dark {
+.module-4010 .breadcrumb li .dark {
   color: #666;
 }
-.type-4010 .breadcrumb li .active {
+.module-4010 .breadcrumb li .active {
   color: #333;
   font-weight: 500;
 }
-.type-4010 .breadcrumb .x-smaller {
+.module-4010 .breadcrumb .x-smaller {
   font-size: 1.3rem;
   line-height: normal;
 }
-.type-4010 .icon-bar {
+.module-4010 .icon-bar {
   text-align: right;
   padding: 1.6rem 0 0 1.2rem;
   font-size: 2.4rem;
 }
-.type-4010 .icon-bar .fa {
+.module-4010 .icon-bar .fa {
   padding-right: 2px;
   color: #b6b7b7;
 }
-.type-4010 .test {
+.module-4010 .icon-bar .fa:hover {
+  color: #888888;
+}
+.module-4010 .test {
   position: absolute;
   right: 0;
 }
-.type-4010 .test .fa-share-square-o {
+.module-4010 .test .fa-share-square-o {
   font-size: 2.5rem;
   cursor: pointer;
   right: 0px;
@@ -60,19 +63,19 @@
   z-index: 10;
   border: none;
 }
-.type-4010 .test .item {
+.module-4010 .test .item {
   position: absolute;
   right: 30px;
   margin-right: 20px;
   top: 4px;
 }
-.type-4010 .test .side-collapse-container {
+.module-4010 .test .side-collapse-container {
   width: 100%;
   position: relative;
   right: 0;
   transition: left .4s;
 }
-.type-4010 .test .side-collapse {
+.module-4010 .test .side-collapse {
   height: 2.7rem;
   background: #fff;
   margin: 0.5rem 0.5rem;
@@ -84,51 +87,52 @@
   overflow: hidden;
   transition: width .5s;
 }
-.type-4010 .test .side-collapse.in {
+.module-4010 .test .side-collapse.in {
   width: 0;
 }
-.type-4010 .test a {
+.module-4010 .test a {
   margin: 5px;
   font-size: 1.8rem;
   color: #ccc;
 }
 @media (max-width: 1051px) {
-  .type-4010 .breadcrumb li a {
+  .module-4010 .breadcrumb li a {
     font-size: 1.2rem;
   }
-  .type-4010 .breadcrumb .active {
+  .module-4010 .breadcrumb .active {
     font-size: 1.2rem;
   }
-  .type-4010 .icon-bar {
+  .module-4010 .icon-bar {
     font-size: 2rem;
   }
 }
 @media (max-width: 898px) {
-  .type-4010 .breadcrumb li a {
+  .module-4010 .breadcrumb li a {
     font-size: 1rem;
   }
-  .type-4010 .breadcrumb .active {
+  .module-4010 .breadcrumb .active {
     font-size: 1rem;
   }
 }
 @media (max-width: 787px) {
-  .type-4010 .breadcrumb li a {
+  .module-4010 .breadcrumb li a {
     font-size: 0.9rem;
   }
-  .type-4010 .breadcrumb .active {
+  .module-4010 .breadcrumb .active {
     font-size: 0.9rem;
   }
-  .type-4010 .icon-bar {
+  .module-4010 .icon-bar {
     font-size: 1.8rem;
   }
 }
 @media (max-width: 767px) {
-  .type-4010 .breadcrumb {
+  .module-4010 .breadcrumb,
+  .module-4010 .icon-bar {
     display: none;
   }
 }
 @media (min-width: 767px) {
-  .type-4010 .test {
+  .module-4010 .test {
     display: none;
   }
 }
