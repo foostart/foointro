@@ -1,31 +1,31 @@
-.module-4025 .mega-container {
+.module-4025 {
   background-color: #eff0f1;
   padding: 1rem 2.5rem;
   position: absolute;
   width: 100%;
 }
-.module-4025 .mega-container .links a {
+.module-4025 .links a {
   text-decoration: inherit;
   color: #666;
   cursor: pointer;
   font-size: 1.6rem;
 }
-.module-4025 .mega-container .links a:hover {
+.module-4025 .links a:hover {
   opacity: 0.8;
 }
-.module-4025 .mega-container .links span {
+.module-4025 .links span {
   color: #ff7600;
   font-weight: 500;
   margin: 0 1rem;
   font-size: 1.2rem;
 }
-.module-4025 .mega-container .links .power {
+.module-4025 .links .power {
   color: #333;
 }
-.module-4025 .mega-container .icon {
+.module-4025 .icon {
   float: right;
 }
-.module-4025 .mega-container .icon span {
+.module-4025 .icon span {
   background: #ccc;
   color: #fff;
   text-transform: uppercase;
@@ -34,12 +34,12 @@
   position: relative;
   bottom: 0.3rem;
 }
-.module-4025 .mega-container .icon .fa {
+.module-4025 .icon .fa {
   color: #b6b7b7;
   font-size: 1.9rem;
   margin: 0.2rem;
 }
-.module-4025 .mega-container button {
+.module-4025 button {
   display: none;
 }
 .module-4025 .content img {
@@ -64,8 +64,8 @@
   color: #fff;
 }
 @media (max-width: 1199px) {
-  .module-4025 .mega-container .links a,
-  .module-4025 .mega-container .links span {
+  .module-4025 .links a,
+  .module-4025 .links span {
     font-size: 1.1rem;
   }
   .module-4025 .content .product {
@@ -79,8 +79,8 @@
   }
 }
 @media (max-width: 991px) {
-  .module-4025 .mega-container .links a,
-  .module-4025 .mega-container .links span {
+  .module-4025 .links a,
+  .module-4025 .links span {
     font-size: 1rem;
   }
   .module-4025 .content .product {
@@ -94,13 +94,13 @@
   }
 }
 @media (max-width: 767px) {
-  .module-4025 .mega-container {
+  .module-4025 {
     padding: 2rem 2.5rem;
   }
-  .module-4025 .mega-container .links {
+  .module-4025 .links {
     display: none;
   }
-  .module-4025 .mega-container .icon {
+  .module-4025 .icon {
     display: none;
     font-size: 2rem;
     height: 2.5rem;
@@ -113,33 +113,33 @@
     overflow: hidden;
     transition: width .7s;
   }
-  .module-4025 .mega-container .icon .fa {
+  .module-4025 .icon .fa {
     margin: 0 0.7rem;
   }
-  .module-4025 .mega-container button {
+  .module-4025 button {
     display: block;
     height: 2.5rem;
     width: 3.6rem;
     font-size: 1.8rem;
     cursor: pointer;
-    right: 1.7rem;
+    right: .2rem;
     position: absolute;
     border: none;
     bottom: -0.9rem;
   }
-  .module-4025 .mega-container .in {
+  .module-4025 .in {
     width: 0;
   }
-  .module-4025 .content img {
-    height: 15rem;
-  }
-  .module-4025 .content .product {
-    padding: 0 25%;
-  }
-  .module-4025 .content .product h2 {
-    margin-bottom: 0;
-  }
-  .module-4025 .content .product h1 {
-    margin-top: 0;
-  }
+}
+.module-4025 .content img {
+  height: 15rem;
+}
+.module-4025 .content .product {
+  padding: 0 25%;
+}
+.module-4025 .content .product h2 {
+  margin-bottom: 0;
+}
+.module-4025 .content .product h1 {
+  margin-top: 0;
 }
