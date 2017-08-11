@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
       
         <div class="header-bar">
-            <div class="navbar-collapse mega-nav">
+            <div class="navbar-collapse mega-nav" style="background: #262626;">
                 <div class="mega-container text-center">
             <div class="content-one">
 
@@ -87,7 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
   <div class="wsmobileheader clearfix"> 
       <a id="wsnavtoggle" class="animated-arrow"><span></span></a> 
       <a class="smallogo"><img src="images/sml-logo.png" width="87" alt="" /></a> 
-      a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a> 
+      <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a> 
   </div>
   
   <div class="header"> 
@@ -108,126 +108,180 @@ $url_path = str_replace('\\', '/', $url_path);
       <nav class="wsmenu clearfix">
         <ul class="mobile-sub wsmenu-list">
         
-           <li><a href="#"><i class="fa fa-align-justify"></i>Dropdowns <span class="arrow"></span></a>
-            <ul class="wsmenu-submenu">
-              <li><a href="#"><i class="fa fa-angle-right"></i>Website Design </a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Ecommerce Solutions</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Application Development</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Website Development</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Open Source Development</a>
-                <ul class="wsmenu-submenu-sub">
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
-                    <ul class="wsmenu-submenu-sub-sub">
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#"><i class="fa fa-align-justify"></i>Dropdowns <span class="arrow"></span></a>
-            <ul class="wsmenu-submenu">
-              <li><a href="#"><i class="fa fa-angle-right"></i>Website Design </a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Ecommerce Solutions</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Application Development</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Website Development</a></li>
-              <li><a href="#"><i class="fa fa-angle-right"></i>Open Source Development</a>
-                <ul class="wsmenu-submenu-sub">
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
-                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
-                    <ul class="wsmenu-submenu-sub-sub">
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
-                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#"><i class="fa fa-list-alt"></i>Half menu <span class="arrow"></span></a>
-            <div class="megamenu clearfix halfmenu">
-              <ul class="col-lg-6 col-md-6 col-xs-12 link-list">
-                <li class="title">Product Header</li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-              </ul>
-              <ul class="col-lg-6 col-md-6 col-xs-12 link-list">
-                <li class="title">Product Header</li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#"><i class="fa fa-list-alt"></i>Mega menu <span class="arrow"></span></a>
+           <li><a href="#"><i class="fa fa-align-justify"></i>Products <span class="arrow"></span></a>
             <div class="megamenu clearfix">
               <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                <li class="title">Product Header</li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
+                 <li class="title"><a href="#">CRITICAL POWER</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
               </ul>
               <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                <li class="title">Product Header</li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
               </ul>
-              <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                <li class="title">Product Header</li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
               </ul>
-              <div class="col-lg-3 col-md-3 col-xs-12">
-                <h3 class="title">New Arrival </h3>
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active"> <img src="images/image01.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> CodeCanyon </div>
-                    </div>
-                    <div class="item"><img src="images/image02.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> ThemeForest </div>
-                    </div>
-                    <div class="item"><img src="images/image03.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> GraphicRiver </div>
-                    </div>
-                    <div class="item"><img src="images/image04.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> ActiveDen </div>
-                    </div>
-                    <div class="item"><img src="images/image05.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> PhotoDune </div>
-                    </div>
-                    <div class="item"><img src="images/image06.jpg" alt="This is Product Name">
-                      <div class="carousel-caption"> 3DOcean </div>
-                    </div>
-                  </div>
-                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="fa fa-arrow-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="fa fa-arrow-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-              </div>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
             </div>
           </li>
-          <li><a href="#"><i class="fa fa-paragraph"></i>Typography <span class="arrow"></span></a>
+          <li><a href="#"><i class="fa fa-align-justify"></i>Services <span class="arrow"></span></a>
+            <div class="megamenu clearfix">
+              <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                 <li class="title"><a href="#">CRITICAL POWER</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
+              </ul>
+              <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list    ">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+            </div>
+          </li>
+            <li><a href="#"><i class="fa fa-align-justify"></i>Support <span class="arrow"></span></a>
+            <ul class="wsmenu-submenu">
+                   <li class="title"><a href="#"><i class="fa fa-arrow-circle-right"></i>FIND SUPPORT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Contact Technical Support</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask the Community Forum</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Equipment Training</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Software Downloads</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Get Warranty Information</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Register Your Product</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Report an Issue</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Ask a Question</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i>Open Source Development</a>
+                <ul class="wsmenu-submenu-sub">
+                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4</a>
+                    <ul class="wsmenu-submenu-sub-sub">
+                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 1 Sub</a></li>
+                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 2 Sub</a></li>
+                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 3 Sub</a></li>
+                      <li class=""><a href="#"><i class="fa fa-angle-right"></i>Submenu item 4 Sub</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+         <li><a href="#"><i class="fa fa-align-justify"></i> Insights <span class="arrow"></span></a>
+            <div class="megamenu clearfix">
+              <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                 <li class="title"><a href="#">CRITICAL POWER</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
+              </ul>
+              <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+                <ul class="col-lg-3 col-md-3 col-xs-12 link-list    ">
+                <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#"><i class="fa fa-paragraph"></i>ABOUT <span class="arrow"></span></a>
             <div class="megamenu clearfix" >
               <div class="typography-text clearfix">
                 <div class="col-lg-6 col-sm-12">

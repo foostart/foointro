@@ -1,22 +1,15 @@
-@background-menu:#262626;
-@background-menumobile:#f4f4f5;
-@background-content:#4d4d4d;
-@color-menu:#434343;
-@font-size-content:1.4rem;
-@font-size-dropmenu:1.2rem;
-@font-size-menumobile:1.3rem;
-
+@import"../../values/less/var.less";
 
 .module-4000{
     .header-bar {
-        background: @background-menu;
+        background: @background-content;
     }
     .navbar{
         border: none;
         margin-bottom: 0;
     }
  .hiding-header {
-    background: @background-menu;
+    background: @background-header;
     box-sizing: border-box;
     height: 20rem;
     left: 0;
@@ -46,43 +39,7 @@
     max-width: 160rem;
     padding: 0 2rem;
 }
-.action-bar{
-    padding-top: 2rem;
-    height: 100%;
-    padding-bottom: 2rem;
-      background: @background-menu;
-    a {
-    color: #999;
-  
-    font-size: @font-size-dropmenu;
-   
-    margin-left: 2.4rem;
-}
-a:hover{
-    text-decoration: none;
-     color: #434343;
-}
- a.button {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
- 
-}
-.x-dark {
-    background: #4d4d4d;
-    color: #fff;
-    font-weight: 600;
-  
-}
-.tight {
-    font-size: 1.2rem;
-    line-height: normal;
-    padding: .4rem .8rem;
-}
-.tight:hover {
-    background: #434343;
-    color: #fff;
-}
-}
+
 
 .fixed{
     position: fixed;
@@ -137,7 +94,7 @@ a:hover{
 }
         
 
-.content-two{
+
 
 .wsmain html, .wsmain body, .wsmain iframe, .wsmain h1, .wsmain h2, .wsmain h3, .wsmain h4, .wsmain h5, .wsmain h6 {
 	margin: 0px;
@@ -177,6 +134,11 @@ a:hover{
 }
 
 
+/*--------------------------------------------------------------------------
+|  02 Desktop CSS
+--------------------------------------------------------------------------*/
+
+
 .wsmobileheader {
 	display: none;
 }
@@ -184,6 +146,7 @@ a:hover{
 	display: none;
 }
 .smllogo {
+    opacity: 0;
 	padding: 0px 0px;
 	margin: 0;
 	float: left;
@@ -200,13 +163,14 @@ a:hover{
 	height: 47px;
 	position: relative;
 	margin: 0px 0px 0px 0px;
-        .searchicon {
+}
+.topmenusearch .searchicon {
 	-webkit-transition: all 0.7s ease 0s;
 	-moz-transition: all 0.7s ease 0s;
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-input {
+.topmenusearch input {
 	width: 100%;
 	position: relative;
 	float: right;
@@ -228,30 +192,35 @@ input {
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-input:hover {
+.topmenusearch input:focus {
 	color: #fff;
 	width: 250px;
 	background-color: #181818;
 }
- input:focus ~ .btnstyle {
+.topmenusearch input:hover {
+	color: #fff;
+	width: 250px;
+	background-color: #181818;
+}
+.topmenusearch input:focus ~ .btnstyle {
 	background-color: #3a4a51 !important;
 	color: #fff;
 	opacity: 0.9;
 }
-input:hover ~ .btnstyle {
+.topmenusearch input:hover ~ .btnstyle {
 	background-color: #3a4a51 !important;
 	color: #fff;
-	opacity: 0.9
+	opacity: 0.9;
 }
-input:focus ~ .btnstyle .fa {
+.topmenusearch input:focus ~ .btnstyle .fa {
 	color: #fff;
 }
-input:focus ~ .searchicon {
+.topmenusearch input:focus ~ .searchicon {
 	opacity: 1;
 	z-index: 3;
 	color: #FFFFFF;
 }
-.btnstyle {
+.topmenusearch .btnstyle {
 	top: 0px;
 	position: absolute;
 	right: 0;
@@ -270,23 +239,16 @@ input:focus ~ .searchicon {
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
-.btnstyle .fa {
+.topmenusearch .btnstyle .fa {
 	line-height: 38px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
-.btnstyle:hover {
+.topmenusearch .btnstyle:hover {
 	background-color: #282C37;
 	opacity: 0.9;
 }
-
-}
-
-
-
-
-
 .wsmain {
 	width: 100%;
 	
@@ -314,35 +276,29 @@ input:focus ~ .searchicon {
 	width: 100%;
 	display: block;
 	padding: 0px;
-        > li {
+}
+.wsmenu-list > li {
 	text-align: center;
 	display: block;
 	float: left;
 	    margin-bottom: -6px;
 	padding: 0px;
-         > a {
-	display: block;
-	color: #f5f5f5;
-	padding: 0px 30px 0px 18px;
-	line-height: 47px;
-	border-right: 1px solid rgba(0,0,0,0.10);
-	text-decoration: none;
-	position: relative;
 }
-         > a .fa {
+.wsmenu-list > li > a .fa {
 	display: inline-block;
 	font-size: 13px;
 	line-height: inherit;
 	margin-right: 8px;
 	color: #898d91;
 }
-
-}
- li ul li a .fa.fa-angle-double-right {
+.wsmenu-list li ul li a .fa.fa-angle-double-right {
 	font-size: 12px;
 	margin: 0 3px 0 -4px;
 }
-li a .arrow:after {
+.mobiletext {
+	display: none;
+}
+.wsmenu-list li a .arrow:after {
 	border-left: 4px solid rgba(0, 0, 0, 0);
 	border-right: 4px solid rgba(0, 0, 0, 0);
 	border-top: 4px solid #898d91;
@@ -355,61 +311,80 @@ li a .arrow:after {
 	top: 22px;
 	width: 0;
 }
- li a:hover .arrow:after {
+.wsmenu-list > li > a {
+	display: block;
+	color: #f5f5f5;
+	padding: 0px 30px 0px 18px;
+	line-height: 47px;
+	border-right: 1px solid rgba(0,0,0,0.10);
+	text-decoration: none;
+	position: relative;
+}
+.wsmenu-list li a:hover .arrow:after {
 	border-top-color: #b3b3b3
 }
-li a.active .arrow:after {
+.wsmenu-list li a.active .arrow:after {
 	border-top-color: #b3b3b3
 }
-li:hover>a .arrow:after {
+.wsmenu-list li:hover>a .arrow:after {
 	border-top-color: #b3b3b3
 }
-> li a.menuhomeicon {
+.megamenu iframe {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 200px;
+}
+.megamenu video {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 200px;
+}
+.wsmenu-list > li a.menuhomeicon {
 	padding: 0px 20px;
 }
- > li.socialicon {
+.wsmenu-list > li.socialicon {
 	float: left;
 }
- > li.socialicon a {
+.wsmenu-list > li.socialicon a {
 	width: 38px;
 	padding: 0px 10px
 }
- > li.socialicon a .fa {
+.wsmenu-list > li.socialicon a .fa {
 	font-size: 15px;
 	color: #898d91;
 	text-align: center;
 }
-> li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	float: right;
 }
- > li.rightmenu a {
+.wsmenu-list > li.rightmenu a {
 	padding: 0px 30px 0px 20px;
 	border-right: none;
 }
- > li.rightmenu a .fa {
+.wsmenu-list > li.rightmenu a .fa {
 	font-size: 15px;
 }
-> li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	float: right;
 }
-> li.rightmenu:before, .wsmenu-list > li.rightmenu:after {
+.wsmenu-list > li.rightmenu:before, .wsmenu-list > li.rightmenu:after {
 	content: "";
 	display: table;
 }
- > li.rightmenu:after {
+.wsmenu-list > li.rightmenu:after {
 	clear: both;
 }
- > li.rightmenu {
+.wsmenu-list > li.rightmenu {
 	zoom: 1;
 }
- > li.carticon a {
+.wsmenu-list > li.carticon a {
 	padding: 0px 27px 0px 15px;
 	text-align: center;
 }
- > li.carticon a .fa {
+.wsmenu-list > li.carticon a .fa {
 	font-size: 15px;
 }
- > li.carticon em.roundpoint {
+.wsmenu-list > li.carticon em.roundpoint {
 	position: absolute;
 	top: 8px;
 	width: 15px;
@@ -425,53 +400,10 @@ li:hover>a .arrow:after {
 	color: #fff;
 	right: 20px;
 }
- li:hover .megamenu {
+
+.wsmenu-list li:hover .megamenu {
 	opacity: 1;
 }
-.megamenu li:hover>a {
-	background: transparent !important;
-}
- .megamenu li a:hover {
-	background: transparent !important;
-	text-decoration: underline;
-}
-.megamenu li .fa {
-	margin-right: 5px;
-	text-align: center;
-	width: 18px;
-}
-.ad-style {
-	width: 28%;
-	float: right;
-        a {
-	border: none !important;
-	padding: 0px !important;
-	margin: 0px !important;
-	line-height: normal !important;
-	background-image: none !important;
-}
-}
-}
-
-
-.mobiletext {
-	display: none;
-}
-
-
-
-.megamenu iframe {
-	width: 100%;
-	margin-top: 10px;
-	min-height: 200px;
-}
-.megamenu video {
-	width: 100%;
-	margin-top: 10px;
-	min-height: 200px;
-}
-
-
 .megamenu {
 	width: 100%;
 	left: 0px;
@@ -494,11 +426,11 @@ li:hover>a .arrow:after {
 	-ms-transition: -ms-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-        
-        .title {
+}
+.megamenu .title {
 	border-bottom: 1px solid #CCC;
 	font-size: 14px;
-	padding: 9px 5px 9px 0px;
+	
 	font-size: 17px;
 	color: #424242;
 	margin: 0px 0px 7px 0px;
@@ -506,14 +438,13 @@ li:hover>a .arrow:after {
 	height: 39px;
 	margin:0px 0px 10px 0px;
 }
-}
-
 .link-list li {
 	display: block;
 	text-align: center;
 	white-space: nowrap;
 	text-align: left;
-         a {
+}
+.link-list li a {
 	line-height: 18px;
 	border-right: none;
 	text-align: left;
@@ -527,23 +458,22 @@ li:hover>a .arrow:after {
 	background-color: #fff;
 	color: #424242;
 }
-.fa {
+.link-list .fa {
 	font-size: 11px;
 }
-}
-
- 
 .megacollink {
 	width: 23%;
 	float: left;
 	margin: 0% 1%;
 	padding: 0px;
-        li {
+}
+.megacollink li {
 	display: block;
 	text-align: center;
 	white-space: nowrap;
 	text-align: left;
-        a {
+}
+.megacollink li a {
 	line-height: 18px;
 	border-right: none;
 	text-align: left;
@@ -557,14 +487,9 @@ li:hover>a .arrow:after {
 	background-color: #fff;
 	color: #424242;
 }
-}
-.fa {
+.megacollink .fa {
 	font-size: 11px;
 }
-}
-
-
-
 .megacolimage {
 	width: 31.33%;
 	float: left;
@@ -578,26 +503,35 @@ li:hover>a .arrow:after {
 	width: 25%;
 	float: left;
 	margin: 0% 0%;
-        ul {
+}
+.typographylinks ul {
 	padding: 0px;
 }
-}
-
 .mainmapdiv {
 	width: 100%;
 	display: block;
 	margin: 0% 0%;
 }
-
-
-
-
+.wsmenu-list .ad-style {
+	width: 28%;
+	float: right;
+}
+.wsmenu-list .ad-style a {
+	border: none !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	line-height: normal !important;
+	background-image: none !important;
+}
 .mobile-sub .megamenu .ad-style a:hover {
 	background-color: transparent !important;
 }
 
- 
-
+.wsmenu-list .megamenu li .fa {
+	margin-right: 5px;
+	text-align: center;
+	width: 18px;
+}
 .mrgtop {
 	margin-top: 15px;
 }
@@ -969,7 +903,7 @@ li:hover>a .arrow:after {
 	background-color: rgba(0,0,0,0.10) !important;
 	text-decoration: none;
 }
-.wsmenu-submenu > li > a:hover {
+ li > a:hover {
 	background-color: rgba(0,0,0,0.10) !important;
 	border-radius: 0px!important;
 	text-decoration: none;
@@ -1415,9 +1349,7 @@ li:hover>a .arrow:after {
 	background-color: #e7e7e7 !important;
 	color: #666666;
 }
-.megamenu > ul > li > a:hover {
-	background-color: #000000 !important;
-}
+
 .ad-style {
 	width: 100% !important;
 }
@@ -1586,9 +1518,10 @@ li:hover>a .arrow:after {
 	color: #8E8E8E;
 }
 .mobile-sub .wsmenu-submenu li a:hover {
-	background-color: #e7e7e7 !important;
-	color: #666666;
-	text-decoration: underline;
+	
+    background-color: rgba(0,0,0,0.1) !important;
+    text-decoration: none;
+
 }
 .mobile-sub .wsmenu-submenu li:hover>a {
 	background-color: #e7e7e7 !important;
@@ -1744,751 +1677,14 @@ li:hover>a .arrow:after {
 |  05 Additional Themes (Optionnal)
 --------------------------------------------------------------------------*/ 
 
-.gry {
-	background: #424242;
-	color: #fff;
-}
-.orange {
-	background: #ff670f;
-	color: #fff;
-}
-.blue {
-	background: #4A89DC;
-	color: #fff;
-}
-.green {
-	background: #74a52e;
-	color: #fff;
-}
-.red {
-	background: #DA4B38;
-	color: #fff;
-}
-.yellow {
-	background: #F6BB42;
-	color: #fff;
-}
-.purple {
-	background: #967ADC;
-	color: #fff;
-}
-.pink {
-	background: #ee1289;
-	color: #fff;
-}
-.chocolate {
-	background: #934915;
-	color: #fff;
-}
-.gry > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.gry > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.gry > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #424242 !important;
-	color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #424242 !important;
-	color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-list > li > a.active {
-	background: #424242 !important;
-	color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.gry > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #424242;
-	border-radius: 0px!important;
-	color: #fff;
-}
-.gry .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.gry .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.gry .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.orange > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.orange > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.orange > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #ff670f !important;
-	color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #ff670f !important;
-	color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-list > li > a.active {
-	background: #ff670f !important;
-	color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.orange > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #ff670f;
-	border-radius: 0px!important;
-	color: #fff;
-}
-.orange .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.orange .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.orange .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.blue > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.blue > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.blue > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #4A89DC !important;
-	color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #4A89DC !important;
-	color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-list > li > a.active {
-	background: #4A89DC !important;
-	color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.blue > .wsmenu > .wsmenu-submenu li > a:hover {
-	background: #4A89DC !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.blue .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.blue .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.blue .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.green > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.green > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.green > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #74a52e !important;
-	color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #74a52e !important;
-	color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-list > li > a.active {
-	background: #74a52e !important;
-	color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.green > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #74a52e !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.green .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.green .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.green .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.red > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.red > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.red > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.red > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #DA4B38 !important;
-	color: #fff !important;
-}
-.red > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #DA4B38 !important;
-	color: #fff !important;
-}
-.red > .wsmenu > .wsmenu-list > li > a.active {
-	background: #DA4B38 !important;
-	color: #fff !important;
-}
-.red > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.red > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.red > .wsmenu-submenu > li > a:hover {
-	background: #DA4B38 !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.red .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.red .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.red .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #F6BB42 !important;
-	color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #F6BB42 !important;
-	color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a.active {
-	background: #F6BB42 !important;
-	color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.yellow > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #F6BB42 !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.yellow .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.yellow .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.yellow .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.yellow > .wsmenu > .wsmenu-list li a .fa {
-	color: #424242 !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.purple > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.purple > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #967ADC !important;
-	color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #967ADC !important;
-	color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a.active {
-	background: #967ADC !important;
-	color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.purple > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #967ADC !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.purple .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.purple .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.purple .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.pink > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.pink > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.pink > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #ee1289 !important;
-	color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-list > li > a:hover {
-	background: #ee1289 !important;
-	color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-list > li > a.active {
-	background: #ee1289 !important;
-	color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.pink > .wsmenu > .wsmenu-submenu > li > a:hover {
-	background: #ee1289 !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.pink .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.pink .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.pink .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a {
-	background-color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li:hover>a {
-	background: #934915 !important;
-	color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li a:hover {
-	background: #934915 !important;
-	color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li a.active {
-	background: #934915 !important;
-	color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a.active .fa {
-	color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a:hover .fa {
-	color: #fff !important;
-}
-.chocolate > .wsmenu > .wsmenu-submenu > li a:hover {
-	background: #934915 !important;
-	border-radius: 0px!important;
-	color: #fff !important;
-}
-.chocolate .wsmenu > .wsmenu-list li a:hover .arrow:after {
-	border-top-color: #fff;
-}
-.chocolate .wsmenu > .wsmenu-list li a.active .arrow:after {
-	border-top-color: #fff;
-}
-.chocolate .wsmenu > .wsmenu-list li:hover>a .arrow:after {
-	border-top-color: #fff;
-}
-.tranbg {
-	background-color: transparent !important;
-}
-.whitebg {
-	background-color: #fff !important;
-}
-.whitebg:hover {
-	color: #000 !important;
-}
-.pm_buttoncolor .wsmenu-list > li > a .fa {
-	color: #fff !important;
-}
-.pm_buttoncolor03 .wsmenu-list > li:hover>a .fa {
-	color: #fff !important;
-}
-.pm_buttoncolor .wsmenu-list li a .arrow:after {
-	border-top-color: #fff;
-}
-.pm_buttoncolor03 {
-	background-color: #fff !important;
-}
-.pm_buttoncolor03 .smllogo a {
-	height: 48px;
-	background: #565656;
-	background: -moz-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #424242));
-	background: -webkit-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -o-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -ms-linear-gradient(top, #565656 0%, #424242 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#424242', GradientType=0 );
-}
-.pm_buttoncolor02 .smllogo a {
-	height: 48px;
-	background: #565656;
-	background: -moz-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #424242));
-	background: -webkit-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -o-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -ms-linear-gradient(top, #565656 0%, #424242 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#424242', GradientType=0 );
-}
-.blue-grdt {
-	background: #5999ee;
-	background: -moz-linear-gradient(top, #5999ee 0%, #4a89dc 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5999ee), color-stop(100%, #4a89dc));
-	background: -webkit-linear-gradient(top, #5999ee 0%, #4a89dc 100%);
-	background: -o-linear-gradient(top, #5999ee 0%, #4a89dc 100%);
-	background: -ms-linear-gradient(top, #5999ee 0%, #4a89dc 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5999ee', endColorstr='#4a89dc', GradientType=0 );
-	color: #fff;
-}
-.gry-grdt {
-	background: #565656;
-	background: -moz-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #424242));
-	background: -webkit-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -o-linear-gradient(top, #565656 0%, #424242 100%);
-	background: -ms-linear-gradient(top, #565656 0%, #424242 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#424242', GradientType=0 );
-	color: #fff;
-}
-.green-grdt {
-	background: #86ba3d;
-	background: -moz-linear-gradient(top, #86ba3d 0%, #74a52e 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #86ba3d), color-stop(100%, #74a52e));
-	background: -webkit-linear-gradient(top, #86ba3d 0%, #74a52e 100%);
-	background: -o-linear-gradient(top, #86ba3d 0%, #74a52e 100%);
-	background: -ms-linear-gradient(top, #86ba3d 0%, #74a52e 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86ba3d', endColorstr='#74a52e', GradientType=0 );
-	color: #fff;
-}
-.red-grdt {
-	background: #f05c48;
-	background: -moz-linear-gradient(top, #f05c48 0%, #da4b38 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f05c48), color-stop(100%, #da4b38));
-	background: -webkit-linear-gradient(top, #f05c48 0%, #da4b38 100%);
-	background: -o-linear-gradient(top, #f05c48 0%, #da4b38 100%);
-	background: -ms-linear-gradient(top, #f05c48 0%, #da4b38 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f05c48', endColorstr='#da4b38', GradientType=0 );
-	color: #fff;
-}
-.orange-grdt {
-	background: #fc7d33;
-	background: -moz-linear-gradient(top, #fc7d33 0%, #ff670f 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc7d33), color-stop(100%, #ff670f));
-	background: -webkit-linear-gradient(top, #fc7d33 0%, #ff670f 100%);
-	background: -o-linear-gradient(top, #fc7d33 0%, #ff670f 100%);
-	background: -ms-linear-gradient(top, #fc7d33 0%, #ff670f 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc7d33', endColorstr='#ff670f', GradientType=0 );
-	color: #fff;
-}
-.yellow-grdt {
-	background: #ffcd67;
-	background: -moz-linear-gradient(top, #ffcd67 0%, #f6bb42 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcd67), color-stop(100%, #f6bb42));
-	background: -webkit-linear-gradient(top, #ffcd67 0%, #ff670f 100%);
-	background: -o-linear-gradient(top, #ffcd67 0%, #f6bb42 100%);
-	background: -ms-linear-gradient(top, #ffcd67 0%, #f6bb42 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcd67', endColorstr='#f6bb42', GradientType=0 );
-	color: #fff;
-}
-.purple-grdt {
-	background: #a98ded;
-	background: -moz-linear-gradient(top, #a98ded 0%, #967adc 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a98ded), color-stop(100%, #967adc));
-	background: -webkit-linear-gradient(top, #a98ded 0%, #967adc 100%);
-	background: -o-linear-gradient(top, #a98ded 0%, #967adc 100%);
-	background: -ms-linear-gradient(top, #a98ded 0%, #967adc 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a98ded', endColorstr='#967adc', GradientType=0 );
-	color: #fff;
-}
-.pink-grdt {
-	background: #fb3ea4;
-	background: -moz-linear-gradient(top, #fb3ea4 0%, #f21b8f 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fb3ea4), color-stop(100%, #f21b8f));
-	background: -webkit-linear-gradient(top, #fb3ea4 0%, #f21b8f 100%);
-	background: -o-linear-gradient(top, #fb3ea4 0%, #f21b8f 100%);
-	background: -ms-linear-gradient(top, #fb3ea4 0%, #f21b8f 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3ea4', endColorstr='#f21b8f', GradientType=0 );
-	color: #fff;
-}
-.tranbg > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-	border-right: none;
-	border-left: none;
-	background-color: transparent;
-}
-.tranbg > .wsmenu > .wsmenu-list > li > a:hover {
-	background-color: transparent !important;
-}
-.tranbg > .wsmenu > .wsmenu-list > li > a {
-	background-color: transparent !important;
-}
-.tranbg > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #898d91 !important;
-}
-.tranbg > .wsmenu {
-	border: none;
-}
-.whitebg > .wsmenu > .wsmenu-list > li > a {
-	color: #424242;
-}
-.whitebg > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #E5E5E5 !important;
-}
-.red-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.red-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.gry-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.gry-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.blue-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.blue-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.green-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.green-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.orange-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.orange-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.yellow-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #424242 !important;
-}
-.yellow-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #424242 !important;
-}
-.yellow-grdt > .wsmenu > .wsmenu-list li a .fa {
-	color: #424242 !important;
-}
-.purple-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.purple-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
-.pink-grdt > .wsmenu > .wsmenu-list > li > a {
-	color: #fff !important;
-}
-.pink-grdt > .wsmenu > .wsmenu-list > li > a > .arrow:after {
-	border-top-color: #fff !important;
-}
- @media only screen and (max-width: 780px) {
-.tranbg {
-	background-color: #fff !important;
-}
-.red-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.blue-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.orange-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.green-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.purple-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.pink-grdt > .wsmenu > .wsmenu-list > li > a > .fa {
-	color: #fff !important;
-}
-.gry > .wsmenu-submenu > li:hover>a {
-	background-color: #424242 !important;
-	color: #fff;
-}
-.gry > .wsmenu .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #424242;
-}
-.gry > .wsmenu .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #424242;
-}
-.orange > .wsmenu-submenu > li:hover>a {
-	background-color: #ff670f !important;
-	color: #fff;
-}
-.orange > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #ff670f;
-}
-.orange > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #ff670f;
-}
-.blue > .wsmenu-submenu > li:hover>a {
-	background-color: #4A89DC !important;
-	color: #fff;
-}
-.blue > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #4A89DC;
-}
-.blue > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #4A89DC;
-}
-.green > .wsmenu-submenu > li:hover>a {
-	background-color: #74a52e !important;
-	color: #fff;
-}
-.green > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #74a52e;
-}
-.green > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #74a52e;
-}
-.red > .wsmenu-submenu > li:hover>a {
-	background-color: #DA4B38 !important;
-	color: #fff;
-}
-.red > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #DA4B38;
-}
-.red > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #DA4B38;
-}
-.yellow > .wsmenu-submenu > li:hover>a {
-	background-color: #F6BB42 !important;
-	color: #fff;
-}
-.yellow > .wsmenu .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #F6BB42;
-}
-.yellow > .wsmenu .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #F6BB42;
-}
-.purple > .wsmenu-submenu > li:hover>a {
-	background-color: #967ADC !important;
-	color: #fff;
-}
-.purple > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #967ADC;
-}
-.purple > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #967ADC;
-}
-.pink > .wsmenu-submenu > li:hover>a {
-	background-color: #ee1289 !important;
-	color: #fff;
-}
-.pink > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #ee1289;
-}
-.pink > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #ee1289;
-}
-.chocolate > .wsmenu-submenu > li:hover>a {
-	background-color: #934915 !important;
-	color: #fff;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a.active {
-	color: #fff;
-	background-color: #934915;
-}
-.chocolate > .wsmenu > .wsmenu-list > li > a:hover {
-	color: #fff;
-	background-color: #934915;
-}
-}
+
 @media only screen and (max-width: 767px) {
         .wsmenu-list > li {
    
     margin-bottom: 0;
    
 }
-}   
 }
-  
-
 
 
 
