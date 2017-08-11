@@ -34,37 +34,6 @@
   max-width: 160rem;
   padding: 0 2rem;
 }
-.module-4000 .action-bar {
-  padding-top: 2rem;
-  height: 100%;
-  padding-bottom: 2rem;
-}
-.module-4000 .action-bar a {
-  color: #999;
-  margin-left: 2.4rem;
-}
-.module-4000 .action-bar a:hover {
-  text-decoration: none;
-  color: #434343;
-}
-.module-4000 .action-bar a.button {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.module-4000 .action-bar .x-dark {
-  background: #4d4d4d;
-  color: #fff;
-  font-weight: 600;
-}
-.module-4000 .action-bar .tight {
-  font-size: 1.2rem;
-  line-height: normal;
-  padding: .4rem .8rem;
-}
-.module-4000 .action-bar .tight:hover {
-  background: #434343;
-  color: #fff;
-}
 .module-4000 .fixed {
   position: fixed;
   width: 100%;

@@ -1,6 +1,6 @@
-@import "../../values/less/var.less";
 .module-4001 .swiper-container {
   overflow: hidden;
+  position: relative;
 }
 .module-4001 .swiper-container .swiper-wrapper {
   display: -webkit-box;

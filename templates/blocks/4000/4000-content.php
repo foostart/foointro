@@ -86,7 +86,8 @@ $url_path = str_replace('\\', '/', $url_path);
   <div class="overlapblackbg"></div>
   <div class="wsmobileheader clearfix"> 
       <a id="wsnavtoggle" class="animated-arrow"><span></span></a> 
-      <a class="smallogo"><img src="images/sml-logo.png" width="87" alt="" /></a> 
+      <a href="#"class="smallogo">
+          <img  src="image/logo_compact_1.png" alt="" width="87px"/></a> 
       <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a> 
   </div>
   
