@@ -11,9 +11,9 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/4040.less', 'css/4040.css');
+        $less->compileFile('less/4040.less', 'css/4041.css');
         ?> 
-        <link href="css/4040.css" rel="stylesheet" type="text/css"/>
+        <link href="css/4041.css" rel="stylesheet" type="text/css"/>
      
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         
