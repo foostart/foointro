@@ -1,25 +1,17 @@
-.module-4011 .firexd {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  top: 11.5rem;
-}
-@media only screen and (max-width: 767px) {
-  .module-4011 .ATD_content_2 {
-    display: none;
-  }
-}
-.module-4011 .ATD_content_2 {
+.module-4011 {
   height: 38px;
   background-color: #eff0f1;
 }
-.module-4011 .ATD_content_2 .menu-chitiet {
+.module-4011 .menu-chitiet {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 160rem;
   padding: 0 1rem;
 }
-.module-4011 .ATD_content_2 ul {
+.module-4011 .menu-chitiet .navbar {
+  margin-bottom: 0;
+}
+.module-4011 .menu-chitiet .navbar ul {
   margin-bottom: 0;
   padding-left: 0;
   margin-left: 0;
@@ -28,17 +20,13 @@
   font-size: 1.8rem;
   line-height: 2.3rem;
 }
-.module-4011 .ATD_content_2 ul li.active {
+.module-4011 .menu-chitiet .navbar ul li.prevacti {
   background-color: #ff7600;
 }
-.module-4011 .ATD_content_2 ul li.active a {
+.module-4011 .menu-chitiet .navbar ul li.prevacti a {
   color: #fff;
 }
-.module-4011 .ATD_content_2 ul li.active a:hover {
-  background-color: #ff7600;
-  text-decoration: none;
-}
-.module-4011 .ATD_content_2 ul li.active:after {
+.module-4011 .menu-chitiet .navbar ul li.prevacti:after {
   top: 100%;
   left: 50%;
   border: solid transparent;
@@ -52,38 +40,38 @@
   border-width: 1.5rem;
   margin-left: -1.5rem;
 }
-.module-4011 .ATD_content_2 ul li {
+.module-4011 .menu-chitiet .navbar ul li {
   display: inline-block;
   position: relative;
   margin: 0 1.2rem;
   padding: 0;
 }
-.module-4011 .ATD_content_2 ul li a {
+.module-4011 .menu-chitiet .navbar ul li a {
   color: #333;
   display: block;
   font-size: 1.8rem;
   line-height: 2.3rem;
   padding: .4rem .9rem 1rem;
 }
-.module-4011 .ATD_content_2 ul li a:hover {
+.module-4011 .menu-chitiet .navbar ul li a:hover {
   text-decoration: none;
 }
 @media (max-width: 1199px) {
-  .module-4011 .ATD_content_2 .menu-chitiet ul li {
+  .module-4011 .menu-chitiet .navbar ul li {
     margin: 0;
   }
-  .module-4011 .ATD_content_2 .menu-chitiet ul li a {
+  .module-4011 .menu-chitiet .navbar ul li a {
     font-size: 1.6rem;
   }
 }
 @media (max-width: 991px) {
-  .module-4011 .ATD_content_2 .menu-chitiet ul li a {
-    font-size: 1.4rem;
+  .module-4011 .menu-chitiet .navbar ul li a {
+    font-size: 1.2rem;
     padding: .4rem .8rem 1rem;
   }
 }
 @media (max-width: 767px) {
-  .module-4011 .ATD_content_2 .menu-chitiet {
+  .module-4011 .menu-chitiet {
     display: none;
   }
 }

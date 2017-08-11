@@ -14,13 +14,10 @@
         $less->compileFile('less/4011.less', 'css/4011.css');
         ?> 
         <link href="css/4011.css" rel="stylesheet" type="text/css"/>
-     
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-       
     </head> 
-
     <body> 
-        <?php include '../4011/4011-content.php'; ?>
+        <?php include '../4011/4011-content.php';?>
     </body>
 </html>
