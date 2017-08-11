@@ -19,9 +19,9 @@ and open the template in the editor.
         $less->compileFile('less/4035.less', 'css/4035.css');
         ?>
         <link href="css/4035.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="js/js-4035.js" type="text/javascript"></script>
-        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+   
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/4035-1.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include '../4035/4035-content.php'; ?>
