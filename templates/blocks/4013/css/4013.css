@@ -129,76 +129,19 @@
   top: 50%;
   transform: translateY(-50%);
 }
-.module-4013 .dropdown {
-  position: relative;
-}
-.module-4013 .dropdown .secondary button {
-  background-color: #fff;
-  color: #666;
-  font-size: 1.6rem;
-  font-weight: 500;
-  padding: 1.2rem 1rem 1.2rem 1.6rem;
-  text-align: left;
-  width: 100%;
-}
 .module-4013 button {
   border: 0;
-}
-.module-4013 .dropdown.secondary button .fa {
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin: 0s .9rem .4rem 0 0;
-  transform: rotate(90deg);
-}
-.module-4013 .pull-right {
-  float: right !important;
 }
 .module-4013 .pull-left {
   color: #666;
   font-size: 1.4rem;
   line-height: 1.8rem;
 }
-.module-4013 .dropdown.secondary .dropdown-menu {
-  z-index: 1000;
-}
-.module-4013 .dropdown.secondary .dropdown-menu {
-  width: 100%;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
-  max-height: 34rem;
-  overflow-y: scroll;
-}
-.module-4013 .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  display: none;
-  float: left;
-  min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0;
-  list-style: none;
-  font-size: 1.4rem;
-  background-color: #fff;
-  background-clip: padding-box;
-}
 .module-4013 ul {
   color: #666;
   font-family: 'Calibre', Arial, Sans-Serif;
   font-weight: 400;
   line-height: 2.3rem;
-}
-.module-4013 .dropdown.secondary .dropdown-menu a {
-  color: #666;
-  font-weight: 500;
-  line-height: 2rem;
-  padding: 0 2.6rem .3rem;
-  white-space: normal;
-}
-.module-4013 .dropdown-menu>li>a {
-  display: block;
-  clear: both;
 }
 .module-4013 select {
   height: 50px;
@@ -235,10 +178,10 @@
 }
 @media (max-width: 991px) and (min-width: 768px) {
   .module-4013 .dark {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .module-4013 .content p {
-    font-size: 12px !important;
+    font-size: 1.2rem !important;
   }
   .module-4013 .table tr.content td {
     padding-left: 0rem;
@@ -248,55 +191,55 @@
     width: 21rem !important;
   }
   .module-4013 .table .inner {
-    padding-bottom: 10px !important;
+    padding-bottom: 1rem !important;
     margin-left: 19rem !important;
   }
   .module-4013 .table tr.content th a {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
   }
   .module-4013 .table tr.title td {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .module-4013 .table tr.content td {
-    font-size: 9px;
+    font-size: .9rem;
     font-weight: 600;
   }
   .module-4013 .table th {
     width: 17rem !important;
   }
   .module-4013 .table tr.content th a {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .module-4013 .editor p {
-    font-size: 12px !important;
+    font-size: 1.2rem !important;
   }
   .module-4013 .pull-left {
-    font-size: 12px !important;
+    font-size: 1.2rem !important;
   }
 }
 @media (max-width: 1199px) and (min-width: 992px) {
   .module-4013 .dark {
-    font-size: 10px !important;
+    font-size: 1rem !important;
   }
   .module-4013 .editor p {
-    font-size: 12px !important;
+    font-size: 1.2rem !important;
   }
   .module-4013 .table th {
     width: 21rem !important;
   }
   .module-4013 .table .inner {
-    padding-bottom: 10px !important;
+    padding-bottom: 1rem !important;
     margin-left: 19rem !important;
   }
   .module-4013 .table tr.content th a {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
   }
   .module-4013 .table tr.title td {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .module-4013 .table tr.content td {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 }

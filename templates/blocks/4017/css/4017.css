@@ -1,23 +1,23 @@
 .module-4017 .contacts {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 .module-4017 .contacts h3 {
   font-weight: 600;
 }
 .module-4017 .tren .content {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
   background: #4d4d4d;
 }
 .module-4017 .tren .content p {
-  padding: 10px 0px 10px 20px;
+  padding: 1rem 0rem 1rem 2rem;
   color: #fff;
   font-weight: 600;
   font-size: 15px;
 }
 .module-4017 .tren .content p span {
-  font-size: 12px;
-  margin-left: 30px;
+  font-size: 1.2rem;
+  margin-left: 3rem;
   color: #00b5ef;
   cursor: pointer;
 }
@@ -38,16 +38,16 @@
 .module-4017 .tren .contacts-notification .x {
   cursor: pointer;
   text-align: right;
-  font-size: 20px;
+  font-size: 2rem;
   margin: 0px 5px 0px 0px;
 }
 .module-4017 .tren .contacts-notification h4 {
   font-weight: 600;
-  margin: 30px 0 30px 0;
+  margin: 3rem 0 3rem 0;
 }
 .module-4017 .tren .contacts-notification select {
   border-color: #fff;
-  padding: 0 10px;
+  padding: 0 1rem;
   background: #eff0f1;
   width: 345px;
   height: 45px;
@@ -59,7 +59,7 @@
   background: #ff8c00;
   position: relative;
   left: 35%;
-  margin-top: 30px;
+  margin-top: 3rem;
   width: 125px;
   height: 50px;
 }
@@ -74,22 +74,22 @@
 }
 .module-4017 .tren .contact-list {
   padding-left: 27px;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .module-4017 .tren .contact-list h4 {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 .module-4017 .tren .contact-list .item {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   color: #0092bd;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .module-4017 .tren .contact-list .item .fa-phone {
   color: #000;
 }
 .module-4017 .tren .contact-list .item .fa {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .module-4017 .tren .contact-list .item:hover {
   color: #000;
@@ -109,11 +109,11 @@
 }
 .module-4017 .tren .hang2 {
   background-color: #f0f3f3;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 .module-4017 .tren .submit {
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   text-align: center;
 }
 .module-4017 .tren .submit a {
@@ -123,10 +123,10 @@
 }
 .module-4017 .tren .submit .primary {
   background: #ff8c00;
-  padding: 17px 41px;
+  padding: 1.7rem 4.1rem;
   font-weight: 600;
-  letter-spacing: 1px;
-  font-size: 12px;
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
 }
 .module-4017 .tren .submit a:hover {
   background: #fa0;
@@ -149,23 +149,23 @@
   }
   .module-4017 .tren .content p span {
     color: #0092bd;
-    font-size: 12px;
-    margin: 30px;
+    font-size: 1.2rem;
+    margin: 3rem;
     position: absolute;
-    right: -13px;
+    right: -1.3rem;
   }
   .module-4017 .tren .contact-list .col-sm-2 .item.item {
-    margin-bottom: 4px;
+    margin-bottom: .4rem;
   }
   .module-4017 .tren .contact-list .col-sm-3 {
-    padding-top: 15px;
+    padding-top: 1.5rem;
   }
   .module-4017 .tren .contact-list .col-sm-5 {
-    padding-top: 15px;
+    padding-top: 1.5rem;
   }
 }
 .module-4017 .tren .submit .primary {
-  padding: 14px 14px;
+  padding: 1.4rem 1.4rem;
 }
 @media (max-width: 767px) {
   .module-4017 .contacts {
@@ -174,6 +174,6 @@
     text-align: left;
   }
   .module-4017 .contacts h3 {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }

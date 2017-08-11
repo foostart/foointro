@@ -21,6 +21,6 @@ and open the template in the editor.
         <link href="css/4013.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include '../4013/4013-content.php'; ?>
+        <?php include '../4013/4013-content.php';?>
     </body>
 </html>
