@@ -6,7 +6,6 @@
         <title>4040</title>
 
        
-
         <?php
         if (!class_exists('lessc')) {
             include ('libs/lessc.inc.php');
@@ -14,8 +13,8 @@
         $less = new lessc;
         $less->compileFile('less/4040.less', 'css/4040.css');
         ?> 
-       
         <link href="css/4040.css" rel="stylesheet" type="text/css"/>
+     
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         
         
