@@ -19,8 +19,8 @@
         
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-        <script src="js/js-4002.js" type="text/javascript"></script>
+        
+        <script src="js/4002-1.js" type="text/javascript"></script>
     </head> 
 
     <body> 
