@@ -12,7 +12,7 @@
         margin: 1.2rem 0 4rem;
         tr.title td {
             background-color: #82be52;
-            color: #fff;
+            color: @textcolor-button;
             line-height: 1.6rem;
             padding-top: .4rem;
         }
@@ -26,7 +26,7 @@
         .text-right {
             text-align: right;
             font-weight: 500;
-            font-size: 1.4rem;
+            font-size: @fontsize-content-p;
             line-height: 1.8rem;
         }
         td:first-of-type {
@@ -51,7 +51,7 @@
             vertical-align: middle;
             color: #333;
             font-family: 'Calibre',Arial,Sans-Serif;
-            font-size: 1.4rem;
+            font-size: @fontsize-content-p;
             font-weight: 500;
             line-height: 1.4rem;
         }
@@ -66,7 +66,7 @@
             text-decoration: none;
         }
         .inner {
-            background-color: #fff;
+            background-color: @background-color;
             margin-left: 27rem;
             overflow-x: auto;
             overflow-y: visible;
@@ -89,22 +89,21 @@
     .xx-thick {
         font-weight: 700!important;
     }
-
     .editor{
         padding-bottom: 1.6rem;
         p{
             margin-bottom: 2.4rem;
-            color: #666;
+            color: @textcolor-content-p;
             font-family: 'Calibre',Arial,Sans-Serif;
-            font-size: 15px;
+            font-size: 1.5rem;
             font-weight: 400;
             line-height: 2.3rem;
-            margin: 0 0 10px;
+            margin: 0 0 1rem;
         }
     }
     .dark {
-        color: #666;
-        font-size: 1.4rem;
+        color: @textcolor-content-p;
+        font-size: @fontsize-content-p;
         line-height: 1.8rem;
         padding-bottom: 10px;
         font-weight: 600 !important;
@@ -121,7 +120,7 @@
     .thick {
 
         font-weight: 500;
-        font-size: 1.4rem;
+        font-size: @fontsize-content-p;
         line-height: 1.8rem;
     }   
     .fa{
@@ -129,16 +128,16 @@
         position: absolute;
         right: 0.8rem;
         height: 19px;
-        font-size: 1.4rem;
+        font-size: @fontsize-content-p;
         top: 50%;
         transform: translateY(-50%);
     }
     .dropdown {
         position: relative;
         .secondary button {
-            background-color: #fff;
-            color: #666;
-            font-size: 1.6rem;
+            background-color: @background-color;
+            color: @textcolor-content-p;
+            font-size: @fontsize-content-a;
             font-weight: 500;
             padding: 1.2rem 1rem 1.2rem 1.6rem;
             text-align: left;
@@ -150,7 +149,7 @@
     }
     .dropdown.secondary button .fa {
 
-        font-size: 1.4rem;
+        font-size: @fontsize-content-p;
         font-weight: 700;
         margin: -0s.9rem .4rem 0 0;
         transform: rotate(90deg);
@@ -159,8 +158,8 @@
         float: right!important;
     }
     .pull-left{
-        color: #666;
-        font-size: 1.4rem;
+        color: @textcolor-content-p;
+        font-size: @fontsize-content-p;
         line-height: 1.8rem;
     }
     .dropdown.secondary .dropdown-menu {
@@ -184,9 +183,8 @@
         padding: 5px 0;
         margin: 2px 0 0;
         list-style: none;
-        font-size: 14px;
-        text-align: left;
-        background-color: #fff;
+        font-size: @fontsize-content-p;
+        background-color: @background-color;
         background-clip: padding-box;
     }
     ul{
@@ -196,7 +194,7 @@
         line-height: 2.3rem;
     }
     .dropdown.secondary .dropdown-menu a {
-        color: #666;
+        color: @textcolor-content-p;
         font-weight: 500;
         line-height: 2rem;
         padding: 0 2.6rem .3rem;
@@ -214,13 +212,13 @@
         }
     }
     .form-control{
-        font-size: 1.4rem;
+        font-size: @fontsize-content-p;
         height: 4.4rem;
         padding: .6rem 1.2rem;
-        background-color: #FFF;
+        background-color: @background-color;
         border-radius: 0;
         box-shadow: none;
-        color: #666;
+        color: @textcolor-content-p;
         font-family: 'Calibre', Arial, Sans-Serif;
         font-weight: 400;
     }
@@ -235,18 +233,18 @@
             font-size: 1.5rem;
         }
         p{
-            color: #333;
-            font-size: 1.6rem;
+            color: @textcolor-content-h1-h4;
+            font-size: @fontsize-content-a;
         }
     }
     @media (max-width: 991px) and (min-width: 768px){
 
         .dark{
-            font-size: 10px !important;
+            font-size: 1rem !important;
         }
         .content{
             p{
-                font-size: 12px !important;
+                font-size: 1.2rem !important;
             }
         }     
         .table {
@@ -258,43 +256,43 @@
                 width: 21rem !important;
             }
             .inner{
-                padding-bottom: 10px !important;
+                padding-bottom: 1rem !important;
                 margin-left: 19rem !important;
             }
             tr.content th a{
-                font-size: 12px;
+                font-size: @fontsize-content-small-span;
                 font-weight: 600;
             }
             tr.title td{
-                font-size: 10px;
+                font-size: 1rem;
             }
             tr.content td{
-                font-size: 9px;
+                font-size: .9rem;
                 font-weight: 600;
             }
             th{
                 width: 17rem !important;
             }
             tr.content th a{
-                font-size: 10px !important;
+                font-size: 1rem !important;
             }
         }
         .editor{
             p{
-                font-size: 12px !important;
+                font-size: 1.2rem !important;
             }
         }
         .pull-left{
-            font-size: 12px !important;
+            font-size: 1.2rem !important;
         }
     }
     @media (max-width: 1199px) and (min-width: 992px){
         .dark{
-            font-size: 10px !important;
+            font-size: 1rem !important;
         }
         .editor{
             p{
-                font-size: 12px !important;
+                font-size: 1.2rem !important;
             }
         }
         .table{
@@ -302,18 +300,18 @@
                 width: 21rem !important;
             }
             .inner{
-                padding-bottom: 10px !important;
+                padding-bottom: 1rem !important;
                 margin-left: 19rem !important;
             }
             tr.content th a{
-                font-size: 12px;
+                font-size: @fontsize-content-small-span;
                 font-weight: 600;
             }
             tr.title td{
-                font-size: 10px;
+                font-size: 1rem;
             }
             tr.content td{
-                font-size: 12px
+                font-size: @fontsize-content-small-span;
             }
         }
     }

@@ -12,9 +12,9 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4013">
-    <div class=" hidden-xs">
+    <div class="hidden-xs">
         <div class="container">
-            <h3 class=" xx-thick">Specifications</h3>
+            <h3 class="xx-thick">Specifications</h3>
             <div class="row">
                 <div class="col-xs-12">
                     <div class="editor">
@@ -36,20 +36,20 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="inner">
                                 <table>
                                     <tbody>
-                                        <tr class="title ">
-                                            <th class="text-right ">
+                                        <tr class="title">
+                                            <th class="text-right">
                                                 <span>Models</span>
                                             </th>
-                                            <td class="thick ">
+                                            <td class="thick">
                                                 Power Rating
                                             </td>
-                                            <td class="thick ">
+                                            <td class="thick">
                                                 Input Voltage
                                             </td>
-                                            <td class="thick ">
+                                            <td class="thick">
                                                 Output Voltage
                                             </td>
-                                            <td class="thic">
+                                            <td class="thick">
                                                 Efficiency
                                             </td>
                                             <td class="thick">
@@ -68,18 +68,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 Weight (lbs / kgs)
                                             </td>
                                         </tr>
-                                        <tr class="content ">
-                                            <th class="text-right ">
+                                        <tr class="content">
+                                            <th class="text-right">
                                                 <a href="#">Trinergy Cube 200 kW Core </a>
                                                 <span class="fa fa-caret-right"></span>
                                             </th>
-                                            <td class="thick  ">200 kVA / 200 kW</td>
-                                            <td class="thick  ">380 / 400 / 415 VAC</td>
-                                            <td class="thick  ">380 / 400 / 415 VAC</td>
-                                            <td class="thick  ">98.5%</td>
-                                            <td class="thick  ">3 ph + N + PE, 3 ph + PE </td>
-                                            <td class="thick  "> / 1950 mm</td>
-                                            <td class="thick  "> / 500 mm</td>
+                                            <td class="thick">200 kVA / 200 kW</td>
+                                            <td class="thick">380 / 400 / 415 VAC</td>
+                                            <td class="thick">380 / 400 / 415 VAC</td>
+                                            <td class="thick">98.5%</td>
+                                            <td class="thick">3 ph + N + PE, 3 ph + PE </td>
+                                            <td class="thick"> / 1950 mm</td>
+                                            <td class="thick"> / 500 mm</td>
                                             <td class="thick  "> / 910 mm</td>
                                             <td class="thick  "> / 465 kg</td>
                                         </tr>
@@ -88,20 +88,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <a href="#">Trinergy Cube 400 kW Core </a>
                                                 <span class="fa fa-caret-right"></span>
                                             </th>
-                                            <td class="thick  ">380 / 400 / 415 VACC</td>
-                                            <td class="thick  ">380 / 400 / 415 VAC</td>
-                                            <td class="thick  ">98.5%</td>
-                                            <td class="thick  ">3 ph + N + PE, 3 ph + PE </td>
-                                            <td class="thick  "> / 1950 mm</td>
-                                            <td class="thick  ">  / 675 mm</td>
-                                            <td class="thick  "> / 910 mm</td>
-                                            <td class="thick  ">  / 610 kg</td>
-                                            <td class="thick  "> / 465 kg</td>
+                                            <td class="thick">380 / 400 / 415 VACC</td>
+                                            <td class="thick">380 / 400 / 415 VAC</td>
+                                            <td class="thick">98.5%</td>
+                                            <td class="thick">3 ph + N + PE, 3 ph + PE </td>
+                                            <td class="thick"> / 1950 mm</td>
+                                            <td class="thick">  / 675 mm</td>
+                                            <td class="thick"> / 910 mm</td>
+                                            <td class="thick">  / 610 kg</td>
+                                            <td class="thick"> / 465 kg</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <span class="pull-left ">* To view a specific model product page click on the model name above.</span>
+                            <span class="pull-left">* To view a specific model product page click on the model name above.</span>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <span class=" dark">Specifications per model</span>
+            <span class="dark">Specifications per model</span>
             <select class="form-control">
                 <option value="Select a Model">Select a Model</option>
                 <option value="Trinergy Cube 200 kW Core">Trinergy Cube 200 kW Core</option>
