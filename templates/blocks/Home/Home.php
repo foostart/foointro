@@ -34,10 +34,12 @@
         <script src="../4040/js/js-4040.js" type="text/javascript"></script>
         <script src="js/4002-1.js" type="text/javascript"></script>
         <script src="js/4002-2.js" type="text/javascript"></script>
+        <script src="js/4003-1.js" type="text/javascript"></script>
+        <script src="js/4003-1.js" type="text/javascript"></script>
     </head>
     
 
-    <body>
+    <body style="background-image: linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 70.25%,rgba(0,0,0,.06) 70.25%,rgba(0,0,0,.06) 100%),linear-gradient(135deg,rgba(0,0,0,.06) 0%,rgba(0,0,0,.06) 28%,rgba(255,255,255,0) 28%,rgba(255,255,255,0) 100%),linear-gradient(45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,.5) 50%,rgba(255,255,255,.5) 100%);background-color: #e5e6e7;">
         <?php 
         include '../4000/4000-content.php';
         include '../4001/4001-content.php';

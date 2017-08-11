@@ -198,7 +198,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
         <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
         </div>
-        <script src="js/4002-2.js" type="text/javascript"></script>
+      
       
     </div>
     
@@ -208,4 +208,4 @@ $url_path = str_replace('\\', '/', $url_path);
                 </a>
             </div>
         </div>
-   
+     <script src="js/4002-2.js" type="text/javascript"></script>
