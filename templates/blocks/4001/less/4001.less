@@ -1,276 +1,140 @@
 @import"../../values/less/var.less";
 .module-4001{
+    .swiper-container {
+        overflow: hidden;
+      
+        .swiper-wrapper {
+            display: -webkit-box;
+            .swiper-slide {
+                  background: #000;
+                cursor: pointer;
+                  height: 46.2rem;
+                img{
+                    width: 100%;
+                  
+                    min-height: 46.2rem;
+                    max-height: 46.2rem;
+                    object-fit: cover;
+                        opacity: 0.8;
+                }
+                .text{
+                    text-align: center;
+                    position: relative;
+                    bottom: 35rem;
+                    color: #fff;
+                    span{
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                        letter-spacing: 0.2rem;
+                    }
+                    h1{
+                        font-size: 3rem;
+                        font-weight: 600;
+                        letter-spacing: 0.5rem;
+                            margin-bottom: 5rem;
+                    }
+                    .submit{
 
-    margin-top: -20px;
-    padding-bottom: 20px;
-    #owl-demo .item img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .slide-content {
-        left: 50%;
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        z-index: 110;
-        .subject {
-           color: @textcolor-content-img;
-            font-size: 2rem;
-            font-weight: 600;
-            letter-spacing: .1em;
-            line-height: 4rem;
+                        a{
+                            background: #ff8c00;
+                            padding: 1.7rem 4.1rem;
+                            font-weight: 600;
+                            letter-spacing: 0.1rem;
+                            font-size: 1.2rem;
+                            text-transform: uppercase;
+                            text-decoration: initial;
+                            color: #fff;
+                        }
+                        a:hover{
+                            background: #fa0;
+                        }
+                    }
+                }
+            }
         }
-        span {
-            cursor: default;
+        .swiper-button-next,.swiper-button-prev {
+            position: absolute;
+            top: 50%;
+            width: 2.7rem;
+            height: 4.4rem;
+            margin-top: -2.2rem;
+            cursor: pointer;
         }
-        .hero-title {
-         
-            font-weight: 600;
-            font-size: 4rem;
-            line-height: 4.8rem;
-            letter-spacing: .1em;
-            color: @textcolor-content-img;
+        .swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+            border-radius: 11.5rem;
+            height: 11.5rem;
+            width: 11.5rem;
+            background: rgba(255,255,255,.1);
+            left: 3rem;
+            right: auto;
+            opacity: 0;
+            position: absolute;
+            top: 20rem;
+        } 
+        .fa.fa-angle-left{
+            position: relative;
+            color: #fff;
+            font-size: 10rem;
+            left: 3.5rem;  
         }
-    }
-    .button.primary,
-    a.button.primary {
-        background: @background-button;
-        color: @textcolor-button;
-    }
-    .sld-hover:hover .owl-theme .owl-controls .owl-buttons div {
-        opacity: 1;
-        display: block;
-        background: rgba(49, 49, 70, 0.41);
-    }
-    .button,
-    a.button {
-        border: 0;
-        display: inline-block;
-       
-        font-size: 1.4rem;
-        font-weight: 600;
-        letter-spacing: .1em;
-        line-height: 1.8rem;
-        padding: 1.6rem 3.2rem;
-        text-transform: uppercase;
-    }
-    .button:hover,
-    .button:focus,
-    .button:active,
-    a.button:hover,
-    a.button:focus,
-    a.button:active {
-        text-decoration: none;
-    }
-    .button.primary:hover,
-    a.button.primary:hover {
-        background: @background-button-hover;
-        color: @textcolor-button;
-    }
-    
-  //  css owl-carousel
-  .owl-carousel{
-      position: relative;
-        width: 100%;
-      .owl-wrapper-outer {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-      }
-    .owl-wrapper {
-    display: none;
-    position: relative;
-    }
-    .owl-item {
-    float: left;
-}
-.owl-controls {
-    margin-top: -30px;
-    text-align: center;
-    .owl-page {
-    display: inline-block;
-    zoom: 1;
-    
-    cursor: pointer;
-    span {
-    display: block;
-    width: 12px;
-    height: 12px;
-    margin: 5px 7px;
-    
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    background: red;
-}
-
-owl-prev, .owl-next {
-    position: absolute;
-    display: block;
- 
-    top: 50%;
-    margin-top: -10px\9;
-    -webkit-transform: translate(0,-50%);
-    -ms-transform: translate(0,-50%);
-    transform: translate(0,-50%);
-   
-    border: none;
-    outline: none;
-}
-
-.owl-prev:before, .owl-next:before {
-    color: #fff;
-    font-family: 'FontAwesome';
-    font-size: 7rem;
-    font-weight: normal;
-    height: 3.3rem;
-    opacity: 1;
-    text-align: center;
-    width: 3.3rem;
-}
-
-}
-.owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-    
-    background: black;
-}
-
-}
-
-
-
-}
-/* Styling Next and Prev buttons */
-.owl-carousel:hover .owl-prev{
-        opacity: 1;
-    display: block;
-}
-.owl-theme .owl-controls .owl-buttons div{
-   
-	color: #FFF;
-	
-	zoom: 1;
-	
-	margin: -21px;
-	padding: 3px 10px;
-	font-size: 12px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 11.5rem;
-        height: 11.5rem;
-    width: 11.5rem;
-	background: rgba(255,255,255,.1);
-	z-index: 10;
-            transition: opacity .2s ease-in-out;
-	opacity: 0;
-}
-
-.owl-prev:before {
-    content: "\f104";
-   margin-right: 0.5rem;
-}
-.owl-next:before {
-    content: "\f105";
-    margin-left: 0.5rem;
-  
-}
-.owl-prev:before, .owl-next:before {
-    color: #fff;
-     font-family: 'FontAwesome';
-    font-size: 7rem;
-    font-weight: normal;
-    height: 3.3rem;
-    opacity: 1;
-    text-align: center;
-    width: 3.3rem;
-}
-.owl-next{
-    right: 2.4rem;
-}
-.owl-prev{
-    left: 2.4rem;
-}
-
-.owl-prev, .owl-next {
-    position: absolute;
-    display: block;
-    height: 20px;
-    width: 20px;
-    
-    font-size: 0;
-    cursor: pointer;
-    background: transparent;
-    color: transparent;
-    top: 50%;
-    margin-top: -10px\9;
-    -webkit-transform: translate(0,-50%);
-    -ms-transform: translate(0,-50%);
-    transform: translate(0,-50%);
-    padding: 0;
-    border: none;
-    outline: none;
-   
-}
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -webkit-transform: translate3d(0,0,0);
-    -moz-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-}
-  // end css .owl-carousel
-    @media (max-width: 767px) {
-        .slide-content .hero-title {
-            font-size: 1.5rem;
-            line-height: initial;
-            margin-bottom: 2.4rem;
+        .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+            border-radius: 11.5rem;
+            height: 11.5rem;
+            width: 11.5rem;
+            background: rgba(255,255,255,.1);
+            right: 3rem;
+            left: auto;
+            opacity: 0;
+            position: absolute;
+            top: 20rem;
         }
-    }
-    @media (max-width: 767px) {
-        .slide-content .button {
-            font-size: 1 rem;
-            padding: .8rem 1.6rem;
+        .fa.fa-angle-right{
+            position: relative;
+            color: #fff;
+            font-size: 10rem;
+            left: 4rem;  
         }
-    }
-    @media (max-width: 767px) {
-        .slide-content {
+        .swiper-pagination {
+            cursor: pointer;
+            text-align: center;
+            position: relative;
+            bottom: 3rem;
+        }
+        .swiper-container-horizontal>.swiper-pagination-bullets,.swiper-pagination-custom,.swiper-pagination-fraction {
+            bottom: 1rem;
             left: 0;
-            right: 0;
-            -webkit-transform: translate(0, -50%);
-            -ms-transform: translate(0, -50%);
-            transform: translate(0, -50%);
-            max-height: 26.2rem;
+            width: 100%
+        }
+        .swiper-pagination-bullet {
+            width: 0.8rem;
+            height: 0.8rem;
+            display: inline-block;
+            border-radius: 100%;
+            background: #fff;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #ff8c00;
         }
     }
-    @media (max-width: 767px) {
-        .slide-content .subject {
-            font-size: 0.9rem;
-            line-height: initial;
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 0.5rem
+    }
+    .swiper-container:hover{
+        .swiper-button-prev,.swiper-container-rtl .swiper-button-next, 
+        .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+            opacity: 1;
         }
     }
-    @media (max-width: 767px) {
-        .owl-next,
-        .owl-prev,
-        .owl-next:hover,
-        .owl-prev:hover {
-            display: none!important;
-        }
-         .item img {
-            min-height: 30rem;
-            max-height: 26rem;
-        }
+    @media(max-width: 1199px){
+   
     }
-    
-    @media (min-width: 1200px){
-        .container{
-            width: 100%;
+    @media(max-width: 991px){
+        
+    }
+    @media(max-width: 767px){
+        .swiper-button-next, .swiper-button-prev{
+            display: none;
         }
     }
 }
-
