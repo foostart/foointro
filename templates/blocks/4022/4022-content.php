@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="home">
         <span class="ome">Home</span><span class="big">></span><span class="sup">Support</span>
     </div>
-    <div class="mega-container-1">
+    <div class="list-1">
         <div class="container">
             <div class="row">
                 <h1>Find Support for My Products or Services</h1>
@@ -66,7 +66,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-    <div class="mega-container-2">
+    <div class="list-2">
         <div class="container">
             <div class="row">
                 <div class="out">X</div><br>

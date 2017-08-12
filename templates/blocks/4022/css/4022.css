@@ -5,6 +5,7 @@
   position: absolute;
   margin-left: 1.5rem;
   text-align: center;
+  margin-top: 1rem;
 }
 .module-4022 .home .ome {
   color: #666;
@@ -29,31 +30,31 @@
   font-weight: 600;
   margin: 8rem 0 3rem 0;
 }
-.module-4022 .mega-container-1 {
+.module-4022 .list-1 {
   background-image: linear-gradient(-135deg,rgba(0,0,0,0.06) 0%,rgba(0,0,0,0.06) 38%,rgba(255,255,255,0) 38%,rgba(255,255,255,0) 100%), linear-gradient(-45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.5) 100%);
   background-color: #eff0f1;
   padding: 0 2rem;
 }
-.module-4022 .mega-container-1 .content-1 {
+.module-4022 .list-1 .content-1 {
   padding: 6.5rem 0 7.5rem 0;
   background-color: #e1e1e1;
   position: relative;
   margin: 0 -1.6rem 8rem 0rem;
 }
-.module-4022 .mega-container-1 .content-1 h3 {
+.module-4022 .list-1 .content-1 h3 {
   font-weight: 600;
   margin: 2rem 0 2rem 0;
   font-size: 2, 8rem;
 }
-.module-4022 .mega-container-1 .content-1 p {
+.module-4022 .list-1 .content-1 p {
   padding: 0 5rem 0 5rem;
   color: #666;
   font-size: 1.4rem;
 }
-.module-4022 .mega-container-1 .content-1 .contact {
+.module-4022 .list-1 .content-1 .contact {
   height: 16rem;
 }
-.module-4022 .mega-container-1 .content-1 .contact select {
+.module-4022 .list-1 .content-1 .contact select {
   border: #fff;
   margin: 1rem 0 10rem 0;
   color: #666;
@@ -61,48 +62,48 @@
   height: 5rem;
   padding: 0 1rem 0 1rem;
 }
-.module-4022 .mega-container-1 .content-1 .submit a {
+.module-4022 .list-1 .content-1 .submit a {
   text-transform: uppercase;
   text-decoration: initial;
   color: #fff;
 }
-.module-4022 .mega-container-1 .content-1 .submit .primary {
+.module-4022 .list-1 .content-1 .submit .primary {
   background: #ff8c00;
   padding: 1.7rem 4.1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
-.module-4022 .mega-container-1 .content-1 .submit a:hover {
+.module-4022 .list-1 .content-1 .submit a:hover {
   background: #fa0;
 }
-.module-4022 .mega-container-1 .content-2 {
+.module-4022 .list-1 .content-2 {
   position: relative;
   margin: 0 0rem 8rem -1.6rem;
   padding: 6.5rem 0 7.5rem 0;
   background-color: #d7d7d7;
 }
-.module-4022 .mega-container-1 .content-2 h3 {
+.module-4022 .list-1 .content-2 h3 {
   font-weight: 600;
   margin: 2rem 0 2rem 0;
   font-size: 2, 8rem;
 }
-.module-4022 .mega-container-1 .content-2 p {
+.module-4022 .list-1 .content-2 p {
   padding: 0 5rem 0 5rem;
   color: #666;
   font-size: 1.4rem;
 }
-.module-4022 .mega-container-1 .content-2 .contact {
+.module-4022 .list-1 .content-2 .contact {
   height: 16rem;
 }
-.module-4022 .mega-container-1 .content-2 .contact input {
+.module-4022 .list-1 .content-2 .contact input {
   border: #fff;
   color: #666;
   width: 68%;
   height: 5rem;
   padding: 0 1rem 0 1rem;
 }
-.module-4022 .mega-container-1 .content-2 .contact .filter {
+.module-4022 .list-1 .content-2 .contact .filter {
   cursor: pointer;
   text-align: left;
   font-weight: 600;
@@ -113,28 +114,28 @@
   height: 5rem;
   padding: 1.5rem 1rem 0 1rem;
 }
-.module-4022 .mega-container-1 .content-2 .contact .filter .fa {
+.module-4022 .list-1 .content-2 .contact .filter .fa {
   float: right;
   font-size: 2.5rem;
   position: relative;
   bottom: 0.2rem;
 }
-.module-4022 .mega-container-1 .content-2 .submit a {
+.module-4022 .list-1 .content-2 .submit a {
   text-transform: uppercase;
   text-decoration: initial;
   color: #fff;
 }
-.module-4022 .mega-container-1 .content-2 .submit .primary {
+.module-4022 .list-1 .content-2 .submit .primary {
   background: #ff8c00;
   padding: 1.7rem 4.1rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
 }
-.module-4022 .mega-container-1 .content-2 .submit a:hover {
+.module-4022 .list-1 .content-2 .submit a:hover {
   background: #fa0;
 }
-.module-4022 .mega-container-2 {
+.module-4022 .list-2 {
   background-color: #fff;
   position: absolute;
   width: 100%;
@@ -144,7 +145,7 @@
   z-index: 1;
   display: none;
 }
-.module-4022 .mega-container-2 .out {
+.module-4022 .list-2 .out {
   font-weight: bold;
   font-size: 2rem;
   text-align: right;
@@ -152,18 +153,18 @@
   left: 15rem;
   cursor: pointer;
 }
-.module-4022 .mega-container-2 .out:hover {
+.module-4022 .list-2 .out:hover {
   opacity: 0.8;
 }
-.module-4022 .mega-container-2 .contact .check {
+.module-4022 .list-2 .contact .check {
   display: flex;
   margin-bottom: 1rem;
 }
-.module-4022 .mega-container-2 .contact .check .checkbox-hidden {
+.module-4022 .list-2 .contact .check .checkbox-hidden {
   opacity: 0;
   position: absolute;
 }
-.module-4022 .mega-container-2 .contact .check .checkbox-custom {
+.module-4022 .list-2 .contact .check .checkbox-custom {
   background: #ccc;
   cursor: pointer;
   width: .9rem;
@@ -173,18 +174,18 @@
   margin-top: .4rem;
   text-align: center;
 }
-.module-4022 .mega-container-2 .contact .check .checkbox-text {
+.module-4022 .list-2 .contact .check .checkbox-text {
   font-weight: 500;
 }
-.module-4022 .mega-container-2 .contact .check .checkbox-hidden:checked+.checkbox-custom {
+.module-4022 .list-2 .contact .check .checkbox-hidden:checked+.checkbox-custom {
   background: #ff8c00;
 }
-.module-4022 .mega-container-2 .submit-3 a {
+.module-4022 .list-2 .submit-3 a {
   text-transform: uppercase;
   text-decoration: initial;
   color: #fff;
 }
-.module-4022 .mega-container-2 .submit-3 .primary {
+.module-4022 .list-2 .submit-3 .primary {
   position: relative;
   background: #ff8c00;
   padding: 17px 41px;
@@ -194,69 +195,69 @@
   top: 30px;
   cursor: pointer;
 }
-.module-4022 .mega-container-2 .submit-3 a:hover {
+.module-4022 .list-2 .submit-3 a:hover {
   background: #fa0;
 }
 @media (max-width: 1199px) {
-  .module-4022 .mega-container-1 .content-1 p {
+  .module-4022 .list-1 .content-1 p {
     font-size: 1.2rem;
   }
-  .module-4022 .mega-container-1 .content-2 p {
+  .module-4022 .list-1 .content-2 p {
     font-size: 1.2rem;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .module-4022 .mega-container-1 h1 {
+  .module-4022 .list-1 h1 {
     font-size: 3.5rem;
   }
-  .module-4022 .mega-container-1 img {
+  .module-4022 .list-1 img {
     width: 6.5rem;
     height: 6.5rem;
   }
-  .module-4022 .mega-container-1 .content-1 h3,
-  .module-4022 .mega-container-1 .content-2 h3 {
+  .module-4022 .list-1 .content-1 h3,
+  .module-4022 .list-1 .content-2 h3 {
     font-weight: 800;
     font-size: 1.8rem;
     padding: 0 6rem;
   }
-  .module-4022 .mega-container-1 .content-1 p,
-  .module-4022 .mega-container-1 .content-2 p {
+  .module-4022 .list-1 .content-1 p,
+  .module-4022 .list-1 .content-2 p {
     font-size: 1.1rem;
   }
-  .module-4022 .mega-container-1 .content-1 select,
-  .module-4022 .mega-container-1 .content-1 input,
-  .module-4022 .mega-container-1 .content-1 .filter,
-  .module-4022 .mega-container-1 .content-2 select,
-  .module-4022 .mega-container-1 .content-2 input,
-  .module-4022 .mega-container-1 .content-2 .filter {
+  .module-4022 .list-1 .content-1 select,
+  .module-4022 .list-1 .content-1 input,
+  .module-4022 .list-1 .content-1 .filter,
+  .module-4022 .list-1 .content-2 select,
+  .module-4022 .list-1 .content-2 input,
+  .module-4022 .list-1 .content-2 .filter {
     font-size: 1.1rem;
     height: 3.5rem !important;
   }
-  .module-4022 .mega-container-1 .content-1 .submit .primary,
-  .module-4022 .mega-container-1 .content-2 .submit .primary {
+  .module-4022 .list-1 .content-1 .submit .primary,
+  .module-4022 .list-1 .content-2 .submit .primary {
     padding: 1.5rem 2rem;
     font-size: 1.1rem;
   }
-  .module-4022 .mega-container-1 .content-1 .contact {
+  .module-4022 .list-1 .content-1 .contact {
     margin-bottom: 1.5rem;
   }
-  .module-4022 .mega-container-1 .content-2 .contact .filter {
+  .module-4022 .list-1 .content-2 .contact .filter {
     padding: 1rem 1rem 0 1rem;
   }
-  .module-4022 .mega-container-1 .content-2 .contact .filter .fa {
+  .module-4022 .list-1 .content-2 .contact .filter .fa {
     bottom: 0.5rem;
   }
-  .module-4022 .mega-container-2 {
+  .module-4022 .list-2 {
     padding: 1rem 16rem;
     top: 49rem;
   }
-  .module-4022 .mega-container-2 .out {
+  .module-4022 .list-2 .out {
     left: 8rem;
   }
-  .module-4022 .mega-container-2 .check .checkbox-text {
+  .module-4022 .list-2 .check .checkbox-text {
     font-size: 1.2rem;
   }
-  .module-4022 .mega-container-2 .submit-3 .primary {
+  .module-4022 .list-2 .submit-3 .primary {
     padding: 1.5rem 2rem;
     font-size: 1.1rem;
   }
@@ -265,47 +266,52 @@
   .module-4022 .home {
     display: none;
   }
-  .module-4022 .mega-container-1 {
+  .module-4022 .list-1 {
     background-color: #c6c9ca;
     background-image: none;
   }
-  .module-4022 .mega-container-1 h1 {
+  .module-4022 .list-1 h1 {
     font-size: 2.5rem;
   }
-  .module-4022 .mega-container-1 .content-1,
-  .module-4022 .mega-container-1 .content-2 {
+  .module-4022 .list-1 .content-1,
+  .module-4022 .list-1 .content-2 {
     margin: 0 -1.6rem 0rem -1.6rem;
   }
-  .module-4022 .mega-container-1 .content-1 .contact .filter,
-  .module-4022 .mega-container-1 .content-2 .contact .filter {
+  .module-4022 .list-1 .content-1 .contact .filter,
+  .module-4022 .list-1 .content-2 .contact .filter {
     margin: 1.5rem 9.7rem 4.5rem 1.5%;
   }
-  .module-4022 .mega-container-1 select,
-  .module-4022 .mega-container-1 input,
-  .module-4022 .mega-container-1 .filter {
+  .module-4022 .list-1 select,
+  .module-4022 .list-1 input,
+  .module-4022 .list-1 .filter {
     width: 97% !important;
   }
-  .module-4022 .mega-container-2 {
+  .module-4022 .list-2 {
     padding: 3rem 3rem;
     top: 100rem;
     height: 70rem;
   }
-  .module-4022 .mega-container-2 .out {
+  .module-4022 .list-2 .out {
     left: 0;
   }
 }
 @media (max-width: 551px) {
-  .module-4022 .mega-container-2 {
+  .module-4022 .list-2 {
     top: 105rem;
   }
 }
 @media (max-width: 438px) {
-  .module-4022 .mega-container-2 {
+  .module-4022 .list-2 {
     top: 111rem;
   }
 }
 @media (max-width: 377px) {
-  .module-4022 .mega-container-2 {
+  .module-4022 .list-2 {
     top: 113rem;
+  }
+}
+@media (max-width: 767px) {
+  .module-4022 {
+    margin-top: 0;
   }
 }
