@@ -28,6 +28,10 @@
   color: #666;
   font-size: 1.4rem;
 }
+.module-4009 .swiper-container div.contact {
+  position: relative;
+  bottom: 70rem;
+}
 .module-4009 .swiper-container .swiper-button-next,
 .module-4009 .swiper-container .swiper-button-prev {
   position: absolute;
@@ -43,7 +47,7 @@
   height: 11.5rem;
   width: 11.5rem;
   background: rgba(0,0,0,0.1);
-  left: 7rem;
+  left: 0;
   right: auto;
   opacity: 0;
   position: absolute;
@@ -61,7 +65,7 @@
   height: 11.5rem;
   width: 11.5rem;
   background: rgba(0,0,0,0.1);
-  right: 6.5rem;
+  right: 0;
   left: auto;
   opacity: 0;
   position: absolute;
@@ -111,10 +115,10 @@
   .module-4009 .swiper-container .swiper-slide .content .text p {
     font-size: 1.1rem !important;
   }
-  .module-4009 .swiper-container .swiper-button-prev,
-  .module-4009 .swiper-container .swiper-container-rtl .swiper-button-next,
-  .module-4009 .swiper-container .swiper-button-next,
-  .module-4009 .swiper-container .swiper-container-rtl .swiper-button-prev {
+  .module-4009 .swiper-button-prev,
+  .module-4009 .swiper-container-rtl .swiper-button-next,
+  .module-4009 .swiper-button-next,
+  .module-4009 .swiper-container-rtl .swiper-button-prev {
     top: 33rem;
   }
 }
@@ -122,10 +126,10 @@
   .module-4009 .swiper-container .swiper-slide .content .text p {
     font-size: 1rem !important;
   }
-  .module-4009 .swiper-container .swiper-button-prev,
-  .module-4009 .swiper-container .swiper-container-rtl .swiper-button-next,
-  .module-4009 .swiper-container .swiper-button-next,
-  .module-4009 .swiper-container .swiper-container-rtl .swiper-button-prev {
+  .module-4009 .swiper-button-prev,
+  .module-4009 .swiper-container-rtl .swiper-button-next,
+  .module-4009 .swiper-button-next,
+  .module-4009 .swiper-container-rtl .swiper-button-prev {
     top: 27rem;
   }
 }

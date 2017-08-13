@@ -1,4 +1,5 @@
 .module-4022 {
+  position: relative;
   text-align: center;
 }
 .module-4022 .home {
@@ -307,7 +308,7 @@
 }
 @media (max-width: 377px) {
   .module-4022 .list-2 {
-    top: 113rem;
+    top: 113.6rem;
   }
 }
 @media (max-width: 767px) {

@@ -38,11 +38,9 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <div class="content">   
         <img src="image/4007-1.jpg" alt=""/>
-        <div class="container">
-            <div class="product">
-                <h2>Critical Power</h2>
-                <h1>Uninterruptible Power Supplies (UPS)</h1>
-            </div>
+        <div class="product">
+            <h2>Critical Power</h2>
+            <h1>Uninterruptible Power Supplies (UPS)</h1>
         </div>
     </div>
 </div>
