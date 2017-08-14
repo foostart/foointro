@@ -1,5 +1,5 @@
 $ (function (){
-    $('.span').click(function (){
+    $('.nham').click(function (){
    $(".contacts-notification").css('display','block');
    });
    

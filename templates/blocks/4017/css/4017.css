@@ -57,7 +57,7 @@
 }
 .module-4017 .tren .contacts-notification .change {
   background: #ff8c00;
-  position: relative;
+  position: absolute;
   left: 35%;
   margin-top: 3rem;
   width: 125px;
@@ -65,7 +65,7 @@
 }
 .module-4017 .tren .contacts-notification .change h1 {
   font-size: 1.6rem;
-  position: relative;
+  position: absolute;
   top: 30%;
   font-weight: 600;
   color: #fff;

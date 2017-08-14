@@ -61,6 +61,7 @@
   color: #333;
 }
 .module-4026 .form-inline .form-control {
+  width: inherit;
   font-size: 1.6rem;
   font-weight: 500;
   padding-left: .8rem;
