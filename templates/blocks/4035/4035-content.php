@@ -33,7 +33,17 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
                     <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-                    <script src="js/4035-2_1.js" type="text/javascript"></script>
+                    <script >
+                        var swiper = new Swiper('.swiper-container', {
+                            pagination: '.swiper-pagination',
+                            nextButton: '.swiper-button-next',
+                            prevButton: '.swiper-button-prev',
+                            slidesPerView: 1,
+                            paginationClickable: true,
+                            spaceBetween: 30,
+                            loop: true
+                        });
+                    </script>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-pull-6 col-sm-6 col-lg-pull-7 col-lg-5" >

@@ -1,0 +1,171 @@
+@import"../../values/less/var.less";
+.module-4030{
+    .contact{
+        background-color: rgba(0,0,0,.6);
+        padding: 1rem 0;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        .links{
+            a{
+                text-decoration: inherit;
+                color: #ccc;
+                cursor: pointer;
+                font-size: @fontsize-content-a;
+            }
+            a:hover{
+                opacity: @textcolor-content-a-hover;
+            }
+            span{
+                color: #ff7600;
+                font-weight: 500;
+                margin: 0 1rem;
+                font-size: @fontsize-content-small-span;
+            }
+            .power{
+                color:#fff;
+            }
+        }
+        .icon{
+            float: right;
+            .fa{
+                color: #b6b7b7;
+                font-size: 1.9rem;
+                margin: 0.2rem;
+            }
+        }
+        button{
+            display: none;
+        }
+    }
+    .content{
+        position: relative;
+        img{
+            width: 100% !important;
+
+        }
+        .product{
+            transform: translate(0,-50%);
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            text-align: center;
+            h2{
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 1.4rem;
+                color: #fff;
+            }
+            h1{
+                font-weight: 600;
+                font-size: 5rem;
+                color: #fff;
+            }
+        }
+    }
+    @media(max-width:1199px){
+        .contact{
+            .links{
+                a,span{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        .content{
+            .product{
+                top: 50%;
+                left:39%;
+                h2{
+                    font-size: 1rem;
+                }
+                h1{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    @media(max-width:991px){
+        .contact{
+            .links{
+                a,span{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .content{
+            .product{
+                top: 50%;
+                left: 39%;
+                h2{
+                    font-size: 1.2rem;
+                }
+                h1{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    @media(max-width:767px){
+        .contact{
+            padding: 2rem 2.5rem;
+            .links{
+                display: none; 
+            }
+            .icon{
+                display: none; 
+                font-size: 2rem;
+                height: 2.5rem;
+                background: #fff;
+                margin: 0.6rem 2.7rem -3rem 0;
+                bottom: 2.1rem;
+                left: 2.5rem;
+                width: 22.2rem;
+                position: relative;
+                overflow: hidden;
+                transition: width .7s;
+                .fa{
+                    margin: 0 0.7rem;
+                }
+            }
+            button{
+                display: block;
+                height: 2.5rem;
+                width: 3.6rem;
+                font-size: 1.8rem;
+                cursor: pointer;
+                right: 1.7rem;
+                position: absolute;
+                border: none;
+                bottom: -0.9rem;
+            }
+            .in{
+                width: 0;
+            }
+        }
+        .content{
+            img{
+                height: 35rem;
+            }
+            .product{
+                left: 32%;
+                h2{
+                    margin-bottom: 0;
+                    font-size: 1rem;
+                    line-height: 0.1rem
+
+                }
+                h1{
+                    margin-top: 0;
+                    font-size: 2.5rem;
+                    line-height: 1rem
+                }
+            }
+        }
+    }
+}
+@media(min-width: 768px){
+    .module-4030,.module-4004{
+        display: block !important;
+    }
+}
+

@@ -80,7 +80,7 @@
 .module-4029 .list ol .line .lon {
   margin-left: 4.8rem;
   overflow: hidden;
-  width: 90%;
+  width: 86%;
 }
 .module-4029 .list ol .line .icon-left {
   padding-top: 1.2rem;
@@ -160,5 +160,18 @@
   .module-4029 .list .generic-button a.button {
     padding: 1.2rem 4.8rem;
     font-size: 1.4rem;
+  }
+  .module-4029 .list ol .cot .chu h2 {
+    margin-left: 1.2rem;
+  }
+  .module-4029 .list ol .cot .chu p {
+    margin-left: 1.2rem;
+  }
+  .module-4029 .list ol .cot .chu span {
+    margin-left: 1.2rem;
+  }
+  .module-4029 .list ol .line .test {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
   }
 }

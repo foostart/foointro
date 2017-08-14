@@ -37,6 +37,10 @@
   color: #666;
   font-size: 1.4rem;
 }
+.module-4021 .swiper-container .contact {
+  position: relative;
+  bottom: 70rem;
+}
 .module-4021 .swiper-container .swiper-button-next,
 .module-4021 .swiper-container .swiper-button-prev {
   position: absolute;
@@ -120,9 +124,6 @@
   display: none;
 }
 @media (max-width: 1199px) {
-  .module-4021 .swiper-container .swiper-slide .content .text p {
-    font-size: 1.1rem !important;
-  }
   .module-4021 .swiper-container .swiper-button-prev,
   .module-4021 .swiper-container .swiper-container-rtl .swiper-button-next,
   .module-4021 .swiper-container .swiper-button-next,
@@ -132,7 +133,7 @@
 }
 @media (max-width: 991px) {
   .module-4021 .swiper-container .swiper-slide .content .text p {
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
   }
   .module-4021 .swiper-container .swiper-button-prev,
   .module-4021 .swiper-container .swiper-container-rtl .swiper-button-next,
@@ -150,5 +151,8 @@
   }
   .module-4021 p {
     padding-left: 1.2rem;
+  }
+  .module-4021 h4 {
+    font-size: 1.8rem !important;
   }
 }

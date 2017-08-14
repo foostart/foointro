@@ -109,9 +109,21 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-                    <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-                    <script src="js/4021-2.js" type="text/javascript"></script>
+                    <div class="contact">
+                        <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                        <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                    </div>
+                    <script>
+                        var swiper = new Swiper('.swiper-container', {
+                            pagination: '.swiper-pagination',
+                            nextButton: '.swiper-button-next',
+                            prevButton: '.swiper-button-prev',
+                            slidesPerView: 1,
+                            paginationClickable: true,
+                            spaceBetween: 30,
+                            loop: true
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -121,7 +133,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <div class="swiper-container">
                     <h3>RELATED PRODUCT TYPES</h3>
-                     <p>Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
+                    <p>Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="col-xs-6">
@@ -203,10 +215,20 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
-                      
+
                     </div>
                     <div class="swiper-pagination"></div>
-                    <script src="js/4021-2.js" type="text/javascript"></script>
+                    <script>
+                        var swiper = new Swiper('.swiper-container', {
+                            pagination: '.swiper-pagination',
+                            nextButton: '.swiper-button-next',
+                            prevButton: '.swiper-button-prev',
+                            slidesPerView: 1,
+                            paginationClickable: true,
+                            spaceBetween: 30,
+                            loop: true
+                        });
+                    </script>
                 </div>
             </div>
         </div>
