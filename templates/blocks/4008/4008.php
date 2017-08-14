@@ -19,7 +19,7 @@
         ?>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/4008.js" type="text/javascript"></script>
+        <script src="js/4008-script.js" type="text/javascript"></script>
     </head>
 
     <body>

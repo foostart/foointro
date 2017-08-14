@@ -19,7 +19,7 @@
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../4006/js/js-4006.js" type="text/javascript"></script>
         <script src="../4007/js/4007-script.js" type="text/javascript"></script>
-        <script src="../4008/js/4008.js" type="text/javascript"></script>
+        <script src="../4008/js/4008-script.js" type="text/javascript"></script>
         <script src="../4009/js/4009-1.js" type="text/javascript"></script>
         <script src="../4040/js/js-4040.js" type="text/javascript"></script>
 

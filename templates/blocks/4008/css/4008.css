@@ -148,11 +148,20 @@
 .module-4008 .product .product-2 {
   border-bottom: 0.1rem solid #ccc;
 }
-.module-4008 .product .product-2 h3 .minus {
+.module-4008 .product .product-2 h3 .minus-1,
+.module-4008 .product .product-2 h3 .minus-2,
+.module-4008 .product .product-2 h3 .minus-3,
+.module-4008 .product .product-2 h3 .minus-4 {
   display: none;
 }
-.module-4008 .product .product-2 h3 .plus,
-.module-4008 .product .product-2 h3 .minus {
+.module-4008 .product .product-2 h3 .plus-1,
+.module-4008 .product .product-2 h3 .plus-2,
+.module-4008 .product .product-2 h3 .plus-3,
+.module-4008 .product .product-2 h3 .plus-4,
+.module-4008 .product .product-2 h3 .minus-1,
+.module-4008 .product .product-2 h3 .minus-2,
+.module-4008 .product .product-2 h3 .minus-3,
+.module-4008 .product .product-2 h3 .minus-4 {
   color: #ff8c00;
   font-size: 4rem;
   font-weight: 300;
@@ -160,18 +169,30 @@
   cursor: pointer;
   float: right;
 }
-.module-4008 .product .product-2 .contact {
+.module-4008 .product .product-2 .contact-1,
+.module-4008 .product .product-2 .contact-2,
+.module-4008 .product .product-2 .contact-3,
+.module-4008 .product .product-2 .contact-4 {
   display: none;
 }
-.module-4008 .product .product-2 .contact .check {
+.module-4008 .product .product-2 .contact-1 .check,
+.module-4008 .product .product-2 .contact-2 .check,
+.module-4008 .product .product-2 .contact-3 .check,
+.module-4008 .product .product-2 .contact-4 .check {
   display: flex;
   margin-bottom: 1rem;
 }
-.module-4008 .product .product-2 .contact .check .checkbox-hidden {
+.module-4008 .product .product-2 .contact-1 .check .checkbox-hidden,
+.module-4008 .product .product-2 .contact-2 .check .checkbox-hidden,
+.module-4008 .product .product-2 .contact-3 .check .checkbox-hidden,
+.module-4008 .product .product-2 .contact-4 .check .checkbox-hidden {
   opacity: 0;
   position: absolute;
 }
-.module-4008 .product .product-2 .contact .check .checkbox-custom {
+.module-4008 .product .product-2 .contact-1 .check .checkbox-custom,
+.module-4008 .product .product-2 .contact-2 .check .checkbox-custom,
+.module-4008 .product .product-2 .contact-3 .check .checkbox-custom,
+.module-4008 .product .product-2 .contact-4 .check .checkbox-custom {
   background: #ccc;
   cursor: pointer;
   width: .9rem;
@@ -180,12 +201,18 @@
   margin-top: .4rem;
   text-align: center;
 }
-.module-4008 .product .product-2 .contact .check .checkbox-text {
+.module-4008 .product .product-2 .contact-1 .check .checkbox-text,
+.module-4008 .product .product-2 .contact-2 .check .checkbox-text,
+.module-4008 .product .product-2 .contact-3 .check .checkbox-text,
+.module-4008 .product .product-2 .contact-4 .check .checkbox-text {
   font-weight: 500;
   margin-left: 2rem;
   cursor: pointer;
 }
-.module-4008 .product .product-2 .contact .check .checkbox-hidden:checked+.checkbox-custom {
+.module-4008 .product .product-2 .contact-1 .check .checkbox-hidden:checked+.checkbox-custom,
+.module-4008 .product .product-2 .contact-2 .check .checkbox-hidden:checked+.checkbox-custom,
+.module-4008 .product .product-2 .contact-3 .check .checkbox-hidden:checked+.checkbox-custom,
+.module-4008 .product .product-2 .contact-4 .check .checkbox-hidden:checked+.checkbox-custom {
   background: #ff8c00;
 }
 .module-4008 .product .product-3 h2 {

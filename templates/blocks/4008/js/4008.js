@@ -1,18 +1,23 @@
 $(document).ready(function () {
-    $(".minus").click(function () {
+    //-----Plus And Minus-----//
+    $(".minus-1").click(function () {
         $(".contact").slideUp();
-        $(".minus").css('display', 'none');
-        $(".plus").css('display', 'block');
+        $(".minus-1").css('display', 'none');
+        $(".plus-1").css('display', 'block');
     });
     $(".plus").click(function () {
         $(".contact").slideDown();
         $(".plus").css('display', 'none');
         $(".minus").css('display', 'block');
     });
+    
+    //------SHOW MORE-----//
      $(".show-more").click(function () {
         $(".type-3").slideDown();
         $(".show-more").css('display', 'none');
     });
+    
+    //-----Media-767px-----//
     $(".media-filter").click(function () {
         $(".product").slideToggle(0);
         $(".media-767,.type,.sort,.text,.module-4007,.module-4004").css('display', 'none');

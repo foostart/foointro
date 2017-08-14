@@ -72,8 +72,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </select>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus">+</span><span class="minus">-</span></h3>
-                        <div class="contact">
+                        <h3>Product Type<span class="plus-1">+</span><span class="minus-1">-</span></h3>
+                        <div class="contact-1">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
@@ -97,8 +97,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus">+</span><span class="minus">-</span></h3>
-                        <div class="contact">
+                        <h3>Product Type<span class="plus-2">+</span><span class="minus-2">-</span></h3>
+                        <div class="contact-2">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
@@ -122,8 +122,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus">+</span><span class="minus">-</span></h3>
-                        <div class="contact">
+                        <h3>Product Type<span class="plus-3">+</span><span class="minus-3">-</span></h3>
+                        <div class="contact-3">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
@@ -147,33 +147,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus">+</span><span class="minus">-</span></h3>
-                        <div class="contact">
-                            <label class="check">
-                                <input type="checkbox" class="checkbox-hidden">
-                                <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
-                            </label>
-                            <label class="check">
-                                <input type="checkbox" class="checkbox-hidden">
-                                <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
-                            </label>
-                            <label class="check">
-                                <input type="checkbox" class="checkbox-hidden">
-                                <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
-                            </label>
-                            <label class="check">
-                                <input type="checkbox" class="checkbox-hidden">
-                                <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="product-2">
-                        <h3>Product Type<span class="plus">+</span><span class="minus">-</span></h3>
-                        <div class="contact">
+                        <h3>Product Type<span class="plus-4">+</span><span class="minus-4">-</span></h3>
+                        <div class="contact-4">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
