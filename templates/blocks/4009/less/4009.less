@@ -33,6 +33,10 @@
                 }
             }
         }
+        .contact {
+            position: relative;
+            bottom: 70rem;
+        }
         .swiper-button-next,.swiper-button-prev {
             position: absolute;
             top: 50%;
@@ -46,7 +50,7 @@
             height: 11.5rem;
             width: 11.5rem;
             background: rgba(0,0,0,.1);
-            left: 7rem;
+            left: 0;
             right: auto;
             opacity: 0;
             position: absolute;
@@ -60,14 +64,14 @@
         }
         .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
             border-radius: 11.5rem;
-    height: 11.5rem;
-    width: 11.5rem;
-    background: rgba(0,0,0,0.1);
-    right: 6.5rem;
-    left: auto;
-    opacity: 0;
-    position: absolute;
-    top: 37rem;
+            height: 11.5rem;
+            width: 11.5rem;
+            background: rgba(0,0,0,0.1);
+            right: 0;
+            left: auto;
+            opacity: 0;
+            position: absolute;
+            top: 37rem;
         }
         .fa.fa-angle-right{
             position: relative;
@@ -109,37 +113,21 @@
         }
     }
     @media(max-width: 1199px){
-        .swiper-container{
-            .swiper-slide {
-                .content{
-                    .text{
-                        p{
-                            font-size: 1.1rem !important;
-                        }
-                    }
-                }
-            }
-            .swiper-button-prev,.swiper-container-rtl .swiper-button-next,
-            .swiper-button-next,.swiper-container-rtl .swiper-button-prev{
-                top: 33rem;
-            }
+        .swiper-container .swiper-slide .content .text p {
+            font-size: 1.1rem !important;
+        }  
+        .swiper-button-prev,.swiper-container-rtl .swiper-button-next,
+        .swiper-button-next,.swiper-container-rtl .swiper-button-prev{
+            top: 33rem;
         }
     }
     @media(max-width: 991px){
-        .swiper-container{
-            .swiper-slide {
-                .content{
-                    .text{
-                        p{
-                            font-size: 1rem !important;
-                        }
-                    }
-                }
-            }
-            .swiper-button-prev,.swiper-container-rtl .swiper-button-next,
-            .swiper-button-next,.swiper-container-rtl .swiper-button-prev{
-                top: 27rem;
-            }
+        .swiper-container .swiper-slide .content .text p {
+            font-size: 1rem !important;
+        }
+        .swiper-button-prev,.swiper-container-rtl .swiper-button-next,
+        .swiper-button-next,.swiper-container-rtl .swiper-button-prev{
+            top: 27rem;
         }
     }
     @media(max-width: 767px){

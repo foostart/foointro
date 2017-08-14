@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $(".filter").click(function () {
-        $(".mega-container-2").slideToggle();
+        $(".list-2").slideToggle();
     });
     $(".out").click(function () {
-        $(".mega-container-2").css('display','none');
+        $(".list-2").css('display','none');
     });
      $(".primary").click(function () {
-        $(".mega-container-2").slideUp();
+        $(".list-2").slideUp();
     });
 });

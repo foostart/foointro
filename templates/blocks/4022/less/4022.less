@@ -1,10 +1,12 @@
 @import"../../values/less/var.less";
 .module-4022{
+    position: relative;
     text-align: center;
     .home{
         position: absolute;
         margin-left: 1.5rem;
         text-align: center;
+            margin-top: 1rem;
         .ome{
             color: #666;
             cursor: pointer;
@@ -29,7 +31,7 @@
         font-weight: 600;
         margin: 8rem 0 3rem 0;
     }
-    .mega-container-1{
+    .list-1{
         background-image: linear-gradient(-135deg,rgba(0,0,0,.06) 0%,rgba(0,0,0,.06) 38%,rgba(255,255,255,0) 38%,rgba(255,255,255,0) 100%),linear-gradient(-45deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,.5) 35%,rgba(255,255,255,.5) 100%);
         background-color: #eff0f1;
         padding: 0 2rem;
@@ -138,7 +140,7 @@
             }
         }
     }
-    .mega-container-2{
+    .list-2{
         background-color: #fff;
         position: absolute;
         width: 100%;
@@ -207,7 +209,7 @@
         }
     }
     @media(max-width:1199px){
-        .mega-container-1{
+        .list-1{
             .content-1{
                 p{
                     font-size: 1.2rem;
@@ -221,7 +223,7 @@
         }
     }
     @media(max-width:991px) and (min-width: 768px){
-        .mega-container-1{
+        .list-1{
             h1{
                 font-size: 3.5rem;
             }
@@ -265,7 +267,7 @@
                 }
             }
         }
-        .mega-container-2{
+        .list-2{
             padding: 1rem 16rem;
             top: 49rem;
             .out{
@@ -288,7 +290,7 @@
         .home{
             display: none;
         }
-        .mega-container-1{
+        .list-1{
             background-color: #c6c9ca;
             background-image: none;
             h1{
@@ -306,7 +308,7 @@
                 width: 97% !important;
             }
         }
-        .mega-container-2{
+        .list-2{
             padding: 3rem 3rem;
             top: 100rem;
                 height: 70rem;
@@ -316,18 +318,23 @@
         }
     }
     @media(max-width:551px){
-        .mega-container-2{
+        .list-2{
             top: 105rem;
         }
     }
     @media(max-width:438px){
-        .mega-container-2{
+        .list-2{
             top: 111rem;
         }
     }
      @media(max-width:377px){
-        .mega-container-2{
-            top: 113rem;
+        .list-2{
+                top: 113.6rem;
         }
+    }
+}
+@media(max-width:767px){
+    .module-4022{
+        margin-top: 0;
     }
 }
