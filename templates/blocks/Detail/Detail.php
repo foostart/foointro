@@ -29,7 +29,7 @@ and open the template in the editor.
         <script src="../4006/js/jquery-mobile-mega-menu.js" type="text/javascript"></script>
         <script src="../4006/js/js-4006.js" type="text/javascript"></script>
         <script src="../4010/js/4010.js" type="text/javascript"></script>
-        
+        <script src="../4017/js/4017.js" type="text/javascript"></script>
         <script src="../4040/js/js-4040.js" type="text/javascript"></script>
 
     </head>
