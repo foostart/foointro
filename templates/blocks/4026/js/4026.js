@@ -1,12 +1,14 @@
 $(function () {
     $(".close-btn").click(function () {
         $("#topics").css('display', 'none');
-         $('.mosaic-component').css('display', 'block');
+        $('.mosaic-component,.text-overlay-xs').css('display', 'block');
     });
     $('.primary').click(function () {
-        $('#topics').slideToggle();
+        $('.filter-container').slideToggle();
+//        $('.text-overlay-xs').css('display', 'none');
+
     });
-    
+
     $(".close-btn").click(function () {
         $("#sort").css('display', 'none');
         $('.mosaic-component').css('display', 'block');
@@ -15,10 +17,10 @@ $(function () {
         $('#sort').slideToggle();
         $('.mosaic-component').css('display', 'none');
     });
-    
-    
+
+
     //media cong tru---------------------------------------
-    
+
     $('.tru').click(function () {
         $('#filter-area').slideUp();
         $('.tru').css('display', 'none');
@@ -26,9 +28,10 @@ $(function () {
     });
     $('.cong').click(function () {
         $('#filter-area').slideDown();
-        $('.cong').css('display', 'none');
-        $('.tru').css('display', 'block');
+        $('.cong,#topic-1,.tru2,#topic-2,.tru3').css('display', 'none');
+        $('.tru,.cong2,.cong3').css('display', 'block');
     });
+
     //------------------------------------------------------
     $('.tru2').click(function () {
         $('#topic-1').slideUp();
@@ -37,8 +40,8 @@ $(function () {
     });
     $('.cong2').click(function () {
         $('#topic-1').slideDown();
-        $('.cong2').css('display', 'none');
-        $('.tru2').css('display', 'block');
+        $('.cong2,#filter-area,.tru,#topic-2,.tru3').css('display', 'none');
+        $('.tru2,.cong,.cong3').css('display', 'block');
     });
     //-----------------------------------------------------
     $('.tru3').click(function () {
@@ -48,9 +51,9 @@ $(function () {
     });
     $('.cong3').click(function () {
         $('#topic-2').slideDown();
-        $('.cong3').css('display', 'none');
-        $('.tru3').css('display', 'block');
+        $('.cong3,#filter-area,.tru,#topic-1,.tru2').css('display', 'none');
+        $('.tru3,.cong,.cong2').css('display', 'block');
     });
     //-----------------------------------------------------
-    
+
 });

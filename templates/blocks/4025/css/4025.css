@@ -2,7 +2,7 @@
   background-color: #eff0f1;
   padding: 1rem 2.5rem;
   position: absolute;
-  padding-top: 5rem;
+  margin-top: 4.5rem;
   width: 100%;
 }
 .module-4025 .links a {
@@ -43,6 +43,55 @@
 .module-4025 button {
   display: none;
 }
+.module-4025 .test {
+  position: absolute;
+  right: 0;
+}
+.module-4025 .test .fa-share-square-o {
+  font-size: 2.5rem;
+  cursor: pointer;
+  right: 0px;
+  position: absolute;
+  top: 1.3px;
+  z-index: 10;
+  border: none;
+}
+.module-4025 .test .item {
+  position: absolute;
+  right: 30px;
+  margin-right: 20px;
+  top: 4px;
+}
+.module-4025 .test .side-collapse-container {
+  width: 100%;
+  position: relative;
+  right: 0;
+  transition: left .4s;
+}
+.module-4025 .test .side-collapse {
+  height: 2.7rem;
+  background: #fff;
+  margin: 0.5rem 0.5rem;
+  top: -4px;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  position: absolute;
+  overflow: hidden;
+  transition: width .5s;
+}
+.module-4025 .test .side-collapse.in {
+  width: 0;
+}
+.module-4025 .test a {
+  margin: 5px;
+  font-size: 1.8rem;
+  color: #ccc;
+}
+.module-4025 .test a span {
+  background-color: #ccc;
+  color: #fff;
+}
 @media (max-width: 1199px) {
   .module-4025 .links a,
   .module-4025 .links span {
@@ -57,6 +106,9 @@
 }
 @media (max-width: 767px) {
   .module-4025 {
+    margin-top: -1.5rem;
+    right: .2rem;
+    background-color: transparent;
     padding: 2rem 2.5rem;
   }
   .module-4025 .links {
@@ -88,5 +140,10 @@
     position: absolute;
     border: none;
     bottom: -0.9rem;
+  }
+}
+@media (min-width: 768px) {
+  .module-4025 .side-collapse {
+    display: none;
   }
 }

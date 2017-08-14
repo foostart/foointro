@@ -1,10 +1,10 @@
 @import"../../values/less/var.less";
 .module-4026{
-    background-color: @background-insights;
+    background-color: #eff0f1;
     box-sizing: border-box;
     margin: 0 auto;
+    margin-top: 7rem;
     text-align: center;
-    padding-top: 7rem;
     h1{
         margin: 0;
         padding: 1.2rem 0;
@@ -27,8 +27,8 @@
         letter-spacing: .1em;
         line-height: 1.8rem;
         text-transform: uppercase;
-        background: @background-color;
-        color: @background-content;
+        background: #fff;
+        color: #4d4d4d;
         margin-bottom: .6rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -40,36 +40,30 @@
             font-size: 2.4rem;
         }
     }
-    .bottom-left-aligned{
-        text-align: left;
-    }
     .light{
-        background: @textcolor-content-small-span;
-        color: @textcolor-button;
-        display: none!important;
+        background: #999;
+        color: #fff;
     }
     .button.fluid{
         width: 100%;  
         background: #ff8c00;
-        color: @textcolor-button;
+        color: #fff;
     }
     .form-inline {
-        display: block!important;
         label {
             margin-right: 1.8rem;
             text-transform: uppercase;
             font-weight: 600;
-            font-size: @fontsize-content-p;
+            font-size: 1.4rem;
             line-height: normal;
-            color: @textcolor-content-h1-h4;
+            color: #333;
         }
         .form-control {
-            width: inherit;
             font-size: 1.6rem;
             font-weight: 500;
             padding-left: .8rem;
             padding: .6rem 3.5rem .6rem 1.2rem;
-            background-color: @background-color;
+            background-color: #fff;
             border-radius: 0;
             border-color: #fff;
             box-shadow: none;
@@ -85,7 +79,7 @@
         }
     }
     .subtitle.smaller {
-        font-size: @fontsize-content-small-span;
+        font-size: 1.2rem;
         line-height: 1.8rem;
     }
     .x-light {
@@ -95,10 +89,10 @@
         font-weight: 500;
     }
     .xx-light {
-        color: @textcolor-button;
+        color: #fff;
     }
     .smaller {
-        font-size: @fontsize-content-small-span;
+        font-size: 1.2rem;
         line-height: normal;
     }
     .subtitle {
@@ -106,7 +100,7 @@
         display: block;
         font-family: 'Calibre',Arial,Sans-Serif;
         font-weight: 600;
-        font-size: @fontsize-content-a;
+        font-size: 1.6rem;
         letter-spacing: .05em;
         text-transform: uppercase;
     }
@@ -120,7 +114,7 @@
         cursor: pointer;
     }
     .subtitle.x-smaller {
-        font-size: @fontsize-content-small-span;
+        font-size: 1.2rem;
         line-height: normal;
     }
     .mosaic-component {
@@ -128,14 +122,14 @@
         .wrapper {
             background: #4d4d4d;
         }
-        .mega-container {
+        .mega-con {
             margin-bottom: 0;
         }
         .p-a-0 {
             padding: 0!important;
         }
         .mosaic-large {
-            background-color: @background-color;
+            background-color: #fff;
             margin: 0;
             position: relative;
             .text-overlay-xs {
@@ -145,6 +139,7 @@
                 }
             }
             .bottom-left-aligned {
+                text-align: left;
                 bottom: 4.8rem;
                 left: 4rem;
                 position: absolute;
@@ -161,7 +156,7 @@
                     font-weight: 600;
                     line-height: 4rem;
                     a:hover{
-                        color: @textcolor-button;
+                        color: #fff;
                     }
                 }
             }
@@ -176,15 +171,14 @@
         text-decoration: none;
     }
     .filter-container{
-/*        padding-top: 5rem;*/
         display: none;
-        .mega-container{
+        .mega-con{
             text-align: initial;
-            background-color: @background-color;
+            background-color: #fff;
             padding: 0 5.6rem;
             position: relative;
             .dark {
-                color: @textcolor-content-p;
+                color: #666;
             }
             .pull-right {
                 float: right!important;
@@ -194,9 +188,6 @@
             }
             .close-button-holder {
                 padding: 2.6rem 0;
-                .subtitle{
-                    display: none!important;
-                }
                 button {
                     background: none;
                     padding: 0 1rem;
@@ -208,28 +199,19 @@
                     font-size: 2rem;
                 }
             }
-            .filter-category-holder{
-                .subtitle{
-                    display: block!important;
-                }
-                .filter-category{
-                    display: none!important;
-                }
-            } 
             .button-holder{
-                display: none!important;
                 text-align: center;
                 .button.primary{
                     background: #ff8c00;
-                    color: @textcolor-button;
+                    color: #fff;
                     &:hover{
                         background: #fa0;
-                        color: @textcolor-button;
+                        color: #fff;
                     }
                 }
                 .button.accent{
                     background: #dde0e1;
-                    color: @textcolor-content-a;
+                    color: #0092bd;
                     &:hover{
                         background: #ccc;
                         color: #333;
@@ -283,7 +265,7 @@
                 }
             }
             .checkbox-hidden:checked+.checkbox-custom{
-                background: @background-button;
+                background: #ff8c00;
             }
         }
     }
@@ -291,7 +273,7 @@
         display: none;
         padding-bottom: 3.2rem;
         .dark {
-            color: @textcolor-content-p;
+            color: #666;
         }
         .pull-right {
             float: right!important;
@@ -301,9 +283,6 @@
         }
         .close-button-holder {
             padding: 2.6rem 0;
-            .subtitle{
-                display: none!important;
-            }
             button {
                 background: none;
                 padding: 0 1rem;
@@ -342,15 +321,16 @@
                 .topic {
                     font-weight: 500;
                     line-height: 1.4rem;
-                    font-size: @fontsize-content-small-span;
+                    font-size: 1.2rem;
                 }
             }
             .checkbox-hidden:checked+.checkbox-custom{
-                background: @background-button;
+                background: #ff8c00;
             }
         }
     }
     @media (max-width: 767px){
+        margin-top: 4rem;
         .contrast-background {
             padding: 0 2rem;
             h1 {
@@ -360,7 +340,7 @@
                 font-size: 2.8rem;
             }
             p {
-                font-size: @fontsize-content-p;
+                font-size: 1.4rem;
                 font-weight: 600;
             }
             .row {
@@ -380,16 +360,16 @@
             }
         }
         .filter-container{
-            margin-top: 5rem;
-            background: @background-color;
-            height: 100%;
+            margin-top: 4.5rem;
+            z-index: 19;
+            height: 132rem;
+            background: #fff;
             left: 0;
             position: absolute;
             right: 0;
             top: 0;
-            z-index: 19;
-            .mega-container{
-                background: @background-color;
+            .mega-con{
+                background: #fff;
                 padding: 0 2rem;
                 .close-button-holder{
                     background: #333;
@@ -410,52 +390,48 @@
                         top: 1.2rem;
                     }
                 }
-                .filter-category-holder{
-                    border-bottom: .2rem solid #ccc;
-                    margin: 0 -2rem;
-                    padding: 2rem 3rem;
-                    .subtitle{
-                        display: none!important;
-                    }
-                    .filter-category{
-                        background: none;
-                        font-size: 1.5rem;
-                        margin: 0;
-                        padding: 0;
-                        text-align: left;
-                        width: 100%;
-                        display: block!important;
-                    }
-                    .filter-elements{
-                        padding: 2.8rem 0 0 4rem;
-                    }
-                    ul li{
-                        font-size: 1.4rem;
-                        .checkbox-custom-label{
-                            padding-left: 2rem;
-                            .checkbox-custom{
-                                margin-left: -2rem;
-                                height: 1.3rem;
-                                width: 1.3rem;
-                            }
-                            .checkbox-label-txt{
-                                font-size: 1.4rem;
-                            }
+            }
+            .filter-category-holder{
+                border-bottom: .2rem solid #ccc;
+                margin: 0 -2rem;
+                padding: 2rem 3rem;
+                .filter-category{
+                    background: none;
+                    font-size: 1.5rem;
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    width: 100%;
+
+                }
+                .filter-elements{
+                    padding: 2.8rem 0 0 4rem;
+                }
+                ul li{
+                    font-size: 1.4rem;
+                    .checkbox-custom-label{
+                        padding-left: 2rem;
+                        .checkbox-custom{
+                            margin-left: -2rem;
+                            height: 1.3rem;
+                            width: 1.3rem;
+                        }
+                        .checkbox-label-txt{
+                            font-size: 1.4rem;
                         }
                     }
                 }
-                .button-holder{
-                    display: block!important;
-                    margin-top: 3rem;
-                    button{
-                        margin-top: 1.4rem;
-                    }
+            }
+            .button-holder{
+                margin-top: 3rem;
+                button{
+                    margin-top: 1.4rem;
                 }
             }
-
         }
         .sort-container {
-            margin-top: 5rem;
+            margin-top: 4.5rem;
+            padding: 0 0.5rem;
             background: #fff;
             height: 100%;
             left: 0;
@@ -501,8 +477,9 @@
             }
         }
         .mosaic-component {
+            display: block;
             padding-bottom: 6rem;
-            .mega-container {
+            .mega-con{
                 background-color: #fff;
                 margin-bottom: 2rem;
                 padding: 0;
@@ -529,17 +506,9 @@
                 }
             }
         }
+
         .cong, .cong2, .cong3{
             display: none;
-        }
-        .light{
-            display: block!important;
-        }
-        button .arrow-dropdown{
-            display: none!important;
-        }
-        .form-inline{
-            display: none!important;
         }
     }
     @media (min-width: 768px){
@@ -549,7 +518,12 @@
         .cong, .tru, .cong2, .tru2, .cong3, .tru3{
             display: none!important;
         }
-
+        .mosaic-component,.mega-con,.text-overlay-xs{
+            display: block !important;
+        }
+        .sort-container{
+            display: none!important;
+        }
     }
 
 }

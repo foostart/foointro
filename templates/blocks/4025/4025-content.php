@@ -30,8 +30,22 @@ $url_path = str_replace('\\', '/', $url_path);
                     <i class="fa fa-print" aria-hidden="true"></i>
                     <span>Subscribe</span>
                 </div>
-                <button class="fa fa-share-square-o"></button>
             </div>
+        </div>
+    </div>
+    <div class="test">
+        <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="fa fa-share-square-o"> </button>
+        <div class="side-collapse in">
+            <span class="item">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="#"><span>Subscribe</span></a>
+            </span>
+        </div>
+        <div class="container side-collapse-container out">
         </div>
     </div>
 </div>

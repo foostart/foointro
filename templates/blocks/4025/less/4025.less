@@ -3,7 +3,7 @@
     background-color: #eff0f1;
     padding: 1rem 2.5rem;
     position: absolute;
-    padding-top: 5rem;
+    margin-top: 4.5rem;
     width: 100%;
     .links{
         a{
@@ -45,6 +45,57 @@
     button{
         display: none;
     }
+    .test{
+        position: absolute;
+        right:0;
+        .fa-share-square-o{
+            font-size: 2.5rem;
+            cursor: pointer;
+            right: 0px;
+            position: absolute;
+            top: 1.3px;
+            z-index: 10;
+            border: none;
+        }
+        .item{
+            position: absolute;
+            right: 30px;
+            margin-right: 20px;
+            top: 4px;
+        }
+        .side-collapse-container{
+            width:100%;
+            position:relative;
+            right:0;
+            transition:left .4s;
+        }
+
+        .side-collapse {
+            height: 2.7rem;
+            background: @textcolor-button;
+            margin: 0.5rem 0.5rem;
+            top:-4px;
+            bottom:0;
+            right:0;
+            width:350px;
+            position:absolute;
+            overflow:hidden;
+            transition:width .5s;
+        }
+        .side-collapse.in {
+            width:0;
+        }
+        a{
+            margin: 5px;
+            font-size: 1.8rem;
+            color: #ccc;
+            span{
+            background-color: #ccc;
+            color: #fff;
+        }
+        }
+        
+    }
     @media(max-width:1199px){
         .links{
             a,span{
@@ -60,6 +111,9 @@
         }
     }
     @media(max-width:767px){
+        margin-top: -1.5rem;
+        right: .2rem;
+        background-color: transparent;
         padding: 2rem 2.5rem;
         .links{
             display: none; 
@@ -92,6 +146,12 @@
             bottom: -0.9rem;
         }
     }
+    @media(min-width:768px){
+        .side-collapse{
+            display: none;
+        }
+    }
+    
 }
 
 
