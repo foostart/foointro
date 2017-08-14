@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="tren">
             <div class="content">
-                <p>SALES IN VIETNAM <span>Change Location</span></p>
+                <p>SALES IN VIETNAM <span class="span">Change Location</span></p>
             </div>
             <div class="contacts-notification">
                 <div class="x">X</div>
@@ -85,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="tren">
             <div class="content">
-                <p>SALES IN VIETNAM <span>Change Location</span></p>
+                <p>SALES IN VIETNAM <span class="span">Change Location</span></p>
             </div>
             <div class="contacts-notification">
                 <div class="x">X</div>

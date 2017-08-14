@@ -2,8 +2,8 @@
   background-color: #eff0f1;
   box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 7rem;
   text-align: center;
+  padding-top: 7rem;
 }
 .module-4026 h1 {
   margin: 0;
@@ -45,6 +45,7 @@
 .module-4026 .light {
   background: #999;
   color: #fff;
+  display: none;
 }
 .module-4026 .button.fluid {
   width: 100%;
@@ -174,6 +175,7 @@
   text-decoration: none;
 }
 .module-4026 .filter-container {
+  padding-top: 5rem;
   display: none;
 }
 .module-4026 .filter-container .mega-container {
@@ -194,6 +196,9 @@
 .module-4026 .filter-container .mega-container .close-button-holder {
   padding: 2.6rem 0;
 }
+.module-4026 .filter-container .mega-container .close-button-holder .subtitle {
+  display: none !important;
+}
 .module-4026 .filter-container .mega-container .close-button-holder button {
   background: none;
   padding: 0 1rem;
@@ -203,6 +208,9 @@
 }
 .module-4026 .filter-container .mega-container .close-button-holder .close-btn {
   font-size: 2rem;
+}
+.module-4026 .filter-container .mega-container .filter-category-holder  .filter-category {
+  display: none !important;
 }
 .module-4026 .filter-container .mega-container .button-holder {
   text-align: center;
@@ -287,6 +295,9 @@
 }
 .module-4026 .sort-container .close-button-holder {
   padding: 2.6rem 0;
+}
+.module-4026 .sort-container .close-button-holder .subtitle {
+  display: none !important;
 }
 .module-4026 .sort-container .close-button-holder button {
   background: none;
@@ -393,43 +404,48 @@
     right: 0;
     top: 1.2rem;
   }
-  .module-4026 .filter-container .filter-category-holder {
+  .module-4026 .filter-container .mega-container .filter-category-holder {
     border-bottom: .2rem solid #ccc;
     margin: 0 -2rem;
     padding: 2rem 3rem;
   }
-  .module-4026 .filter-container .filter-category-holder .filter-category {
+  .module-4026 .filter-container .mega-container .filter-category-holder .subtitle {
+    display: none !important;
+  }
+  .module-4026 .filter-container .mega-container .filter-category-holder .filter-category {
     background: none;
     font-size: 1.5rem;
     margin: 0;
     padding: 0;
     text-align: left;
     width: 100%;
+    display: block !important;
   }
-  .module-4026 .filter-container .filter-category-holder .filter-elements {
+  .module-4026 .filter-container .mega-container .filter-category-holder .filter-elements {
     padding: 2.8rem 0 0 4rem;
   }
-  .module-4026 .filter-container .filter-category-holder ul li {
+  .module-4026 .filter-container .mega-container .filter-category-holder ul li {
     font-size: 1.4rem;
   }
-  .module-4026 .filter-container .filter-category-holder ul li .checkbox-custom-label {
+  .module-4026 .filter-container .mega-container .filter-category-holder ul li .checkbox-custom-label {
     padding-left: 2rem;
   }
-  .module-4026 .filter-container .filter-category-holder ul li .checkbox-custom-label .checkbox-custom {
+  .module-4026 .filter-container .mega-container .filter-category-holder ul li .checkbox-custom-label .checkbox-custom {
     margin-left: -2rem;
     height: 1.3rem;
     width: 1.3rem;
   }
-  .module-4026 .filter-container .filter-category-holder ul li .checkbox-custom-label .checkbox-label-txt {
+  .module-4026 .filter-container .mega-container .filter-category-holder ul li .checkbox-custom-label .checkbox-label-txt {
     font-size: 1.4rem;
   }
-  .module-4026 .filter-container .button-holder {
+  .module-4026 .filter-container .mega-container .button-holder {
     margin-top: 3rem;
   }
-  .module-4026 .filter-container .button-holder button {
+  .module-4026 .filter-container .mega-container .button-holder button {
     margin-top: 1.4rem;
   }
   .module-4026 .sort-container {
+    padding-top: 5rem;
     background: #fff;
     height: 100%;
     left: 0;
@@ -507,6 +523,15 @@
   .module-4026 .cong2,
   .module-4026 .cong3 {
     display: none;
+  }
+  .module-4026 .light {
+    display: block;
+  }
+  .module-4026 button .arrow-dropdown {
+    display: none !important;
+  }
+  .module-4026 .form-inline {
+    display: none !important;
   }
 }
 @media (min-width: 768px) {

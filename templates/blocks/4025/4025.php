@@ -17,7 +17,7 @@
         <link href="css/4025.css" rel="stylesheet" type="text/css"/>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/4025-script.js" type="text/javascript"></script>
+        <script src="js/4025.js" type="text/javascript"></script>
 
     </head>
     <body>

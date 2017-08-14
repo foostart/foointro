@@ -3,9 +3,8 @@
     background-color: @background-insights;
     box-sizing: border-box;
     margin: 0 auto;
-    padding-top: 7rem;
     text-align: center;
-    
+    padding-top: 7rem;
     h1{
         margin: 0;
         padding: 1.2rem 0;
@@ -47,6 +46,7 @@
     .light{
         background: @textcolor-content-small-span;
         color: @textcolor-button;
+        display: none;
     }
     .button.fluid{
         width: 100%;  
@@ -63,6 +63,7 @@
             color: @textcolor-content-h1-h4;
         }
         .form-control {
+/*            width: inherit*/
             font-size: 1.6rem;
             font-weight: 500;
             padding-left: .8rem;
@@ -174,6 +175,7 @@
         text-decoration: none;
     }
     .filter-container{
+        padding-top: 5rem;
         display: none;
         .mega-container{
             text-align: initial;
@@ -191,6 +193,9 @@
             }
             .close-button-holder {
                 padding: 2.6rem 0;
+                .subtitle{
+                    display: none!important;
+                }
                 button {
                     background: none;
                     padding: 0 1rem;
@@ -201,6 +206,9 @@
                 .close-btn{
                     font-size: 2rem;
                 }
+            }
+            .filter-category-holder  .filter-category{
+                display: none!important;
             }
             .button-holder{
                 text-align: center;
@@ -286,6 +294,9 @@
         }
         .close-button-holder {
             padding: 2.6rem 0;
+            .subtitle{
+                display: none!important;
+            }
             button {
                 background: none;
                 padding: 0 1rem;
@@ -391,11 +402,13 @@
                         top: 1.2rem;
                     }
                 }
-            }
-            .filter-category-holder{
+                .filter-category-holder{
                 border-bottom: .2rem solid #ccc;
                 margin: 0 -2rem;
                 padding: 2rem 3rem;
+                .subtitle{
+                    display: none!important;
+                }
                 .filter-category{
                     background: none;
                     font-size: 1.5rem;
@@ -403,7 +416,7 @@
                     padding: 0;
                     text-align: left;
                     width: 100%;
-
+                    display: block!important;
                 }
                 .filter-elements{
                     padding: 2.8rem 0 0 4rem;
@@ -429,8 +442,11 @@
                     margin-top: 1.4rem;
                 }
             }
+            }
+            
         }
         .sort-container {
+                padding-top: 5rem;
             background: #fff;
             height: 100%;
             left: 0;
@@ -507,6 +523,15 @@
         .cong, .cong2, .cong3{
             display: none;
         }
+        .light{
+            display: block;
+        }
+        button .arrow-dropdown{
+            display: none!important;
+        }
+        .form-inline{
+            display: none!important;
+        }
     }
     @media (min-width: 768px){
         .filter-container{
@@ -515,6 +540,7 @@
         .cong, .tru, .cong2, .tru2, .cong3, .tru3{
             display: none!important;
         }
+
     }
 
 }

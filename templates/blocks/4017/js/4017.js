@@ -1,5 +1,5 @@
 $ (function (){
-    $('span').click(function (){
+    $('.span').click(function (){
    $(".contacts-notification").css('display','block');
    });
    

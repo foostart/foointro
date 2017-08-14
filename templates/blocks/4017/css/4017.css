@@ -27,7 +27,7 @@
 .module-4017 .tren .contacts-notification {
   display: none;
   left: 30%;
-  position: absolute;
+  position: fixed;
   bottom: 36%;
   text-align: center;
   border: 1px solid #ccc;
@@ -64,6 +64,7 @@
   height: 50px;
 }
 .module-4017 .tren .contacts-notification .change h1 {
+  font-size: 1.6rem;
   position: relative;
   top: 30%;
   font-weight: 600;
