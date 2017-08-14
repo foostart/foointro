@@ -45,12 +45,15 @@
 .module-4026 .light {
   background: #999;
   color: #fff;
-  display: none;
+  display: none !important;
 }
 .module-4026 .button.fluid {
   width: 100%;
   background: #ff8c00;
   color: #fff;
+}
+.module-4026 .form-inline {
+  display: block !important;
 }
 .module-4026 .form-inline label {
   margin-right: 1.8rem;
@@ -176,7 +179,6 @@
   text-decoration: none;
 }
 .module-4026 .filter-container {
-  padding-top: 5rem;
   display: none;
 }
 .module-4026 .filter-container .mega-container {
@@ -210,10 +212,14 @@
 .module-4026 .filter-container .mega-container .close-button-holder .close-btn {
   font-size: 2rem;
 }
-.module-4026 .filter-container .mega-container .filter-category-holder  .filter-category {
+.module-4026 .filter-container .mega-container .filter-category-holder .subtitle {
+  display: block !important;
+}
+.module-4026 .filter-container .mega-container .filter-category-holder .filter-category {
   display: none !important;
 }
 .module-4026 .filter-container .mega-container .button-holder {
+  display: none !important;
   text-align: center;
 }
 .module-4026 .filter-container .mega-container .button-holder .button.primary {
@@ -440,13 +446,13 @@
     font-size: 1.4rem;
   }
   .module-4026 .filter-container .mega-container .button-holder {
+    display: block !important;
     margin-top: 3rem;
   }
   .module-4026 .filter-container .mega-container .button-holder button {
     margin-top: 1.4rem;
   }
   .module-4026 .sort-container {
-    padding-top: 5rem;
     background: #fff;
     height: 100%;
     left: 0;
@@ -526,7 +532,7 @@
     display: none;
   }
   .module-4026 .light {
-    display: block;
+    display: block !important;
   }
   .module-4026 button .arrow-dropdown {
     display: none !important;

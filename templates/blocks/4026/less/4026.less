@@ -46,7 +46,7 @@
     .light{
         background: @textcolor-content-small-span;
         color: @textcolor-button;
-        display: none;
+        display: none!important;
     }
     .button.fluid{
         width: 100%;  
@@ -54,6 +54,7 @@
         color: @textcolor-button;
     }
     .form-inline {
+        display: block!important;
         label {
             margin-right: 1.8rem;
             text-transform: uppercase;
@@ -175,7 +176,7 @@
         text-decoration: none;
     }
     .filter-container{
-        padding-top: 5rem;
+/*        padding-top: 5rem;*/
         display: none;
         .mega-container{
             text-align: initial;
@@ -207,10 +208,16 @@
                     font-size: 2rem;
                 }
             }
-            .filter-category-holder  .filter-category{
-                display: none!important;
-            }
+            .filter-category-holder{
+                .subtitle{
+                    display: block!important;
+                }
+                .filter-category{
+                    display: none!important;
+                }
+            } 
             .button-holder{
+                display: none!important;
                 text-align: center;
                 .button.primary{
                     background: #ff8c00;
@@ -403,50 +410,51 @@
                     }
                 }
                 .filter-category-holder{
-                border-bottom: .2rem solid #ccc;
-                margin: 0 -2rem;
-                padding: 2rem 3rem;
-                .subtitle{
-                    display: none!important;
-                }
-                .filter-category{
-                    background: none;
-                    font-size: 1.5rem;
-                    margin: 0;
-                    padding: 0;
-                    text-align: left;
-                    width: 100%;
-                    display: block!important;
-                }
-                .filter-elements{
-                    padding: 2.8rem 0 0 4rem;
-                }
-                ul li{
-                    font-size: 1.4rem;
-                    .checkbox-custom-label{
-                        padding-left: 2rem;
-                        .checkbox-custom{
-                            margin-left: -2rem;
-                            height: 1.3rem;
-                            width: 1.3rem;
-                        }
-                        .checkbox-label-txt{
-                            font-size: 1.4rem;
+                    border-bottom: .2rem solid #ccc;
+                    margin: 0 -2rem;
+                    padding: 2rem 3rem;
+                    .subtitle{
+                        display: none!important;
+                    }
+                    .filter-category{
+                        background: none;
+                        font-size: 1.5rem;
+                        margin: 0;
+                        padding: 0;
+                        text-align: left;
+                        width: 100%;
+                        display: block!important;
+                    }
+                    .filter-elements{
+                        padding: 2.8rem 0 0 4rem;
+                    }
+                    ul li{
+                        font-size: 1.4rem;
+                        .checkbox-custom-label{
+                            padding-left: 2rem;
+                            .checkbox-custom{
+                                margin-left: -2rem;
+                                height: 1.3rem;
+                                width: 1.3rem;
+                            }
+                            .checkbox-label-txt{
+                                font-size: 1.4rem;
+                            }
                         }
                     }
                 }
-            }
-            .button-holder{
-                margin-top: 3rem;
-                button{
-                    margin-top: 1.4rem;
+                .button-holder{
+                    display: block!important;
+                    margin-top: 3rem;
+                    button{
+                        margin-top: 1.4rem;
+                    }
                 }
             }
-            }
-            
+
         }
         .sort-container {
-                padding-top: 5rem;
+/*            padding-top: 5rem;*/
             background: #fff;
             height: 100%;
             left: 0;
@@ -524,7 +532,7 @@
             display: none;
         }
         .light{
-            display: block;
+            display: block!important;
         }
         button .arrow-dropdown{
             display: none!important;

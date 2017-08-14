@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
-    <div class="filter-container collapse in" id="topics">
+    <div class="filter-container collapse" id="topics">
         <div class="mega-container">
             <div class="close-button-holder">
                 <span class="subtitle thick xx-light">Topics &amp; Filters</span>
