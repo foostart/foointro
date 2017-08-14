@@ -1,108 +1,108 @@
-.module-4041 {
+.module-4042 {
   margin-top: 4.4rem;
 }
-.module-4041 .contact {
+.module-4042 .contact {
   background-color: rgba(0,0,0,0.6);
   padding: 1rem 0;
   position: absolute;
   width: 100%;
   z-index: 1;
 }
-.module-4041 .contact .links a {
+.module-4042 .contact .links a {
   text-decoration: inherit;
   color: #ccc;
   cursor: pointer;
   font-size: 1.6rem;
 }
-.module-4041 .contact .links a:hover {
+.module-4042 .contact .links a:hover {
   opacity: 0.8;
 }
-.module-4041 .contact .links span {
+.module-4042 .contact .links span {
   color: #ff7600;
   font-weight: 500;
   margin: 0 1rem;
   font-size: 1.2rem;
 }
-.module-4041 .contact .links .power {
+.module-4042 .contact .links .power {
   color: #fff;
 }
-.module-4041 .contact .icon {
+.module-4042 .contact .icon {
   float: right;
 }
-.module-4041 .contact .icon .fa {
+.module-4042 .contact .icon .fa {
   color: #b6b7b7;
   font-size: 1.9rem;
   margin: 0.2rem;
 }
-.module-4041 .contact button {
+.module-4042 .contact button {
   display: none;
 }
-.module-4041 .mo {
+.module-4042 .mo {
   position: relative;
 }
-.module-4041 .content {
+.module-4042 .content {
   position: relative;
 }
-.module-4041 .content img {
+.module-4042 .content img {
   width: 100% !important;
 }
-.module-4041 .content .product {
+.module-4042 .content .product {
   transform: translate(0,-50%);
   position: absolute;
   top: 50%;
   left: 37%;
   text-align: center;
 }
-.module-4041 .content .product h2 {
+.module-4042 .content .product h2 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.4rem;
   color: #fff;
 }
-.module-4041 .content .product h1 {
+.module-4042 .content .product h1 {
   font-weight: 600;
   font-size: 4rem;
   color: #fff;
 }
 @media (max-width: 1199px) {
-  .module-4041 .contact .links a,
-  .module-4041 .contact .links span {
+  .module-4042 .contact .links a,
+  .module-4042 .contact .links span {
     font-size: 1.1rem;
   }
-  .module-4041 .content .product {
+  .module-4042 .content .product {
     top: 10rem;
   }
-  .module-4041 .content .product h2 {
+  .module-4042 .content .product h2 {
     font-size: 1rem;
   }
-  .module-4041 .content .product h1 {
+  .module-4042 .content .product h1 {
     font-size: 3rem;
   }
 }
 @media (max-width: 991px) {
-  .module-4041 .contact .links a,
-  .module-4041 .contact .links span {
+  .module-4042 .contact .links a,
+  .module-4042 .contact .links span {
     font-size: 1rem;
   }
-  .module-4041 .content .product {
+  .module-4042 .content .product {
     top: 10rem;
     left: 38%;
   }
-  .module-4041 .content .product h2 {
+  .module-4042 .content .product h2 {
     font-size: 1rem;
   }
-  .module-4041 .content .product h1 {
+  .module-4042 .content .product h1 {
     font-size: 3rem;
   }
 }
 @media (max-width: 767px) {
-  .module-4041 .contact {
+  .module-4042 .contact {
     padding: 2rem 2.5rem;
   }
-  .module-4041 .contact .links {
+  .module-4042 .contact .links {
     display: none;
   }
-  .module-4041 .contact .icon {
+  .module-4042 .contact .icon {
     display: none;
     font-size: 2rem;
     height: 2.5rem;
@@ -115,10 +115,10 @@
     overflow: hidden;
     transition: width .7s;
   }
-  .module-4041 .contact .icon .fa {
+  .module-4042 .contact .icon .fa {
     margin: 0 0.7rem;
   }
-  .module-4041 .contact button {
+  .module-4042 .contact button {
     display: block;
     height: 2.5rem;
     width: 3.6rem;
@@ -129,32 +129,32 @@
     border: none;
     bottom: -0.9rem;
   }
-  .module-4041 .contact .in {
+  .module-4042 .contact .in {
     width: 0;
   }
-  .module-4041 .content img {
+  .module-4042 .content img {
     height: 15rem;
   }
-  .module-4041 .content .product {
+  .module-4042 .content .product {
     left: 31%;
   }
-  .module-4041 .content .product h2 {
+  .module-4042 .content .product h2 {
     margin-bottom: 0;
     line-height: 0rem;
   }
-  .module-4041 .content .product h1 {
+  .module-4042 .content .product h1 {
     margin-top: 0;
     font-size: 1.6rem;
   }
 }
 @media (min-width: 768px) {
-  .module-4007,
+  .module-4042,
   .module-4004 {
     display: block !important;
   }
 }
 @media (max-width: 767px) {
-  .module-4007 {
+  .module-4042 {
     margin-top: 0rem;
   }
 }

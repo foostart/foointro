@@ -21,7 +21,7 @@
         <link href="../4040/css/4040.css" rel="stylesheet" type="text/css"/>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../4041/js/4041-script.js" type="text/javascript"></script>
+        <script src="../4042/js/4042-script.js" type="text/javascript"></script>
         <script src="../4006/js/js-4006.js" type="text/javascript"></script>
         <script src="../4035/js/4035-1.js" type="text/javascript"></script>
         <script src="../4040/js/js-4040.js" type="text/javascript"></script>

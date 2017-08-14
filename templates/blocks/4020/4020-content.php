@@ -13,83 +13,85 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <div class="module-4020">
-    <div class="container">
-        <h1 style="text-align: center">
-            Products that Perform
-        </h1>
-        <p>Installing the right products can make a world of difference to your company. So explore our expansive product portfolio of power, thermal and infrastructure management systems. We offer problem-configured critical infrastructure technologies, rapidly deployable intelligent hardware and software, and customized solutions to meet your specific requirements and needs.</p>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <div class="panel">
-                    <a href="#">
-                        <img class="img-responsive" src="image/severe.jpg" alt=""/>
-                    </a>
-                    <div class="panel-body">
-                        <h4 class="thick">
-                            <a href="">Project Services</a>
-                        </h4>
-                        <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
-                        <ul class="list-unstyled hidden-xs thick larger">
-                            <li><a href="">Project Management</a></li>
-                            <li><a href="">Deployment &amp; Start-Up</a></li>
-                            <li><a href="">Commissioning</a></li>
-                        </ul>
+    <div class="editor-content-component">
+        <div class="container">
+            <h1 style="text-align: center">
+                Products that Perform
+            </h1>
+            <p>Installing the right products can make a world of difference to your company. So explore our expansive product portfolio of power, thermal and infrastructure management systems. We offer problem-configured critical infrastructure technologies, rapidly deployable intelligent hardware and software, and customized solutions to meet your specific requirements and needs.</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="panel">
+                        <a href="#">
+                            <img class="img-responsive" src="image/severe.jpg" alt=""/>
+                        </a>
+                        <div class="panel-body">
+                            <h4 class="thick">
+                                <a href="">Project Services</a>
+                            </h4>
+                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <ul class="list-unstyled hidden-xs thick larger">
+                                <li><a href="">Project Management</a></li>
+                                <li><a href="">Deployment &amp; Start-Up</a></li>
+                                <li><a href="">Commissioning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="panel">
+                        <a href="#">
+                            <img class="img-responsive" src="image/severe.jpg" alt=""/>
+                        </a>
+                        <div class="panel-body">
+                            <h4 class="thick">
+                                <a href="">Project Services</a>
+                            </h4>
+                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <ul class="list-unstyled hidden-xs thick larger">
+                                <li><a href="">Project Management</a></li>
+                                <li><a href="">Deployment &amp; Start-Up</a></li>
+                                <li><a href="">Commissioning</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="panel">
-                    <a href="#">
-                        <img class="img-responsive" src="image/severe.jpg" alt=""/>
-                    </a>
-                    <div class="panel-body">
-                        <h4 class="thick">
-                            <a href="">Project Services</a>
-                        </h4>
-                        <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
-                        <ul class="list-unstyled hidden-xs thick larger">
-                            <li><a href="">Project Management</a></li>
-                            <li><a href="">Deployment &amp; Start-Up</a></li>
-                            <li><a href="">Commissioning</a></li>
-                        </ul>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="panel">
+                        <a href="#">
+                            <img class="img-responsive" src="image/severe.jpg" alt=""/>
+                        </a>
+                        <div class="panel-body">
+                            <h4 class="thick">
+                                <a href="">Project Services</a>
+                            </h4>
+                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <ul class="list-unstyled hidden-xs thick larger">
+                                <li><a href="">Project Management</a></li>
+                                <li><a href="">Deployment &amp; Start-Up</a></li>
+                                <li><a href="">Commissioning</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <div class="panel">
-                    <a href="#">
-                        <img class="img-responsive" src="image/severe.jpg" alt=""/>
-                    </a>
-                    <div class="panel-body">
-                        <h4 class="thick">
-                            <a href="">Project Services</a>
-                        </h4>
-                        <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
-                        <ul class="list-unstyled hidden-xs thick larger">
-                            <li><a href="">Project Management</a></li>
-                            <li><a href="">Deployment &amp; Start-Up</a></li>
-                            <li><a href="">Commissioning</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="panel">
-                    <a href="#">
-                        <img class="img-responsive" src="image/severe.jpg" alt=""/>
-                    </a>
-                    <div class="panel-body">
-                        <h4 class="thick">
-                            <a href="">Project Services</a>
-                        </h4>
-                        <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
-                        <ul class="list-unstyled hidden-xs thick larger">
-                            <li><a href="">Project Management</a></li>
-                            <li><a href="">Deployment &amp; Start-Up</a></li>
-                            <li><a href="">Commissioning</a></li>
-                        </ul>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="panel">
+                        <a href="#">
+                            <img class="img-responsive" src="image/severe.jpg" alt=""/>
+                        </a>
+                        <div class="panel-body">
+                            <h4 class="thick">
+                                <a href="">Project Services</a>
+                            </h4>
+                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <ul class="list-unstyled hidden-xs thick larger">
+                                <li><a href="">Project Management</a></li>
+                                <li><a href="">Deployment &amp; Start-Up</a></li>
+                                <li><a href="">Commissioning</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

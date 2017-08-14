@@ -2,6 +2,23 @@
   background-image: linear-gradient(135deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 67.25%,rgba(0,0,0,0.06) 67.25%,rgba(0,0,0,0.06) 100%), linear-gradient(-135deg,rgba(0,0,0,0.02) 26%,rgba(0,0,0,0.03) 36%,rgba(255,255,255,0) 36%,rgba(255,255,255,0) 100%);
   background-color: #e5e6e7;
 }
+.module-4020 .editor-content-component {
+  padding-bottom: 1.6rem;
+}
+.module-4020 .editor-content-component h1 {
+  margin-bottom: 2.2rem;
+  margin-top: 0;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 6rem;
+}
+.module-4020 .editor-content-component p {
+  margin-bottom: 2.4rem;
+  color: #666;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
 .module-4020 .panel {
   margin-bottom: 3.8rem;
   border: 0;
@@ -9,20 +26,6 @@
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
   box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-}
-.module-4020 .panel h1 {
-  margin-bottom: 2.2rem;
-  margin-top: 0;
-  font-size: 6rem;
-  font-weight: 600;
-  line-height: 6rem;
-}
-.module-4020 .panel p {
-  margin-bottom: 2.4rem;
-  color: #666;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 2.3rem;
 }
 .module-4020 .panel h4 {
   margin-bottom: 1.6rem;
@@ -62,18 +65,6 @@
   .module-4020 .panel {
     margin-bottom: 1.5rem;
   }
-  .module-4020 .panel h1 {
-    margin-bottom: 2rem;
-    margin-top: 3.2rem;
-    font-size: 2.8rem;
-    line-height: normal;
-  }
-  .module-4020 .panel p {
-    color: #333;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    margin-bottom: 2rem;
-  }
   .module-4020 .panel .panel-body {
     padding: 1.4rem 1.8rem 1.8rem;
   }
@@ -85,5 +76,20 @@
   .module-4020 .panel .panel-body p {
     font-size: 1.3rem;
     margin-bottom: 0;
+  }
+  .module-4020 .editor-content-component {
+    padding-bottom: .2rem;
+  }
+  .module-4020 .editor-content-component h1 {
+    margin-bottom: 2rem;
+    margin-top: 3.2rem;
+    font-size: 2.8rem;
+    line-height: normal;
+  }
+  .module-4020 .editor-content-component p {
+    color: #333;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
   }
 }
