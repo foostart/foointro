@@ -16,9 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="editor-content-component">
         <div class="container">
             <h1 style="text-align: center">
-                Products that Perform
+                Sản phẩm Thực hiện
             </h1>
-            <p>Installing the right products can make a world of difference to your company. So explore our expansive product portfolio of power, thermal and infrastructure management systems. We offer problem-configured critical infrastructure technologies, rapidly deployable intelligent hardware and software, and customized solutions to meet your specific requirements and needs.</p>
+            <p>Việc cài đặt đúng sản phẩm có thể tạo ra một thế giới khác biệt với công ty của bạn. Vì vậy, hãy khám phá danh mục các sản phẩm về năng lượng, nhiệt và cơ sở hạ tầng. Chúng tôi cung cấp các công nghệ cơ sở hạ tầng quan trọng, phần cứng và phần mềm thông minh triển khai nhanh và các giải pháp tùy biến để đáp ứng các yêu cầu và nhu cầu cụ thể của bạn.</p>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="panel">
@@ -27,13 +27,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                         <div class="panel-body">
                             <h4 class="thick">
-                                <a href="">Project Services</a>
+                                <a href="">Dịch vụ Dự án</a>
                             </h4>
-                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <p class="larger">Tối đa hoá đầu tư của bạn, ngăn ngừa sự chậm trễ, và tránh làm lại với lập kế hoạch và thực hiện dự án có hiệu quả.</p>
                             <ul class="list-unstyled hidden-xs thick larger">
-                                <li><a href="">Project Management</a></li>
-                                <li><a href="">Deployment &amp; Start-Up</a></li>
-                                <li><a href="">Commissioning</a></li>
+                                <li><a href="">Quản lý dự án</a></li>
+                                <li><a href="">Triển khai & Khởi động</a></li>
+                                <li><a href="">Ủy quyền</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,13 +45,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                         <div class="panel-body">
                             <h4 class="thick">
-                                <a href="">Project Services</a>
+                                <a href="">Dịch vụ Dự án</a>
                             </h4>
-                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <p class="larger">Tối đa hoá đầu tư của bạn, ngăn ngừa sự chậm trễ, và tránh làm lại với lập kế hoạch và thực hiện dự án có hiệu quả.</p>
                             <ul class="list-unstyled hidden-xs thick larger">
-                                <li><a href="">Project Management</a></li>
-                                <li><a href="">Deployment &amp; Start-Up</a></li>
-                                <li><a href="">Commissioning</a></li>
+                                <li><a href="">Quản lý dự án</a></li>
+                                <li><a href="">Triển khai & Khởi động</a></li>
+                                <li><a href="">Ủy quyền</a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,13 +65,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                         <div class="panel-body">
                             <h4 class="thick">
-                                <a href="">Project Services</a>
+                                <a href="">Dịch vụ Dự án</a>
                             </h4>
-                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <p class="larger">Tối đa hoá đầu tư của bạn, ngăn ngừa sự chậm trễ, và tránh làm lại với lập kế hoạch và thực hiện dự án có hiệu quả.</p>
                             <ul class="list-unstyled hidden-xs thick larger">
-                                <li><a href="">Project Management</a></li>
-                                <li><a href="">Deployment &amp; Start-Up</a></li>
-                                <li><a href="">Commissioning</a></li>
+                                <li><a href="">Quản lý dự án</a></li>
+                                <li><a href="">Triển khai & Khởi động</a></li>
+                                <li><a href="">Ủy quyền</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,14 +82,14 @@ $url_path = str_replace('\\', '/', $url_path);
                             <img class="img-responsive" src="image/severe.jpg" alt=""/>
                         </a>
                         <div class="panel-body">
-                            <h4 class="thick">
-                                <a href="">Project Services</a>
+                           <h4 class="thick">
+                                <a href="">Dịch vụ Dự án</a>
                             </h4>
-                            <p class="larger">Maximize your investments, prevent delays, and avoid rework with effective project planning and execution.</p>
+                            <p class="larger">Tối đa hoá đầu tư của bạn, ngăn ngừa sự chậm trễ, và tránh làm lại với lập kế hoạch và thực hiện dự án có hiệu quả.</p>
                             <ul class="list-unstyled hidden-xs thick larger">
-                                <li><a href="">Project Management</a></li>
-                                <li><a href="">Deployment &amp; Start-Up</a></li>
-                                <li><a href="">Commissioning</a></li>
+                                <li><a href="">Quản lý dự án</a></li>
+                                <li><a href="">Triển khai & Khởi động</a></li>
+                                <li><a href="">Ủy quyền</a></li>
                             </ul>
                         </div>
                     </div>

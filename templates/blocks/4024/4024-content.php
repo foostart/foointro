@@ -15,9 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="content">
             <img src="image/4024-1.png" alt=""/>
-            <h3>Need product support information or details?</h3>
+            <h3>Cần thông tin hỗ trợ sản phẩm hoặc các chi tiết?</h3>
             <div class="ask">
-                <a href="#" class="primary">Ask a Question</a>
+                <a href="#" class="primary">đặt một câu hỏi</a>
             </div>
         </div>
     </div>

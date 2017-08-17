@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
    
     <div class="row">
-        <div class="content">LATEST INDUSTRY TRENDS, TECHNOLOGIES AND SOLUTIONS</div>
+        <div class="content">CÁC XU THẾ, CÔNG NGHỆ VÀ GIẢI PHÁP CÔNG NGHỆ MỚI NHẤT</div>
         <div class="col-md-6">
             <div class="top">
                 <div class="col-sm-6">
@@ -25,9 +25,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="col-sm-6">
                     <div class="text1">
-                        <h4>Watch the Vertiv Video</h4>
-                        <p>Our lives rely on a world where critical technologies always work. Our company video illustrates a day in the life of a doctor and her young daughter and how the technologies and services of Vertiv support the infrastructure that empowers...</p>
-                        <h6>December 1, 2016</h6>
+                        <h4>Xem Video Vertiv</h4>
+                        <p>Cuộc sống của chúng ta dựa vào một thế giới mà các công nghệ quan trọng luôn luôn hoạt động. Video công ty của chúng tôi minh hoạ một ngày trong cuộc đời của một bác sĩ và con gái nhỏ của mình và làm thế nào các công nghệ và dịch vụ của Vertiv hỗ trợ cơ sở hạ tầng trao quyền cho ...</p>
+                        <h6>Ngày 1 tháng 12 năm 2016</h6>
                     </div> 
 
 
@@ -36,9 +36,9 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="bot">
                 <img src="image/2.jpg" alt=""/>
                 <div class="text2">
-                    <p>THERMAL MANAGEMENT</p>
-                    <h1>Cooling the Edge: Small Spaces Getting Attention</h1>
-                    <h6>November 25, 2016</h6>
+                    <p>QUẢN LÝ NHIỆT</p>
+                    <h1>Làm mát Edge: Các không gian nhỏ Nhắm Sự chú ý</h1>
+                    <h6>25 tháng 11 năm 2016</h6>
                 </div>
             </div>
         </div>
@@ -47,9 +47,9 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="bot">
                 <img src="image/3.jpg" alt=""/>
                 <div class="text3">
-                    <p>DATA CENTER/COLOCATION/HOSTING</p>
-                    <h1>AHRI Certified - Performance as Promised</h1>
-                    <h6>January 17, 2017</h6>
+                    <p>TRUNG TÂM D DATA LIỆU / COLOCATION / HOSTING</p>
+                    <h1>Chứng nhận của AHRI - Hoạt động được hứa hẹn</h1>
+                    <h6>Ngày 17 tháng 1 năm 2017</h6>
                 </div>
             </div>
             <div class="top">
@@ -58,10 +58,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="col-sm-6">
                     <div class="text4">
-                        <span>EFFICIENCY</span>
-                        <h4>Making a More Efficient Data Centre (Part 2 of 2)</h4>
-                        <p >In my previous article a couple of weeks ago, I covered some of the basics around where your data centre might be losing efficiency and how consolidation of your infrastructure can help to fix this. In this new article, we’re going to del...</p>
-                        <h6>November 24, 2016</h6>
+                        <span>HIỆU QUẢ</span>
+                        <h4>Tạo một Trung tâm Dữ liệu Hiệu quả hơn (Phần 2 của 2)</h4>
+                        <p >Trong bài trước của tôi một vài tuần trước, tôi đã giới thiệu một vài điều cơ bản về nơi mà trung tâm dữ liệu của bạn có thể mất hiệu quả và cách hợp nhất cơ sở hạ tầng của bạn có thể giúp khắc phục sự cố này. Trong bài viết mới này, chúng tôi sẽ del ...</p>
+                        <h6>Ngày 24 tháng 11 năm 2016</h6>
                     </div>
                 </div>
             </div>

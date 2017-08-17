@@ -19,40 +19,40 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-slide">
                 <img src="image/4001-1.jpg" alt=""/>
                 <div class="text">
-                    <span>RANKING THE WORLD'S MOST CRITICAL INDUSTRIES</span>
-                    <h1>EVALUATING THE IMPACT OF DISRUPTION</h1>
+                    <span>ĐỊNH LƯỢNG CÁC NGÀNH CHỦ YẾU NHẤT CỦA THẾ GIỚI</span>
+                    <h1>ĐÁNH GIÁ TÁC ĐỘNG VỀ TÌNH HÌNH</h1>
                     <div class="submit">
-                        <a href="#">Read the report</a>
+                        <a href="#">Đọc báo cáo</a>
                             </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <img src="image/4001-2.jpg" alt=""/>
                 <div class="text">
-                    <span>RANKING THE WORLD'S MOST CRITICAL INDUSTRIES</span>
-                    <h1>EVALUATING THE IMPACT OF DISRUPTION</h1>
+                    <span>ĐỊNH LƯỢNG CÁC NGÀNH CHỦ YẾU NHẤT CỦA THẾ GIỚI</span>
+                    <h1>ĐÁNH GIÁ TÁC ĐỘNG VỀ TÌNH HÌNH</h1>
                     <div class="submit">
-                        <a href="#">Read the report</a>
+                        <a href="#">Đọc báo cáo</a>
                             </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <img src="image/4001-3.jpg" alt=""/>
                 <div class="text">
-                    <span>RANKING THE WORLD'S MOST CRITICAL INDUSTRIES</span>
-                    <h1>EVALUATING THE IMPACT OF DISRUPTION</h1>
+                    <span>ĐỊNH LƯỢNG CÁC NGÀNH CHỦ YẾU NHẤT CỦA THẾ GIỚI</span>
+                    <h1>ĐÁNH GIÁ TÁC ĐỘNG VỀ TÌNH HÌNH</h1>
                     <div class="submit">
-                        <a href="#">Read the report</a>
+                        <a href="#">Đọc báo cáo</a>
                             </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <img src="image/4001-4.jpg" alt=""/>
                 <div class="text">
-                    <span>RANKING THE WORLD'S MOST CRITICAL INDUSTRIES</span>
-                    <h1>EVALUATING THE IMPACT OF DISRUPTION</h1>
+                    <span>ĐỊNH LƯỢNG CÁC NGÀNH CHỦ YẾU NHẤT CỦA THẾ GIỚI</span>
+                    <h1>ĐÁNH GIÁ TÁC ĐỘNG VỀ TÌNH HÌNH</h1>
                     <div class="submit">
-                        <a href="#">Read the report</a>
+                        <a href="#">Đọc báo cáo</a>
                             </div>
                 </div>
             </div>

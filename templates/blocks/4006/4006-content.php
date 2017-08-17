@@ -27,9 +27,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <nav class="wsmenu clearfix">
                                     <ul class="mobile-sub wsmenu-list">
 
-                                        <li><a href="#"><i class="fa fa-sign-in"></i>My Account <span class="arrow"></span></a>
+                                        <li><a href="#"><i class="fa fa-sign-in"></i>Tài khoản của tôi<span class="arrow"></span></a>
                                             <div class="megamenu halfdiv03">
-                                                <h3 class="title">Login</h3>
+                                                <h3 class="title">Đang nhập</h3>
                                                 <form name="contact_name" class="menu_form">
                                                     <input type="text" placeholder="User Name">
                                                     <input type="password" placeholder="Password">
@@ -38,9 +38,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 </form>
                                             </div>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-paper-plane"></i>Contact Us <span class="arrow"></span></a>
+                                        <li><a href="#"><i class="fa fa-paper-plane"></i>Liên hệ chúng tôi<span class="arrow"></span></a>
                                             <div class="megamenu halfdiv">
-                                                <h3 class="title">Contact Us</h3>
+                                                <h3 class="title">Liên hệ chúng tôi</h3>
                                                 <form name="contact_name" class="menu_form">
                                                     <input type="text" placeholder="Name">
                                                     <input type="text" placeholder="Email">
@@ -94,7 +94,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <nav class="wsmenu clearfix">
                                             <ul class="mobile-sub wsmenu-list">
 
-                                                <li><a href="#"><i class="fa fa-align-justify"></i>Products <span class="arrow"></span></a>
+                                                <li><a href="#"><i class="fa fa-align-justify"></i>Các sản phẩm  <span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                             <li class="title"><a href="#">CRITICAL POWER</a></li>
@@ -142,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="#"><i class="fa fa-align-justify"></i>Services <span class="arrow"></span></a>
+                                                <li><a href="#"><i class="fa fa-align-justify"></i>Dịch vụ <span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                             <li class="title"><a href="#">CRITICAL POWER</a></li>
@@ -190,7 +190,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="#"><i class="fa fa-align-justify"></i>Support <span class="arrow"></span></a>
+                                                <li><a href="#"><i class="fa fa-align-justify"></i>Ủng hộ <span class="arrow"></span></a>
                                                     <ul class="wsmenu-submenu">
                                                         <li class="title"><a href="#"><i class="fa fa-arrow-circle-right"></i>FIND SUPPORT</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>

@@ -17,50 +17,50 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <div class="list">
                     <img src="image/4023-1.jpg" alt=""/>
-                    <h4>Contact Technical Support</h4>
-                    <p>Select your product type and view contact information for the Vertiv technical support that can help you.</p>
+                    <h4>Hỗ trợ kỹ thuật Liên hệ</h4>
+                    <p>Chọn thông tin liên lạc loại sản phẩm và tầm nhìn của bạn đối với sự hỗ trợ kỹ thuật Vertiv có thể giúp bạn.</p>
                 </div>
             </div>
         </div>

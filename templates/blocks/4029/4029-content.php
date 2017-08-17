@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-xs-12 col-sm-6 list">
                 <span class="sub">
-                    Recent Tweets
+                    GẦN ĐÂY TWEETS
                     <a class="twitter" href="#">@VertivCo_HQ</a>
                 </span>
                 <ol>
@@ -31,13 +31,14 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="ver2">@VertivCo_AP</span>
 
                             <p class="test">
-                                See why Smart Cities ranks #7 on the <span>#MostCritical</span> list: <span>vrtvco.com/bQzs0</span>
+                                
+                                Xem tại sao các Thành phố thông minh xếp hạng 7 trên <span>#MostCritical</span> list: <span>vrtvco.com/bQzs0</span>
                             </p>
                             <img class="lon" src="image/DEqDw4WUIAEhkgp.jpg" alt=""/>
                             <div class="icon-left">
                                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 <a class="a2" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                <span class="chim">14 Jun</span>
+                                <span class="chim">14 tháng 6</span>
                             </div>
 
                         </div>
@@ -53,13 +54,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="ver2">@VertivCo_AP</span>
 
                             <p class="test">
-                                See why the <span>#defense</span>  industry ranks sixth on our <span>#MostCritical </span>industry list: <span>vrtvco.com/bQw4v</span>
+                                Xem lý do tại sao ngành công nghiệp <span>#defense</span>  đứng thứ sáu trên danh sách ngành công nghiệp hàng đầu của chúng tôi  <span>#MostCritical </span>industry list: <span>vrtvco.com/bQw4v</span>
                             </p>
                             <img class="lon" src="image/DEk6LBeXoAI6Qwi.jpg" alt=""/>
                             <div class="icon-left">
                                 <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
                                 <a class="a2" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                <span class="chim">13 Jun</span>
+                                <span class="chim">13 tháng 6</span>
                             </div>
 
                         </div>
@@ -78,7 +79,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="ver1">Watterson</span>
                             <span class="ver2">@WattersonPR</span>
                             <p class="test">
-                                Hot studio gets 'cool' tech from <span>@VertivCo_AP</span>  SmartCabinet & Servcore -<span>arnnet.com.au/article/621443...</span> via <span>ARNnet </span><span>#datacentre</span>
+                                Hot studio được công nghệ 'cool' từ<span>@VertivCo_AP</span> SmartCabinet & Servcore -  -<span>arnnet.com.au/article/621443...</span> thông qua <span>ARNnet </span><span>#datacentre</span>
                             </p>
                             <div class="cot">
                                 <div class="row">
@@ -86,9 +87,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <img src="image/Kn307LAc.jpg" alt=""/>
                                     </div>
                                     <div class="col-sm-9 chu">
-                                        <h2>Servcore settles on cool tech for hot studio</h2>
+                                        <h2>Servcore giải quyết công nghệ mát cho phòng thu nóng</h2>
                                         <p>
-                                            Data centre specialist, Servcore, has found a cool IT solution for a hot yoga studio in Sydney thanks to Vertiv’s SmartCabinet infrastructure.
+                                            Chuyên gia trung tâm dữ liệu, Servcore, đã tìm ra một giải pháp IT tuyệt vời cho một studio yoga nóng tại Sydney nhờ vào cơ sở hạ tầng SmartCabinet của Vertiv.
                                         </p>
                                         <span>arnnet.com.au</span>
                                     </div>
@@ -113,7 +114,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="ver2">@VertivCo_AP</span>
 
                             <p class="test">
-                                Read why the telecom industry ranks third among the world's <span>#MostCritical </span>industries:  <span>vrtvco.com/bQwCc</span>
+                                Tìm hiểu tại sao ngành công nghiệp viễn thông đứng thứ ba trong thế giớ <span>#MostCritical </span>ngành: <span>vrtvco.com/bQwCc</span>
                             </p>
                             <img class="lon" src="image/DEfwlsFXYAAKVSU.jpg" alt=""/>
                             <div class="icon-left">
@@ -126,7 +127,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </li>
                 </ol>
                 <div class="generic-button">
-                    <a href="#" target="_blank" class="button">Follow Us</a>
+                    <a href="#" target="_blank" class="button">Theo chúng tôi</a>
                 </div>
             </div>
         </div>

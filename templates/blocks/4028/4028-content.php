@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-4028">
     <div class="wrapper-left">
         <div class="container">
-            <h3 class="related-title">Featured</h3>
+            <h3 class="related-title">ĐẶC SẮC</h3>
             <div class="sld-hover">
                 <div class="row">
                     <div class="margin-tow">
@@ -27,9 +27,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Leveraging The Internet of Things in the Data Center and Edge</a>
+                                                <a href="#" >Tận dụng Internet của mọi thứ trong Trung tâm Dữ liệu và Edge</a>
                                             </h4>
-                                            <p class="larger">With projections of up to 50 billion Internet of Things (IoT) connected devices by 2020, many industries are finding ways to leverage IoT. Data Centers and Edge computing sites are uniquely positioned to leverage IoT and improve visibility, efficiency, availability and scalability, for a more profitable business.</p>
+                                            <p class="larger">Với dự báo lên đến 50 tỷ Internet of Things (IoT) kết nối các thiết bị vào năm 2020, nhiều ngành công nghiệp đang tìm cách để thúc đẩy IoT. Các trung tâm dữ liệu và các trang web tính toán của Edge đều có vị trí độc đáo để thúc đẩy IoT và cải thiện khả năng hiển thị, hiệu quả, tính sẵn sàng và khả năng mở rộng cho một doanh nghiệp có lợi nhuận cao hơn.</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -38,9 +38,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Keys to Powering Today's Critical Network Edge</a>
+                                                <a href="#" >Các phím để kích hoạt cạnh mạng quan trọng ngày nay</a>
                                             </h4>
-                                            <p class="larger">The IT landscape continues to change. Trends are driving more and more computing to the "edge of the network". Professionals today are asking what this means to their infrastructure power systems. </p>
+                                            <p class="larger">Các chuyên gia ngày nay đang hỏi điều này có ý nghĩa gì với hệ thống cơ sở hạ tầng của họ.</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -49,9 +49,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Data Center 2025</a>
+                                                <a href="#" >Trung tâm Dữ liệu 2025</a>
                                             </h4>
-                                            <p class="larger">The only certainty in computing is that change is coming.What will that mean for the data center of the future? Bigger? Or smaller? Faster? Better? Sure, but how? </p>
+                                            <p class="larger">Sự chắc chắn duy nhất trong tính toán là sự thay đổi đang đến. Điều đó có ý nghĩa gì đối với trung tâm dữ liệu trong tương lai? Lớn hơn? Hoặc nhỏ hơn? Nhanh hơn? Tốt hơn? Chắc chắn, nhưng làm thế nào? </p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -60,9 +60,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Tech In Marketing - A Dream for the CMO but a Nightmare for the CIO and IT?</a>
+                                                <a href="#" >Tech In Marketing - Một giấc mơ cho CMO nhưng là một ác mộng cho CIO và CNTT?</a>
                                             </h4>
-                                            <p class="larger">Marketing and IT should be intimate friends, often they’re barely fleeting acquaintances. As a marketer, working in a business enabling the digital applications of the digital world, I see both sides, and they are now, and are becoming more intertwined and interdependent.</p>
+                                            <p class="larger">Tiếp thị và CNTT nên là những người bạn thân thiết, thường họ chỉ là những người quen biết thoáng qua. Là một nhà tiếp thị, làm việc trong một doanh nghiệp cho phép ứng dụng kỹ thuật số của thế giới số, tôi thấy cả hai bên, và bây giờ, và đang trở nên chồng chéo và phụ thuộc lẫn nhau.</p>
                                         </div>
                                     </div>
 
@@ -76,9 +76,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >App-first: Simplicity for Customers, Complexity for IT</a>
+                                                <a href="#" >Ứng dụng đầu tiên: Tính đơn giản cho khách hàng, tính phức tạp của CNTT</a>
                                             </h4>
-                                            <p class="larger">Mobile devices have fast become the most important screen for consumers, to the point that firefighters are weighing in on our digital addictions.</p>
+                                            <p class="larger">Thiết bị di động nhanh chóng trở thành màn hình quan trọng nhất cho người tiêu dùng, đến mức mà các nhân viên cứu hỏa đang cân nhắc về các nghiện sốc của chúng tôi.</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -87,9 +87,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Virtual Reality Needs Real Infrastructure.Are IT Professionals Prepared?</a>
+                                                <a href="#" >Thực tế ảo cần cơ sở hạ tầng thật sự.Đã chuẩn bị cho các chuyên gia về CNTT?</a>
                                             </h4>
-                                            <p class="larger">I must confess that I was not immune to the Pokemon Go craze. Like many others, last summer I observed people hunting Squirtles and Bulbasaurs. I also witnessed the first world frustrations of people getting frustrated because the game would not load when they were sure there must be a Pikachu close to hand.</p>
+                                            <p class="larger">Tôi phải thú nhận rằng tôi không bị ảnh hưởng bởi cơn sốt Pokemon Go. Giống như nhiều người khác, mùa hè năm ngoái tôi đã quan sát thấy người ta săn bắn Squirtles và Bulbasaurs. Tôi cũng chứng kiến ​​những sự thất vọng trên thế giới đầu tiên của mọi người khi thất vọng vì trò chơi không thể tải khi họ chắc chắn phải có một Pikachu gần.</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -98,9 +98,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >Autonomous Cars: The Unfolding Impact for IT Professionals</a>
+                                                <a href="#" >Ôtô tự trị: Tác động không nảy ra cho các chuyên gia IT</a>
                                             </h4>
-                                            <p class="larger">Years later and countless hours spent trawling up motorways and crawling around cities, that dream had been firmly wiped from my mind. Yet in the near future, it looks like becoming a reality for the next learner generation.</p>
+                                            <p class="larger">Nhiều năm sau đó và vô số giờ lao động trên đường cao tốc và bò quanh các thành phố, ước mơ đó đã bị xóa sạch khỏi tâm trí tôi. Tuy nhiên, trong tương lai gần, có vẻ như trở thành hiện thực cho thế hệ người học tiếp theo.</p>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-sm-3">
@@ -109,9 +109,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                         <div class="panel-body">
                                             <h4>
-                                                <a href="#" >How Does "Mission-Critical" Translate In the Digital Economy?</a>
+                                                <a href="#" >Làm thế nào "Mission-Critical" trong kinh tế kỹ thuật số?</a>
                                             </h4>
-                                            <p class="larger">I vaguely remember when I first came across the concept of the data center. In fact, it was the discovery of a seemingly obscure and futuristic sounding thing called a ‘mainframe’.</p>
+                                            <p class="larger">Tôi nhớ một cách mơ hồ khi lần đầu tiên tôi xem qua khái niệm về trung tâm dữ liệu. Trên thực tế, đó là sự khám phá ra một thứ nghe có vẻ mơ hồ và tương lai được gọi là 'máy tính lớn'.</p>
                                         </div>
                                     </div>
                                 </div>

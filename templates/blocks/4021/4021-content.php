@@ -17,16 +17,16 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="swiper-container">
-                    <h3>RELATED PRODUCT TYPES</h3>
-                    <p>Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
+                    <h3>CÁC LOẠI SẢN PHẨM LIÊN QUAN</h3>
+                    <p>Vertiv là tổng hợp các bộ phận quan trọng, tất cả đều được tích hợp trong việc đảm bảo tính sẵn có và hiệu quả của cơ sở hạ tầng thiết yếu.</p>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="col-xs-4">
                                 <div class="content">
                                     <img src="image/4021-1.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +34,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-2.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,8 +43,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-3.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,8 +54,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-4.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-5.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +72,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-6.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-4.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,8 +92,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-5.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -101,8 +101,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-6.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -132,16 +132,16 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="swiper-container">
-                    <h3>RELATED PRODUCT TYPES</h3>
-                    <p>Vertiv is the sum of key parts, all integral in ensuring the continued availability and efficiency of your critical infrastructure.</p>
+                    <h3>CÁC LOẠI SẢN PHẨM LIÊN QUAN</h3>
+                    <p>Vertiv là tổng hợp các bộ phận quan trọng, tất cả đều được tích hợp trong việc đảm bảo tính sẵn có và hiệu quả của cơ sở hạ tầng thiết yếu.</p>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="col-xs-6">
                                 <div class="content">
                                     <img src="image/4021-1.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,8 +149,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-2.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +160,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-1.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,8 +169,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-2.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -180,8 +180,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-1.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -189,8 +189,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-2.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -200,8 +200,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-1.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,8 +209,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="content">
                                     <img src="image/4021-2.jpg" alt=""/>
                                     <div class="text">
-                                        <h4>Industrial AC and DC Systems</h4>
-                                        <p>Meet your specific industrial power requirements using our configured or custom-made industrial-grade products.</p>
+                                        <h4>Hệ thống AC và DC công nghiệp</h4>
+                                        <p>Đáp ứng nhu cầu điện năng công nghiệp cụ thể của bạn bằng cách sử dụng các sản phẩm có cấu hình hoặc được sản xuất theo yêu cầu của chúng tôi.</p>
                                     </div>
                                 </div>
                             </div>

@@ -14,11 +14,11 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-4017">
     <div class="container">
         <div class="contacts">
-            <h3>CONTACTS</h3>
+            <h3>LIÊN HỆ</h3>
         </div>
         <div class="tren">
             <div class="content">
-                <p>SALES IN VIETNAM <span class="nham">Change Location</span></p>
+                <p>SALES IN VIETNAM  <span class="nham">Thay đổi địa điểm</span></p>
             </div>
             <div class="contacts-notification">
                 <div class="x">X</div>
@@ -37,11 +37,11 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="contact-list">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                        <h4>Access, Inc. (Michigan)</h4>
+                        <h4>Truy cập, Inc. (Michigan)</h4>
                     </div>
                     <div class="col-xs-12 col-sm-2">
                         <div class="item">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Contact </span> </div>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Liên hệ  </span> </div>
                         <div class="item">
                             <i class="fa fa-phone" aria-hidden="true"></i><span>+1 248 616 9200</span></div>
                         <span>Fax  +1 248 616 8980</span>
@@ -52,18 +52,18 @@ $url_path = str_replace('\\', '/', $url_path);
                             USA</h1>
                     </div>
                     <div class="col-xs-12 col-sm-5">
-                        <a>Product areas of focus:</a> <span class="unin">Uninterruptible Power Supplies (UPS), DC Power Systems, Industrial AC and DC Systems, Power Distribution, Power Transfer Switches, Paralleling Switch Gear, Surge Protective Devices, Fire Pump Controllers, Power Control and Monitoring, Thermal Management, Integrated Solutions, Outdoor Enclosures, Racks and Containment, Software, IT Management, Monitoring</span>
+                        <a>Các sản phẩm tiêu điểm: </a> <span class="unin">Nguồn cấp điện liên tục (UPS), Hệ thống điện DC, Hệ thống AC và DC công nghiệp, Phân phối điện, Công tắc chuyển nguồn, Bộ chuyển mạch song song, Thiết bị chống sét, Bộ điều khiển bơm chữa cháy, Điều khiển Nguồn và Theo dõi, Quản lý Nhiệt, Tích hợp Giải pháp, Tấm chắn ngoài trời, Racks và Containment, Phần mềm, Quản lý CNTT, Giám sát</span>
                     </div>
                 </div>
             </div>
             <div class="contact-list hang2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                        <h4>Access, Inc. (Michigan)</h4>
+                        <h4>Truy cập, Inc. (Michigan)</h4>
                     </div>
                     <div class="col-xs-12 col-sm-2">
                         <div class="item">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Contact </span> </div>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Liên hệ  </span> </div>
                         <div class="item">
                             <i class="fa fa-phone" aria-hidden="true"></i><span>+1 248 616 9200</span></div>
                         <span>Fax  +1 248 616 8980</span>
@@ -74,13 +74,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             USA</h1>
                     </div>
                     <div class="col-xs-12 col-sm-5">
-                        <a>Product areas of focus:</a> <span class="unin">Uninterruptible Power Supplies (UPS), DC Power Systems, Industrial AC and DC Systems, Power Distribution, Power Transfer Switches, Paralleling Switch Gear, Surge Protective Devices, Fire Pump Controllers, Power Control and Monitoring, Thermal Management, Integrated Solutions, Outdoor Enclosures, Racks and Containment, Software, IT Management, Monitoring</span>
+                        <a>Các sản phẩm tiêu điểm: </a> <span class="unin">Nguồn cấp điện liên tục (UPS), Hệ thống điện DC, Hệ thống AC và DC công nghiệp, Phân phối điện, Công tắc chuyển nguồn, Bộ chuyển mạch song song, Thiết bị chống sét, Bộ điều khiển bơm chữa cháy, Điều khiển Nguồn và Theo dõi, Quản lý Nhiệt, Tích hợp Giải pháp, Tấm chắn ngoài trời, Racks và Containment, Phần mềm, Quản lý CNTT, Giám sát</span>
                     </div>
                 </div>
             </div>
 
             <div class="submit">
-                <a href="#" class="primary">more contacts</a>
+                <a href="#" class="primary">Nhiều địa chỉ liên hệ</a>
             </div>
         </div>
         <div class="tren">
@@ -307,11 +307,11 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="contact-list">
                 <div class="row">
                     <div class="col-xs-12 col-sm-2">
-                        <h4>Access, Inc. (Michigan)</h4>
+                        <h4>Truy cập, Inc. (Michigan)</h4>
                     </div>
                     <div class="col-xs-12 col-sm-2">
                         <div class="item">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Contact </span> </div>
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i><span> Email Liên hệ  </span> </div>
                         <div class="item">
                             <i class="fa fa-phone" aria-hidden="true"></i><span>+1 248 616 9200</span></div>
                         <span>Fax  +1 248 616 8980</span>
@@ -322,12 +322,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             USA</h1>
                     </div>
                     <div class="col-xs-12 col-sm-5">
-                        <a>Product areas of focus:</a> <span class="unin">Uninterruptible Power Supplies (UPS), Power Distribution, Power Transfer Switches, Surge Protective Devices, Thermal Management, Integrated Solutions, Racks and Containment, Monitoring</span>
+                        <a>Các lĩnh vực sản phẩm tập trung: </a> <span class="unin">Nguồn cấp điện liên tục (UPS), phân phối điện, công tắc chuyển nguồn, thiết bị chống sét, quản lý nhiệt, giải pháp tích hợp, ngăn xếp và ngăn chặn, theo dõi</span>
                     </div>
                 </div>
             </div>
             <div class="submit">
-                <a href="#" class="primary">more contacts</a>
+                <a href="#" class="primary">Nhiều địa chỉ liên hệ</a>
             </div>
         </div>
     </div>

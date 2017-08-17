@@ -27,22 +27,22 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-5">
                 <div class="new">
-                    <h4>Uptime Enhancement</h4>
-                    <div class="text"><a class="box">●</a> <span>24/7 remote diagnostics</span></div>
-                    <div class="text"><a class="box">●</a> <span>Efficient data tracking</span></div>
+                    <h4>Tăng cường thời gian hoạt động</h4>
+                    <div class="text"><a class="box">●</a> <span>Chẩn đoán từ xa 24/7</span></div>
+                    <div class="text"><a class="box">●</a> <span>Theo dõi dữ liệu hiệu quả</span></div>
                 </div>
                 <div class="new">
-                    <h4>Flexibility</h4>
-                    <div class="text"><a class="box">●</a> <span>Adapts to physical space constraints</span></div>
-                    <div class="text"><a class="box">●</a> <span>Ideal for all sites: any geographical location and new or existing buildings</span></div>
-                    <div class="text"><a class="box">●</a> <span>Allows more free space for IT equipment</span></div>
+                    <h4>Mềm dẻo</h4>
+                    <div class="text"><a class="box">●</a> <span>Thích nghi với những hạn chế không gian vật lý</span></div>
+                    <div class="text"><a class="box">●</a> <span>Lý tưởng cho tất cả các địa điểm: bất kỳ vị trí địa lý và các tòa nhà mới hoặc hiện có</span></div>
+                    <div class="text"><a class="box">●</a> <span>Cho phép nhiều không gian trống hơn cho thiết bị CNTT</span></div>
                 </div>
                 <div class="new">
-                    <h4>Availability</h4>
-                    <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                    <div class="text"><a class="box">●</a> <span>Event analysis, waveform capturing and harmonic spectrum analyses</span></div>
-                    <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                    <div class="text"><a class="box">●</a> <span>Under the Enhanced Capital Allowance (ECA) scheme, <span class="etl">ETL listed products</span> can claim back 100% first year capital allowance. </span></div>
+                    <h4>khả dụng</h4>
+                    <div class="text"><a class="box">●</a> <span>Bảo trì dự đoán</span></div>
+                    <div class="text"><a class="box">●</a> <span>Phân tích sự kiện, phân tích sóng và phân tích phổ</span></div>
+                    <div class="text"><a class="box">●</a> <span>Bảo trì dự đoán</span></div>
+                    <div class="text"><a class="box">●</a> <span>Theo chương trình Ưu tiên Nguồn vốn Tích cực (ECA), <span class="etl">ETL listed products</span> can claim back 100% first year capital allowance. </span></div>
                 </div>
             </div>
         </div>

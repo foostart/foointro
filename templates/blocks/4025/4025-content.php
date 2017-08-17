@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-sm-8">
                 <div class="links">
-                    <a>Home</a><span>></span>
+                    <a>Trang chủ</a><span>></span>
                     <a class="power">Insights</a>
                 </div>
             </div>
@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                     <i class="fa fa-print" aria-hidden="true"></i>
-                    <span>Subscribe</span>
+                    <span>Theo dõi</span>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                <a href="#"><span>Subscribe</span></a>
+                <a href="#"><span>theo dõi</span></a>
             </span>
         </div>
         <div class="container side-collapse-container out">

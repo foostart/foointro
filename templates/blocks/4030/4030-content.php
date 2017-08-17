@@ -17,8 +17,8 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <div class="col-sm-8">
                     <div class="links">
-                        <a>Home</a><span>></span>
-                        <a>Products</a>
+                        <a>Trang chủ</a><span>></span>
+                        <a>Sản phẩm</a>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -37,8 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="content">   
         <img src="image/12.jpg" alt=""/>
         <div class="product">
-            <h1>Welcome to Vertiv</h1>
-            <h2>Your Vision, Our Passion</h2>
+            <h1>Chào mừng bạn đến Vertiv</h1>
+            <h2>TẦM NHÌN CỦA BẠN, PASSION CỦA CHÚNG TÔI</h2>
         </div>
     </div>
 </div>

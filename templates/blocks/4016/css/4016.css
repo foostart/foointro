@@ -44,16 +44,16 @@
 }
 @media (max-width: 1199px) {
   .module-4016 .new h4 {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .module-4016 .new .text {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   .module-4016 .new .text .box {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .module-4016 .features h2 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
