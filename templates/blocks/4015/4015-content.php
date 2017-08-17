@@ -16,39 +16,39 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="features">
-                    <h2>FEATURES</h2>
+                    <h2>TÍNH NĂNG, ĐẶC ĐIỂM</h2>
                 </div>
                 <div class="image-top">
                     <img src="image/liebert-trinergy-cube-features-infographic.png" alt=""/>
                 </div>
                 <div class="col-md-5">
                     <div class="new">
-                        <h4>Availability</h4>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                        <div class="text"><a class="box">●</a> <span>Event analysis, waveform capturing and harmonic spectrum analyses</span></div>
-                        <div class="text"><a class="box">●</a> <span>Data logging</span></div>
-                        <div class="text"><a class="box">●</a> <span>VertivTM LIFETM Services remote diagnostic and preventive monitoring embedded in the UPS</span></div>
+                        <h4>khả dụng</h4>
+                        <div class="text"><a class="box">●</a> <span>Bảo trì dự đoán</span></div>
+                        <div class="text"><a class="box">●</a> <span>Phân tích sự kiện, phân tích sóng và phân tích phổ</span></div>
+                        <div class="text"><a class="box">●</a> <span>Đăng nhập dữ liệu</span></div>
+                        <div class="text"><a class="box">●</a> <span>VertivTM LIFETM Services giám sát chẩn đoán và giám sát từ xa được nhúng trong UPS</span></div>
                     </div>
                     <div class="new">
-                        <h4>Capacity & Installation Flexibility</h4>
-                        <div class="text"><a class="box">●</a> <span>Configurable in various layouts</span></div>
-                        <div class="text"><a class="box">●</a> <span>Simplified cable routing with unlimited input / output power connection availability</span></div>
-                        <div class="text"><a class="box">●</a> <span>Increased energy density</span></div>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
+                        <h4>Năng lực & Cài đặt Tính linh hoạt</h4>
+                        <div class="text"><a class="box">●</a> <span>Cấu hình trong các bố cục khác nhau</span></div>
+                        <div class="text"><a class="box">●</a> <span>Đơn giản hóa việc định tuyến cáp với khả năng kết nối đầu vào / đầu ra không giới hạn</span></div>
+                        <div class="text"><a class="box">●</a> <span>Mật độ năng lượng tăng</span></div>
+                        <div class="text"><a class="box">●</a> <span>Bảo trì dự đoán</span></div>
                     </div>
                     <div class="new">
-                        <h4>Availability</h4>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                        <div class="text"><a class="box">●</a> <span>Event analysis, waveform capturing and harmonic spectrum analyses</span></div>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
+                        <h4>khả dụng</h4>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
+                        <div class="text"><a class="box">●</a> <span>Phân tích tổ chức sự kiện, dạng sóng chụp và phổ hòa phân tích</span></div>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
                     </div>
                     <div class="new">
-                        <h4>Availability</h4>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                        <div class="text"><a class="box">●</a> <span>Event analysis, waveform capturing and harmonic spectrum analyses</span></div>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
-                        <div class="text"><a class="box">●</a> <span>Predictive maintenance</span></div>
+                        <h4>khả dụng</h4>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
+                        <div class="text"><a class="box">●</a> <span>Phân tích tổ chức sự kiện, dạng sóng chụp và phổ hòa phân tích</span></div>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
+                        <div class="text"><a class="box">●</a> <span>bảo trì Đoán trước</span></div>
                     </div>
                 </div>
                 <div class="col-md-7">

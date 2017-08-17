@@ -48,7 +48,8 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-xs-12 col-sm-pull-6 col-sm-6 col-lg-pull-7 col-lg-5" >
                 <div class="text">
-                    <h3>HELPING YOU SUCCEED<br>WITH THESE PARTNER BENEFITS</h3>
+                    <h3>GIÚP BẠN THÀNH CÔNG 
+VỚI NHỮNG LỢI ÍCH ĐỐI TÁC</h3>
                 </div>
             </div>
         </div>

@@ -14,173 +14,171 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-4008">
     <div class="container">
         <div class="text">
-            <p>You’re in the business of handling unexpected challenges. And so are our power transfer switches. Engineered and tested in concert with the equipment they support, our power transfer switches deliver ultra-fast and reliable switching between redundant UPS units and between the UPS system and backup power source.</p>
+            <p>Bạn đang trong kinh doanh để giải quyết những thách thức bất ngờ. Và cũng như các công tắc chuyển mạch quyền lực của chúng tôi. Được thiết kế và thử nghiệm cùng với các thiết bị hỗ trợ, các thiết bị chuyển mạch quyền lực của chúng tôi mang lại sự chuyển đổi cực nhanh và đáng tin cậy giữa các đơn vị UPS dự phòng và giữa hệ thống UPS và nguồn điện dự phòng.</p>
         </div>
         <div class="row media-767">
             <div class="col-xs-6">
                 <div class="media-filter">
-                    <h3>FILTER</h3>
+                    <h3>LỌC</h3>
                 </div>
             </div>
             <div class="col-xs-6">
                 <div class="media-sort-by">
-                    <h3>SORT BY</h3>
+                    <h3>Sắp xếp</h3>
                 </div>
             </div>
         </div>
         <div class="row product-sort-by">
             <div class="product-sort-by-1">
-                <h3>SORT BY<span class="end-sort-by">X</span></h3>
+                <h3>Sắp xếp<span class="end-sort-by">X</span></h3>
             </div>
             <div class="product-sort-by-2">
-                <a> FEATURED<span class="check-1"></span></a>
+                <a> ĐẶC SẮC<span class="check-1"></span></a>
             </div>
             <div class="product-sort-by-3">
-                <a> MOST RECENT<span class="check-2"></span></a>
+                <a> GẦN ĐÂY NHẤT<span class="check-2"></span></a>
             </div>
         </div>
         <div class="sort">
-            <span>SORT BY</span>
+            <span>Sắp xếp theo</span>
             <select>
-                <option>Featured</option>
-                <option>Most Recent</option>
+                <option>Đặc sắc</option>
+                <option>Gần đây nhất</option>
             </select>
             <div class="results">
-                <p>10 of 20 Results</p>
+                <p>10 trong 20 Kết quả</p>
             </div>
         </div>
         <div class="clearfix"></div>
         <div class="row">
             <div class="col-sm-3">
                 <div class="product">
-                    <a class="clear">Clear All Filters</a>
+                    <a class="clear">Xóa hết bộ lọc</a>
                     <div class="row product-filter">
-                        <h3>FILTER<span class="end-filter">X</span></h3>
+                        <h3>Đặc sắc<span class="end-filter">X</span></h3>
                     </div>
                     <div class="product-1">
-                        <h3>PRODUCT TYPE</h3>
+                        <h3>LOẠI SẢN PHẨM</h3>
                         <select>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
-                            <option>Power Transfer Switches</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
+                            <option>Công tắc chuyển nguồn</option>
                         </select>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus-1">+</span><span class="minus-1">-</span></h3>
+                        <h3>Loại sản phẩm<span class="plus-1">+</span><span class="minus-1">-</span></h3>
                         <div class="contact-1">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus-2">+</span><span class="minus-2">-</span></h3>
+                        <h3>Loại sản phẩm<span class="plus-2">+</span><span class="minus-2">-</span></h3>
                         <div class="contact-2">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus-3">+</span><span class="minus-3">-</span></h3>
+                        <h3>Loại sản phẩm<span class="plus-3">+</span><span class="minus-3">-</span></h3>
                         <div class="contact-3">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                         </div>
                     </div>
                     <div class="product-2">
-                        <h3>Product Type<span class="plus-4">+</span><span class="minus-4">-</span></h3>
+                        <h3>Loại sản phẩm<span class="plus-4">+</span><span class="minus-4">-</span></h3>
                         <div class="contact-4">
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                             <label class="check">
                                 <input type="checkbox" class="checkbox-hidden">
                                 <span class="checkbox-custom"></span>
-                                <span class="checkbox-text">Automatic Transfer Switch (11)</span>
+                                <span class="checkbox-text">Công tắc chuyển tự động (11)</span>
                             </label>
                         </div>
                     </div>
                     <div class="product-3">
-                        <h2>QUICK LINKS</h2>
-                        <h2 class="asco">ASCO Power - Digital Binder</h2>
+                        <h2>LIÊN KẾT NHANH</h2>
+                        <h2 class="asco">ASCO Power - Binder kỹ thuật số</h2>
                     </div>
                     <div class="product-4">
                         <div class="product-apply">
-                            <h3>APPLY</h3>
+                            <h3>ỨNG DỤNG</h3>
                         </div>
                         <div class="product-clear-all">
-                            <h3>CLEAR ALL</h3>
+                            <h3>LÀM SẠCH TẤT CẢ</h3>
                         </div>
                     </div>
                 </div>
@@ -193,21 +191,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -219,21 +217,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -245,21 +243,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -271,21 +269,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -297,21 +295,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -323,33 +321,33 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-xs-3">
                                     <div class="featured-1">
                                         <img src="image/4008-1.png" alt="" />
-                                        <span>FEATURED</span>
+                                        <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-xs-9">
 
                                     <div class="featured-2">
-                                        <h2>ASCO 7000 SERIES Power Transfer Switch</h2>
-                                        <p>When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer...</p>
+                                        <h2>Bộ chuyển đổi nguồn ASCO 7000 SERIES</h2>
+                                        <p>Khi mất điện, các doanh nghiệp phải chịu đựng. Đối với một số tổ chức, một máy phát điện thường xuyên là quá tốn kém. Thay vào đó, một phương tiện vĩnh viễn để kết nối nhanh chóng một máy phát điện xách tay hoặc tạm thời có thể có ý nghĩa kinh tế. Đang cài đặt một chuyển đổi thủ công ...</p>
                                     </div>
 
                                 </div>
                                 <div class="col-xs-3">
                                     <div class="featured-3">
-                                        <div class="quick"><span>QUICK LINKS</span></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"><a>Product Brochure</a></div>
-                                        <div class="quick"> <a>Product Brochure</a></div>
+                                        <div class="quick"><span>LIÊN KẾT NHANH</span></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"><a>Brochure sản phẩm</a></div>
+                                        <div class="quick"> <a>Brochure sản phẩm</a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="show-more">
-                        <h3>SHOW MORE</h3>
+                        <h3>CHO XEM NHIỀU HƠN</h3>
                     </div>
                     <div class="results">
-                        <p>10 of 20 Results</p>
+                        <p>10 trong 20 Kết quả</p>
                     </div>
                 </div>
             </div>

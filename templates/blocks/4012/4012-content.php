@@ -21,10 +21,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <img class="img-responsive" src="image/trinergy-cube-vertiv-hero2.png" alt=""/>
                     </div>
                     <div class="col-sm-7 col-lg-6 product-hero-content ">
-                        <span class="subtitle">Uninterruptible Power Supplies (UPS)</span>
+                        <span class="subtitle">NGUỒN CẤP ĐIỆN LIÊN TỤC (UPS)</span>
                         <h1 class="productnamedata">Liebert Trinergy Cube UPS, 150 kW-3.4 MW</h1>
-                        <p class="xx-light">Liebert® Trinergy™ Cube is the new generation of Trinergy UPS delivering unsurpassed performance to enterprise data centers. Ready to evolve with growing business demands, it offers the highest level of power availability as well as reduced TCO, minimum energy consumption and CO2 emissions.</p>
-                        <span class="bottom-left-aligned">This product is approved by the ETL (Energy Technology List)</span>
+                        <p class="xx-light">Liebert® Trinergy ™ Cube là thế hệ mới của Trinergy UPS mang lại hiệu năng vượt trội cho các trung tâm dữ liệu doanh nghiệp. Sẵn sàng để phát triển với nhu cầu kinh doanh phát triển, nó cung cấp mức sẵn sàng cao nhất về điện năng cũng như giảm TCO, tiêu thụ năng lượng tối thiểu và phát thải CO2.</p>
+                        <span class="bottom-left-aligned">Sản phẩm này được chấp thuận bởi ETL (Energy Technology List)</span>
                     </div>
                 </div>
             </div>
@@ -35,34 +35,38 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-sm-7 col-sm-offset-5">
                         <div class="row">
                             <div class="list-tile col-sm-4">
-                                <span class="subtitle">BEST SUITED FOR</span>
+                                <span class="subtitle">Thích hợp nhất cho</span>
                                 <ul>
-                                    <li>Banking, Financial and Insurance</li>
-                                    <li>Data Center/Colocation/Hosting</li>
+                                    <li>Ngân hàng, tài chính và bảo hiểm</li>
+                                    <li>Trung tâm dữ liệu / Colocation / Hosting</li>
                                     <li>Telecom</li>
-                                    <li>Healthcare</li>
-                                    <li>Manufacturing</li>
+                                    <li>Chăm sóc sức khỏe</li>
+                                    <li>Chế tạo</li>
                                 </ul>
                             </div>
                             <div class="list-tile col-sm-4">
-                                <span>Quick Links</span>
+                                <span>Liên kết nhanh</span>
                                 <ul class="tt2">
                                     <li>
-                                        <a href="#">Product Brochure</a>
+                                        <a href="#">Brochure sản phẩm</a>
                                     </li>
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="#">Contacts</a>
+                                        <a href="#">Liên hệ</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <button type="button" class="button primary">
-                                    How to buy
+                                    
+                                    Lam thê nao để mua
+                                
                                 </button>
                                 <button type="button" class="button light">
-                                    Save for later
+                                    
+                                    Tiết kiệm cho sau này
+                                
                                 </button>
                             </div>
                         </div>
@@ -72,7 +76,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="media-gallery-component">
             <div class="container">
-                <span>Gallery</span>
+                <span>BỘ SƯU TẬP </span>
                 <a><img class="img-responsive" src="image/trinergy-cube-vertiv-hero2.png" alt=""/></a>
             </div>
         </div>

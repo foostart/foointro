@@ -16,9 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
-                    <p>Digital transformation has stimulated the IT industry and opportunity has never been greater. The Vertiv Partner Program is committed to helping you capitalize on these new and exciting opportunities. By teaming up with Vertiv and bringing our most innovative solutions to market, you can solve your customers most pressing challenges. As a Vertiv Partner, you’ll have confidence in knowing you’re equipped with the latest training, resources and support to help you grow your business, increase your profits, and become an industry front-runner. Together, we are more capable of meeting our customers’ needs and achieving our business goals. Together, we can be on top!</p>
+                    <p>Chuyển đổi kỹ thuật số đã kích thích ngành công nghiệp công nghệ thông tin và cơ hội chưa bao giờ lớn hơn. Chương trình Đối tác Vertiv cam kết giúp bạn tận dụng những cơ hội mới và thú vị này. Bằng cách hợp tác với Vertiv và đưa ra các giải pháp sáng tạo nhất của chúng tôi cho thị trường, bạn có thể giải quyết những thách thức cấp bách của khách hàng. Với tư cách là đối tác của Vertiv, bạn sẽ tự tin rằng mình được trang bị những nguồn đào tạo, nguồn lực và sự trợ giúp mới nhất để giúp bạn phát triển doanh nghiệp, tăng lợi nhuận và trở thành người tiên phong trong ngành. Chúng tôi có nhiều khả năng đáp ứng nhu cầu của khách hàng và đạt được các mục tiêu kinh doanh của chúng tôi. Cùng nhau, chúng ta có thể đứng đầu!</p>
                     <div>
-                        <a href="#"  class="button primary">Learn More</a>
+                        <a href="#"  class="button primary">Tìm hiểu thêm</a>
                     </div>
 
                     <h6 class="text-center">&nbsp;</h6>

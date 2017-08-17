@@ -13,36 +13,36 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-4014">
     <div class="container">
-        <h1>Download</h1>
+        <h1>Tải về</h1>
         <div class="list-tile-component">
             <div class="row">
                 <div class="col-xs-12 col-sm-3">
                     <div class="list-tile">
                         <span class="subtitle">
-                            Brochures and Data Sheets
+                            Tờ rơi và tờ dữ liệu
                         </span>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#">Liebert Trinergy Cube 150 kW-3.4 MW Brochure English</a>
+                                <a href="#">Liebert Trinergy Cube 150 kW-3.4 MW Brochure Tiếng Anh</a>
                             </li>
                             <li>
-                                <a href="#">Liebert UPS Catalogue EN</a>
+                                <a href="#">Liebert UPS Danh Mục EN</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="list-tile">
-                        <span class="subtitle">Reports</span>
+                        <span class="subtitle">Báo cáo</span>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#">High Efficiency Modes of Operation English</a>
+                                <a href="#">Các chế độ hoạt động hiệu quả cao Tiếng Anh</a>
                             </li>
                             <li>
-                                <a href="#">Intelligent Paralleling and Circular Redundancy English</a>
+                                <a href="#">Thông minh Paralleling và Circular Redundancy Tiếng Anh</a>
                             </li>
                             <li>
-                                <a href="#">Distributed and Centralized Bypass Architectures Compared English</a>
+                                <a href="#">Kiến trúc Bypass được Phân tán và Thuộc trung tâm So sánh tiếng Anh</a>
                             </li>
                         </ul>
                     </div>

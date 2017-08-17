@@ -19,8 +19,8 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-xs-12 col-sm-pull-6 col-sm-6 col-lg-pull-7 col-lg-5" >              
                 <div class="content">
-                    <h4>Award-Winning Partner Program</h4>
-                    <p>The Vertiv Partner Program is one of the best in the industry and has been awarded for its excellence numerous times.</p>
+                    <h4>Chương trình Đối tác Đạt được Giải thưởng</h4>
+                    <p>Chương trình Đối tác Vertiv là một trong những ngành hay nhất trong ngành và đã được trao giải cho sự xuất sắc của nó rất nhiều lần.</p>
                 </div>
             </div>            
         </div>

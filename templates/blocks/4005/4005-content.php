@@ -26,19 +26,19 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-sm-pull-3">
-                <p>©2017 Vertiv Co. All rights reserved.</p>
+                <p>© 2017 Công ty Vertiv Tất cả quyền được bảo lưu.</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-sm-pull-3">
                 <div class="text">
-                    <a href="#">Terms of Use</a>
+                    <a href="#">Điều khoản sử dụng</a>
                     <span>•</span>
-                    <a href="#">Privacy Policy</a>
+                    <a href="#">Chính sách bảo mật</a>
                     <span>•</span>
-                    <a href="#">Site Map</a>
+                    <a href="#">Sơ đồ trang web</a>
                     <span>•</span>
-                    <a href="#">Subscribe</a>
+                    <a href="#">Theo dõi</a>
                     <span>•</span>
-                    <a href="#">Feedback</a>
+                    <a href="#">Phản hồi</a>
                 </div>
             </div>
         </div>

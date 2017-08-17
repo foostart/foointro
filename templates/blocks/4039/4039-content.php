@@ -16,56 +16,56 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="col-xs-12">
                 <div class="title">
-                    <h3>Product Types</h3>
+                    <h3>LOẠI SẢN PHẨM</h3>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-4">
                 <div class="list">
                     <img src="image/4039-1.jpg" alt=""/>
-                    <h4>Uninterruptible Power Supplies (UPS)</h4>
-                    <p>Protect your equipment and applications with our complete range of efficient, reliable UPS systems that can be configured to meet the specific needs of your critical applications.</p>
+                    <h4>Nguồn cấp điện liên tục (UPS)</h4>
+                    <p>Bảo vệ thiết bị và các ứng dụng của bạn với phạm vi đầy đủ của chúng tôi, hệ thống UPS đáng tin cậy hiệu quả có thể được cấu hình để đáp ứng các nhu cầu cụ thể của các ứng dụng quan trọng của bạn.</p>
                 </div>
             </div>
         </div>

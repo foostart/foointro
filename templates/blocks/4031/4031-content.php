@@ -14,21 +14,15 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-4031">
     <div class="about">
         <div class="container">
-            <h3 class="text">OUR COMPANY</h3>
+            <h3 class="text">CÔNG TY CỦA CHÚNG TÔI</h3>
             <div class="editor">
                 <p>
-                    Protecting your critical technologies takes more than just great software and equipment. It takes a level of experience that only comes from years of finding solutions when the industry needed them most. 
-
-                    We were the first to protect mainframes with precision cooling systems. 
-
-                    We were the first to introduce an integrated enclosure system to distributed networks.
-
-                    We helped some of the largest names in the industry bring new capacity online faster and at a lower cost when search and social media increased demand for storage and computing. 
+                    Bảo vệ các công nghệ quan trọng của bạn không chỉ là phần mềm và thiết bị tuyệt vời. Cần có một mức độ kinh nghiệm chỉ xuất phát từ nhiều năm tìm kiếm các giải pháp khi ngành công nghiệp cần đến họ nhất. Chúng tôi là người đầu tiên bảo vệ các mainframe với hệ thống làm mát chính xác. Chúng tôi là người đầu tiên giới thiệu một hệ thống bao vây tích hợp cho các mạng phân tán. Chúng tôi đã giúp một số trong những tên tuổi lớn nhất trong ngành đưa công suất mới lên mạng nhanh hơn và chi phí thấp hơn khi tìm kiếm và phương tiện truyền thông xã hội tăng nhu cầu lưu trữ và tính toán.
                 </p>
             </div>
             <div class="editor">
                 <p>
-                    And now as challenges and demands grow, we continue to find better ways to help you strengthen your most vital applications. Formerly the Network Power business of Emerson, we’ve brought together the most trusted and experienced names in critical infrastructure. Our portfolio spans power, thermal and infrastructure management products, software and solutions, and is complemented by a network of nearly 250 service centers worldwide. It’s a combination of experience and resources that allow us to better adapt to what’s needed, anticipate what’s next and continue to find solutions in ways other companies simply can’t.
+                    Và bây giờ là thách thức và nhu cầu phát triển, chúng tôi tiếp tục tìm cách tốt hơn để giúp bạn tăng cường các ứng dụng quan trọng nhất của bạn. Tiền thân là doanh nghiệp Mạng Sức mạnh của Emerson, chúng tôi đã quy tụ những cái tên đáng tin cậy và có kinh nghiệm nhất trong cơ sở hạ tầng quan trọng. danh mục đầu tư của chúng tôi kéo dài quyền lực, sản phẩm quản lý nhiệt và cơ sở hạ tầng, phần mềm và giải pháp, và được bổ sung bởi một mạng lưới gần 250 trung tâm dịch vụ trên toàn thế giới. Đó là một sự kết hợp của kinh nghiệm và nguồn lực cho phép chúng tôi đáp ứng tốt hơn để những gì cần thiết, dự đoán những gì tiếp theo và tiếp tục tìm giải pháp trong cách các công ty khác chỉ đơn giản là không thể.
                 </p>
             </div>
             <div class="row">
@@ -36,26 +30,27 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-2">
                         <div class="list">
                             <h2>
-                                <a class="subtitle">OVERVIEW</a>
+                                <a class="subtitle">TỔNG QUAN</a>
                             </h2>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Vision and Mission</a>
+                                    <a href="#">Tầm nhìn và nhiệm vụ</a>
                                 </li>
                                 <li>
-                                    <a href="#">Executives</a>
+                                    <a href="#">giám đốc điều hành
+</a>
                                 </li>
                                 <li>
-                                    <a href="#">History</a>
+                                    <a href="#">Lịch sử</a>
                                 </li>
                                 <li>
-                                    <a href="#">Corporate Video</a>
+                                    <a href="#">video của doanh nghiệp</a>
                                 </li>
                                 <li>
                                     <a href="#">Fact Sheet</a>
                                 </li>
                                 <li>
-                                    <a href="#">Connect With Us</a>
+                                    <a href="#">Liên Kết Với ​​hệ</a>
                                 </li>
                                 <li>
                                     <a href="#">Vertiv Tweets</a>
@@ -66,17 +61,17 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-2">
                         <div class="list">
                             <h2>
-                                <a class="subtitle">CONTACTS</a>
+                                <a class="subtitle">LIÊN HỆ</a>
                             </h2>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Sales</a>
+                                    <a href="#">Bán hàng</a>
                                 </li>
                                 <li>
-                                    <a href="#">Corporate</a>
+                                    <a href="#">đoàn thể</a>
                                 </li>
                                 <li>
-                                    <a href="#">Support</a>
+                                    <a href="#">Ủng hộ</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,26 +79,28 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-2">
                         <div class="list">
                             <h2>
-                                <a class="subtitle">NEWSROOM</a>
+                                <a class="subtitle">văn phòng tòa soạn</a>
                             </h2>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Media Contacts</a>
+                                    <a href="#">Truyền thông Liên hệ</a>
                                 </li>
                                 <li>
-                                    <a href="#">News Releases</a>
+                                    <a href="#">Tin liên quan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Media Kits </a>
+                                    <a href="#">Truyền thông Kits
+</a>
                                 </li>
                                 <li>
                                     <a href="#">Multimedia</a>
                                 </li>
                                 <li>
-                                    <a href="#">In the News</a>
+                                    <a href="#">Trên bản tin tức
+</a>
                                 </li>
                                 <li>
-                                    <a href="#">Events</a>
+                                    <a href="#">Sự kiện</a>
                                 </li>
                             </ul>
                         </div>
@@ -111,17 +108,18 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-2">
                         <div class="list">
                             <h2>
-                                <a class="subtitle">PARTNER PROGRAM</a>
+                                <a class="subtitle">CHƯƠNG TRÌNH ĐỐI TÁC</a>
                             </h2>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Program Overview</a>
+                                    <a href="#">chương trình Tổng quan
+</a>
                                 </li>
                                 <li>
-                                    <a href="#">Find a Partner</a>
+                                    <a href="#">Tìm một người bạn đồng hành</a>
                                 </li>
                                 <li>
-                                    <a href="#">Partner Portal</a>
+                                    <a href="#">Portal đối tác</a>
                                 </li>
                                 <li>
                                     <a href="#">Telecoms EnergyNet Portal</a>
@@ -133,23 +131,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-xs-6 col-sm-2">
                         <div class="list">
                             <h2>
-                                <a class="subtitle">CAREERS</a>
+                                <a class="subtitle">CƠ HỘI NGHỀ NGHIỆP</a>
                             </h2>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#">Search Careers</a>
+                                    <a href="#">Tìm kiếm Tuyển dụng</a>
                                 </li>
                                 <li>
-                                    <a href="#">Internship, Co-op, and MBA Programs</a>
+                                    <a href="#">Thực tập, Co-op, và các </a>
                                 </li>
                                 <li>
-                                    <a href="#">Diversity & Inclusion</a>
+                                    <a href="#">chương trình MBA</a>
                                 </li>
                                 <li>
-                                    <a href="#">Military & Veterans</a>
+                                    <a href="#">Đa dạng và bao hàm</a>
                                 </li>
                                 <li>
-                                    <a href="#">Learning & Career Opportunities</a>
+                                    <a href="#">Learning & Cơ hội nghề nghiệp</a>
                                 </li>
                             </ul>
                         </div>

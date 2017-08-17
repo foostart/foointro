@@ -17,12 +17,12 @@ $url_path = str_replace('\\', '/', $url_path);
         <nav class="navbar">
             <ul>
                 <li class="prevacti">
-                    <a href="#Overview">Overview</a></li>
-                <li><a href="#Specifications">Specifications</a></li>
-                <li><a href="#downloads">Downloads</a></li>
-                <li><a href="#Features">Features</a></li>
-                <li><a href="#Benefits">Benefits</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+                    <a href="#Overview">Tổng quan</a></li>
+                <li><a href="#Specifications">Thông số kỹ thuật</a></li>
+                <li><a href="#downloads">tải</a></li>
+                <li><a href="#Features">Tính năng, đặc điểm</a></li>
+                <li><a href="#Benefits">Lợi ích</a></li>
+                <li><a href="#Contacts">Liên hệ</a></li>
                 <li><a href="#Insights">Insights</a></li>
             </ul>
         </nav>

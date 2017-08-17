@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-4036">
     <div class="contrast">
         <div class="container">
-            <h3 class="text-center">Already a Partner?</h3>
+            <h3 class="text-center">ĐÃ LÀ ĐỐI TÁC?</h3>
             <div class="row" >
                 <div class="col-xs-4 " >
                     <div class="panel" style="width: 405px;">
@@ -23,9 +23,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                         <div class="panel-body">
                             <h4>
-                                <a href="#" >Partner Portal</a>
+                                <a href="#" >Cổng đối tác</a>
                             </h4>
-                            <p class="larger">Stay up-to-date on the latest news and gain access to sales tools and other partner-related information to help you qualify and drive business.</p>
+                            <p class="larger">Luôn cập nhật tin tức mới nhất và có quyền truy cập vào các công cụ bán hàng và thông tin liên quan đến đối tác khác để giúp bạn đủ điều kiện và thúc đẩy kinh doanh.</p>
                         </div>
                     </div>
                 </div>             
