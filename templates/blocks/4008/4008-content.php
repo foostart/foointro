@@ -190,7 +190,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="row">
                                 <div class="col-xs-3">
                                     <div class="featured-1">
-                                        <img src="image/4008-1.png" alt="" />
+                                        <a href="http://localhost/foointro/templates/blocks/Detail/Detail.php"><img src="image/4008-1.png" alt="" /></a>
                                         <span>ĐẶC SẮC</span>
                                     </div>
                                 </div>
