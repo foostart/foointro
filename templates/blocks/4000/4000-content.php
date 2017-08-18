@@ -12,7 +12,7 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
             <div class="hiding-header">
                 <div class="text-center">
                     <a href="#" class="navbar-brand-full">
-                        <img class="img-responsive" src="image/logo_full.png" alt="" />
+                        <img class="img-responsive" src="image/atdc.png" alt=""/>
                     </a>
                 </div>
             </div>
@@ -74,7 +74,8 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                 <div class="wsmobileheader clearfix">
                                     <a id="wsnavtoggle" class="animated-arrow"><span></span></a>
                                     <a href="#" class="smallogo">
-                                        <img src="image/logo_compact_1.png" alt="" width=87px /></a>
+                                        <img src="image/atdc.png" alt="" width=87px/>
+                                        </a>
                                     <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a>
                                 </div>
 
@@ -84,7 +85,7 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                     <div class="wsmain">
                                         <div class="smllogo">
                                             <a href="#">
-                                                <img class="img-responsive" src="image/logo_compact_1.png" alt="" />
+                                                <img class="img-responsive" src="image/atdc.png" alt="" width=48%/>
                                             </a>
                                         </div>
                                         <div class="rightmenu">

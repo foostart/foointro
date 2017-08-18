@@ -113,7 +113,7 @@
 .module-4000 embed,
 .module-4000 video {
   border: 0 none;
-  max-width: 100%;
+  max-width: 48%;
 }
 .module-4000 .wsmain a:focus {
   outline: none !important;

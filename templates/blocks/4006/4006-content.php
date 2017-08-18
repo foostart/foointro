@@ -41,6 +41,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <li><a href="#"><i class="fa fa-paper-plane"></i>Liên hệ chúng tôi<span class="arrow"></span></a>
                                             <div class="megamenu halfdiv">
                                                 <h3 class="title">Liên hệ chúng tôi</h3>
+                                                <a href="https://www.google.com/maps/place/816+Tr%C6%B0%E1%BB%9Dng+Sa,+ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x31752ed5ad3abbf1:0x7199e3d82c55f5a4?sa=X&ved=0ahUKEwjFusSW197VAhXBTLwKHb-PAMEQ8gEIIzAA">
+                                                        <img src="image/4000.png" alt=""/>
+                                                    </a>
                                                 <form name="contact_name" class="menu_form">
                                                     <input type="text" placeholder="Name">
                                                     <input type="text" placeholder="Email">
@@ -71,7 +74,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="wsmobileheader clearfix">
                                     <a id="wsnavtoggle" class="animated-arrow"><span></span></a>
                                     <a href="#" class="smallogo">
-                                        <img src="image/logo_compact_1.png" alt="" width=87px /></a>
+                                        <img src="image/atdc.png" alt="" width=87px/></a>
                                     <a class="callusicon" href="tel:123456789"><span class="fa fa-phone"></span></a>
                                 </div>
 
@@ -81,7 +84,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <div class="wsmain">
                                         <div class="smllogo">
                                             <a href="#">
-                                                <img class="img-responsive" src="image/logo_compact_1.png" alt=""  width=150px/>
+                                                <img class="img-responsive" src="image/atdc.png" alt="" width=48%/>
                                             </a>
                                         </div>
                                         <div class="rightmenu">
