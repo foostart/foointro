@@ -43,7 +43,7 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                                 <h3 class="title">Liên hệ chúng tôi</h3>
                                                 <form name="contact_name" class="menu_form">
                                                     <a href="https://www.google.com/maps/place/816+Tr%C6%B0%E1%BB%9Dng+Sa,+ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x31752ed5ad3abbf1:0x7199e3d82c55f5a4?sa=X&ved=0ahUKEwjFusSW197VAhXBTLwKHb-PAMEQ8gEIIzAA">
-                                                        <img src="image/4000.png" alt=""/>
+                                                        <img src="image/4000.png" alt="" style="width: 100%; max-width: 100%;"/>
                                                     </a>
                                                     <input type="text" placeholder="Name">
                                                     <input type="text" placeholder="Email">
@@ -146,55 +146,7 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/services/services.php"><i class="fa fa-align-justify"></i>Dịch vụ <span class="arrow"></span></a>
-                                                    <div class="megamenu clearfix">
-                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                                                            <li class="title"><a href="#">CRITICAL POWER</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
-                                                        </ul>
-                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
-                                                        </ul>
-                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
-                                                        </ul>
-                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list    ">
-                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
-                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php"><i class="fa fa-align-justify"></i>Ủng hộ <span class="arrow"></span></a>
+                                                <li><a href="http://localhost/foointro/templates/blocks/Support/Support.php"><i class="fa fa-align-justify"></i> Dịch vụ<span class="arrow"></span></a>
                                                     <ul class="wsmenu-submenu">
                                                         <li class="title"><a href="#"><i class="fa fa-arrow-circle-right"></i>FIND SUPPORT</a></li>
                                                         <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Search for Support Information</a></li>
@@ -223,7 +175,9 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/Insights/Insights.php"><i class="fa fa-align-justify"></i> Insights <span class="arrow"></span></a>
+                                                
+                                                
+                                                <li><a href="http://localhost/foointro/templates/blocks/Insights/Insights.php"><i class="fa fa-align-justify"></i> Khuyến mãi <span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
                                                             <li class="title"><a href="#">CRITICAL POWER</a></li>
@@ -271,7 +225,7 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a href="http://localhost/foointro/templates/blocks/about/about.php"><i class="fa fa-paragraph"></i>ABOUT <span class="arrow"></span></a>
+                                                <li><a href="http://localhost/foointro/templates/blocks/about/about.php"><i class="fa fa-align-justify"></i>Tin tức<span class="arrow"></span></a>
                                                     <div class="megamenu clearfix">
                                                         <div class="typography-text clearfix">
                                                             <div class="col-lg-6 col-sm-12">
@@ -320,6 +274,54 @@ $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
                                                                 </ul>
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </li>
+                                                <li><a href="http://localhost/foointro/templates/blocks/services/services.php"><i class="fa fa-align-justify"></i>Hỗ trợ <span class="arrow"></span></a>
+                                                    <div class="megamenu clearfix">
+                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                                                            <li class="title"><a href="#">CRITICAL POWER</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Uninterruptible Power Supplies (UPS)</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>DC Power Systems</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Distribution</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Industrial AC and DC Systems</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Transfer Switches</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Paralleling Switch Gear</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Load Banks</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Surge Protective Devices</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Fire Pump Controllers</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Power Control and Monitoring</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Wind Power</a></li>
+                                                        </ul>
+                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+                                                        </ul>
+                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+                                                        </ul>
+                                                        <ul class="col-lg-3 col-md-3 col-xs-12 link-list    ">
+                                                            <li class="title"><a href="#">THERMAL MANAGEMENT</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Enclosure Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Room Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>In-Row Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Rack Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Evaporative Free Cooling</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Free Cooling Chillers</a></li>
+                                                            <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Thermal Control and Monitoring</a></li>
+                                                        </ul>
                                                     </div>
                                                 </li>
 
