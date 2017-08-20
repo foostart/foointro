@@ -13,7 +13,7 @@ and open the template in the editor.
         
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        <link href="css/4006.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -24,7 +24,7 @@ and open the template in the editor.
         $less->compileFile('less/4006.less', 'css/4006.css');
         ?> 
        
-        <link href="css/4006.css" rel="stylesheet" type="text/css"/>
+        
       
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/js-4006.js" type="text/javascript"></script>
